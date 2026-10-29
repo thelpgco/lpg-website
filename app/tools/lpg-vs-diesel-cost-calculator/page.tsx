@@ -80,6 +80,25 @@ export default function Page() {
           and industrial supply may be quoted differently from the household consumer line.
         </p>
       </Note>
+      <H2>Heat content of common fuels</H2>
+      <SpecTable
+        head={["Fuel", "Typical heat content", "Unit it is sold in"]}
+        rows={[
+          ["LPG", "about 46 MJ per kg", "kg (cylinder or bulk)"],
+          ["Diesel", "about 36 MJ per litre (about 43 MJ per kg)", "litre"],
+          ["Furnace oil", "about 40 MJ per kg", "kg or tonne"],
+          ["Kerosene", "about 35 MJ per litre", "litre"],
+          ["Natural gas", "about 37 MJ per m³", "hm³ or MMBTU on the bill"],
+          ["Dry firewood", "about 15–18 MJ per kg", "maund or kg"],
+        ]}
+        caption="Typical net values. Compare cost per MJ: price per unit ÷ MJ per unit."
+      />
+      <P>
+        Heat content is only half the story. Diesel burners and generators need regular nozzle and filter service and
+        produce soot, while LPG burns cleanly and keeps heat exchangers cleaner. A site that saves a little on fuel with
+        diesel can lose it again in maintenance and downtime.
+      </P>
+
       <H2>Before you decide</H2>
       <UL
         items={[

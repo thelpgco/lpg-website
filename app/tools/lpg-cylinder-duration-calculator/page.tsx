@@ -82,6 +82,27 @@ export default function Page() {
         </p>
       </Note>
 
+      <H2>Typical durations at a glance</H2>
+      <SpecTable
+        head={["Household or business", "Cylinder", "Typical time between refills"]}
+        rows={[
+          ["Student or couple, cooking once or twice a day", "5 kg", "about 2–3 weeks"],
+          ["Family of four, cooking only", "11.8 kg", "about 3–4 weeks"],
+          ["Family of four, cooking plus a winter geyser", "11.8 kg", "about 1–2 weeks"],
+          ["Small takeaway, two commercial burners", "45.4 kg", "about 3–5 days"],
+          ["Busy restaurant, karahi burners and a tandoor", "45.4 kg", "about 1–2 days"],
+        ]}
+        caption="Rough guides only; your burners, hours and the weather change these a lot."
+      />
+
+      <H2>How to tell a cylinder is nearly empty</H2>
+      <P>
+        The pressure inside a cylinder stays roughly the same until the liquid is almost gone, so the flame gives little
+        warning until the very end. The reliable check is weight: weigh the cylinder and subtract the stamped tare weight to
+        see how many kilograms are left. On a cold day you may also see a frost or condensation line on the outside of a
+        cylinder in use; the liquid level sits around that line.
+      </P>
+
       <H2>Choose a size and order</H2>
       <P>
         Compare{" "}

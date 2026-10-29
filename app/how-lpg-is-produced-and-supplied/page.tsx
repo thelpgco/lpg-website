@@ -127,6 +127,27 @@ export default function Page() {
         basics are on <Link className="underline" href="/what-is-lpg/">what LPG is</Link>.
       </P>
 
+      <H2>Why LPG smells, and how that protects you</H2>
+      <P>
+        Propane and butane have almost no smell of their own. Before LPG reaches you, a strong-smelling odorant (usually a
+        mercaptan compound) is added in tiny amounts so that a leak can be noticed long before the gas reaches a dangerous
+        concentration. That rotten-egg or cabbage smell is a warning built into the supply chain: if you smell it, close the
+        valve, open windows, avoid switches and flames, and leave.
+      </P>
+
+      <H2>How long the journey takes</H2>
+      <SpecTable
+        head={["Stage", "Typical time", "What can slow it"]}
+        rows={[
+          ["Ship cargo to import terminal", "Days at sea, then unloading", "Weather at sea, berth queues at the port"],
+          ["Terminal or field to bottling plant", "Hours to a few days by road tanker", "Fog, road closures, tanker availability"],
+          ["Bottling and checks", "Same day at the plant", "Cylinder testing backlogs"],
+          ["Plant to dealer", "Same day to a few days", "Distance, winter demand"],
+          ["Dealer to your door", "From about an hour in covered city areas", "Traffic, access, local stock"],
+        ]}
+        caption="Typical ranges; each stage varies with season and distance."
+      />
+
       <H2>Order from our nationwide network</H2>
       <P>
         {company.aboutBlurb} {terms.delivery} Check{" "}

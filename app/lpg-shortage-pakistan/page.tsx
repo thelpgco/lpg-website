@@ -153,6 +153,22 @@ export default function Page() {
         .
       </P>
 
+      <H2>If you run out during a shortage: safer stop-gaps</H2>
+      <SpecTable
+        head={["Option", "Good for", "Watch out for"]}
+        rows={[
+          ["Electric induction or hot plate", "Short cooking jobs where power is steady", "Load-shedding hours; check your wiring can take the load"],
+          ["Electric kettle and rice cooker", "Tea, rice and boiling water", "Small capacity"],
+          ["A smaller 5 kg cylinder", "Bridging a few days of cooking", "Buy only from a licensed seller with a sealed valve"],
+          ["Sharing with a neighbour's spare", "Emergencies", "Never transfer gas between cylinders"],
+        ]}
+      />
+      <P>
+        Never cook with charcoal, coal or a gas heater indoors to get through a shortage. They produce carbon monoxide,
+        which has no smell and kills in closed rooms. And never pay for a cylinder refilled at a backstreet decanting point:
+        short weight is the least of the risks.
+      </P>
+
       <H2>Our approach</H2>
       <P>
         {terms.stockPolicy} {terms.delivery247Note} We confirm availability and delivery timing before you agree. See{" "}

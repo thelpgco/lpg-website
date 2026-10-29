@@ -78,6 +78,23 @@ export default function Page() {
         ]}
         caption="Example only. Density and fill limits depend on the tank and regulation. A site assessment sets the real size."
       />
+      <H2>Tank sizes and the sites they usually suit</H2>
+      <SpecTable
+        head={["Tank water capacity", "Usable LPG between refills", "Often suits"]}
+        rows={[
+          ["1–2 m³", "about 0.35–0.7 tonnes", "A large house, guesthouse or small restaurant"],
+          ["5 m³", "about 1.8 tonnes", "A hotel, hospital kitchen or bakery"],
+          ["10 m³", "about 3.5 tonnes", "A food factory or a small housing block"],
+          ["20 m³ and above", "about 7 tonnes or more", "Boilers, furnaces, LPG-air plants and large societies"],
+        ]}
+        caption="Usable gas between a 20% refill point and an 85% fill, at 0.54 kg per litre."
+      />
+      <P>
+        Choose the size from your daily use and how reliably a tanker can reach you. Order the refill when the gauge reads
+        about 20–30%, so a delayed tanker never runs the tank dry; a dry tank pulls residue into the pipes and needs the
+        system purged before it is used again.
+      </P>
+
       <H2>What the calculator does not know</H2>
       <UL
         items={[

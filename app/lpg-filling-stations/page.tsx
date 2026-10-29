@@ -136,6 +136,25 @@ export default function Page() {
         ]}
       />
 
+      <H2>What a proper refill looks like</H2>
+      <P>
+        A domestic or commercial cylinder should be refilled at a licensed bottling plant, or exchanged for a full one by a
+        licensed dealer. Before you accept a refilled cylinder, check that:
+      </P>
+      <UL
+        items={[
+          "The valve carries an intact seal from the marketer or plant",
+          "The cylinder's gross weight matches its stamped tare weight plus the gas you paid for",
+          "The test date on the collar has not passed",
+          "There is no hiss or gas smell when the valve is closed",
+        ]}
+      />
+      <P>
+        An auto-LPG dispenser is built to fill vehicle tanks, not home cylinders. Filling a domestic cylinder from a vehicle
+        dispenser, or from another cylinder, risks overfilling, because the cylinder needs space above the liquid for it to
+        expand on a hot day.
+      </P>
+
       <H2>Network and city coverage</H2>
       <P>
         Partner roll-up in our supply network: {totals.suppliers} supply partners across {totals.citiesWithPartners}{" "}

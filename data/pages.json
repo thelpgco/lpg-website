@@ -19,15 +19,17 @@
     "id": "AU-001",
     "type": "GD",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/become-an-lpg-distributor/": {
     "id": "BZ-004",
     "type": "SH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/bulk-lpg-supply/": {
     "id": "DL-007",
@@ -89,15 +91,17 @@
     "id": "ED-008",
     "type": "GD",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/how-to-choose-a-licensed-lpg-supplier/": {
     "id": "ED-010",
     "type": "GD",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/industrial-lpg-supply/": {
     "id": "DL-009",
@@ -207,8 +211,9 @@
     "id": "BZ-001",
     "type": "GD",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-companies-in-pakistan/": {
     "id": "NM-004",
@@ -302,8 +307,9 @@
     "id": "NM-003",
     "type": "DR",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-geyser-price-in-pakistan/": {
     "id": "AP-002",
@@ -325,8 +331,9 @@
     "id": "DL-001",
     "type": "SH",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-abbottabad/": {
     "id": "LC-011",
@@ -523,22 +530,25 @@
     "id": "ED-011",
     "type": "GD",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-near-me/": {
     "id": "NM-001",
     "type": "DR",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-plant-in-pakistan/": {
     "id": "BZ-002",
     "type": "GD",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-price-in-pakistan/": {
     "id": "PR-001",
@@ -584,8 +594,9 @@
     "id": "SF-005",
     "type": "GD",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-regulators/": {
     "id": "SF-004",
@@ -607,15 +618,17 @@
     "id": "NM-002",
     "type": "DR",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-shortage-pakistan/": {
     "id": "NW-001",
     "type": "NW",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-stove-price-in-pakistan/": {
     "id": "AP-001",
@@ -629,8 +642,9 @@
     "id": "NW-002",
     "type": "GD",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-vaporizers/": {
     "id": "AP-004",
@@ -668,8 +682,9 @@
     "id": "CY-009",
     "type": "SH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/ogra-lpg-notified-price/": {
     "id": "PR-003",
@@ -691,8 +706,9 @@
     "id": "DL-008",
     "type": "TR",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/our-network/": {
     "id": "TR-008",
@@ -706,8 +722,9 @@
     "id": "TR-013",
     "type": "TR",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/pricing-policy/": {
     "id": "TR-006",
@@ -848,50 +865,57 @@
     "id": "TL-005",
     "type": "TL",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/tools/lpg-cylinder-duration-calculator/": {
     "id": "CY-010",
     "type": "TL",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/tools/lpg-cylinder-price-calculator/": {
     "id": "PR-010",
     "type": "TL",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/tools/lpg-litre-to-kg-converter/": {
     "id": "ED-006",
     "type": "TL",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/tools/lpg-tank-size-calculator/": {
     "id": "TL-004",
     "type": "TL",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/tools/lpg-vs-diesel-cost-calculator/": {
     "id": "TL-003",
     "type": "TL",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/tools/lpg-vs-sui-gas-cost-calculator/": {
     "id": "TL-002",
     "type": "TL",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/what-is-lpg/": {
     "id": "ED-001",

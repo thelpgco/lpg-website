@@ -72,6 +72,20 @@ export default function Page() {
           />
         </>
       ) : null}
+      <H2>Reading your Sui gas bill for this comparison</H2>
+      <P>
+        SNGPL and SSGC bills show use in hm³ (hundreds of cubic metres) and price gas per MMBTU. One hm³ of pipeline gas
+        carries roughly 3.5 MMBTU, depending on the gas quality, so a bill showing 1 hm³ for the month means about 3.5
+        MMBTU of heat. Multiply that by the LPG cost per MMBTU above to see what the same heat would cost on cylinders.
+      </P>
+      <UL
+        items={[
+          "Domestic tariffs are set in slabs: the more you use in a month, the higher the rate for the whole bill or for the upper slab, so winter months can cost far more per MMBTU than summer.",
+          "Fixed and meter charges are added whether you use gas or not; they matter when your use is small.",
+          "If your winter evening pressure is too low to run a geyser or heater, the useful comparison is not price but whether the pipeline can supply the heat at all.",
+        ]}
+      />
+
       <Note title="About the LPG rate" tone="info">
         <p>
           The tool uses the monthly OGRA consumer rate we have on file. Confirm it for your order date. Deposit and

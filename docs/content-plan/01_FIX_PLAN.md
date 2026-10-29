@@ -12,7 +12,7 @@ Do the phases in order. Phase 0 blocks everything else.
 
 | Item | Status |
 |---|---|
-| 0.1 Publish status | Done for 92 pages (29 Oct 2026): Wave A, industries, services, provinces, all 15 cities, and the price, cylinder, appliance and shop pages are `published`. City price pages now index on a verified notification plus their own city content. Still noindex: the Wave B guides, the tools, projects, Burewala and a few trust pages. |
+| 0.1 Publish status | Done for 116 pages (29 Oct 2026): everything except `/projects/` and its 8 profiles (they need real owner data), `/lpg-in-burewala/`, `/gallery/` and `/management-review/`. |
 | 0.2 Founding year | **Waiting on owner.** |
 | 0.3 Listing counts | Done. Per-city counts come from `listedCount()` in `lib/directory.ts` (hub, near-me and delivery-areas pages). Sitewide totals still come from `network.json`. |
 | 0.4 `/management-review/` | Done. Disallowed in robots; it had no inbound links. |

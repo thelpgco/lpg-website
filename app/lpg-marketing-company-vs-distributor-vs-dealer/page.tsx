@@ -109,6 +109,22 @@ export default function Page() {
         {terms.partnersCertifiedRule}
       </P>
 
+      <H2>Who answers for what when something goes wrong</H2>
+      <SpecTable
+        head={["Problem", "Start with", "Then"]}
+        rows={[
+          ["Cylinder delivered short of weight", "The dealer who delivered it", "The distributor or marketer whose seal is on the valve"],
+          ["Damaged, rusty or out-of-test cylinder", "Refuse it at the door", "The marketer, who owns the cylinder fleet"],
+          ["Gas price above the notified rate", "Ask for the gas, delivery and deposit split", "A complaint to OGRA if it stays above the rate"],
+          ["Leak from the regulator or hose", "Close the valve and ventilate", "The installer who fitted it, or a competent technician"],
+          ["Deposit not refunded", "The seller who took the deposit", "The written receipt; always ask for one"],
+        ]}
+      />
+      <P>
+        Knowing the chain matters because each link answers for its own part. The seal and markings on the cylinder tell
+        you which marketer owns it, even when you bought it from a small shop.
+      </P>
+
       <H2>Where we fit</H2>
       <P>
         {company.aboutBlurb} Distributors and dealers who work with us must supply only certified cylinders. See{" "}

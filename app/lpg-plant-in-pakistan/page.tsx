@@ -120,6 +120,25 @@ export default function Page() {
         are licensed on <Link className="underline" href="/licences-and-compliance/">licences and compliance</Link>.
       </P>
 
+      <H2>Choosing a site for an LPG plant</H2>
+      <P>
+        Most of a plant&apos;s cost and risk is decided when the site is chosen. Before you buy or lease land, check:
+      </P>
+      <UL
+        items={[
+          "Road access for full-size LPG tankers, with room to turn and park safely",
+          "Distance from homes, schools, markets and public roads, as the safety rules require",
+          "A reliable water supply for fire fighting, and space for the fire-water tank",
+          "Firm, level ground for tank foundations, away from flood-prone low land",
+          "Grid power with a backup generator for pumps and compressors",
+          "Room to expand storage later without breaking the distance rules",
+        ]}
+      />
+      <P>
+        Low-lying sites deserve extra care, because LPG vapour is heavier than air and collects in hollows and drains. A
+        site where any leak can drift away from people is safer and easier to approve.
+      </P>
+
       <H2>Where we can help</H2>
       <Table
         head={["Need", "What we offer", "Next step"]}

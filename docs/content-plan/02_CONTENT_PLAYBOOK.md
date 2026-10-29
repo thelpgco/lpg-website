@@ -220,7 +220,7 @@ Run the build, then run `python -I docs/content-plan/scripts/measure_pages.py .n
 | Information-gain facts on the page | ≥ 3, sourced | ≥ 3, sourced | Research more; never invent |
 | **Unique text (script)** | ≥ 55% | ≥ 65% | Rewrite the shared sentences; add a local or sector section |
 | **Overlap with closest sibling (script)** | ≤ 30% | ≤ 20% | Reword; change the section order; add a unique section |
-| Length | ≥ competitor median, floor 800 | ≥ median, floor 1,000 | Add a real section |
+| Length | ≥ competitor median, floor 800 | Guides: ≥ median, floor 1,000 (commercial guides such as plants or filling stations: 800). Tools: floor 600, because the calculator is the content (recipe §5f) | Add a real section |
 | Specific figures | ≥ 6 per 1,000 words | ≥ 6 | Add kg, bar, °C, dates, distances |
 | Causes explained | Most body paragraphs give a reason | same | Add the reason, naturally |
 | Sources named | ≥ 3 distinct official or maker sources | ≥ 3 | Name OGRA, HDIP, the maker… |

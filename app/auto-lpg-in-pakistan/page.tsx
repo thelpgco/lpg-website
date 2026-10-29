@@ -136,6 +136,24 @@ export default function Page() {
         .
       </P>
 
+      <H2>Auto LPG, CNG and petrol compared</H2>
+      <SpecTable
+        head={["Point", "Auto LPG", "CNG", "Petrol"]}
+        rows={[
+          ["Stored as", "Liquid at moderate pressure", "Gas at very high pressure", "Liquid at normal pressure"],
+          ["Tank", "Lighter tank, more range per fill than CNG", "Heavy cylinders, shorter range", "Factory tank"],
+          ["Refuelling", "Licensed auto-LPG stations only", "CNG stations, fewer in some winters", "Everywhere"],
+          ["Power", "Small loss compared with petrol", "Larger loss on most cars", "Full rated power"],
+          ["Cold weather", "Needs a kit with a vaporiser warmed by engine coolant", "Unaffected by cold", "Unaffected"],
+          ["Running cost", "Usually lower than petrol per km", "Lowest where stations have gas", "Highest per km"],
+        ]}
+        caption="General differences; actual costs depend on this month's fuel prices and your car."
+      />
+      <P>
+        Whichever you choose, the gas must come from a licensed station into a tank made for vehicles. A home or shop
+        cylinder in a car is never safe, because it is not built for crash loads or for fitting near the engine.
+      </P>
+
       <H2>Auto LPG partners in our network</H2>
       <P>
         {totals.autoLpg} of our listed supply partners are flagged for auto LPG work across the country. This is a

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { H2, P } from "@/components/PageShell";
 import SpecTable from "@/components/SpecTable";
 import ToolPage from "@/components/r4plus/ToolPage";
-import { CYLINDER_SIZES_KG, cylinderPrice, fmtDate, latestPrice, perKgFor, pkr } from "@/lib/prices";
+import { CYLINDER_SIZES_KG, cylinderPrice, fmtDate, latestPrice, notifications, perKgFor, pkr } from "@/lib/prices";
 import { meta } from "@/lib/seo";
 import Calculator from "./Calculator";
 
@@ -74,6 +74,29 @@ export default function Page() {
       ) : (
         <P>We have no OGRA rate loaded right now, so the calculator starts blank. Enter the current notified rate per kg, or call for confirmation.</P>
       )}
+      {notifications.length > 1 && (
+        <>
+          <H2>Cylinder gas price, month by month</H2>
+          <SpecTable
+            head={["Month", "11.8 kg domestic", "45.4 kg commercial"]}
+            rows={notifications.map((x) => [
+              new Date(x.effectiveFrom + "T00:00:00").toLocaleDateString("en-GB", { month: "long", year: "numeric" }),
+              pkr(Math.round(x.perKgPkr * 11.8)),
+              pkr(Math.round(x.perKgPkr * 45.4)),
+            ])}
+            caption="Gas only, at each month's OGRA-notified rate."
+          />
+        </>
+      )}
+
+      <H2>Is a bigger cylinder cheaper?</H2>
+      <P>
+        Not per kilogram of gas: the notified rate is the same whether you buy 5 kg or 45.4 kg. A bigger cylinder saves on
+        everything around the gas, because one delivery and one deposit cover more kilograms. A home that changes an 11.8 kg
+        cylinder twice a month makes about 24 delivery trips a year; a 15 kg cylinder cuts that to about 19 for the same
+        gas. For restaurants, a 45.4 kg cylinder or a cylinder bank cuts handling far more.
+      </P>
+
       <H2>Next step</H2>
       <P>
         When you are ready,{" "}

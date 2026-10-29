@@ -56,6 +56,23 @@ export default function Page() {
         rows={[5, 11.8, 15, 45.4].map((kg) => [`${kg} kg`, `about ${(kg / d).toFixed(1)} litres`])}
         caption="Worked example using the planning density of 0.54 kg/L. Examples only."
       />
+      <H2>How temperature changes the answer</H2>
+      <SpecTable
+        head={["Liquid temperature", "Propane (kg per litre)", "Butane (kg per litre)"]}
+        rows={[
+          ["0 °C", "about 0.53", "about 0.60"],
+          ["15 °C", "about 0.51", "about 0.58"],
+          ["30 °C", "about 0.49", "about 0.56"],
+        ]}
+        caption="Approximate liquid densities. A propane–butane mix sits between the two columns."
+      />
+      <P>
+        Liquid LPG expands noticeably as it warms, so the same 11.8 kg takes up more litres in a Karachi summer than in a
+        Quetta winter. That is the reason cylinders are filled to only about 80–85% of their volume: the space above the
+        liquid lets it expand on a hot day without the pressure climbing dangerously. It is also why a litre is a poor unit
+        for buying LPG, while a kilogram stays a kilogram at any temperature.
+      </P>
+
       <H2>What to keep in mind</H2>
       <UL
         items={[

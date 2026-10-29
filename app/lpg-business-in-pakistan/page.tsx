@@ -153,6 +153,26 @@ export default function Page() {
         <Link className="underline" href="/partner-standards/">partner standards</Link>.
       </P>
 
+      <H2>What it costs to start, line by line</H2>
+      <P>
+        Every LPG business has the same cost headings; only the amounts change with the role and the city. Plan each one
+        before you commit money:
+      </P>
+      <UL
+        items={[
+          "Licence and approval fees, plus the time to get them",
+          "Premises that meet storage and distance rules: a shop, a godown or a plant site",
+          "Cylinder stock and the deposits tied up in it, which is often the largest working-capital item",
+          "Transport: a pickup or truck that may legally carry gas cylinders",
+          "Safety equipment: extinguishers, signage, ventilation, leak detection",
+          "Insurance and staff training",
+        ]}
+      />
+      <P>
+        Margins in LPG come from volume, because the gas price itself is capped by the OGRA notification. A business that
+        turns over many cylinders a day on a well-run route earns more than one with a higher markup and fewer customers.
+      </P>
+
       <H2>Working with {company.shortName}</H2>
       <P>
         We supply partners who deliver to customers in their area, and we pass orders to the partner who serves each

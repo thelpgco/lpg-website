@@ -59,6 +59,26 @@ export default function Page() {
         ]}
       />
       <P>The first three factors are fixed unit definitions. The last three depend on the heating value you enter.</P>
+      <H2>Quick reference: cylinders in kWh, MJ and BTU</H2>
+      <SpecTable
+        head={["Amount of LPG", "kWh", "MJ", "BTU"]}
+        rows={[
+          ["1 kg", "about 12.8", "about 46", "about 43,600"],
+          ["5 kg cylinder", "about 64", "about 230", "about 218,000"],
+          ["11.8 kg domestic cylinder", "about 151", "about 543", "about 515,000"],
+          ["45.4 kg commercial cylinder", "about 581", "about 2,090", "about 1.98 million"],
+        ]}
+        caption="Net heat at about 46 MJ per kg; gross figures are around 8% higher."
+      />
+
+      <H2>Reading appliance ratings</H2>
+      <P>
+        Geysers and heaters sold in Pakistan are often rated in BTU per hour, while burners and boilers are rated in kW.
+        Convert both to kilograms of LPG per hour to compare them: a geyser rated at 30,000 BTU/h is about 8.8 kW, which
+        burns roughly 0.7 kg of LPG an hour when its burner is on. kW is the rate of heat; kWh is the amount of heat, so a
+        10 kW burner running for two hours uses 20 kWh, or about 1.6 kg of LPG.
+      </P>
+
       <H2>When this is useful</H2>
       <UL
         items={[
