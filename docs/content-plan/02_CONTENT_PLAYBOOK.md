@@ -20,7 +20,7 @@ This replaces the generic "buyer-first SEO page" prompt. It keeps that prompt's 
 | What we do | An OGRA-licensed LPG marketer and distributor. We supply domestic and commercial cylinders, bulk and industrial LPG, and engineering (pipelines, manifolds, cylinder banks, tanks, vaporizers, conversions, AMC, safety audits) across Pakistan through a distributor network. |
 | Licence | OGRA licence **09024041999** |
 | Office | Office #99, Service Road, Sector G-12, Islamabad |
-| Phone / WhatsApp | +92 306 9701659 (read from `lib/site.ts`; never retype it) |
+| Phone / WhatsApp | +92 339 4022940 (read from `lib/site.ts`; never retype it) |
 | Founded | **Owner to confirm** (1999 vs "21 years"). Until then, write no "years in business" number. |
 | How ordering works | 1. Call, WhatsApp or send the form → 2. we confirm your street, cylinder size, price and delivery window before you agree → 3. the distributor serving your area (or our own licensed team) delivers and exchanges the empty cylinder → 4. you pay on the terms confirmed. |
 | Price rule | The gas rate follows the **OGRA monthly notified price per kg**. Read the current value and month from `data/prices.json`. Never type a price by hand. Delivery, deposit and cylinder terms are confirmed on the order. |

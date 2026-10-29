@@ -26,7 +26,7 @@ export default function OpengraphImage() {
         <div style={{ display: "flex", fontSize: 38, marginTop: 28, color: "#d1d5db" }}>
           LPG cylinders, gas supply and engineering across Pakistan
         </div>
-        <div style={{ display: "flex", fontSize: 28, marginTop: 40, color: "#F97316" }}>Islamabad G-12 · WhatsApp +92 306 9701659</div>
+        <div style={{ display: "flex", fontSize: 28, marginTop: 40, color: "#F97316" }}>Islamabad G-12 · WhatsApp +92 339 4022940</div>
       </div>
     ),
     size,

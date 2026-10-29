@@ -11,9 +11,9 @@ export const site = {
   url: (process.env.NEXT_PUBLIC_SITE_URL || "https://thelpgco.pk").replace(/\/$/, ""),
   foundedYear: 1999,
 
-  phone: digits(process.env.NEXT_PUBLIC_PHONE || "923069701659"),
-  whatsapp: digits(process.env.NEXT_PUBLIC_WHATSAPP || "923069701659"),
-  phoneDisplay: "+92 306 9701659",
+  phone: digits(process.env.NEXT_PUBLIC_PHONE || "923394022940"),
+  whatsapp: digits(process.env.NEXT_PUBLIC_WHATSAPP || "923394022940"),
+  phoneDisplay: "+92 339 4022940",
   email: process.env.NEXT_PUBLIC_EMAIL || "",
 
   licenceNumber: "09024041999",
