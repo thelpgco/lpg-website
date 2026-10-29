@@ -1,0 +1,4 @@
+{
+  "_readme": "Legacy empty stub. Live project lists are mode-split: data/production/projects.json and data/demo/projects.json via lib/projects.ts. Do not add records here.",
+  "projects": []
+}

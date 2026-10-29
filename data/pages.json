@@ -1,0 +1,835 @@
+{
+  "/": {
+    "id": "HP-001",
+    "type": "HP",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/about/": {
+    "id": "TR-001",
+    "type": "TR",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/about/haroon-rasheed/": {
+    "id": "TR-014",
+    "type": "TR",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/auto-lpg-in-pakistan/": {
+    "id": "AU-001",
+    "type": "GD",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/become-an-lpg-distributor/": {
+    "id": "BZ-004",
+    "type": "SH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/bulk-lpg-supply/": {
+    "id": "DL-007",
+    "type": "SH",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/commercial-lpg-supply/": {
+    "id": "DL-006",
+    "type": "SH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/complaints/": {
+    "id": "TR-012",
+    "type": "TR",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/contact/": {
+    "id": "TR-002",
+    "type": "TR",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/delivery-areas/": {
+    "id": "TR-007",
+    "type": "TR",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/editorial-policy/": {
+    "id": "TR-005",
+    "type": "TR",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/how-it-works/": {
+    "id": "TR-003",
+    "type": "TR",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/how-lpg-is-produced-and-supplied/": {
+    "id": "ED-008",
+    "type": "GD",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/how-to-choose-a-licensed-lpg-supplier/": {
+    "id": "ED-010",
+    "type": "GD",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/industrial-lpg-supply/": {
+    "id": "DL-009",
+    "type": "CO",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/industries/": {
+    "id": "IN-001",
+    "type": "SH",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/industries/food-processing/": {
+    "id": "IN-005",
+    "type": "CO",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/industries/hospitals/": {
+    "id": "IN-007",
+    "type": "CO",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/industries/hotels/": {
+    "id": "IN-003",
+    "type": "CO",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/industries/housing-societies/": {
+    "id": "IN-008",
+    "type": "CO",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/industries/manufacturing/": {
+    "id": "IN-009",
+    "type": "CO",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/industries/poultry-farms/": {
+    "id": "IN-006",
+    "type": "CO",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/industries/restaurants/": {
+    "id": "IN-002",
+    "type": "CO",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/industries/textile/": {
+    "id": "IN-004",
+    "type": "CO",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/industries/weddings-and-events/": {
+    "id": "IN-010",
+    "type": "CO",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/licences-and-compliance/": {
+    "id": "TR-004",
+    "type": "TR",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-bowser/": {
+    "id": "BZ-003",
+    "type": "GD",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-business-in-pakistan/": {
+    "id": "BZ-001",
+    "type": "GD",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-companies-in-pakistan/": {
+    "id": "NM-004",
+    "type": "DR",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-composition-and-properties/": {
+    "id": "ED-002",
+    "type": "GD",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-cylinder-blast-causes-and-prevention/": {
+    "id": "SF-003",
+    "type": "GD",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-cylinder-price-in-pakistan/": {
+    "id": "CY-002",
+    "type": "CO",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-cylinder-refill/": {
+    "id": "CY-008",
+    "type": "SH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-cylinder-sizes-in-pakistan/": {
+    "id": "CY-007",
+    "type": "GD",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-cylinders/": {
+    "id": "CY-001",
+    "type": "SH",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-cylinders/12-kg-domestic-cylinder/": {
+    "id": "CY-003",
+    "type": "CT",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-cylinders/45-kg-commercial-cylinder/": {
+    "id": "CY-004",
+    "type": "CT",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-cylinders/5-kg-cylinder/": {
+    "id": "CY-005",
+    "type": "CT",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-cylinders/composite-fiber-cylinder/": {
+    "id": "CY-006",
+    "type": "CT",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-filling-stations/": {
+    "id": "NM-003",
+    "type": "DR",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-geyser-price-in-pakistan/": {
+    "id": "AP-002",
+    "type": "CT",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-heaters-in-pakistan/": {
+    "id": "AP-003",
+    "type": "CT",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-home-delivery/": {
+    "id": "DL-001",
+    "type": "SH",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-abbottabad/": {
+    "id": "LC-011",
+    "type": "LH",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-azad-kashmir/": {
+    "id": "PH-005",
+    "type": "PH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-balochistan/": {
+    "id": "PH-004",
+    "type": "PH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-burewala/": {
+    "id": "LC-012",
+    "type": "LC",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-faisalabad/": {
+    "id": "LC-003",
+    "type": "LH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-gilgit-baltistan/": {
+    "id": "PH-006",
+    "type": "PH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-gilgit/": {
+    "id": "LC-007",
+    "type": "LH",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-gujranwala/": {
+    "id": "LC-005",
+    "type": "LH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-hyderabad/": {
+    "id": "LC-006",
+    "type": "LH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-islamabad/": {
+    "id": "DL-002",
+    "type": "LH",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-karachi/": {
+    "id": "DL-005",
+    "type": "LH",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-khyber-pakhtunkhwa/": {
+    "id": "PH-003",
+    "type": "PH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-lahore/": {
+    "id": "DL-004",
+    "type": "LH",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-multan/": {
+    "id": "LC-004",
+    "type": "LH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-murree/": {
+    "id": "LC-009",
+    "type": "LH",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-muzaffarabad/": {
+    "id": "LC-010",
+    "type": "LH",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-peshawar/": {
+    "id": "LC-001",
+    "type": "LH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-punjab/": {
+    "id": "PH-001",
+    "type": "PH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-quetta/": {
+    "id": "LC-002",
+    "type": "LH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-rawalpindi/": {
+    "id": "DL-003",
+    "type": "LH",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-sindh/": {
+    "id": "PH-002",
+    "type": "PH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-in-skardu/": {
+    "id": "LC-008",
+    "type": "LH",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-kit-price-in-pakistan/": {
+    "id": "AU-002",
+    "type": "CO",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-leak-detector/": {
+    "id": "SF-006",
+    "type": "GD",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-marketing-company-vs-distributor-vs-dealer/": {
+    "id": "ED-011",
+    "type": "GD",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-near-me/": {
+    "id": "NM-001",
+    "type": "DR",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-plant-in-pakistan/": {
+    "id": "BZ-002",
+    "type": "GD",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-price-in-pakistan/": {
+    "id": "PR-001",
+    "type": "SH",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-price-in-pakistan/history/": {
+    "id": "PR-009",
+    "type": "GD",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-price-in-pakistan/karachi/": {
+    "id": "PR-004",
+    "type": "LH",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-price-in-pakistan/lahore/": {
+    "id": "PR-005",
+    "type": "LH",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-price-per-kg-in-pakistan/": {
+    "id": "PR-002",
+    "type": "CO",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-regulator-problems-and-repair/": {
+    "id": "SF-005",
+    "type": "GD",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-regulators/": {
+    "id": "SF-004",
+    "type": "CT",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-safety/": {
+    "id": "SF-001",
+    "type": "SH",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-shops-and-agencies/": {
+    "id": "NM-002",
+    "type": "DR",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-shortage-pakistan/": {
+    "id": "NW-001",
+    "type": "NW",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-stove-price-in-pakistan/": {
+    "id": "AP-001",
+    "type": "CT",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-supply-in-pakistan/": {
+    "id": "NW-002",
+    "type": "GD",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-vaporizers/": {
+    "id": "AP-004",
+    "type": "GD",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-vs-cng/": {
+    "id": "ED-004",
+    "type": "CM",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-vs-lng/": {
+    "id": "ED-003",
+    "type": "CM",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/lpg-vs-sui-gas/": {
+    "id": "ED-005",
+    "type": "CM",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/new-lpg-connection/": {
+    "id": "CY-009",
+    "type": "SH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/ogra-lpg-notified-price/": {
+    "id": "PR-003",
+    "type": "CO",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/ogra-lpg-regulations-pakistan/": {
+    "id": "ED-009",
+    "type": "GD",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/order-lpg/": {
+    "id": "DL-008",
+    "type": "TR",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/our-network/": {
+    "id": "TR-008",
+    "type": "TR",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/partner-standards/": {
+    "id": "TR-013",
+    "type": "TR",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/pricing-policy/": {
+    "id": "TR-006",
+    "type": "TR",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/privacy/": {
+    "id": "TR-010",
+    "type": "TR",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/projects/": {
+    "id": "TR-009",
+    "type": "TR",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/propane-vs-butane/": {
+    "id": "ED-007",
+    "type": "GD",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/services/": {
+    "id": "SV-001",
+    "type": "SH",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/services/boiler-and-furnace-conversion-to-lpg/": {
+    "id": "SV-006",
+    "type": "CO",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/services/lpg-air-sng-systems/": {
+    "id": "SV-005",
+    "type": "CO",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/services/lpg-cylinder-testing-and-inspection/": {
+    "id": "SV-009",
+    "type": "CO",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/services/lpg-maintenance-and-amc/": {
+    "id": "SV-008",
+    "type": "CO",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/services/lpg-manifold-and-cylinder-bank-installation/": {
+    "id": "SV-004",
+    "type": "CO",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/services/lpg-pipeline-installation/": {
+    "id": "SV-002",
+    "type": "CO",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/services/lpg-safety-audit-and-inspection/": {
+    "id": "SV-007",
+    "type": "CO",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/services/lpg-storage-tank-installation/": {
+    "id": "SV-003",
+    "type": "CO",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/shop/": {
+    "id": "SP-001",
+    "type": "SH",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/shop/commercial-lpg-burners/": {
+    "id": "SP-003",
+    "type": "CO",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/shop/lpg-hoses-and-accessories/": {
+    "id": "SP-002",
+    "type": "CO",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/terms/": {
+    "id": "TR-011",
+    "type": "TR",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/tools/lpg-btu-kwh-converter/": {
+    "id": "TL-005",
+    "type": "TL",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/tools/lpg-cylinder-duration-calculator/": {
+    "id": "CY-010",
+    "type": "TL",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/tools/lpg-cylinder-price-calculator/": {
+    "id": "PR-010",
+    "type": "TL",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/tools/lpg-litre-to-kg-converter/": {
+    "id": "ED-006",
+    "type": "TL",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  },
+  "/tools/lpg-tank-size-calculator/": {
+    "id": "TL-004",
+    "type": "TL",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/tools/lpg-vs-diesel-cost-calculator/": {
+    "id": "TL-003",
+    "type": "TL",
+    "phase": "P4",
+    "status": "review",
+    "built": true
+  },
+  "/tools/lpg-vs-sui-gas-cost-calculator/": {
+    "id": "TL-002",
+    "type": "TL",
+    "phase": "P3",
+    "status": "review",
+    "built": true
+  },
+  "/what-is-lpg/": {
+    "id": "ED-001",
+    "type": "GD",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/what-to-do-if-you-smell-gas/": {
+    "id": "SF-002",
+    "type": "GD",
+    "phase": "P1",
+    "status": "review",
+    "built": true
+  },
+  "/why-lpg-prices-change-in-pakistan/": {
+    "id": "NW-003",
+    "type": "GD",
+    "phase": "P2",
+    "status": "review",
+    "built": true
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "_mode": "demo",
+  "_readme": "DEMO mirrors of production showcase projects for management layout inspection. Keep in sync with data/production/projects.json when titles change.",
+  "projects": [
+    {
+      "id": "demo-rest-isb-01",
+      "slug": "islamabad-restaurant-cylinder-bank-manifold",
+      "title": "Restaurant cylinder bank and changeover manifold — Islamabad",
+      "industry": "restaurants",
+      "city": "Islamabad",
+      "completedOn": "2025-11-12",
+      "scope": [
+        "Kitchen load survey for peak lunch and dinner burners",
+        "4×45.4 kg cylinder bank with automatic changeover manifold",
+        "Flexible pigtails, dual regulators, isolation valves and soap-solution leak test",
+        "Staff briefing on changeover, valve order and emergency shut-off"
+      ],
+      "equipment": ["45.4 kg certified cylinders", "Automatic changeover manifold", "Commercial regulators", "Steel pigtails"],
+      "outcome": "Kitchen kept continuous flame during cylinder changeovers; written handover checklist left with the chef and facilities lead.",
+      "relatedServices": ["/services/lpg-manifold-and-cylinder-bank-installation/", "/industries/restaurants/", "/commercial-lpg-supply/"]
+    },
+    {
+      "id": "demo-hotel-lhe-02",
+      "slug": "lahore-hotel-kitchen-lpg-pipeline",
+      "title": "Hotel main kitchen LPG pipeline — Lahore",
+      "industry": "hotels",
+      "city": "Lahore",
+      "completedOn": "2026-02-28",
+      "scope": [
+        "Pipeline route from external cylinder cage to main kitchen and bakery line",
+        "Pressure test pack with recorded readings before handover",
+        "Isolation valves at cage, riser and each major appliance group",
+        "Safety briefing for kitchen and engineering staff"
+      ],
+      "equipment": ["Carbon steel / copper kitchen line", "Isolation valves", "Pressure gauges", "Cage ventilation upgrades"],
+      "outcome": "Staged commissioning with documented test pressures; hotel engineering retained the test sheet with the site file.",
+      "relatedServices": ["/services/lpg-pipeline-installation/", "/industries/hotels/", "/commercial-lpg-supply/"]
+    },
+    {
+      "id": "demo-factory-khi-03",
+      "slug": "karachi-factory-bulk-tank-interface",
+      "title": "Factory bulk tank interface and vaporizer inputs — Karachi",
+      "industry": "manufacturing",
+      "city": "Karachi",
+      "completedOn": "2026-06-18",
+      "scope": [
+        "Process-heat demand estimate and peak hourly load",
+        "Bulk tank interface, vaporizer sizing inputs and ESD valve positions",
+        "Safety distance, fencing and firefighting checklist for the yard",
+        "AMC proposal for quarterly inspection and leak survey"
+      ],
+      "equipment": ["Bulk tank interface", "Vaporizer", "ESD valves", "Yard fencing guidance"],
+      "outcome": "Procurement received a clear BOM and quotation pack; first bulk deliveries scheduled against the agreed route.",
+      "relatedServices": ["/bulk-lpg-supply/", "/services/lpg-storage-tank-installation/", "/industries/manufacturing/", "/industrial-lpg-supply/"]
+    },
+    {
+      "id": "demo-textile-fsd-04",
+      "slug": "faisalabad-textile-furnace-conversion",
+      "title": "Textile unit furnace conversion to LPG — Faisalabad",
+      "industry": "textile",
+      "city": "Faisalabad",
+      "completedOn": "2025-09-04",
+      "scope": [
+        "Existing fuel train survey and nozzle / burner matching",
+        "Furnace conversion hardware and regulator train for LPG",
+        "Commissioning burns with temperature stability checks",
+        "Operator training on start-up, shut-down and leak response"
+      ],
+      "equipment": ["LPG burner train", "Regulators and gauges", "Flame supervision", "Isolation valves"],
+      "outcome": "Line resumed on LPG with stable process temperatures; maintenance team kept a laminated start-up card at the furnace.",
+      "relatedServices": ["/services/lpg-boiler-and-furnace-conversion/", "/industries/textile/", "/industrial-lpg-supply/"]
+    },
+    {
+      "id": "demo-hospital-pew-05",
+      "slug": "peshawar-hospital-kitchen-manifold",
+      "title": "Hospital kitchen manifold and certified cylinder route — Peshawar",
+      "industry": "hospitals",
+      "city": "Peshawar",
+      "completedOn": "2026-01-22",
+      "scope": [
+        "Kitchen and laundry load split with separate isolation",
+        "Manifold and cylinder bank sized for continuous catering",
+        "Certified-cylinder only supply rule written into the site SOP",
+        "Quarterly AMC visit booked after handover"
+      ],
+      "equipment": ["Cylinder bank", "Manifold", "Commercial regulators", "Leak detector for AMC kit"],
+      "outcome": "Catering kept continuous supply during meal peaks; facilities logged cylinder serials on each exchange.",
+      "relatedServices": ["/services/lpg-manifold-and-cylinder-bank-installation/", "/industries/hospitals/", "/services/lpg-safety-audit-and-inspection/"]
+    },
+    {
+      "id": "demo-housing-qta-06",
+      "slug": "quetta-housing-society-pipeline-riser",
+      "title": "Housing society LPG riser and apartment take-offs — Quetta",
+      "industry": "housing-societies",
+      "city": "Quetta",
+      "completedOn": "2025-12-09",
+      "scope": [
+        "Central cage layout with winter demand allowance",
+        "Vertical riser and apartment take-offs with individual isolation",
+        "Pressure test and soap checks floor by floor",
+        "Resident safety leaflet for smell-of-gas response"
+      ],
+      "equipment": ["Central cylinder cage", "Riser pipework", "Apartment regulators", "Isolation valves"],
+      "outcome": "Blocks commissioned before peak winter; society office kept the pressure-test record with the building file.",
+      "relatedServices": ["/services/lpg-pipeline-installation/", "/industries/housing-societies/", "/new-lpg-connection/"]
+    },
+    {
+      "id": "demo-poultry-mul-07",
+      "slug": "multan-poultry-farm-brooder-supply",
+      "title": "Poultry farm brooder LPG supply — Multan belt",
+      "industry": "poultry-farms",
+      "city": "Multan",
+      "completedOn": "2026-03-15",
+      "scope": [
+        "Brooder heat load for chick houses and cold nights",
+        "Cylinder placement with safe distances from litter and electrics",
+        "Regulator and hose runs to brooder lines",
+        "Farm-hand briefing on night checks and valve order"
+      ],
+      "equipment": ["Domestic/commercial cylinders as sized", "Regulators", "Hose and clips", "Simple pressure gauge"],
+      "outcome": "Stable night temperatures during the first flock cycle after install; farm kept a refill calendar with the distributor contact.",
+      "relatedServices": ["/industries/poultry-farms/", "/commercial-lpg-supply/", "/lpg-home-delivery/"]
+    },
+    {
+      "id": "demo-wedding-rwp-08",
+      "slug": "rawalpindi-wedding-hall-cylinder-bank",
+      "title": "Wedding hall peak-load cylinder bank — Rawalpindi",
+      "industry": "weddings-and-events",
+      "city": "Rawalpindi",
+      "completedOn": "2026-04-19",
+      "scope": [
+        "Peak burner count for buffet and tandoor lines on wedding nights",
+        "High-capacity cylinder bank with fast changeover",
+        "Outdoor cage siting away from guest flow and generators",
+        "Event-night standby refill plan with the local distributor"
+      ],
+      "equipment": ["45.4 kg cylinder bank", "Changeover manifold", "Heavy-duty regulators", "Cage locking"],
+      "outcome": "Hall ran back-to-back events without flame loss on changeover; caterer kept the standby refill WhatsApp in the event pack.",
+      "relatedServices": ["/industries/weddings-and-events/", "/services/lpg-manifold-and-cylinder-bank-installation/", "/commercial-lpg-supply/"]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+﻿city,slug,province,pop_2023,pop_2017,pop_tier,name_conflict,line
+Karachi,karachi,Sindh,18868021,14916456,T1,,17
+Lahore,lahore,Punjab,13004135,11126285,T1,,26
+Faisalabad,faisalabad,Punjab,3691999,3204726,T1,,35
+Rawalpindi,rawalpindi,Punjab,3357612,2098231,T1,,44
+Gujranwala,gujranwala,Punjab,2511118,2027001,T1,,53
+Multan,multan,Punjab,2215381,1871843,T1,,62
+Hyderabad,hyderabad,Sindh,1921275,1734309,T1,,71
+Peshawar,peshawar,Khyber Pakhtunkhwa,1905975,1970042,T1,,80
+Quetta,quetta,Balochistan,1565546,1001205,T1,,89
+Islamabad,islamabad,Islamabad (ICT),1108872,1009832,T1,,98
+Sargodha,sargodha,Punjab,975886,658208,T2,,107
+Sialkot,sialkot,Punjab,911817,655852,T2,,116
+Bahawalpur,bahawalpur,Punjab,903795,762111,T2,,125
+Jhang,jhang,Punjab,606533,414131,T2,,134
+Sheikhupura,sheikhupura,Punjab,591424,473129,T2,,143
+Gujrat,gujrat,Punjab,574240,390533,T2,,152
+Sukkur,sukkur,Sindh,563851,499900,T2,,161
+Larkana,larkana,Sindh,551716,490508,T2,,164
+Sahiwal,sahiwal,Punjab,538344,389605,T2,,167
+Okara,okara,Punjab,533693,357935,T2,,170
+Rahim Yar Khan,rahim-yar-khan,Punjab,519261,477100,T2,,173
+Kasur,kasur,Punjab,510875,358409,T2,,175
+Dera Ghazi Khan,dera-ghazi-khan,Punjab,494464,399064,T2,,176
+Wah Cantonment,wah-cantonment,Punjab,400733,380103,T2,,178
+Mardan,mardan,Khyber Pakhtunkhwa,368302,358604,T3,,179
+Nawabshah,nawabshah,Sindh,363138,279338,T3,,180
+Burewala,burewala,Punjab,361664,231797,T3,,181
+Mingora,mingora,Khyber Pakhtunkhwa,361112,331091,T3,,185
+Hafizabad,hafizabad,Punjab,318621,245784,T3,,186
+Chiniot,chiniot,Punjab,318165,278747,T3,,187
+Jhelum,jhelum,Punjab,312426,190425,T3,,188
+Kāmoke,k-moke,Punjab,292023,249767,T3,,192
+Khanewal,khanewal,Punjab,281890,227059,T3,,193
+Sadiqabad,sadiqabad,Punjab,274210,239677,T3,,197
+Turbat,turbat,Balochistan,268625,213557,T3,,201
+Mirpur Khas,mirpur-khas,Sindh,267833,233916,T3,,206
+Muridke,muridke,Punjab,254291,166652,T3,,210
+Khanpur,khanpur,Punjab,247170,184793,T3,,214
+Bahawalnagar,bahawalnagar,Punjab,241873,161033,T3,,218
+Kohat,kohat,Khyber Pakhtunkhwa,235880,228779,T3,,222
+Muzaffargarh,muzaffargarh,Punjab,235541,209604,T3,,226
+Abbottabad,abbottabad,Khyber Pakhtunkhwa,234395,208491,T3,,230
+Mandi Bahauddin,mandi-bahauddin,Punjab,232361,198609,T3,,234
+Daska,daska,Punjab,228626,175170,T3,,238
+Pakpattan,pakpattan,Punjab,221280,176693,T3,,242
+Dera Ismail Khan,dera-ismail-khan,Khyber Pakhtunkhwa,220575,217457,T3,,246
+Jacobabad,jacobabad,Sindh,219315,191076,T3,,250
+Chakwal,chakwal,Punjab,218356,138146,T3,,254
+Khuzdar,khuzdar,Balochistan,218112,182927,T3,,258
+Gojra,gojra,Punjab,214349,174860,T3,,262
+Vehari,vehari,Punjab,210288,145464,T3,,266
+Shikarpur,shikarpur,Sindh,204938,195437,T3,,270
+Ahmedpur East,ahmedpur-east,Punjab,196618,133369,T3,,274
+Hub,hub,Balochistan,195661,175376,T3,,278
+Chishtian,chishtian,Punjab,192403,149939,T3,,282
+Khairpur,khairpur,Sindh,191044,183181,T3,,286
+Dadu,dadu,Sindh,188317,171191,T3,,290
+Samundri,samundri,Punjab,186371,156991,T3,,294
+Ferozwala,ferozwala,Punjab,177238,141405,T3,,298
+Attock,attock,Punjab,176544,146396,T3,,302
+Tando Adam,tando-adam,Sindh,174291,152617,T3,,306
+Tando Allahyar,tando-allahyar,Sindh,171185,156562,T3,,310
+Jaranwala,jaranwala,Punjab,170872,150380,T3,,314
+Bholari,bholari,Sindh,169613,158239,T3,,318
+Muzaffarabad,muzaffarabad,Azad Jammu & Kashmir,,149913,T?,,319
+Hasilpur,hasilpur,Punjab,168146,115536,T3,,323
+Kamalia,kamalia,Punjab,166617,135641,T3,,327
+Kot Abdul Malik,kot-abdul-malik,Punjab,162030,143434,T3,,331
+Panjgur,panjgur,Balochistan,157693,80411,T3,,335
+Arif Wala,arif-wala,Punjab,157063,111403,T3,,340
+Gujranwala Cantonment,gujranwala-cantonment,Punjab,156929,137302,T3,,344
+Swabi,swabi,Khyber Pakhtunkhwa,156496,123412,T3,,348
+Jampur,jampur,Punjab,155243,87857,T3,,352
+Jatoi,jatoi,Punjab,155196,109424,T3,,353
+Wazirabad,wazirabad,Punjab,152624,128060,T3,,357
+Layyah,layyah,Punjab,151274,126361,T3,,361
+Shujabad,shujabad,Punjab,151115,80098,T3,,365
+Haroonabad,haroonabad,Punjab,149679,107858,T4,,366
+Jalalpur Jattan,jalalpur-jattan,Punjab,146743,96210,T4,,370
+Umerkot,umerkot,Sindh,144558,134052,T4,,371
+Lodhran,lodhran,Punjab,144512,117851,T4,,375
+Moro,moro,Sindh,142685,95398,T4,,379
+Kot Addu,kot-addu,Punjab,142161,129703,T4,,380
+Mian Channu,mian-channu,Punjab,140112,90157,T4,,384
+Khushab,khushab,Punjab,139905,119384,T4,,385
+Rajanpur,rajanpur,Punjab,137553,99097,T4,,389
+Mansehra,mansehra,Khyber Pakhtunkhwa,137278,127623,T4,,390
+Taxila,taxila,Punjab,136900,121952,T4,,394
+Mirpur,mirpur,Azad Jammu & Kashmir,,124352,T?,,398
+Kabal,kabal,Khyber Pakhtunkhwa,132549,118103,T4,,402
+Bhakkar,bhakkar,Punjab,131658,113018,T4,,406
+Narowal,narowal,Punjab,130692,103067,T4,,410
+Chaman,chaman,Balochistan,130139,123191,T4,,414
+Mianwali,mianwali,Punjab,129500,118883,T4,,418
+Shakargarh,shakargarh,Punjab,126742,81643,T4,,422
+Mailsi,mailsi,Punjab,125431,82322,T4,,423
+Nowshera,nowshera,Khyber Pakhtunkhwa,122953,120131,T4,,424
+Dipalpur,dipalpur,Punjab,122759,99753,T4,,428
+Haveli Lakha,haveli-lakha,Punjab,122389,78257,T4,,429
+Lala Musa,lala-musa,Punjab,121036,91566,T4,,430
+Shahdadkot,shahdadkot,Sindh,120687,118915,T4,,431
+Charsadda,charsadda,Khyber Pakhtunkhwa,120170,114565,T4,,435
+Ghotki,ghotki,Sindh,119879,111321,T4,,439
+Sambrial,sambrial,Punjab,119571,109479,T4,,443
+Bhalwal,bhalwal,Punjab,117982,100135,T4,,447
+Badin,badin,Sindh,117455,112420,T4,,451
+Taunsa,taunsa,Punjab,115704,97193,T4,,455
+Barikot,barikot,Khyber Pakhtunkhwa,115045,94245,T4,,456
+Phool Nagar,phool-nagar,Punjab,114530,92842,T4,,457
+Tando Muhammad Khan,tando-muhammad-khan,Sindh,114406,101863,T4,,458
+Pattoki,pattoki,Punjab,113735,87757,T4,,462
+Shahdadpur,shahdadpur,Sindh,113342,99653,T4,,463
+Jauharabad,jauharabad,Punjab,113188,91357,T4,,470
+Kamber Ali Khan,kamber-ali-khan,Sindh,112313,101474,T4,,471
+Chichawatni,chichawatni,Punjab,112191,94733,T4,,475
+Farooqabad,farooqabad,Punjab,109717,77591,T4,,476
+Pishin,pishin,Balochistan,107646,35577,T4,,477
+Dera Murad Jamali,dera-murad-jamali,Balochistan,106952,96591,T4,,481
+Kotri,kotri,Sindh,106615,101124,T4,,485
+Sangla Hill,sangla-hill,Punjab,103709,61498,T4,,489
+Gujar Khan,gujar-khan,Punjab,103284,90149,T4,,490
+Kharian,kharian,Punjab,103036,87569,T4,,491
+Pasrur,pasrur,Punjab,102717,82457,T4,,492
+Shabqadar,shabqadar,Khyber Pakhtunkhwa,102340,91851,T4,,493
+Kot Radha Kishan,kot-radha-kishan,Punjab,102057,58894,T4,,497
+Ludhewala Waraich,ludhewala-waraich,Punjab,100331,92020,T4,,498
+Renala Khurd,renala-khurd,Punjab,100054,54160,T4,,499
+Kandhkot,kandhkot,Sindh,99155,100698,T4,,505
+Uch Sharif,uch-sharif,Punjab,98852,42684,T4,,506
+Dera Allah Yar,dera-allah-yar,Balochistan,98761,80908,T4,,507
+Fazalpur,fazalpur,Punjab,98627,76809,T4,,508
+Kahror Pacca,kahror-pacca,Punjab,98325,82137,T4,,509
+Dijkot,dijkot,Punjab,96934,39873,T4,,510
+Khurrianwala,khurrianwala,Punjab,96743,75907,T4,,511
+Hujra Shah Muqeem,hujra-shah-muqeem,Punjab,95921,76629,T4,,512
+Nankana Sahib,nankana-sahib,Punjab,94988,79458,T4,,513
+Dinga,dinga,Punjab,94252,50793,T4,,514
+Rohri,rohri,Sindh,92135,69920,T4,,515
+Kabirwala,kabirwala,Punjab,91932,74904,T4,,516
+Haripur,haripur,Khyber Pakhtunkhwa,91915,85739,T4,,517
+Kunjah,kunjah,Punjab,90905,32588,T4,,518
+Daharki,daharki,Sindh,90177,86286,T4,,519
+Jalalpur Pirwala,jalalpur-pirwala,Punjab,89679,67453,T4,,520
+Shahkot,shahkot,Punjab,89638,73491,T4,,521
+Thul,thul,Sindh,88554,70158,T4,,522
+Jamshoro,jamshoro,Sindh,88190,32768,T4,,523
+Chunian,chunian,Punjab,87547,72589,T4,,524
+Naushahro Feroze,naushahro-feroze,Sindh,87416,38204,T4,,525
+Chowk Azam,chowk-azam,Punjab,87376,67421,T4,,526
+Takht-i-Bahi,takht-i-bahi,Khyber Pakhtunkhwa,85040,80721,T4,,527
+Dina,dina,Punjab,84629,56949,T4,,528
+Fort Abbas,fort-abbas,Punjab,83192,61528,T4,,529
+Ratodero,ratodero,Sindh,81935,67498,T4,,530
+Chenab Nagar,chenab-nagar,Punjab,81695,64204,T4,,531
+Mustafabad,mustafabad,Punjab,81550,60578,T4,,532
+Fateh Jang,fateh-jang,Punjab,81321,66500,T4,,533
+Kharan,kharan,Balochistan,80806,51388,T4,,534
+Ghakhar,ghakhar,Punjab,80320,65517,T4,,535
+Alahabad,alahabad,Punjab,80097,61935,T4,,536
+Sui,sui,Balochistan,79567,72740,T4,,537
+Talagang,talagang,Punjab,79431,64083,T4,,538
+Zahirpir,zahirpir,Punjab,76979,48493,T4,,539
+Ali Pur Chatta,ali-pur-chatta,Punjab,76964,60983,T4,,540
+Pano Akil,pano-akil,Sindh,76942,75805,T4,,541
+Bahrain,bahrain,Khyber Pakhtunkhwa,76728,61787,T4,,542
+Paharpur,paharpur,Khyber Pakhtunkhwa,76027,69289,T4,,543
+Taxila,taxila-2,Punjab,75444,67246,T4,duplicate name in source table: verify which town this is,544
+Kahuta,kahuta,Punjab,75349,60610,T4,,545
+Sehwan Sharif,sehwan-sharif,Sindh,75167,66923,T4,,546
+Topi,topi,Khyber Pakhtunkhwa,74867,52983,T4,,547
+Mirpur Mathelo,mirpur-mathelo,Sindh,74651,75270,T4,,548
+Qila Didar Singh,qila-didar-singh,Punjab,74523,66491,T4,,549
+Kot Mithan,kot-mithan,Punjab,74479,36755,T4,,550
+Matli,matli,Sindh,74402,62556,T4,,551
+Tando Jam,tando-jam,Sindh,74303,71760,T4,,552
+Sanghar,sanghar,Sindh,74112,75410,T4,,553
+Alipur,alipur,Punjab,74095,44504,T4,,554
+Sarai Alamgir,sarai-alamgir,Punjab,73967,54864,T4,,555
+Batkhela,batkhela,Khyber Pakhtunkhwa,73525,68200,T4,,556
+Sakrand,sakrand,Sindh,72040,65699,T4,,557
+Hala,hala,Sindh,71094,65731,T4,,558
+Bhera,bhera,Punjab,70921,40320,T4,,559
+Zehri,zehri,Balochistan,70910,37854,T4,,560
+Gwadar,gwadar,Balochistan,70852,90762,T4,,561
+Lakki Marwat,lakki-marwat,Khyber Pakhtunkhwa,70759,59465,T4,,562
+Hasan Abdal,hasan-abdal,Punjab,69529,63218,T4,,563
+Sibi,sibi,Balochistan,69300,64427,T4,,564
+Buleda,buleda,Balochistan,68752,39813,T4,,565
+Darya Khan,darya-khan,Punjab,68622,60856,T4,,566
+Minchinabad,minchinabad,Punjab,67164,56563,T4,,567
+Narang Mandi,narang-mandi,Punjab,67137,45770,T4,,568
+Mehar,mehar,Sindh,67082,56200,T4,,569
+Liaqatpur,liaqatpur,Punjab,66933,51888,T4,,570
+Pindi Bhattian,pindi-bhattian,Punjab,66511,55356,T4,,571
+Raja Jang,raja-jang,Punjab,66404,30855,T4,,572
+Tasp,tasp,Balochistan,66030,35890,T4,,573
+Usta Muhammad,usta-muhammad,Balochistan,64632,77097,T4,,574
+Pindi Gheb,pindi-gheb,Punjab,63810,45195,T4,,575
+Chowk Sarwar Shaheed,chowk-sarwar-shaheed,Punjab,63421,56117,T4,,576
+Kot Momin,kot-momin,Punjab,63411,50818,T4,,577
+Phalia,phalia,Punjab,62453,52789,T4,,578
+Shehr Sultan,shehr-sultan,Punjab,62184,49844,T4,,579
+Kallar Syedan,kallar-syedan,Punjab,60941,54239,T4,,580
+Yazman,yazman,Punjab,60738,48883,T4,,581
+Chak Jhumra,chak-jhumra,Punjab,60131,48796,T4,,582
+Kot Chutta,kot-chutta,Punjab,59870,51666,T4,,583
+Gambat,gambat,Sindh,59790,53354,T4,,584
+Nowshera Virkan,nowshera-virkan,Punjab,59639,49377,T4,,585
+Khipro,khipro,Sindh,58307,51081,T4,,586
+Karak,karak,Khyber Pakhtunkhwa,58065,51149,T4,,587
+Mehrabpur,mehrabpur,Sindh,57978,53608,T4,,588
+Sahiwal,sahiwal-2,Punjab,57374,48286,T4,duplicate name in source table: verify which town this is,589
+Chitral,chitral,Khyber Pakhtunkhwa,57157,49794,T4,,590
+Khwazakhela,khwazakhela,Khyber Pakhtunkhwa,57113,48027,T4,,591
+Jehangira,jehangira,Khyber Pakhtunkhwa,57011,52839,T4,,592
+Chaubara,chaubara,Punjab,57002,48371,T4,,593
+Jand,jand,Punjab,56254,48194,T4,,594
+Jamrud,jamrud,Khyber Pakhtunkhwa,56642,63843,T4,,595
+Khalabat,khalabat,Khyber Pakhtunkhwa,55850,47285,T4,,596
+Pir Jo Goth,pir-jo-goth,Sindh,54266,47518,T4,,597
+Safdarabad,safdarabad,Punjab,54242,27739,T4,,598
+Makli,makli,Sindh,54137,47239,T4,,599
+Naudero,naudero,Sindh,52846,48983,T4,,600
+Zafarwal,zafarwal,Punjab,52639,39319,T4,,601
+Lalian,lalian,Punjab,52542,45411,T4,,602
+Fateh Pur,fateh-pur,Punjab,52255,44084,T4,,603
+Dunyapur,dunyapur,Punjab,51888,41554,T4,,604
+Mananwala,mananwala,Punjab,51746,45740,T4,,605
+Thatta,thatta,Sindh,51723,54697,T4,,606
+Matta,matta,Khyber Pakhtunkhwa,51821,42647,T4,,607
+Malakwal,malakwal,Punjab,51327,43423,T4,,608
+Ubauro,ubauro,Sindh,50981,44496,T4,,609
+Sukheke,sukheke,Punjab,50458,42609,T4,,610
+Jahanian,jahanian,Punjab,50318,43646,T4,,611
+Khairpur Nathan Shah,khairpur-nathan-shah,Sindh,50786,41320,T4,,612
+Gilgit,gilgit,Gilgit-Baltistan,,,T?,,0
+Skardu,skardu,Gilgit-Baltistan,,,T?,,0
+Hunza (Karimabad),hunza,Gilgit-Baltistan,,,T?,,0
+Chilas,chilas,Gilgit-Baltistan,,,T?,,0
+Ghizer (Gahkuch),ghizer,Gilgit-Baltistan,,,T?,,0
+Astore,astore,Gilgit-Baltistan,,,T?,,0
+Ghanche (Khaplu),ghanche,Gilgit-Baltistan,,,T?,,0
+Kotli,kotli,Azad Jammu & Kashmir,,,T?,,0
+Bhimber,bhimber,Azad Jammu & Kashmir,,,T?,,0
+Rawalakot,rawalakot,Azad Jammu & Kashmir,,,T?,,0
+Bagh,bagh,Azad Jammu & Kashmir,,,T?,,0
+Murree,murree,Punjab,,,T?,,0
+Zhob,zhob,Balochistan,,,T?,,0
+Ziarat,ziarat,Balochistan,,,T?,,0
+Loralai,loralai,Balochistan,,,T?,,0

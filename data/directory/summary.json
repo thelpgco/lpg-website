@@ -1,0 +1,129 @@
+{
+  "generatedAt": "2026-10-29",
+  "sources": [
+    "docs/seo-plan/data/partners_master.csv",
+    "docs/seo-plan/data/dealers_xlsx_classified.csv",
+    "keywords and research/lpg data2.md",
+    "keywords and research/lpg data.md"
+  ],
+  "counts": {
+    "partners_master": 679,
+    "dealers_xlsx": 452,
+    "national_register_parsed": 1143,
+    "merged_listings": 1844,
+    "cities_indexed": 533,
+    "marketer_plant_rows": 64,
+    "owner_network": 506,
+    "market_listing": 195,
+    "national_register": 1143
+  },
+  "disclosure": {
+    "owner_network": "Dealers and agencies in our active supply network for this area.",
+    "market_listing": "Dealers and agencies in our active supply network for this area.",
+    "national_register": "Additional local distributors listed for this city.",
+    "research": "Additional local distributors listed for this city.",
+    "network_dealers": "Dealers and agencies in our active supply network for this area."
+  },
+  "topCities": [
+    [
+      "karachi",
+      293
+    ],
+    [
+      "faisalabad",
+      165
+    ],
+    [
+      "lahore",
+      116
+    ],
+    [
+      "islamabad",
+      88
+    ],
+    [
+      "peshawar",
+      47
+    ],
+    [
+      "gujranwala",
+      35
+    ],
+    [
+      "multan",
+      31
+    ],
+    [
+      "rawalpindi",
+      25
+    ],
+    [
+      "gilgit",
+      18
+    ],
+    [
+      "quetta",
+      18
+    ],
+    [
+      "gojra",
+      13
+    ],
+    [
+      "hyderabad",
+      13
+    ],
+    [
+      "jhang",
+      13
+    ],
+    [
+      "chowk",
+      12
+    ],
+    [
+      "burewala",
+      11
+    ],
+    [
+      "kohat",
+      11
+    ],
+    [
+      "mianwali",
+      11
+    ],
+    [
+      "sialkot",
+      11
+    ],
+    [
+      "shahkot",
+      11
+    ],
+    [
+      "bonair",
+      10
+    ],
+    [
+      "gujrat",
+      10
+    ],
+    [
+      "mansehra",
+      10
+    ],
+    [
+      "swabi",
+      10
+    ],
+    [
+      "sargodha",
+      10
+    ],
+    [
+      "layyah",
+      9
+    ]
+  ]
+}

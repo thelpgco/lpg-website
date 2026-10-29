@@ -1,0 +1,130 @@
+{
+  "/lpg-in-multan/": {
+    "title": "LPG Gas in Multan: Price, Cylinder Delivery & Supply",
+    "description": "Order LPG gas in Multan from THE LPG CO., an OGRA-licensed marketer. See how the price is set, local supply notes and how to order by call, WhatsApp or form."
+  },
+  "/lpg-in-gujranwala/": {
+    "title": "LPG Gas in Gujranwala: Price, Delivery & Supply Areas",
+    "description": "Order LPG gas in Gujranwala from THE LPG CO., an OGRA-licensed marketer. Listed areas, factory and kitchen supply, and how to order by call, WhatsApp or form."
+  },
+  "/lpg-in-gilgit/": {
+    "title": "LPG Gas in Gilgit: Price, Winter Supply & Delivery",
+    "description": "Order LPG gas in Gilgit from THE LPG CO., an OGRA-licensed marketer. Winter demand, road-closure delays and how to order by call, WhatsApp or the form."
+  },
+  "/lpg-in-skardu/": {
+    "title": "LPG Gas in Skardu: Price, Winter Supply & Delivery",
+    "description": "Order LPG gas in Skardu from THE LPG CO., an OGRA-licensed marketer. Cold-weather supply, hotel demand, road delays and how to order by call or WhatsApp."
+  },
+  "/lpg-in-murree/": {
+    "title": "LPG Gas in Murree: Price, Winter Delivery & Supply",
+    "description": "Order LPG gas in Murree from THE LPG CO., an OGRA-licensed marketer. Snowfall delays, hotel and home demand and how to order by call, WhatsApp or the form."
+  },
+  "/lpg-in-muzaffarabad/": {
+    "title": "LPG Gas in Muzaffarabad: Price, Cylinder Delivery & Supply",
+    "description": "Order LPG gas in Muzaffarabad from THE LPG CO., an OGRA-licensed marketer. Hill delivery notes, honest coverage and how to order by call, WhatsApp or form."
+  },
+  "/lpg-in-abbottabad/": {
+    "title": "LPG Gas in Abbottabad: Price, Delivery & Supply Areas",
+    "description": "Order LPG gas in Abbottabad from THE LPG CO., an OGRA-licensed marketer. Winter use, listed areas and how to order by call, WhatsApp or the request form."
+  },
+  "/industries/": {
+    "title": "LPG Supply by Industry: Restaurants, Hotels, Factories",
+    "description": "LPG supply for restaurants, hotels, textile and food units, farms, hospitals, societies and factories. See options, what we need to quote and request a quote."
+  },
+  "/industries/restaurants/": {
+    "title": "LPG Supply for Restaurants in Pakistan: 45.4 kg Cylinders",
+    "description": "LPG for restaurants: 45.4 kg cylinders, cylinder banks and piped kitchen lines. See supply options, safety points and what to send to request a quote."
+  },
+  "/industries/hotels/": {
+    "title": "LPG Supply for Hotels and Guesthouses in Pakistan: Options",
+    "description": "LPG supply for hotels and guesthouses: kitchen, hot water and laundry loads on cylinder banks or bulk tanks. See options and request a written quote."
+  },
+  "/industries/textile/": {
+    "title": "LPG for Textile Units: Boilers, Dryers and Bulk Supply",
+    "description": "LPG for textile units: steam boilers, thermal oil heaters and dryers on cylinder banks or bulk tanks with a vaporizer. See options and request a quote."
+  },
+  "/industries/food-processing/": {
+    "title": "LPG for Food Processing and Bakeries: Ovens, Fryers, Steam",
+    "description": "LPG for food processing and bakeries: ovens, fryers, roasters and steam on cylinder banks or bulk supply. See options and send details for a written quote."
+  },
+  "/industries/poultry-farms/": {
+    "title": "LPG for Poultry Farms in Pakistan: Brooders and Shed Heating",
+    "description": "LPG for poultry farms: brooders and shed heaters on 45.4 kg cylinders, banks or bulk tanks. See supply options, safety points and request a farm quote."
+  },
+  "/industries/hospitals/": {
+    "title": "LPG Supply for Hospitals: Kitchens, Laundry and Boilers",
+    "description": "LPG supply for hospitals and clinics: kitchen, laundry, steam and hot water with a reserve plan and safety review. See options and request a quote."
+  },
+  "/industries/housing-societies/": {
+    "title": "LPG Supply for Housing Societies, Apartments and Communities",
+    "description": "LPG for housing societies: scheduled cylinder delivery, shared cylinder banks and piped LPG for apartments. See options, safety points and request a quote."
+  },
+  "/industries/manufacturing/": {
+    "title": "LPG for Manufacturing Plants: Furnaces, Ovens and Boilers",
+    "description": "LPG for factories: furnaces, ovens, dryers and boilers on bulk tanks, cylinder banks or LPG-air systems. See options and send your load for a written quote."
+  },
+  "/industries/weddings-and-events/": {
+    "title": "LPG Cylinders for Weddings and Catering Events in Pakistan",
+    "description": "LPG for weddings and catering: several 45.4 kg cylinders for event days plus safety tips. Send the date, city and burner count to request a quote."
+  },
+  "/tools/lpg-cylinder-price-calculator/": {
+    "title": "LPG Cylinder Price Calculator: Gas Cost by Size and Kg",
+    "description": "Calculate LPG cylinder gas cost by size, quantity and OGRA rate per kg, then add delivery or deposit you were quoted. A free estimate tool for Pakistan."
+  },
+  "/tools/lpg-litre-to-kg-converter/": {
+    "title": "LPG Litre to Kg Converter: Liquid LPG Volume to Weight",
+    "description": "Convert LPG litres to kg and kg to litres with an editable density for propane, butane or a mix. Free estimate tool with the formula and worked examples."
+  },
+  "/tools/lpg-btu-kwh-converter/": {
+    "title": "LPG BTU to kWh Converter: Kg, MJ, kWh and MMBTU Tool",
+    "description": "Convert LPG kg to MJ, kWh, BTU and MMBTU with an editable heating value, and estimate burner gas use by rating and hours. Free tool for Pakistan users."
+  },
+  "/tools/lpg-tank-size-calculator/": {
+    "title": "LPG Tank Size Calculator: Rough Storage From Your Gas Use",
+    "description": "Estimate LPG storage in kg and litres from your daily or monthly use, delivery interval, reserve and fill level. A rough guide, not a tank design."
+  },
+  "/tools/lpg-vs-diesel-cost-calculator/": {
+    "title": "LPG vs Diesel Cost Calculator for Boilers and Furnaces",
+    "description": "Compare monthly LPG and diesel fuel cost for boilers and furnaces using your diesel price and an LPG rate, with editable heating values and efficiency."
+  },
+  "/tools/lpg-vs-sui-gas-cost-calculator/": {
+    "title": "LPG vs Sui Gas Cost Calculator: Compare Cost per MMBTU",
+    "description": "Compare LPG with your Sui gas bill per MMBTU. See how many kg of LPG match your monthly gas use and the cost difference, using your own bill figures."
+  },
+  "/shop/": {
+    "title": "LPG Appliances in Pakistan: Stoves, Geysers, Heaters, Hoses",
+    "description": "Browse LPG stoves, geysers, heaters, burners, hoses and vaporizers from THE LPG CO. Stock and prices are confirmed on request; ask for a quote online."
+  },
+  "/shop/commercial-lpg-burners/": {
+    "title": "Commercial LPG Burners for Restaurants and Kitchens",
+    "description": "Commercial LPG burners for restaurants and kitchens: what sets the price, regulator and hose needs and safety points. Ask for availability and a quote."
+  },
+  "/shop/lpg-hoses-and-accessories/": {
+    "title": "LPG Hoses, Regulators and Accessories: What to Check",
+    "description": "LPG hoses, regulators, clamps and accessories: what to check, when to replace and safety tips. Ask THE LPG CO. for stock and a quote for your city."
+  },
+  "/lpg-stove-price-in-pakistan/": {
+    "title": "LPG Stove Price in Pakistan: What Decides It and How to Ask",
+    "description": "LPG stove price in Pakistan depends on burners, material and ignition. See what to compare and safety points, then ask THE LPG CO. for stock and a quote."
+  },
+  "/lpg-geyser-price-in-pakistan/": {
+    "title": "LPG Geyser Price in Pakistan: Types, Safety and Quotes",
+    "description": "LPG geyser price in Pakistan depends on type and capacity. See instant vs storage, ventilation and cylinder use, then ask THE LPG CO. for a quote."
+  },
+  "/lpg-heaters-in-pakistan/": {
+    "title": "LPG Heaters in Pakistan: Types, Safe Use and How to Ask",
+    "description": "LPG heaters in Pakistan: types, gas use, cold-weather tips and safe use with fresh air. Ask THE LPG CO. for stock and a quote for your city."
+  },
+  "/lpg-vaporizers/": {
+    "title": "LPG Vaporizers: What They Do and When You Need One",
+    "description": "What an LPG vaporizer does, when tanks and cylinder banks need one and how it is sized. Request an engineering assessment from THE LPG CO. PAKISTAN."
+  },
+  "/projects/": {
+    "title": "LPG Engineering Projects: Pipelines, Tanks and Manifolds",
+    "description": "LPG engineering projects from THE LPG CO., listed only with customer consent. See the kinds of pipeline, tank and manifold work we do and request a quote."
+  },
+  "/about/haroon-rasheed/": {
+    "title": "Safety Leadership at THE LPG CO. PAKISTAN: Our Team",
+    "description": "How THE LPG CO. PAKISTAN safety team reviews safety pages, which pages carry a review date, and the emergency steps if you smell gas. Team byline only."
+  }
+}

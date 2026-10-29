@@ -1,0 +1,65 @@
+{
+  "/commercial-lpg-supply/": [
+    "commercialKitchen",
+    "restaurantDelivery",
+    "cyl454",
+    "deliveryTruck"
+  ],
+  "/bulk-lpg-supply/": [
+    "bulkTanks",
+    "manifold",
+    "deliveryTruck"
+  ],
+  "/industrial-lpg-supply/": [
+    "bulkTanks",
+    "warehouseCylinders",
+    "manifold",
+    "cyl454"
+  ],
+  "/lpg-bowser/": [
+    "bulkTanks",
+    "deliveryTruck"
+  ],
+  "/lpg-plant-in-pakistan/": [
+    "bulkTanks",
+    "manifold",
+    "warehouseCylinders",
+    "collageEquip"
+  ],
+  "/lpg-business-in-pakistan/": [
+    "warehouseCylinders",
+    "warehouseStaff",
+    "deliveryTruck",
+    "shopfront"
+  ],
+  "/auto-lpg-in-pakistan/": [
+    "regHoseClose",
+    "hoseKit"
+  ],
+  "/lpg-kit-price-in-pakistan/": [
+    "hoseKit",
+    "regHoseStudio"
+  ],
+  "/lpg-companies-in-pakistan/": [
+    "ograLicence",
+    "licenceOfficial",
+    "officeExt1",
+    "warehouseCylinders"
+  ],
+  "/lpg-filling-stations/": [
+    "warehouseCylinders",
+    "emptyFilled",
+    "deliveryUnload"
+  ],
+  "/lpg-shops-and-agencies/": [
+    "shopfront",
+    "warehouseStaff",
+    "cylLineup"
+  ],
+  "/lpg-near-me/": [
+    "deliveryTruck",
+    "doorstepHandover",
+    "bazaar",
+    "islamabadDelivery"
+  ]
+}

@@ -1,0 +1,896 @@
+{
+ "/": {
+  "in": [],
+  "out": [
+   "/become-an-lpg-distributor/",
+   "/delivery-areas/",
+   "/how-it-works/",
+   "/lpg-cylinders/",
+   "/lpg-home-delivery/",
+   "/lpg-in-burewala/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-hyderabad/",
+   "/lpg-in-islamabad/",
+   "/lpg-in-karachi/",
+   "/lpg-in-lahore/",
+   "/lpg-in-peshawar/",
+   "/lpg-in-quetta/",
+   "/lpg-in-rawalpindi/",
+   "/lpg-price-in-pakistan/",
+   "/pricing-policy/",
+   "/privacy/",
+   "/services/"
+  ]
+ },
+ "/lpg-price-in-pakistan/": {
+  "in": [
+   "/",
+   "/contact/",
+   "/editorial-policy/",
+   "/lpg-cylinder-sizes-in-pakistan/",
+   "/lpg-home-delivery/",
+   "/lpg-in-burewala/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-hyderabad/",
+   "/lpg-in-islamabad/",
+   "/lpg-in-karachi/",
+   "/lpg-in-lahore/",
+   "/lpg-in-peshawar/",
+   "/lpg-in-quetta/",
+   "/lpg-in-rawalpindi/",
+   "/lpg-price-in-pakistan/karachi/",
+   "/lpg-price-in-pakistan/lahore/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/ogra-lpg-notified-price/",
+   "/order-lpg/",
+   "/pricing-policy/",
+   "/what-is-lpg/"
+  ],
+  "out": [
+   "/lpg-cylinder-price-in-pakistan/",
+   "/lpg-home-delivery/",
+   "/lpg-price-in-pakistan/karachi/",
+   "/lpg-price-in-pakistan/lahore/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/ogra-lpg-notified-price/",
+   "/order-lpg/",
+   "/pricing-policy/",
+   "/what-is-lpg/"
+  ]
+ },
+ "/lpg-price-per-kg-in-pakistan/": {
+  "in": [
+   "/lpg-cylinder-price-in-pakistan/",
+   "/lpg-in-burewala/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-hyderabad/",
+   "/lpg-in-islamabad/",
+   "/lpg-in-karachi/",
+   "/lpg-in-lahore/",
+   "/lpg-in-peshawar/",
+   "/lpg-in-quetta/",
+   "/lpg-in-rawalpindi/",
+   "/lpg-price-in-pakistan/",
+   "/ogra-lpg-notified-price/",
+   "/pricing-policy/"
+  ],
+  "out": [
+   "/lpg-cylinder-price-in-pakistan/",
+   "/lpg-price-in-pakistan/",
+   "/ogra-lpg-notified-price/",
+   "/order-lpg/"
+  ]
+ },
+ "/ogra-lpg-notified-price/": {
+  "in": [
+   "/lpg-cylinder-price-in-pakistan/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/pricing-policy/"
+  ],
+  "out": [
+   "/lpg-cylinder-price-in-pakistan/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/pricing-policy/"
+  ]
+ },
+ "/lpg-price-in-pakistan/karachi/": {
+  "in": [
+   "/lpg-in-karachi/",
+   "/lpg-price-in-pakistan/"
+  ],
+  "out": [
+   "/lpg-in-karachi/",
+   "/lpg-price-in-pakistan/",
+   "/order-lpg/"
+  ]
+ },
+ "/lpg-price-in-pakistan/lahore/": {
+  "in": [
+   "/lpg-in-lahore/",
+   "/lpg-price-in-pakistan/"
+  ],
+  "out": [
+   "/lpg-in-lahore/",
+   "/lpg-price-in-pakistan/",
+   "/order-lpg/"
+  ]
+ },
+ "/lpg-cylinders/": {
+  "in": [
+   "/",
+   "/lpg-cylinder-price-in-pakistan/",
+   "/lpg-cylinder-sizes-in-pakistan/",
+   "/lpg-home-delivery/",
+   "/lpg-safety/",
+   "/what-is-lpg/"
+  ],
+  "out": [
+   "/lpg-cylinder-price-in-pakistan/",
+   "/lpg-cylinder-sizes-in-pakistan/",
+   "/lpg-home-delivery/",
+   "/lpg-safety/",
+   "/order-lpg/",
+   "/what-is-lpg/"
+  ]
+ },
+ "/lpg-cylinder-price-in-pakistan/": {
+  "in": [
+   "/lpg-cylinder-sizes-in-pakistan/",
+   "/lpg-cylinders/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/ogra-lpg-notified-price/"
+  ],
+  "out": [
+   "/lpg-cylinder-sizes-in-pakistan/",
+   "/lpg-cylinders/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/ogra-lpg-notified-price/"
+  ]
+ },
+ "/lpg-cylinder-sizes-in-pakistan/": {
+  "in": [
+   "/lpg-cylinder-price-in-pakistan/",
+   "/lpg-cylinders/",
+   "/lpg-home-delivery/",
+   "/what-is-lpg/"
+  ],
+  "out": [
+   "/lpg-cylinder-price-in-pakistan/",
+   "/lpg-cylinders/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-safety/",
+   "/what-is-lpg/"
+  ]
+ },
+ "/lpg-home-delivery/": {
+  "in": [
+   "/",
+   "/delivery-areas/",
+   "/how-it-works/",
+   "/lpg-cylinders/",
+   "/lpg-in-burewala/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-hyderabad/",
+   "/lpg-in-islamabad/",
+   "/lpg-in-karachi/",
+   "/lpg-in-lahore/",
+   "/lpg-in-peshawar/",
+   "/lpg-in-quetta/",
+   "/lpg-in-rawalpindi/",
+   "/lpg-price-in-pakistan/",
+   "/order-lpg/"
+  ],
+  "out": [
+   "/delivery-areas/",
+   "/lpg-cylinder-sizes-in-pakistan/",
+   "/lpg-cylinders/",
+   "/lpg-in-burewala/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-hyderabad/",
+   "/lpg-in-islamabad/",
+   "/lpg-in-karachi/",
+   "/lpg-in-lahore/",
+   "/lpg-in-peshawar/",
+   "/lpg-in-quetta/",
+   "/lpg-in-rawalpindi/",
+   "/lpg-price-in-pakistan/",
+   "/order-lpg/"
+  ]
+ },
+ "/lpg-in-islamabad/": {
+  "in": [
+   "/",
+   "/delivery-areas/",
+   "/lpg-home-delivery/",
+   "/our-network/"
+  ],
+  "out": [
+   "/lpg-home-delivery/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/order-lpg/"
+  ]
+ },
+ "/lpg-in-rawalpindi/": {
+  "in": [
+   "/",
+   "/delivery-areas/",
+   "/lpg-home-delivery/",
+   "/lpg-in-burewala/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-lahore/",
+   "/lpg-in-punjab/",
+   "/our-network/"
+  ],
+  "out": [
+   "/lpg-home-delivery/",
+   "/lpg-in-burewala/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-lahore/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/order-lpg/"
+  ]
+ },
+ "/lpg-in-lahore/": {
+  "in": [
+   "/",
+   "/delivery-areas/",
+   "/lpg-home-delivery/",
+   "/lpg-in-burewala/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-punjab/",
+   "/lpg-in-rawalpindi/",
+   "/lpg-price-in-pakistan/lahore/",
+   "/our-network/"
+  ],
+  "out": [
+   "/lpg-home-delivery/",
+   "/lpg-in-burewala/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-rawalpindi/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-in-pakistan/lahore/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/order-lpg/"
+  ]
+ },
+ "/lpg-in-karachi/": {
+  "in": [
+   "/",
+   "/delivery-areas/",
+   "/lpg-home-delivery/",
+   "/lpg-in-hyderabad/",
+   "/lpg-in-sindh/",
+   "/lpg-price-in-pakistan/karachi/",
+   "/our-network/"
+  ],
+  "out": [
+   "/lpg-home-delivery/",
+   "/lpg-in-hyderabad/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-in-pakistan/karachi/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/order-lpg/"
+  ]
+ },
+ "/order-lpg/": {
+  "in": [
+   "/delivery-areas/",
+   "/how-it-works/",
+   "/lpg-cylinders/",
+   "/lpg-home-delivery/",
+   "/lpg-in-burewala/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-hyderabad/",
+   "/lpg-in-islamabad/",
+   "/lpg-in-karachi/",
+   "/lpg-in-lahore/",
+   "/lpg-in-peshawar/",
+   "/lpg-in-quetta/",
+   "/lpg-in-rawalpindi/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-in-pakistan/karachi/",
+   "/lpg-price-in-pakistan/lahore/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/pricing-policy/",
+   "/what-is-lpg/"
+  ],
+  "out": [
+   "/delivery-areas/",
+   "/lpg-home-delivery/",
+   "/lpg-price-in-pakistan/"
+  ]
+ },
+ "/lpg-shortage-pakistan/": {
+  "in": [],
+  "out": []
+ },
+ "/lpg-supply-in-pakistan/": {
+  "in": [],
+  "out": []
+ },
+ "/what-is-lpg/": {
+  "in": [
+   "/lpg-cylinder-sizes-in-pakistan/",
+   "/lpg-cylinders/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-safety/",
+   "/what-to-do-if-you-smell-gas/"
+  ],
+  "out": [
+   "/lpg-cylinder-sizes-in-pakistan/",
+   "/lpg-cylinders/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-safety/",
+   "/order-lpg/",
+   "/what-to-do-if-you-smell-gas/"
+  ]
+ },
+ "/lpg-safety/": {
+  "in": [
+   "/editorial-policy/",
+   "/licences-and-compliance/",
+   "/lpg-cylinder-sizes-in-pakistan/",
+   "/lpg-cylinders/",
+   "/services/",
+   "/services/boiler-and-furnace-conversion-to-lpg/",
+   "/services/lpg-air-sng-systems/",
+   "/services/lpg-cylinder-testing-and-inspection/",
+   "/services/lpg-maintenance-and-amc/",
+   "/services/lpg-manifold-and-cylinder-bank-installation/",
+   "/services/lpg-pipeline-installation/",
+   "/services/lpg-safety-audit-and-inspection/",
+   "/services/lpg-storage-tank-installation/",
+   "/what-is-lpg/",
+   "/what-to-do-if-you-smell-gas/"
+  ],
+  "out": [
+   "/editorial-policy/",
+   "/licences-and-compliance/",
+   "/lpg-cylinders/",
+   "/services/lpg-maintenance-and-amc/",
+   "/services/lpg-safety-audit-and-inspection/",
+   "/what-is-lpg/",
+   "/what-to-do-if-you-smell-gas/"
+  ]
+ },
+ "/what-to-do-if-you-smell-gas/": {
+  "in": [
+   "/lpg-safety/",
+   "/what-is-lpg/"
+  ],
+  "out": [
+   "/editorial-policy/",
+   "/lpg-safety/",
+   "/services/lpg-safety-audit-and-inspection/",
+   "/what-is-lpg/"
+  ]
+ },
+ "/lpg-geyser-price-in-pakistan/": {
+  "in": [],
+  "out": []
+ },
+ "/lpg-heaters-in-pakistan/": {
+  "in": [],
+  "out": []
+ },
+ "/about/": {
+  "in": [
+   "/editorial-policy/",
+   "/how-it-works/",
+   "/licences-and-compliance/",
+   "/services/"
+  ],
+  "out": [
+   "/complaints/",
+   "/contact/",
+   "/editorial-policy/",
+   "/how-it-works/",
+   "/licences-and-compliance/",
+   "/our-network/",
+   "/partner-standards/",
+   "/privacy/",
+   "/terms/"
+  ]
+ },
+ "/contact/": {
+  "in": [
+   "/about/",
+   "/complaints/",
+   "/how-it-works/",
+   "/licences-and-compliance/",
+   "/terms/"
+  ],
+  "out": [
+   "/complaints/",
+   "/delivery-areas/",
+   "/how-it-works/",
+   "/lpg-price-in-pakistan/"
+  ]
+ },
+ "/how-it-works/": {
+  "in": [
+   "/",
+   "/about/",
+   "/become-an-lpg-distributor/",
+   "/contact/",
+   "/our-network/",
+   "/partner-standards/",
+   "/privacy/",
+   "/terms/"
+  ],
+  "out": [
+   "/about/",
+   "/contact/",
+   "/lpg-home-delivery/",
+   "/order-lpg/",
+   "/our-network/",
+   "/partner-standards/",
+   "/pricing-policy/"
+  ]
+ },
+ "/licences-and-compliance/": {
+  "in": [
+   "/about/",
+   "/lpg-safety/",
+   "/services/"
+  ],
+  "out": [
+   "/about/",
+   "/contact/",
+   "/editorial-policy/",
+   "/lpg-safety/",
+   "/our-network/",
+   "/partner-standards/"
+  ]
+ },
+ "/editorial-policy/": {
+  "in": [
+   "/about/",
+   "/licences-and-compliance/",
+   "/lpg-safety/",
+   "/what-to-do-if-you-smell-gas/"
+  ],
+  "out": [
+   "/about/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-safety/",
+   "/pricing-policy/"
+  ]
+ },
+ "/pricing-policy/": {
+  "in": [
+   "/",
+   "/editorial-policy/",
+   "/how-it-works/",
+   "/lpg-price-in-pakistan/",
+   "/ogra-lpg-notified-price/"
+  ],
+  "out": [
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/ogra-lpg-notified-price/",
+   "/order-lpg/"
+  ]
+ },
+ "/delivery-areas/": {
+  "in": [
+   "/",
+   "/contact/",
+   "/lpg-home-delivery/",
+   "/order-lpg/"
+  ],
+  "out": [
+   "/lpg-home-delivery/",
+   "/lpg-in-azad-kashmir/",
+   "/lpg-in-balochistan/",
+   "/lpg-in-burewala/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-gilgit-baltistan/",
+   "/lpg-in-hyderabad/",
+   "/lpg-in-islamabad/",
+   "/lpg-in-karachi/",
+   "/lpg-in-khyber-pakhtunkhwa/",
+   "/lpg-in-lahore/",
+   "/lpg-in-peshawar/",
+   "/lpg-in-punjab/",
+   "/lpg-in-quetta/",
+   "/lpg-in-rawalpindi/",
+   "/lpg-in-sindh/",
+   "/order-lpg/",
+   "/our-network/"
+  ]
+ },
+ "/privacy/": {
+  "in": [
+   "/",
+   "/about/",
+   "/terms/"
+  ],
+  "out": [
+   "/how-it-works/",
+   "/partner-standards/"
+  ]
+ },
+ "/terms/": {
+  "in": [
+   "/about/",
+   "/complaints/"
+  ],
+  "out": [
+   "/complaints/",
+   "/contact/",
+   "/how-it-works/",
+   "/privacy/"
+  ]
+ },
+ "/complaints/": {
+  "in": [
+   "/about/",
+   "/contact/",
+   "/partner-standards/",
+   "/terms/"
+  ],
+  "out": [
+   "/contact/",
+   "/partner-standards/",
+   "/terms/"
+  ]
+ },
+ "/partner-standards/": {
+  "in": [
+   "/about/",
+   "/become-an-lpg-distributor/",
+   "/complaints/",
+   "/how-it-works/",
+   "/licences-and-compliance/",
+   "/privacy/"
+  ],
+  "out": [
+   "/become-an-lpg-distributor/",
+   "/complaints/",
+   "/how-it-works/",
+   "/our-network/"
+  ]
+ },
+ "/lpg-in-peshawar/": {
+  "in": [
+   "/",
+   "/delivery-areas/",
+   "/lpg-home-delivery/",
+   "/our-network/"
+  ],
+  "out": [
+   "/lpg-home-delivery/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/order-lpg/"
+  ]
+ },
+ "/lpg-in-hyderabad/": {
+  "in": [
+   "/",
+   "/delivery-areas/",
+   "/lpg-home-delivery/",
+   "/lpg-in-karachi/",
+   "/lpg-in-sindh/",
+   "/our-network/"
+  ],
+  "out": [
+   "/lpg-home-delivery/",
+   "/lpg-in-karachi/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/order-lpg/"
+  ]
+ },
+ "/lpg-in-faisalabad/": {
+  "in": [
+   "/",
+   "/delivery-areas/",
+   "/lpg-home-delivery/",
+   "/lpg-in-burewala/",
+   "/lpg-in-lahore/",
+   "/lpg-in-punjab/",
+   "/lpg-in-rawalpindi/",
+   "/our-network/"
+  ],
+  "out": [
+   "/lpg-home-delivery/",
+   "/lpg-in-burewala/",
+   "/lpg-in-lahore/",
+   "/lpg-in-rawalpindi/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/order-lpg/"
+  ]
+ },
+ "/lpg-in-quetta/": {
+  "in": [
+   "/",
+   "/delivery-areas/",
+   "/lpg-home-delivery/",
+   "/lpg-in-balochistan/",
+   "/our-network/"
+  ],
+  "out": [
+   "/lpg-home-delivery/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/order-lpg/"
+  ]
+ },
+ "/lpg-in-burewala/": {
+  "in": [
+   "/",
+   "/delivery-areas/",
+   "/lpg-home-delivery/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-lahore/",
+   "/lpg-in-punjab/",
+   "/lpg-in-rawalpindi/",
+   "/our-network/"
+  ],
+  "out": [
+   "/lpg-home-delivery/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-lahore/",
+   "/lpg-in-rawalpindi/",
+   "/lpg-price-in-pakistan/",
+   "/lpg-price-per-kg-in-pakistan/",
+   "/order-lpg/"
+  ]
+ },
+ "/lpg-in-azad-kashmir/": {
+  "in": [
+   "/delivery-areas/",
+   "/our-network/"
+  ],
+  "out": [
+   "/become-an-lpg-distributor/"
+  ]
+ },
+ "/lpg-in-balochistan/": {
+  "in": [
+   "/delivery-areas/",
+   "/our-network/"
+  ],
+  "out": [
+   "/lpg-in-quetta/"
+  ]
+ },
+ "/lpg-in-gilgit-baltistan/": {
+  "in": [
+   "/delivery-areas/",
+   "/our-network/"
+  ],
+  "out": [
+   "/become-an-lpg-distributor/"
+  ]
+ },
+ "/lpg-in-khyber-pakhtunkhwa/": {
+  "in": [
+   "/delivery-areas/",
+   "/our-network/"
+  ],
+  "out": []
+ },
+ "/lpg-in-punjab/": {
+  "in": [
+   "/delivery-areas/",
+   "/our-network/"
+  ],
+  "out": [
+   "/lpg-in-burewala/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-lahore/",
+   "/lpg-in-rawalpindi/"
+  ]
+ },
+ "/lpg-in-sindh/": {
+  "in": [
+   "/delivery-areas/",
+   "/our-network/"
+  ],
+  "out": [
+   "/lpg-in-hyderabad/",
+   "/lpg-in-karachi/"
+  ]
+ },
+ "/our-network/": {
+  "in": [
+   "/about/",
+   "/become-an-lpg-distributor/",
+   "/delivery-areas/",
+   "/how-it-works/",
+   "/licences-and-compliance/",
+   "/partner-standards/"
+  ],
+  "out": [
+   "/become-an-lpg-distributor/",
+   "/how-it-works/",
+   "/lpg-in-azad-kashmir/",
+   "/lpg-in-balochistan/",
+   "/lpg-in-burewala/",
+   "/lpg-in-faisalabad/",
+   "/lpg-in-gilgit-baltistan/",
+   "/lpg-in-hyderabad/",
+   "/lpg-in-islamabad/",
+   "/lpg-in-karachi/",
+   "/lpg-in-khyber-pakhtunkhwa/",
+   "/lpg-in-lahore/",
+   "/lpg-in-peshawar/",
+   "/lpg-in-punjab/",
+   "/lpg-in-quetta/",
+   "/lpg-in-rawalpindi/",
+   "/lpg-in-sindh/"
+  ]
+ },
+ "/services/": {
+  "in": [
+   "/",
+   "/services/boiler-and-furnace-conversion-to-lpg/",
+   "/services/lpg-air-sng-systems/",
+   "/services/lpg-cylinder-testing-and-inspection/",
+   "/services/lpg-maintenance-and-amc/",
+   "/services/lpg-manifold-and-cylinder-bank-installation/",
+   "/services/lpg-pipeline-installation/",
+   "/services/lpg-safety-audit-and-inspection/",
+   "/services/lpg-storage-tank-installation/"
+  ],
+  "out": [
+   "/about/",
+   "/licences-and-compliance/",
+   "/lpg-safety/",
+   "/services/boiler-and-furnace-conversion-to-lpg/",
+   "/services/lpg-air-sng-systems/",
+   "/services/lpg-cylinder-testing-and-inspection/",
+   "/services/lpg-maintenance-and-amc/",
+   "/services/lpg-manifold-and-cylinder-bank-installation/",
+   "/services/lpg-pipeline-installation/",
+   "/services/lpg-safety-audit-and-inspection/",
+   "/services/lpg-storage-tank-installation/"
+  ]
+ },
+ "/become-an-lpg-distributor/": {
+  "in": [
+   "/",
+   "/lpg-in-azad-kashmir/",
+   "/lpg-in-gilgit-baltistan/",
+   "/our-network/",
+   "/partner-standards/"
+  ],
+  "out": [
+   "/how-it-works/",
+   "/our-network/",
+   "/partner-standards/"
+  ]
+ },
+ "/services/lpg-safety-audit-and-inspection/": {
+  "in": [
+   "/lpg-safety/",
+   "/services/",
+   "/services/boiler-and-furnace-conversion-to-lpg/",
+   "/services/lpg-air-sng-systems/",
+   "/services/lpg-maintenance-and-amc/",
+   "/what-to-do-if-you-smell-gas/"
+  ],
+  "out": [
+   "/lpg-safety/",
+   "/services/",
+   "/services/boiler-and-furnace-conversion-to-lpg/",
+   "/services/lpg-cylinder-testing-and-inspection/",
+   "/services/lpg-maintenance-and-amc/"
+  ]
+ },
+ "/services/lpg-maintenance-and-amc/": {
+  "in": [
+   "/lpg-safety/",
+   "/services/",
+   "/services/boiler-and-furnace-conversion-to-lpg/",
+   "/services/lpg-cylinder-testing-and-inspection/",
+   "/services/lpg-safety-audit-and-inspection/"
+  ],
+  "out": [
+   "/lpg-safety/",
+   "/services/",
+   "/services/lpg-cylinder-testing-and-inspection/",
+   "/services/lpg-pipeline-installation/",
+   "/services/lpg-safety-audit-and-inspection/"
+  ]
+ },
+ "/services/lpg-pipeline-installation/": {
+  "in": [
+   "/services/",
+   "/services/lpg-cylinder-testing-and-inspection/",
+   "/services/lpg-maintenance-and-amc/",
+   "/services/lpg-storage-tank-installation/"
+  ],
+  "out": [
+   "/lpg-safety/",
+   "/services/",
+   "/services/lpg-cylinder-testing-and-inspection/",
+   "/services/lpg-manifold-and-cylinder-bank-installation/",
+   "/services/lpg-storage-tank-installation/"
+  ]
+ },
+ "/services/lpg-storage-tank-installation/": {
+  "in": [
+   "/services/",
+   "/services/lpg-cylinder-testing-and-inspection/",
+   "/services/lpg-manifold-and-cylinder-bank-installation/",
+   "/services/lpg-pipeline-installation/"
+  ],
+  "out": [
+   "/lpg-safety/",
+   "/services/",
+   "/services/lpg-air-sng-systems/",
+   "/services/lpg-manifold-and-cylinder-bank-installation/",
+   "/services/lpg-pipeline-installation/"
+  ]
+ },
+ "/services/lpg-manifold-and-cylinder-bank-installation/": {
+  "in": [
+   "/services/",
+   "/services/lpg-air-sng-systems/",
+   "/services/lpg-pipeline-installation/",
+   "/services/lpg-storage-tank-installation/"
+  ],
+  "out": [
+   "/lpg-safety/",
+   "/services/",
+   "/services/boiler-and-furnace-conversion-to-lpg/",
+   "/services/lpg-air-sng-systems/",
+   "/services/lpg-storage-tank-installation/"
+  ]
+ },
+ "/services/lpg-air-sng-systems/": {
+  "in": [
+   "/services/",
+   "/services/boiler-and-furnace-conversion-to-lpg/",
+   "/services/lpg-manifold-and-cylinder-bank-installation/",
+   "/services/lpg-storage-tank-installation/"
+  ],
+  "out": [
+   "/lpg-safety/",
+   "/services/",
+   "/services/boiler-and-furnace-conversion-to-lpg/",
+   "/services/lpg-manifold-and-cylinder-bank-installation/",
+   "/services/lpg-safety-audit-and-inspection/"
+  ]
+ },
+ "/services/boiler-and-furnace-conversion-to-lpg/": {
+  "in": [
+   "/services/",
+   "/services/lpg-air-sng-systems/",
+   "/services/lpg-manifold-and-cylinder-bank-installation/",
+   "/services/lpg-safety-audit-and-inspection/"
+  ],
+  "out": [
+   "/lpg-safety/",
+   "/services/",
+   "/services/lpg-air-sng-systems/",
+   "/services/lpg-maintenance-and-amc/",
+   "/services/lpg-safety-audit-and-inspection/"
+  ]
+ },
+ "/services/lpg-cylinder-testing-and-inspection/": {
+  "in": [
+   "/services/",
+   "/services/lpg-maintenance-and-amc/",
+   "/services/lpg-pipeline-installation/",
+   "/services/lpg-safety-audit-and-inspection/"
+  ],
+  "out": [
+   "/lpg-safety/",
+   "/services/",
+   "/services/lpg-maintenance-and-amc/",
+   "/services/lpg-pipeline-installation/",
+   "/services/lpg-storage-tank-installation/"
+  ]
+ }
+}

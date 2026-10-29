@@ -1,0 +1,111 @@
+{
+  "/lpg-vs-sui-gas/": [
+    "cylDomestic",
+    "kitchen45",
+    "familyKitchen",
+    "stoveFront",
+    "regHoseStudio",
+    "ograPriceScreen"
+  ],
+  "/lpg-vs-cng/": [
+    "cylLineup",
+    "cyl454",
+    "cylDomestic",
+    "commercialKitchen",
+    "bulkTanks"
+  ],
+  "/lpg-vs-lng/": [
+    "bulkTanks",
+    "manifold",
+    "cylPlain",
+    "warehouseCylinders"
+  ],
+  "/propane-vs-butane/": [
+    "cylCloseupLogo",
+    "cylSpecLabel",
+    "cylDomesticAlt",
+    "heaterFront",
+    "bulkTanks"
+  ],
+  "/why-lpg-prices-change-in-pakistan/": [
+    "ograPriceScreen",
+    "collageOgra",
+    "cylDomestic",
+    "cyl454"
+  ],
+  "/lpg-shortage-pakistan/": [
+    "warehouseCylinders",
+    "emptyFilled",
+    "deliveryTruck",
+    "deliveryUnload"
+  ],
+  "/lpg-supply-in-pakistan/": [
+    "bulkTanks",
+    "warehouseCylinders",
+    "deliveryTruck",
+    "deliveryTeam",
+    "manifold"
+  ],
+  "/ogra-lpg-regulations-pakistan/": [
+    "ograLicence",
+    "licenceOfficial",
+    "inspectionCert",
+    "ograPriceScreen"
+  ],
+  "/how-to-choose-a-licensed-lpg-supplier/": [
+    "licenceOfficial",
+    "ograLicence",
+    "cylStamp",
+    "doorstepHandover",
+    "deliveryTeam"
+  ],
+  "/how-lpg-is-produced-and-supplied/": [
+    "bulkTanks",
+    "warehouseCylinders",
+    "warehouseStaff",
+    "manifold",
+    "deliveryTruck"
+  ],
+  "/lpg-composition-and-properties/": [
+    "cylSpecLabel",
+    "cylStamp",
+    "cylLineup",
+    "bulkTanks"
+  ],
+  "/lpg-marketing-company-vs-distributor-vs-dealer/": [
+    "emptyFilled",
+    "warehouseCylinders",
+    "officeExt1",
+    "deliveryTeam",
+    "shopfront"
+  ],
+  "/lpg-price-in-pakistan/history/": [
+    "ograPriceScreen",
+    "collageOgra",
+    "cylDomestic"
+  ],
+  "/lpg-regulators/": [
+    "regHoseStudio",
+    "regHoseClose",
+    "hoseKit",
+    "cylDomestic"
+  ],
+  "/lpg-regulator-problems-and-repair/": [
+    "regHoseClose",
+    "hoseKit",
+    "regHoseStudio"
+  ],
+  "/lpg-leak-detector/": [
+    "kitchenFlame",
+    "familyKitchen",
+    "commercialKitchen",
+    "regHoseClose"
+  ],
+  "/lpg-cylinder-blast-causes-and-prevention/": [
+    "cylStamp",
+    "cylSpecLabel",
+    "cylDomestic",
+    "inspectionCert",
+    "regHoseClose"
+  ]
+}

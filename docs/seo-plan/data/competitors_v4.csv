@@ -1,0 +1,57 @@
+domain,source,owner_listed,category,urls_found,crawl_method,priority,notes
+flamora.pk,owner list (competiators.md),yes,"customer app / marketplace, JS-rendered",6,playwright,1,Only ~6 URLs in sitemap. App-like site.
+gasonline.pk,owner list (competiators.md),yes,marketplace,0,html,1,"No sitemap found. ~15 internal links, numeric product-category ids."
+noorlpg.com,owner list (competiators.md),yes,brand + distributor network,0,html,1,"No sitemap found. ~45 pages by link crawl: services, products, blogs, find-distributors."
+ppgl.com.pk,owner list (competiators.md),yes,brand (PARCO Pearl Gas),129,sitemap,1,"129 sitemap URLs, mostly WordPress listings and blog posts."
+friends-gas.pk,owner list (competiators.md),yes,local delivery agency (Rawalpindi/Islamabad),15,html,1,One long page (~216 KB) plus testimonials. Rich single-page content.
+bostanlpg.com,owner list (competiators.md),yes,local agency (Islamabad),1,html,1,Single page.
+cylin.com.pk,owner list (competiators.md),yes,platform + tools + Urdu,144,sitemap+playwright,1,"144 sitemap URLs (81 English, 63 /ur). Tools, coverage, bill-check, Urdu. Strongest site in the list."
+paklpg.com,owner list (competiators.md),yes,small WordPress,7,sitemap,1,7 URLs.
+burhangas.com,SERP capture (Islamabad),no,composite/fibre cylinders,,html,2,Seen in Islamabad SERP capture
+todaypetroldieselprice.pk,SERP capture (Islamabad),no,price tool; direct rival for the flagship page,,html,2,Seen in Islamabad SERP capture
+ogra.org.pk,SERP capture,no,"REGULATOR: source of truth, not a rival",,html,2,Seen in Islamabad SERP capture
+ssgclpg.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+lasbellagas.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+balaj.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+atecengineering.com.pk,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+albashirlpg.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+brotherlpg.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+burshane.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+cresslpg.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+balochgascompany.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+bannulpg.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+adeelindustry.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+afridigas.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+ag.com.pk,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+hochgas.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+hammadlpg.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+gitco.com.pk,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+ghulamrasoollpg.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+gasco.com.pk,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+kurigas.pk,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+khybergaslpg.business.site,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+kashmirgas.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+marienergies.com.pk,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+mitraders.epizy.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+northneft.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+ogdcl.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+pakistansupergas.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+malikbrothers-lpg.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+mardanlpg.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+khanlpgandpetroleum.website2.me,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+peregrinefalconlpg.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+parco.com.pk,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+paklng.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+razalpgagency.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+sialkotlpg.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+sindhgas.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+sites.google.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+qureshigas.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+sungas.pk,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+thefazalsons.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+vitalgasinnovations.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+torkhamlpg.com.pk,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+warsaklpg.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+wmpetroleum.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+yasirlpg.com,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.
+yasirlpg.pk,google_maps_listing_website,no,plant/marketer/shop site (verify),,html,3,From Google Maps listing website. Verify it is a live LPG business.

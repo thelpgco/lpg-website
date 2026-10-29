@@ -1,0 +1,13 @@
+seed,expand,endpoint,gl,hl
+lpg gas,seed + ' ' + a..z and seed + ' in ' + city,autocomplete,pk,en
+lpg cylinder,seed + ' ' + a..z and seed + ' in ' + city,autocomplete,pk,en
+gas cylinder,seed + ' ' + a..z and seed + ' in ' + city,autocomplete,pk,en
+lpg rate,seed + ' ' + a..z and seed + ' in ' + city,autocomplete,pk,en
+lpg price,seed + ' ' + a..z and seed + ' in ' + city,autocomplete,pk,en
+gas cylinder price,seed + ' ' + a..z and seed + ' in ' + city,autocomplete,pk,en
+lpg delivery,seed + ' ' + a..z and seed + ' in ' + city,autocomplete,pk,en
+lpg supplier,seed + ' ' + a..z and seed + ' in ' + city,autocomplete,pk,en
+lpg distributor,seed + ' ' + a..z and seed + ' in ' + city,autocomplete,pk,en
+lpg regulator,seed + ' ' + a..z and seed + ' in ' + city,autocomplete,pk,en
+lpg stove,seed + ' ' + a..z and seed + ' in ' + city,autocomplete,pk,en
+lpg geyser,seed + ' ' + a..z and seed + ' in ' + city,autocomplete,pk,en

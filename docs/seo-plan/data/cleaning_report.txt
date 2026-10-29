@@ -1,0 +1,101 @@
+raw rows: 1908
+unique place_id: 1896
+CLEAN rows kept: 663  (34.7% of raw)
+
+REJECT REASONS:
+reject_reason
+closed_permanently                    442
+petrol_pump_no_lpg_signal             262
+not_an_lpg_business_type              260
+petrol_pump_major_brand               110
+cng_only                               82
+not_lpg_relevant                       53
+non_gas_company                        18
+duplicate_place_id                     12
+unclassified_place_or_village           3
+near_duplicate_same_phone_and_name      2
+no_name                                 1
+
+BY ROLE:
+role
+lpg_shop_or_agency         352
+lpg_filling_point          126
+lpg_related_other           87
+lpg_company_or_marketer     86
+lpg_autogas_conversion       9
+utility_or_producer          3
+
+BY PROVINCE:
+province
+Sindh                   314
+Punjab                  129
+Khyber Pakhtunkhwa       97
+Islamabad (ICT)          87
+Balochistan              28
+Azad Jammu & Kashmir      4
+Gilgit-Baltistan          4
+
+BY SOURCE FILE (kept / raw):
+  sindh.xlsx: 313
+  punjab.xlsx: 124
+  kpk.xlsx: 105
+  islamabad.xlsx: 86
+  GB and blochistan.xlsx: 32
+  jummu kashmir.xlsx: 3
+
+WITH phone: 465 (70%)  mobile: 443  | with website: 66 (10%)  | social-only sites: 7 | open 24h: 140 | status TEMP closed: 7  unknown: 0
+avg rating (rated only): 4.37 | rated listings: 441 | listings with 0 reviews/no rating: 222
+cities with >=1 clean listing: 133 | in census city master: 583 of 663 listings
+
+TOP 20 CITIES:
+          province city_clean  businesses  shops  autogas  filling_points  companies  with_phone
+             Sindh    Karachi         286    165        6              54         26         181
+   Islamabad (ICT)  Islamabad          87     56        0               8          9          72
+            Punjab     Lahore          42     17        1               8          8          31
+Khyber Pakhtunkhwa   Peshawar          29     16        0               8          4          20
+       Balochistan     Quetta          16     10        1               2          1          11
+            Punjab Faisalabad          10      5        0               1          3           8
+             Sindh  Hyderabad          10      6        0               1          3           7
+            Punjab Rawalpindi           9      6        0               0          3           8
+            Punjab     Multan           8      2        0               2          3           5
+            Punjab   Burewala           5      2        0               2          0           4
+            Punjab      Gojra           5      2        0               1          0           5
+       Balochistan     Gwadar           4      1        0               0          1           1
+            Punjab Gujranwala           4      1        0               1          2           4
+            Punjab     Gujrat           4      3        0               0          0           3
+            Punjab    Sahiwal           3      0        0               0          2           2
+Khyber Pakhtunkhwa   Batkhela           3      1        0               2          0           3
+             Sindh  Shikarpur           3      3        0               0          0           2
+            Punjab  Shujaabad           3      1        0               2          0           2
+Khyber Pakhtunkhwa   Mansehra           3      2        0               0          0           3
+Khyber Pakhtunkhwa     Mardan           3      3        0               0          0           3
+
+TOP DOMAINS (LPG-related websites):
+                domain  listings                                                                                                                names          provinces
+           ssgclpg.com         3                                       SSGC LPG Facilitation Centre | SSGC LPG Limited | SSGC LPG Port Qasim Terminal              Sindh
+           ppgl.com.pk         3                               PARCO - Port Qasim LPG Plant (PPGL) | PARCO Pearl LPG Gas Shop | Parco Pearl Gas (LPG)      Punjab, Sindh
+           noorlpg.com         3                        NOOR LPG – Ferozepur Road Outlet | Noor LPG - Filling Plant Pakistan | Noor LPG Retail Outlet             Punjab
+       lasbellagas.com         2                                          The Gas Shop (LPG REFILLING SHOP) Gizri Branch | The clifton Gas Shop (LPG)              Sindh
+           youtube.com         2                                                              LPG gas Refling Point | Talal LPG GAS AGANCY and supply    Islamabad (ICT)
+             balaj.com         1                                                                                         Balaj gas lpg cyalandar shop    Islamabad (ICT)
+atecengineering.com.pk         1                               Sui Gas , LPG, CNG Professional Engineers & Consultant Islamabad Pakistan. ATE Company    Islamabad (ICT)
+       albashirlpg.com         1                                                                                                  AL Bashir LPG Plant             Punjab
+        brotherlpg.com         1                                                                                                    Brother LPG Plant Khyber Pakhtunkhwa
+         burhangas.com         1 Taheri Traders Karachi - Burhan Gas Company Authorized Distributor (BGC LPG Fiber Cylinder,Explosion Proof Cylinder)              Sindh
+          burshane.com         1                                                                                      Burshane LPG (Pakistan) Limited              Sindh
+          cresslpg.com         1                                                                                                 Cress LPG (Pvt) Ltd.             Punjab
+    dewanpetroleum.com         1                                                                         Salsabil Gas Plant (Dewan Petroleum Limited) Khyber Pakhtunkhwa
+        friends-gas.pk         1                                                                          Friends LPG Gas Agency and Repairing Center    Islamabad (ICT)
+  balochgascompany.com         1                                                                                                   Baloch Gas Company              Sindh
+          bannulpg.com         1                                                                                        BANNU LPG GAS PALNT (PVT) LTD Khyber Pakhtunkhwa
+     adeelindustry.com         1                                                                                         Adeel Industry, LPG Cylinder             Punjab
+         afridigas.com         1                                                                                Afridi Gas & LPG Refilling Station 5.              Sindh
+             ag.com.pk         1                                                                                                      Lub Gas Pvt Ltd             Punjab
+           hochgas.com         1                                                                                                    Hoch Gas Pvt Ltd.              Sindh
+         hammadlpg.com         1                                                                                               Hammad lpg gas company              Sindh
+          gitco.com.pk         1                                                                                                    GITCO Gas Pvt Ltd   Gilgit-Baltistan
+   ghulamrasoollpg.com         1                                                                                Ghulam Rasool LPG plant Hunjra gujrat             Punjab
+          gasco.com.pk         1                                                                                                    Gasco LPG Pvt Ltd             Punjab
+            kurigas.pk         1                                                                                                    Kuri Gas Services    Islamabad (ICT)
+
+Cities in master with ZERO clean listings: 185 of 250

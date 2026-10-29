@@ -1,0 +1,26 @@
+# flamora.pk — 12 useful URLs
+
+
+## appliances
+
+https://flamora.pk/shop
+
+## company
+
+https://flamora.pk/
+https://flamora.pk/about
+https://flamora.pk/contact
+
+## guides
+
+https://flamora.pk/blog
+https://flamora.pk/blog/1
+https://flamora.pk/blog/2
+https://flamora.pk/blog/3
+https://flamora.pk/blog/4
+https://flamora.pk/blog/5
+https://flamora.pk/blog/6
+
+## services
+
+https://flamora.pk/services

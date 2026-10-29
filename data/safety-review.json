@@ -1,0 +1,17 @@
+{
+  "_readme": "Public site shows THE LPG CO. safety team (not a personal name). Internal reviewer may be Haroon Rasheed — keep off public pages per owner 27 Oct 2026.",
+  "reviewedOn": "2026-10-29",
+  "publicReviewerLabel": "THE LPG CO. safety team",
+  "pages": {
+    "/lpg-safety/": "2026-10-29",
+    "/what-to-do-if-you-smell-gas/": "2026-10-29",
+    "/lpg-cylinder-blast-causes-and-prevention/": "2026-10-29",
+    "/lpg-regulators/": "2026-10-29",
+    "/lpg-regulator-problems-and-repair/": "2026-10-29",
+    "/lpg-leak-detector/": "2026-10-29"
+  },
+  "emergencyNumbers": [
+    { "label": "Rescue / emergency (Pakistan)", "number": "1122", "note": "Use your local emergency number if 1122 is not active in your area." },
+    { "label": "THE LPG CO. (non-emergency orders)", "number": "+92 306 9701659", "note": "For supply and cylinder issues after you are safe — not a substitute for emergency services." }
+  ]
+}

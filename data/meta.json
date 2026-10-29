@@ -1,0 +1,434 @@
+{
+  "/": {
+    "title": "LPG Cylinders & Gas Supply in Pakistan | THE LPG CO.",
+    "description": "OGRA-licensed LPG marketer in Islamabad. Order LPG cylinders and refills, check the monthly OGRA price, find supply in your city and get LPG engineering."
+  },
+  "/lpg-price-in-pakistan/": {
+    "title": "LPG Rate in Pakistan Today: OGRA Price per kg & Cylinder",
+    "description": "Today's LPG rate in Pakistan as notified by OGRA: the price per kg and for 5, 11.8, 15 and 45.4 kg cylinders, why it changes monthly and how to order."
+  },
+  "/lpg-price-per-kg-in-pakistan/": {
+    "title": "LPG 1kg Price Today in Pakistan: Latest OGRA Rate per kg",
+    "description": "The latest OGRA-notified LPG 1kg price in Pakistan today, how the per-kg rate sets the price of 11.8 and 45.4 kg cylinders, and when it is revised."
+  },
+  "/ogra-lpg-notified-price/": {
+    "title": "OGRA LPG Price in Pakistan: Latest Notified Rate & Date",
+    "description": "The OGRA LPG price in Pakistan: the latest notified rate, the date it applies from, how OGRA notifies it every month and how to read the notification."
+  },
+  "/lpg-cylinder-price-in-pakistan/": {
+    "title": "Price of LPG Cylinder in Pakistan: 5, 11.8, 15 & 45.4 kg",
+    "description": "Price of LPG cylinder in Pakistan by size: how to work out the gas price for 5, 11.8, 15 and 45.4 kg cylinders from the OGRA rate, and what else you may pay."
+  },
+  "/lpg-cylinders/": {
+    "title": "LPG Cylinders in Pakistan: Steel & Composite with Gas",
+    "description": "LPG cylinders in Pakistan: steel and composite (fibre) cylinders supplied with gas, the common sizes, what OGRA certification means and how to order."
+  },
+  "/lpg-cylinder-sizes-in-pakistan/": {
+    "title": "LPG Cylinder Sizes in Pakistan: 5, 11.8, 15 & 45.4 kg",
+    "description": "LPG cylinder sizes in Pakistan explained: 5, 11.8, 15 and 45.4 kg, what each size is for, and how the size affects the price you pay for gas."
+  },
+  "/lpg-home-delivery/": {
+    "title": "LPG Home Delivery in Pakistan: Order Cylinder Refills",
+    "description": "Order LPG home delivery in Pakistan. We pass your refill or new-cylinder order to a distributor near you and confirm price and delivery time before you agree."
+  },
+  "/order-lpg/": {
+    "title": "Order LPG Online in Pakistan: Cylinders, Refills & Gas",
+    "description": "Order LPG online in Pakistan: send your city, area and cylinder size, or call or WhatsApp. We confirm the price and delivery time before you agree to anything."
+  },
+  "/what-is-lpg/": {
+    "title": "What Does LPG Stand For? Full Form, Meaning & Uses",
+    "description": "LPG stands for Liquefied Petroleum Gas. What LPG is made of, how it is stored in cylinders, where it is used in Pakistan, and the safety basics to know."
+  },
+  "/lpg-safety/": {
+    "title": "LPG Safety in Pakistan: Hazards, Checklist & Precautions",
+    "description": "LPG safety in Pakistan: common hazards, a practical home checklist, and when to stop and call for help. Published after our safety reviewer signs off."
+  },
+  "/what-to-do-if-you-smell-gas/": {
+    "title": "Smell LPG Gas? What To Do First: Steps for Pakistan Homes",
+    "description": "If you smell LPG gas: shut the valve if safe, open windows, leave the area, avoid flames and switches. Clear step-by-step actions for homes in Pakistan."
+  },
+  "/delivery-areas/": {
+    "title": "LPG Delivery Areas in Pakistan: Cities and Provinces",
+    "description": "Where we take LPG orders in Pakistan: cities where our distributor network is strongest, province pages, and how to ask about a town that is not listed."
+  },
+  "/our-network/": {
+    "title": "Our LPG Distributor Network in Pakistan | THE LPG CO.",
+    "description": "How our LPG distributor and supplier network works across Pakistan: the roles, how partners are checked, the cities covered and how to join the network."
+  },
+  "/become-an-lpg-distributor/": {
+    "title": "Become an LPG Distributor in Pakistan | THE LPG CO.",
+    "description": "Want to become an LPG distributor or dealer in Pakistan? How to join our network, what we look for in a partner, and how to send your details to our team."
+  },
+  "/partner-standards/": {
+    "title": "LPG Distributor Standards: What Our Partners Must Meet",
+    "description": "The standards a distributor or supplier must meet to receive orders from THE LPG CO. PAKISTAN: licence, cylinder condition, safety, pricing and complaints."
+  },
+  "/services/": {
+    "title": "LPG Installation Services in Pakistan | THE LPG CO.",
+    "description": "LPG installation services in Pakistan: pipelines, storage tanks, manifolds, LPG-air systems, conversions, safety audits, maintenance and cylinder testing."
+  },
+  "/about/": {
+    "title": "About THE LPG CO. PAKISTAN | OGRA-Licensed LPG Marketer",
+    "description": "About THE LPG CO. PAKISTAN: an OGRA-licensed LPG marketer and distributor in Islamabad, how we work with distributors, and who reviews our safety content."
+  },
+  "/contact/": {
+    "title": "Contact THE LPG CO. PAKISTAN: Call, WhatsApp or Visit",
+    "description": "Contact THE LPG CO. PAKISTAN: call or WhatsApp +92 306 9701659, send a request online, or visit our office at Sector G-12, Islamabad. Ask about LPG supply."
+  },
+  "/how-it-works/": {
+    "title": "How Ordering Works and Our Three Roles | THE LPG CO.",
+    "description": "How an LPG order works with THE LPG CO. PAKISTAN: what happens after you ask, who delivers, and when we act as marketer, reseller or referral partner."
+  },
+  "/licences-and-compliance/": {
+    "title": "OGRA Licence and Compliance | THE LPG CO. PAKISTAN",
+    "description": "Our OGRA licence number, what it covers, how cylinder certification is checked, and where to verify a licence. Documents are listed only when verified."
+  },
+  "/editorial-policy/": {
+    "title": "Editorial Policy: How We Write and Check LPG Content",
+    "description": "How THE LPG CO. PAKISTAN writes, sources, reviews and updates its LPG pages, who signs off safety content, and how to report a mistake you find."
+  },
+  "/pricing-policy/": {
+    "title": "Pricing Policy: How We Quote LPG Prices in Pakistan",
+    "description": "How we publish and quote LPG prices in Pakistan: OGRA-notified rates, the date and the checker on each price, and how delivery and cylinder terms are shown."
+  },
+  "/complaints/": {
+    "title": "Complaints and Feedback: Raise an LPG Order Complaint",
+    "description": "How to raise a complaint about an LPG order, delivery or cylinder with THE LPG CO. PAKISTAN, what we do next and how to escalate if you are not satisfied."
+  },
+  "/privacy/": {
+    "title": "Privacy Policy: How We Handle Your Information | THE LPG CO.",
+    "description": "What personal information THE LPG CO. PAKISTAN collects when you order or enquire, how it is shared with the distributor who delivers, and your choices."
+  },
+  "/terms/": {
+    "title": "Terms of Use for thelpgco.pk | THE LPG CO. PAKISTAN",
+    "description": "Terms for using thelpgco.pk: what the site provides, how requests and prices work, the limits of general safety information and how to contact us."
+  },
+  "/services/lpg-pipeline-installation/": {
+    "title": "LPG Pipeline Installation in Pakistan | THE LPG CO.",
+    "description": "LPG pipeline installation in Pakistan for kitchens, buildings and plants: load calculation, pipework, pressure testing and handover by our engineering team."
+  },
+  "/services/lpg-storage-tank-installation/": {
+    "title": "LPG Storage Tank Installation in Pakistan | THE LPG CO.",
+    "description": "LPG storage tank installation in Pakistan: site assessment, tank and vaporizer selection, installation and commissioning by our engineering team."
+  },
+  "/services/lpg-manifold-and-cylinder-bank-installation/": {
+    "title": "LPG Manifold Installation and Cylinder Banks in Pakistan",
+    "description": "LPG manifold installation in Pakistan: cylinder banks with regulators and changeover for restaurants, hotels and workshops, installed and tested by our team."
+  },
+  "/services/lpg-air-sng-systems/": {
+    "title": "LPG Air Mixing (SNG) Systems in Pakistan | THE LPG CO.",
+    "description": "LPG air mixing systems (SNG) in Pakistan: when they are used, what they include and how our engineers assess, install and commission them for your site."
+  },
+  "/services/boiler-and-furnace-conversion-to-lpg/": {
+    "title": "Boiler Conversion to LPG in Pakistan | THE LPG CO.",
+    "description": "Boiler conversion to LPG in Pakistan: burner assessment, fuel train changes, safety checks and commissioning for boilers and furnaces by our engineers."
+  },
+  "/services/lpg-safety-audit-and-inspection/": {
+    "title": "LPG Safety Inspection and Audit in Pakistan | THE LPG CO.",
+    "description": "LPG safety inspection in Pakistan: a written audit of your cylinders, pipework, regulators and ventilation, with findings and fixes listed in order of risk."
+  },
+  "/services/lpg-maintenance-and-amc/": {
+    "title": "LPG Maintenance Services and AMC in Pakistan | THE LPG CO.",
+    "description": "LPG maintenance services in Pakistan: scheduled inspection, leak testing and repairs under an annual maintenance contract for homes, businesses and plants."
+  },
+  "/services/lpg-cylinder-testing-and-inspection/": {
+    "title": "LPG Cylinder Testing & Inspection in Pakistan | THE LPG CO.",
+    "description": "LPG cylinder inspection in Pakistan: visual, valve and marking checks plus advice on hydrostatic re-test due dates, to judge if a cylinder is fit for refilling."
+  },
+  "/lpg-price-in-pakistan/karachi/": {
+    "title": "LPG Price in Karachi Today: per kg & 11.8 kg Cylinder",
+    "description": "LPG price in Karachi today from the OGRA notification: per kg and common cylinder sizes, what affects delivery cost, and how to order a refill."
+  },
+  "/lpg-price-in-pakistan/lahore/": {
+    "title": "LPG Price in Lahore Today: per kg & 11.8 kg Cylinder",
+    "description": "LPG price in Lahore today from the OGRA notification: per kg and common cylinder sizes, what affects delivery cost, and how to order a refill."
+  },
+  "/lpg-in-rawalpindi/": {
+    "title": "LPG Gas in Rawalpindi: Price Today, Delivery & Supply",
+    "description": "LPG gas in Rawalpindi through our partner network: how supply works, verified areas, how to confirm todays rate and order by call or WhatsApp."
+  },
+  "/lpg-in-islamabad/": {
+    "title": "LPG Gas in Islamabad: Price Today, Delivery & Supply",
+    "description": "LPG gas in Islamabad through our partner network: how supply works, areas we confirm, how to get todays rate and place an order by call or WhatsApp."
+  },
+  "/lpg-in-lahore/": {
+    "title": "LPG Gas in Lahore: Price Today, Home Delivery & Supply",
+    "description": "LPG gas in Lahore through our partner network: how supply works, areas we confirm, how to get todays cylinder rate, and how to place an order by WhatsApp."
+  },
+  "/lpg-in-karachi/": {
+    "title": "LPG Gas in Karachi: Price Today, Delivery & Supply",
+    "description": "LPG gas in Karachi through our partner network: how supply works, areas we confirm, how to get todays cylinder rate, and how to place an order by WhatsApp."
+  },
+  "/lpg-cylinders/12-kg-domestic-cylinder/": {
+    "title": "LPG 11.8 kg (12 kg) Domestic Cylinder in Pakistan | Price",
+    "description": "LPG 11.8 kg (12 kg) domestic cylinder in Pakistan: who it suits, specs, gas price as 11.8 x the OGRA per-kg rate, how to order and safety checks on delivery."
+  },
+  "/lpg-cylinders/45-kg-commercial-cylinder/": {
+    "title": "45.4 kg Commercial LPG Cylinder in Pakistan | Price & Order",
+    "description": "45.4 kg commercial LPG cylinder in Pakistan for restaurants and kitchens: handling, how the gas price is worked out from the OGRA rate, and how to order."
+  },
+  "/lpg-cylinders/5-kg-cylinder/": {
+    "title": "5 kg LPG Cylinder in Pakistan: Portable Size, Price & Order",
+    "description": "5 kg LPG cylinder in Pakistan for portable and light use: who it suits, how the gas price is worked out from the OGRA per-kg rate, safety and how to order."
+  },
+  "/lpg-cylinders/composite-fiber-cylinder/": {
+    "title": "Composite Fibre LPG Cylinder in Pakistan: Light & Rust-Free",
+    "description": "Composite fibre LPG cylinder in Pakistan: lighter than steel, no rust, gas level visible. How it compares with steel, what to check and city availability."
+  },
+  "/lpg-cylinder-refill/": {
+    "title": "LPG Cylinder Refill in Pakistan: Refill vs Exchange Guide",
+    "description": "LPG cylinder refill in Pakistan: the difference between refill and exchange, how to order, what to check on delivery, and gas price versus cylinder shell cost."
+  },
+  "/new-lpg-connection/": {
+    "title": "New LPG Connection in Pakistan: What You Need & How to Order",
+    "description": "New LPG connection in Pakistan: the cylinder, regulator and hose you need, how deposit or buying a new cylinder works, order steps and safe first use."
+  },
+  "/tools/lpg-cylinder-duration-calculator/": {
+    "title": "LPG Cylinder Duration Calculator: How Long Will It Last?",
+    "description": "LPG cylinder duration calculator: choose 5, 11.8, 15 or 45.4 kg and your daily use to estimate days before a refill. A rough estimate with clear limits."
+  },
+  "/lpg-vs-sui-gas/": {
+    "title": "LPG vs Sui Gas: Cost, Differences and When to Switch",
+    "description": "LPG vs Sui gas compared: what each fuel is, how to compare cost per unit of heat using the OGRA price, when to switch and a safe conversion checklist."
+  },
+  "/lpg-vs-cng/": {
+    "title": "LPG vs CNG: Differences, Uses, Safety and Cost Compared",
+    "description": "LPG vs CNG explained: chemistry, storage pressure, home and vehicle use, safety differences and how to choose the right fuel for your needs in Pakistan."
+  },
+  "/lpg-vs-lng/": {
+    "title": "LPG vs LNG: What Is the Difference? A Simple Guide",
+    "description": "LPG vs LNG explained: propane and butane versus cooled natural gas. Compare chemistry, temperature, storage, transport and what it means in Pakistan."
+  },
+  "/propane-vs-butane/": {
+    "title": "Propane vs Butane: Differences, Uses and Which Is Better",
+    "description": "Propane vs butane explained: boiling point, pressure, heat value, cold-weather performance and what it means for an LPG cylinder in Pakistan."
+  },
+  "/why-lpg-prices-change-in-pakistan/": {
+    "title": "Why LPG Prices Change in Pakistan Every Month (OGRA)",
+    "description": "Why OGRA's LPG price changes each month: international prices, the dollar rate, freight, taxes and margins, with a verified month-to-month change."
+  },
+  "/lpg-shortage-pakistan/": {
+    "title": "LPG Shortage in Pakistan: Causes, Signs and What to Do",
+    "description": "Why LPG shortages happen in Pakistan, how to tell a real shortage from a rumour, a dated source log and clear steps to protect your gas supply."
+  },
+  "/lpg-supply-in-pakistan/": {
+    "title": "LPG Supply in Pakistan: Sources, Imports and Delivery",
+    "description": "How LPG reaches Pakistani homes and businesses: local production, imports, bottling, distribution, winter demand and who regulates each step."
+  },
+  "/ogra-lpg-regulations-pakistan/": {
+    "title": "OGRA LPG Regulations in Pakistan: Licences and Your Rights",
+    "description": "A plain-language guide to what OGRA does for LPG in Pakistan: licensing, the monthly price, complaints and a checklist to ask any LPG supplier."
+  },
+  "/how-to-choose-a-licensed-lpg-supplier/": {
+    "title": "How to Choose a Licensed LPG Supplier in Pakistan Safely",
+    "description": "A 10-point checklist for choosing a licensed LPG supplier in Pakistan: licence number, price check, cylinder markings, weight and red flags."
+  },
+  "/how-lpg-is-produced-and-supplied/": {
+    "title": "How LPG Is Produced and Supplied: Well to Cylinder",
+    "description": "How LPG is produced from natural gas and crude oil, stored, bottled by weight and delivered to homes and businesses, explained in seven steps."
+  },
+  "/lpg-composition-and-properties/": {
+    "title": "LPG Composition and Properties: Formula, Density, Heat",
+    "description": "What LPG is made of, with a table for propane, butane and typical LPG: density, boiling point, heat value, flammable range and cylinder capacity."
+  },
+  "/lpg-marketing-company-vs-distributor-vs-dealer/": {
+    "title": "LPG Marketer vs Distributor vs Dealer: Who Does What",
+    "description": "What an LPG marketing company, distributor and dealer each do, who is responsible for the cylinder and what to ask before you buy in Pakistan."
+  },
+  "/lpg-price-in-pakistan/history/": {
+    "title": "LPG Price History in Pakistan: Monthly OGRA Rates Table",
+    "description": "Monthly OGRA notified LPG prices we have verified, with the 11.8 kg and 45.4 kg cylinder gas cost and the change from the previous month, newest first."
+  },
+  "/lpg-regulators/": {
+    "title": "LPG Regulators: Types, How to Choose and Fit Safely",
+    "description": "LPG regulator types (low pressure, high pressure, two-stage), a five-point buying checklist, flow rating guide and safe fitting steps for homes and kitchens."
+  },
+  "/lpg-regulator-problems-and-repair/": {
+    "title": "LPG Regulator Problems and Repair: Causes and Fixes",
+    "description": "LPG regulator leaks, weak flame, hissing and frost: causes, a symptom table, safe leak-check steps and why to replace a regulator instead of repairing it."
+  },
+  "/lpg-leak-detector/": {
+    "title": "LPG Leak Detector: Types, Placement and How to Choose",
+    "description": "LPG leak detector types, where to mount one (low, about 30 cm above the floor), a buying checklist, care and testing tips and what a detector cannot do."
+  },
+  "/lpg-cylinder-blast-causes-and-prevention/": {
+    "title": "Why LPG Cylinders Blast: Causes and Prevention Checklist",
+    "description": "Why LPG cylinder accidents happen: leaks, poor ventilation, heat, damage and misuse, with a cause table, myths and facts and a prevention checklist."
+  },
+  "/commercial-lpg-supply/": {
+    "title": "Commercial LPG Supply in Pakistan for Restaurants | LPG Co",
+    "description": "Commercial LPG supply in Pakistan: 45.4 kg cylinders, cylinder banks and bulk options for restaurants and businesses. Send city and use for a written quote."
+  },
+  "/bulk-lpg-supply/": {
+    "title": "Bulk LPG Supply in Pakistan: Tanks and Cylinder Banks",
+    "description": "Bulk LPG supply in Pakistan for high-use sites. Compare cylinders, cylinder banks and storage tanks, then request a written quote based on your site and demand."
+  },
+  "/industrial-lpg-supply/": {
+    "title": "Industrial LPG Supply in Pakistan for Factories and Plants",
+    "description": "Industrial LPG supply in Pakistan for boilers, furnaces and ovens. Cylinder banks, bulk tanks and engineering from an OGRA-licensed marketer. Request a quote."
+  },
+  "/lpg-bowser/": {
+    "title": "LPG Bowser in Pakistan: Bulk Tanker Delivery Explained",
+    "description": "What an LPG bowser is, how tanker delivery fills a bulk tank, what your site needs and which approvals apply. Ask for bowser delivery in Pakistan."
+  },
+  "/lpg-plant-in-pakistan/": {
+    "title": "LPG Plant in Pakistan: Types, Equipment and Licensing",
+    "description": "LPG plant types in Pakistan: bottling, storage and on-site industrial plants, the equipment they need and the licensing to check. Engineering on request."
+  },
+  "/lpg-business-in-pakistan/": {
+    "title": "LPG Business in Pakistan: Roles, Licences and How to Start",
+    "description": "How the LPG business in Pakistan works: marketer, bottler, distributor, shop and station roles, what to check with OGRA, and how to apply as a partner."
+  },
+  "/auto-lpg-in-pakistan/": {
+    "title": "Auto LPG in Pakistan: Conversion, Safety and Checks First",
+    "description": "Auto LPG in Pakistan explained: vehicle tank and kit parts, safety checks, why home cylinders must never be used in a car and what to verify with OGRA first."
+  },
+  "/lpg-kit-price-in-pakistan/": {
+    "title": "LPG Kit Price in Pakistan: What Changes the Cost and Quote",
+    "description": "LPG kit prices in Pakistan vary by vehicle, kit and tank. See what drives the cost, what a written quote must include and the red flags to avoid before you pay."
+  },
+  "/lpg-companies-in-pakistan/": {
+    "title": "LPG Companies in Pakistan: How OGRA Licensing Works",
+    "description": "How OGRA licensing works for LPG companies in Pakistan: marketers, bottlers, distributors and dealers, and how to check a supplier's licence before you buy."
+  },
+  "/lpg-filling-stations/": {
+    "title": "LPG Filling Stations in Pakistan: Plants vs Car Stations",
+    "description": "LPG filling station can mean a cylinder plant or a vehicle station. Learn the difference, how to check a facility and how to get a home cylinder refilled."
+  },
+  "/lpg-shops-and-agencies/": {
+    "title": "LPG Shops and Agencies in Pakistan: How to Choose One",
+    "description": "How LPG shops and agencies work in Pakistan, what a safe shop shows you, and how to apply as a partner. Send your city to be matched to a supplier near you."
+  },
+  "/lpg-near-me/": {
+    "title": "LPG Near Me: How We Match You to a Supplier | THE LPG CO.",
+    "description": "Find LPG near you in Pakistan. Send your city and area and we match you to a distributor in our network and confirm price and timing before you agree."
+  },
+  "/lpg-in-multan/": {
+    "title": "LPG Gas in Multan: Price, Cylinder Delivery & Supply",
+    "description": "Order LPG gas in Multan from THE LPG CO., an OGRA-licensed marketer. See how the price is set, local supply notes and how to order by call, WhatsApp or form."
+  },
+  "/lpg-in-gujranwala/": {
+    "title": "LPG Gas in Gujranwala: Price, Delivery & Supply Areas",
+    "description": "Order LPG gas in Gujranwala from THE LPG CO., an OGRA-licensed marketer. Listed areas, factory and kitchen supply, and how to order by call, WhatsApp or form."
+  },
+  "/lpg-in-gilgit/": {
+    "title": "LPG Gas in Gilgit: Price, Winter Supply & Delivery",
+    "description": "Order LPG gas in Gilgit from THE LPG CO., an OGRA-licensed marketer. Winter demand, road-closure delays and how to order by call, WhatsApp or the form."
+  },
+  "/lpg-in-skardu/": {
+    "title": "LPG Gas in Skardu: Price, Winter Supply & Delivery",
+    "description": "Order LPG gas in Skardu from THE LPG CO., an OGRA-licensed marketer. Cold-weather supply, hotel demand, road delays and how to order by call or WhatsApp."
+  },
+  "/lpg-in-murree/": {
+    "title": "LPG Gas in Murree: Price, Winter Delivery & Supply",
+    "description": "Order LPG gas in Murree from THE LPG CO., an OGRA-licensed marketer. Snowfall delays, hotel and home demand and how to order by call, WhatsApp or the form."
+  },
+  "/lpg-in-muzaffarabad/": {
+    "title": "LPG Gas in Muzaffarabad: Price, Cylinder Delivery & Supply",
+    "description": "Order LPG gas in Muzaffarabad from THE LPG CO., an OGRA-licensed marketer. Hill delivery notes, honest coverage and how to order by call, WhatsApp or form."
+  },
+  "/lpg-in-abbottabad/": {
+    "title": "LPG Gas in Abbottabad: Price, Delivery & Supply Areas",
+    "description": "Order LPG gas in Abbottabad from THE LPG CO., an OGRA-licensed marketer. Winter use, listed areas and how to order by call, WhatsApp or the request form."
+  },
+  "/industries/": {
+    "title": "LPG Supply by Industry: Restaurants, Hotels, Factories",
+    "description": "LPG supply for restaurants, hotels, textile and food units, farms, hospitals, societies and factories. See options, what we need to quote and request a quote."
+  },
+  "/industries/restaurants/": {
+    "title": "LPG Supply for Restaurants in Pakistan: 45.4 kg Cylinders",
+    "description": "LPG for restaurants: 45.4 kg cylinders, cylinder banks and piped kitchen lines. See supply options, safety points and what to send to request a quote."
+  },
+  "/industries/hotels/": {
+    "title": "LPG Supply for Hotels and Guesthouses in Pakistan: Options",
+    "description": "LPG supply for hotels and guesthouses: kitchen, hot water and laundry loads on cylinder banks or bulk tanks. See options and request a written quote."
+  },
+  "/industries/textile/": {
+    "title": "LPG for Textile Units: Boilers, Dryers and Bulk Supply",
+    "description": "LPG for textile units: steam boilers, thermal oil heaters and dryers on cylinder banks or bulk tanks with a vaporizer. See options and request a quote."
+  },
+  "/industries/food-processing/": {
+    "title": "LPG for Food Processing and Bakeries: Ovens, Fryers, Steam",
+    "description": "LPG for food processing and bakeries: ovens, fryers, roasters and steam on cylinder banks or bulk supply. See options and send details for a written quote."
+  },
+  "/industries/poultry-farms/": {
+    "title": "LPG for Poultry Farms in Pakistan: Brooders and Shed Heating",
+    "description": "LPG for poultry farms: brooders and shed heaters on 45.4 kg cylinders, banks or bulk tanks. See supply options, safety points and request a farm quote."
+  },
+  "/industries/hospitals/": {
+    "title": "LPG Supply for Hospitals: Kitchens, Laundry and Boilers",
+    "description": "LPG supply for hospitals and clinics: kitchen, laundry, steam and hot water with a reserve plan and safety review. See options and request a quote."
+  },
+  "/industries/housing-societies/": {
+    "title": "LPG Supply for Housing Societies, Apartments and Communities",
+    "description": "LPG for housing societies: scheduled cylinder delivery, shared cylinder banks and piped LPG for apartments. See options, safety points and request a quote."
+  },
+  "/industries/manufacturing/": {
+    "title": "LPG for Manufacturing Plants: Furnaces, Ovens and Boilers",
+    "description": "LPG for factories: furnaces, ovens, dryers and boilers on bulk tanks, cylinder banks or LPG-air systems. See options and send your load for a written quote."
+  },
+  "/industries/weddings-and-events/": {
+    "title": "LPG Cylinders for Weddings and Catering Events in Pakistan",
+    "description": "LPG for weddings and catering: several 45.4 kg cylinders for event days plus safety tips. Send the date, city and burner count to request a quote."
+  },
+  "/tools/lpg-cylinder-price-calculator/": {
+    "title": "LPG Cylinder Price Calculator: Gas Cost by Size and Kg",
+    "description": "Calculate LPG cylinder gas cost by size, quantity and OGRA rate per kg, then add delivery or deposit you were quoted. A free estimate tool for Pakistan."
+  },
+  "/tools/lpg-litre-to-kg-converter/": {
+    "title": "LPG Litre to Kg Converter: Liquid LPG Volume to Weight",
+    "description": "Convert LPG litres to kg and kg to litres with an editable density for propane, butane or a mix. Free estimate tool with the formula and worked examples."
+  },
+  "/tools/lpg-btu-kwh-converter/": {
+    "title": "LPG BTU to kWh Converter: Kg, MJ, kWh and MMBTU Tool",
+    "description": "Convert LPG kg to MJ, kWh, BTU and MMBTU with an editable heating value, and estimate burner gas use by rating and hours. Free tool for Pakistan users."
+  },
+  "/tools/lpg-tank-size-calculator/": {
+    "title": "LPG Tank Size Calculator: Rough Storage From Your Gas Use",
+    "description": "Estimate LPG storage in kg and litres from your daily or monthly use, delivery interval, reserve and fill level. A rough guide, not a tank design."
+  },
+  "/tools/lpg-vs-diesel-cost-calculator/": {
+    "title": "LPG vs Diesel Cost Calculator for Boilers and Furnaces",
+    "description": "Compare monthly LPG and diesel fuel cost for boilers and furnaces using your diesel price and an LPG rate, with editable heating values and efficiency."
+  },
+  "/tools/lpg-vs-sui-gas-cost-calculator/": {
+    "title": "LPG vs Sui Gas Cost Calculator: Compare Cost per MMBTU",
+    "description": "Compare LPG with your Sui gas bill per MMBTU. See how many kg of LPG match your monthly gas use and the cost difference, using your own bill figures."
+  },
+  "/shop/": {
+    "title": "LPG Appliances in Pakistan: Stoves, Geysers, Heaters, Hoses",
+    "description": "Browse LPG stoves, geysers, heaters, burners, hoses and vaporizers from THE LPG CO. Stock and prices are confirmed on request; ask for a quote online."
+  },
+  "/shop/commercial-lpg-burners/": {
+    "title": "Commercial LPG Burners for Restaurants and Kitchens",
+    "description": "Commercial LPG burners for restaurants and kitchens: what sets the price, regulator and hose needs and safety points. Ask for availability and a quote."
+  },
+  "/shop/lpg-hoses-and-accessories/": {
+    "title": "LPG Hoses, Regulators and Accessories: What to Check",
+    "description": "LPG hoses, regulators, clamps and accessories: what to check, when to replace and safety tips. Ask THE LPG CO. for stock and a quote for your city."
+  },
+  "/lpg-stove-price-in-pakistan/": {
+    "title": "LPG Stove Price in Pakistan: What Decides It and How to Ask",
+    "description": "LPG stove price in Pakistan depends on burners, material and ignition. See what to compare and safety points, then ask THE LPG CO. for stock and a quote."
+  },
+  "/lpg-geyser-price-in-pakistan/": {
+    "title": "LPG Geyser Price in Pakistan: Types, Safety and Quotes",
+    "description": "LPG geyser price in Pakistan depends on type and capacity. See instant vs storage, ventilation and cylinder use, then ask THE LPG CO. for a quote."
+  },
+  "/lpg-heaters-in-pakistan/": {
+    "title": "LPG Heaters in Pakistan: Types, Safe Use and How to Ask",
+    "description": "LPG heaters in Pakistan: types, gas use, cold-weather tips and safe use with fresh air. Ask THE LPG CO. for stock and a quote for your city."
+  },
+  "/lpg-vaporizers/": {
+    "title": "LPG Vaporizers: What They Do and When You Need One",
+    "description": "What an LPG vaporizer does, when tanks and cylinder banks need one and how it is sized. Request an engineering assessment from THE LPG CO. PAKISTAN."
+  },
+  "/projects/": {
+    "title": "LPG Engineering Projects: Pipelines, Tanks and Manifolds",
+    "description": "LPG engineering projects from THE LPG CO., listed only with customer consent. See the kinds of pipeline, tank and manifold work we do and request a quote."
+  },
+  "/about/haroon-rasheed/": {
+    "title": "Safety Leadership at THE LPG CO. PAKISTAN: Our Team",
+    "description": "How THE LPG CO. PAKISTAN safety team reviews safety pages, which pages carry a review date, and the emergency steps if you smell gas. Team byline only."
+  }
+}

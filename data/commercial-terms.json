@@ -1,0 +1,14 @@
+{
+  "_readme": "Owner-confirmed commercial terms (27 Oct 2026). Shown on price/order pages. Update when policy changes.",
+  "sameOgraRateAllCities": true,
+  "deposit": "Cylinder deposit applies when you take a new empty or filled cylinder into your custody; amount confirmed for your size and city before you agree.",
+  "exchange": "Empty-for-full exchange is available when you return a compatible empty cylinder in acceptable condition; we confirm eligibility when you order.",
+  "newEmpty": "New empty cylinders (steel and composite, standard sizes we stock) can be supplied with or without first fill; price quoted before delivery.",
+  "delivery": "Delivery through our nationwide distributor network across Pakistan. Target in covered city areas: about one hour when a local team is available; otherwise the distributor contacts you personally to confirm the window. We confirm your street and timing before you agree.",
+  "delivery247Note": "Order requests are accepted around the clock via call, WhatsApp and the website form from every province; fulfilment follows distributor availability in your area.",
+  "partnersCertifiedCylindersOnly": true,
+  "partnersCertifiedRule": "Every distributor and supplier in our network must supply only cylinders that carry valid certification markings. Customers should check the marking and seal on delivery and refuse a damaged cylinder.",
+  "responseTime": "We aim to reply to calls and WhatsApp within a few minutes during active hours.",
+  "manufacturer": true,
+  "stockPolicy": "Standard cylinder sizes and listed appliances/accessories are held in inventory for same-day dispatch where the local team can fulfil; exact stock confirmed when you order."
+}

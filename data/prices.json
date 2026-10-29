@@ -1,0 +1,26 @@
+{
+  "_readme": "OGRA monthly LPG consumer price. Update on (or right after) the 1st of each month from the official notification. Same perKgPkr for all cities unless OGRA publishes a different city line (rare). verifiedBy must be a real checker name or 'THE LPG CO. team'.",
+  "_process": "1) Open https://www.ogra.org.pk/lpg-notified-prices or https://price.ogra.org.pk/ 2) Read per-kg consumer price and effective date 3) Add a new object at the TOP of notifications[] 4) Set verifiedOn to today 5) Commit and redeploy. Old months stay for history.",
+  "notifications": [
+    {
+      "month": "2026-10",
+      "effectiveFrom": "2026-10-01",
+      "perKgPkr": 279.34,
+      "sourceUrl": "https://www.ogra.org.pk/lpg-notified-prices",
+      "sourceNote": "October 2026 OGRA consumer price as reported from the official notification cycle (Dawn / The Nation / ARY summarising OGRA: Rs 279.34/kg; 11.8 kg cylinder Rs 3,296.23). Re-check PDF on ogra.org.pk when the file is posted.",
+      "verifiedBy": "THE LPG CO. team",
+      "verifiedOn": "2026-10-27",
+      "cities": {}
+    },
+    {
+      "month": "2026-09",
+      "effectiveFrom": "2026-09-01",
+      "perKgPkr": 258.65,
+      "sourceUrl": "https://www.ogra.org.pk/lpg-notified-prices",
+      "sourceNote": "September 2026 prior month figure cited in October notification coverage (Rs 258.65/kg).",
+      "verifiedBy": "THE LPG CO. team",
+      "verifiedOn": "2026-10-27",
+      "cities": {}
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+node_modules
+.next
+out
+.env
+.env.local
+.data
+.data-server.log
+.data-server.err
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# Local source / duplicate assets (site uses public/)
+pics/
+
+# SEO research dumps (not needed for Vercel build)
+keywords and research/
+
+# Partner and dealer data: other businesses' phone numbers. Keep out of source control.
+docs/seo-plan/data/partners_master.csv
+docs/seo-plan/data/lpg_businesses_clean.csv
+docs/seo-plan/data/outscraper_rejected.csv
+docs/seo-plan/data/dealers_xlsx_classified.csv
+
+# Competitor crawl database (scraped third-party content) and local SQLite
+docs/seo-plan/intel/intel.db
+docs/seo-plan/intel/crawl_run.log

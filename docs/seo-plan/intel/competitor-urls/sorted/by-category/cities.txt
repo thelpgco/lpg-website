@@ -1,0 +1,14 @@
+# City / coverage / location pages (12 URLs)
+
+https://cylin.com.pk/coverage  [cylin.com.pk]
+https://cylin.com.pk/coverage/faisalabad  [cylin.com.pk]
+https://cylin.com.pk/coverage/hyderabad  [cylin.com.pk]
+https://cylin.com.pk/coverage/islamabad  [cylin.com.pk]
+https://cylin.com.pk/coverage/karachi  [cylin.com.pk]
+https://cylin.com.pk/coverage/lahore  [cylin.com.pk]
+https://cylin.com.pk/coverage/multan  [cylin.com.pk]
+https://cylin.com.pk/coverage/peshawar  [cylin.com.pk]
+https://cylin.com.pk/coverage/rawalpindi  [cylin.com.pk]
+https://ppgl.com.pk/cinestar-cinema-lahore  [ppgl.com.pk]
+https://ppgl.com.pk/lahore-plant  [ppgl.com.pk]
+https://ppgl.com.pk/locations  [ppgl.com.pk]

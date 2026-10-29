@@ -1,0 +1,821 @@
+{
+ "generatedAt": "2026-10-26",
+ "source": "Owner-supplied distributor list (LPG_dealers_all_regions.xlsx), confirmed by the owner on 2026-10-26. Counts only.",
+ "totals": {
+  "partners": 452,
+  "suppliers": 347,
+  "autoLpg": 104,
+  "citiesWithPartners": 51,
+  "hubCities": 9
+ },
+ "provinces": {
+  "azad-kashmir": {
+   "name": "Azad Kashmir",
+   "code": "AJK",
+   "suppliers": 2,
+   "autoLpg": 2,
+   "cities": []
+  },
+  "balochistan": {
+   "name": "Balochistan",
+   "code": "Balochistan",
+   "suppliers": 12,
+   "autoLpg": 4,
+   "cities": [
+    "quetta",
+    "gwadar",
+    "hub",
+    "loralai",
+    "pishin",
+    "zhob"
+   ]
+  },
+  "gilgit-baltistan": {
+   "name": "Gilgit-Baltistan",
+   "code": "GB",
+   "suppliers": 2,
+   "autoLpg": 2,
+   "cities": []
+  },
+  "islamabad": {
+   "name": "Islamabad (ICT)",
+   "code": "ICT",
+   "suppliers": 46,
+   "autoLpg": 14,
+   "cities": []
+  },
+  "khyber-pakhtunkhwa": {
+   "name": "Khyber Pakhtunkhwa",
+   "code": "KP",
+   "suppliers": 39,
+   "autoLpg": 21,
+   "cities": []
+  },
+  "punjab": {
+   "name": "Punjab",
+   "code": "Punjab",
+   "suppliers": 91,
+   "autoLpg": 14,
+   "cities": [
+    "lahore",
+    "rawalpindi",
+    "faisalabad",
+    "burewala",
+    "gujranwala",
+    "gojra",
+    "bhakkar",
+    "gujrat",
+    "sahiwal",
+    "bhalwal",
+    "jalalpur-pirwala",
+    "multan",
+    "okara",
+    "sambrial",
+    "sargodha",
+    "sialkot",
+    "talagang",
+    "bhera",
+    "dunyapur",
+    "jatoi"
+   ]
+  },
+  "sindh": {
+   "name": "Sindh",
+   "code": "Sindh",
+   "suppliers": 137,
+   "autoLpg": 47,
+   "cities": [
+    "karachi",
+    "hyderabad",
+    "thul",
+    "larkana",
+    "umerkot",
+    "shikarpur"
+   ]
+  }
+ },
+ "cities": [
+  {
+   "slug": "karachi",
+   "name": "Karachi",
+   "province": "Sindh",
+   "popTier": "T1",
+   "suppliers": 121,
+   "autoLpg": 43,
+   "localities": [
+    "Azam Basti Azam Town",
+    "Clifton Punjab Colony",
+    "Gadap Town",
+    "Jat Land Lines",
+    "Lower Gizri Gizri",
+    "Quaidabad",
+    "Railway Phata Benazir Park",
+    "Saddar",
+    "Taiser Town",
+    "Upper Gizri Defence Housing Authority"
+   ],
+   "open24h": 42,
+   "hub": true
+  },
+  {
+   "slug": "islamabad",
+   "name": "Islamabad",
+   "province": "Islamabad (ICT)",
+   "popTier": "T1",
+   "suppliers": 46,
+   "autoLpg": 14,
+   "localities": [
+    "Block A Police Foundation",
+    "Block D Jinnah Garden",
+    "Block F Police Foundation",
+    "Islamabad",
+    "Jaddah town",
+    "Koral Town",
+    "Sector A DHA Phase II",
+    "Sector DHA Phase II",
+    "Shah Allah Ditta",
+    "Tarnol"
+   ],
+   "open24h": 19,
+   "hub": true
+  },
+  {
+   "slug": "lahore",
+   "name": "Lahore",
+   "province": "Punjab",
+   "popTier": "T1",
+   "suppliers": 33,
+   "autoLpg": 3,
+   "localities": [
+    "Block C Model Town",
+    "Block C Muslim Town",
+    "College Block Allama Iqbal Town",
+    "Ichhra",
+    "Ismail Nagar",
+    "Kot Hidayat Ali",
+    "Mozang Chungi",
+    "Nazim Block Allama Iqbal Town",
+    "Nishter Colony",
+    "bala stop Sodhiwal"
+   ],
+   "open24h": 10,
+   "hub": true
+  },
+  {
+   "slug": "rawalpindi",
+   "name": "Rawalpindi",
+   "province": "Punjab",
+   "popTier": "T1",
+   "suppliers": 15,
+   "autoLpg": 0,
+   "localities": [
+    "B-Block Block B Satellite Town",
+    "Dheri Hasan Abad",
+    "Dhok Chaudhrian",
+    "Korang Town (Extension)",
+    "Lalazar",
+    "Nawaz Colony",
+    "Rawalpindi",
+    "Town"
+   ],
+   "open24h": 3,
+   "hub": true
+  },
+  {
+   "slug": "peshawar",
+   "name": "Peshawar",
+   "province": "Khyber Pakhtunkhwa",
+   "popTier": "T1",
+   "suppliers": 12,
+   "autoLpg": 8,
+   "localities": [
+    "Abdarra",
+    "Achini Payan",
+    "Board",
+    "Jhagra",
+    "Khushal Town",
+    "Phandu Dehri",
+    "Putwar Payan",
+    "Shāheen Town Tajabad",
+    "Taru Jabba",
+    "Tehkal"
+   ],
+   "open24h": 3,
+   "hub": true
+  },
+  {
+   "slug": "hyderabad",
+   "name": "Hyderabad",
+   "province": "Sindh",
+   "popTier": "T1",
+   "suppliers": 8,
+   "autoLpg": 0,
+   "localities": [
+    "Bhittai Town Qasimabad",
+    "Hyderabad",
+    "Qasimabad",
+    "Shahi Bazar"
+   ],
+   "open24h": 3,
+   "hub": true
+  },
+  {
+   "slug": "faisalabad",
+   "name": "Faisalabad",
+   "province": "Punjab",
+   "popTier": "T1",
+   "suppliers": 6,
+   "autoLpg": 0,
+   "localities": [
+    "Abdullah Garden",
+    "Amin Town",
+    "Faisalabad",
+    "Iron Market",
+    "Millat Town"
+   ],
+   "open24h": 1,
+   "hub": true
+  },
+  {
+   "slug": "quetta",
+   "name": "Quetta",
+   "province": "Balochistan",
+   "popTier": "T1",
+   "suppliers": 6,
+   "autoLpg": 3,
+   "localities": [
+    "Gulistan Town hazar ganji",
+    "Killi Ibrahimzai",
+    "Nawa Killi",
+    "Quetta",
+    "Satellite Town",
+    "Simongli Town"
+   ],
+   "open24h": 3,
+   "hub": true
+  },
+  {
+   "slug": "burewala",
+   "name": "Burewala",
+   "province": "Punjab",
+   "popTier": "T3",
+   "suppliers": 5,
+   "autoLpg": 1,
+   "localities": [
+    "Burewala",
+    "I Block",
+    "Shah Faisal Colony",
+    "Yaqoob Abad"
+   ],
+   "open24h": 1,
+   "hub": true
+  },
+  {
+   "slug": "gujranwala",
+   "name": "Gujranwala",
+   "province": "Punjab",
+   "popTier": "T1",
+   "suppliers": 4,
+   "autoLpg": 0,
+   "localities": [
+    "Gujranwala",
+    "Gulshan Colony",
+    "Samnabad"
+   ],
+   "open24h": 1,
+   "hub": false
+  },
+  {
+   "slug": "gojra",
+   "name": "Gojra",
+   "province": "Punjab",
+   "popTier": "T3",
+   "suppliers": 3,
+   "autoLpg": 3,
+   "localities": [
+    "Gojra"
+   ],
+   "open24h": 1,
+   "hub": false
+  },
+  {
+   "slug": "bhakkar",
+   "name": "Bhakkar",
+   "province": "Punjab",
+   "popTier": "T4",
+   "suppliers": 2,
+   "autoLpg": 0,
+   "localities": [
+    "Bhakkar"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "gilgit",
+   "name": "Gilgit",
+   "province": "Gilgit-Baltistan",
+   "popTier": "T?",
+   "suppliers": 2,
+   "autoLpg": 0,
+   "localities": [
+    "Gilgit",
+    "Jutial"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "gujrat",
+   "name": "Gujrat",
+   "province": "Punjab",
+   "popTier": "T2",
+   "suppliers": 2,
+   "autoLpg": 1,
+   "localities": [
+    "Bakhshupura",
+    "Bhimber Road Area",
+    "New Shadman Colony"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "mansehra",
+   "name": "Mansehra",
+   "province": "Khyber Pakhtunkhwa",
+   "popTier": "T4",
+   "suppliers": 2,
+   "autoLpg": 1,
+   "localities": [
+    "Mansehra"
+   ],
+   "open24h": 1,
+   "hub": false
+  },
+  {
+   "slug": "sahiwal",
+   "name": "Sahiwal",
+   "province": "Punjab",
+   "popTier": "T2",
+   "suppliers": 2,
+   "autoLpg": 0,
+   "localities": [
+    "Johar Town",
+    "Shadman Town"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "thul",
+   "name": "Thul",
+   "province": "Sindh",
+   "popTier": "T4",
+   "suppliers": 2,
+   "autoLpg": 0,
+   "localities": [
+    "Mir Murtaza Khoso Colony Taluka city"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "abbottabad",
+   "name": "Abbottabad",
+   "province": "Khyber Pakhtunkhwa",
+   "popTier": "T3",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Al Mansoor Town"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "batkhela",
+   "name": "Batkhela",
+   "province": "Khyber Pakhtunkhwa",
+   "popTier": "T4",
+   "suppliers": 1,
+   "autoLpg": 2,
+   "localities": [
+    "Batkhela"
+   ],
+   "open24h": 2,
+   "hub": false
+  },
+  {
+   "slug": "bhalwal",
+   "name": "Bhalwal",
+   "province": "Punjab",
+   "popTier": "T4",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Punjab Industrial Estates"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "dera-ismail-khan",
+   "name": "Dera Ismail Khan",
+   "province": "Khyber Pakhtunkhwa",
+   "popTier": "T3",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "gwadar",
+   "name": "Gwadar",
+   "province": "Balochistan",
+   "popTier": "T4",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Door Ghatte"
+   ],
+   "open24h": 1,
+   "hub": false
+  },
+  {
+   "slug": "hub",
+   "name": "Hub",
+   "province": "Balochistan",
+   "popTier": "T3",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Hub"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "jalalpur-pirwala",
+   "name": "Jalalpur Pirwala",
+   "province": "Punjab",
+   "popTier": "T4",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Jalalpur Pirwala"
+   ],
+   "open24h": 1,
+   "hub": false
+  },
+  {
+   "slug": "jamrud",
+   "name": "Jamrud",
+   "province": "Khyber Pakhtunkhwa",
+   "popTier": "T4",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Jamrud"
+   ],
+   "open24h": 1,
+   "hub": false
+  },
+  {
+   "slug": "kohat",
+   "name": "Kohat",
+   "province": "Khyber Pakhtunkhwa",
+   "popTier": "T3",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Khattak Colony"
+   ],
+   "open24h": 1,
+   "hub": false
+  },
+  {
+   "slug": "lakki-marwat",
+   "name": "Lakki Marwat",
+   "province": "Khyber Pakhtunkhwa",
+   "popTier": "T4",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Lakki Marwat"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "larkana",
+   "name": "Larkana",
+   "province": "Sindh",
+   "popTier": "T2",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Larkana"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "loralai",
+   "name": "Loralai",
+   "province": "Balochistan",
+   "popTier": "T?",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Pathankot"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "mirpur",
+   "name": "Mirpur",
+   "province": "Azad Jammu & Kashmir",
+   "popTier": "T?",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "New Mirpur City"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "multan",
+   "name": "Multan",
+   "province": "Punjab",
+   "popTier": "T1",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Model Town"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "nowshera",
+   "name": "Nowshera",
+   "province": "Khyber Pakhtunkhwa",
+   "popTier": "T4",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Pajagi"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "okara",
+   "name": "Okara",
+   "province": "Punjab",
+   "popTier": "T2",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Okara"
+   ],
+   "open24h": 1,
+   "hub": false
+  },
+  {
+   "slug": "pishin",
+   "name": "Pishin",
+   "province": "Balochistan",
+   "popTier": "T4",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Pishin"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "rawalakot",
+   "name": "Rawalakot",
+   "province": "Azad Jammu & Kashmir",
+   "popTier": "T?",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "sambrial",
+   "name": "Sambrial",
+   "province": "Punjab",
+   "popTier": "T4",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Sambrial"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "sargodha",
+   "name": "Sargodha",
+   "province": "Punjab",
+   "popTier": "T2",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Satellite Town"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "sialkot",
+   "name": "Sialkot",
+   "province": "Punjab",
+   "popTier": "T2",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "bhobangi"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "swabi",
+   "name": "Swabi",
+   "province": "Khyber Pakhtunkhwa",
+   "popTier": "T3",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Swabi"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "talagang",
+   "name": "Talagang",
+   "province": "Punjab",
+   "popTier": "T4",
+   "suppliers": 1,
+   "autoLpg": 1,
+   "localities": [
+    "Talagang"
+   ],
+   "open24h": 1,
+   "hub": false
+  },
+  {
+   "slug": "topi",
+   "name": "Topi",
+   "province": "Khyber Pakhtunkhwa",
+   "popTier": "T4",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Topi"
+   ],
+   "open24h": 1,
+   "hub": false
+  },
+  {
+   "slug": "umerkot",
+   "name": "Umerkot",
+   "province": "Sindh",
+   "popTier": "T4",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Umerkot"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "zhob",
+   "name": "Zhob",
+   "province": "Balochistan",
+   "popTier": "T?",
+   "suppliers": 1,
+   "autoLpg": 0,
+   "localities": [
+    "Zhob"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "astore",
+   "name": "Astore",
+   "province": "Gilgit-Baltistan",
+   "popTier": "T?",
+   "suppliers": 0,
+   "autoLpg": 1,
+   "localities": [
+    "Eidgah"
+   ],
+   "open24h": 1,
+   "hub": false
+  },
+  {
+   "slug": "bhera",
+   "name": "Bhera",
+   "province": "Punjab",
+   "popTier": "T4",
+   "suppliers": 0,
+   "autoLpg": 1,
+   "localities": [
+    "Bhera"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "bhimber",
+   "name": "Bhimber",
+   "province": "Azad Jammu & Kashmir",
+   "popTier": "T?",
+   "suppliers": 0,
+   "autoLpg": 1,
+   "localities": [],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "dunyapur",
+   "name": "Dunyapur",
+   "province": "Punjab",
+   "popTier": "T4",
+   "suppliers": 0,
+   "autoLpg": 1,
+   "localities": [
+    "Dunyapur"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "jatoi",
+   "name": "Jatoi",
+   "province": "Punjab",
+   "popTier": "T3",
+   "suppliers": 0,
+   "autoLpg": 1,
+   "localities": [
+    "Jatoi"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "mardan",
+   "name": "Mardan",
+   "province": "Khyber Pakhtunkhwa",
+   "popTier": "T3",
+   "suppliers": 0,
+   "autoLpg": 2,
+   "localities": [
+    "Akbarpoora",
+    "Bakhshali Bazar"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "muzaffarabad",
+   "name": "Muzaffarabad",
+   "province": "Azad Jammu & Kashmir",
+   "popTier": "T?",
+   "suppliers": 0,
+   "autoLpg": 1,
+   "localities": [
+    "Muzaffarabad"
+   ],
+   "open24h": 0,
+   "hub": false
+  },
+  {
+   "slug": "shikarpur",
+   "name": "Shikarpur",
+   "province": "Sindh",
+   "popTier": "T3",
+   "suppliers": 0,
+   "autoLpg": 2,
+   "localities": [
+    "Shikarpur"
+   ],
+   "open24h": 0,
+   "hub": false
+  }
+ ]
+}

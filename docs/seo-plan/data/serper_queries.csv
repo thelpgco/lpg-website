@@ -1,0 +1,521 @@
+﻿wave,city,province,intent,query,gl,hl,location,num,endpoint
+1,Karachi,Sindh,price,lpg cylinder price in karachi,pk,en,"Karachi, Pakistan",10,search
+1,Karachi,Sindh,price_ru,lpg gas ka rate karachi,pk,en,"Karachi, Pakistan",10,search
+1,Karachi,Sindh,delivery,lpg cylinder home delivery karachi,pk,en,"Karachi, Pakistan",10,search
+1,Karachi,Sindh,refill,lpg gas refill karachi,pk,en,"Karachi, Pakistan",10,search
+1,Karachi,Sindh,dealer,lpg gas agency karachi,pk,en,"Karachi, Pakistan",10,search
+1,Karachi,Sindh,buy,buy lpg cylinder karachi,pk,en,"Karachi, Pakistan",10,search
+1,Karachi,Sindh,buy_ru,karachi mein lpg cylinder,pk,en,"Karachi, Pakistan",10,search
+1,Karachi,Sindh,commercial,commercial lpg cylinder karachi,pk,en,"Karachi, Pakistan",10,search
+1,Lahore,Punjab,price,lpg cylinder price in lahore,pk,en,"Lahore, Pakistan",10,search
+1,Lahore,Punjab,price_ru,lpg gas ka rate lahore,pk,en,"Lahore, Pakistan",10,search
+1,Lahore,Punjab,delivery,lpg cylinder home delivery lahore,pk,en,"Lahore, Pakistan",10,search
+1,Lahore,Punjab,refill,lpg gas refill lahore,pk,en,"Lahore, Pakistan",10,search
+1,Lahore,Punjab,dealer,lpg gas agency lahore,pk,en,"Lahore, Pakistan",10,search
+1,Lahore,Punjab,buy,buy lpg cylinder lahore,pk,en,"Lahore, Pakistan",10,search
+1,Lahore,Punjab,buy_ru,lahore mein lpg cylinder,pk,en,"Lahore, Pakistan",10,search
+1,Lahore,Punjab,commercial,commercial lpg cylinder lahore,pk,en,"Lahore, Pakistan",10,search
+1,Quetta,Balochistan,price,lpg cylinder price in quetta,pk,en,"Quetta, Pakistan",10,search
+1,Quetta,Balochistan,price_ru,lpg gas ka rate quetta,pk,en,"Quetta, Pakistan",10,search
+1,Quetta,Balochistan,delivery,lpg cylinder home delivery quetta,pk,en,"Quetta, Pakistan",10,search
+1,Quetta,Balochistan,refill,lpg gas refill quetta,pk,en,"Quetta, Pakistan",10,search
+1,Quetta,Balochistan,dealer,lpg gas agency quetta,pk,en,"Quetta, Pakistan",10,search
+1,Quetta,Balochistan,buy,buy lpg cylinder quetta,pk,en,"Quetta, Pakistan",10,search
+1,Quetta,Balochistan,buy_ru,quetta mein lpg cylinder,pk,en,"Quetta, Pakistan",10,search
+1,Quetta,Balochistan,commercial,commercial lpg cylinder quetta,pk,en,"Quetta, Pakistan",10,search
+1,Peshawar,Khyber Pakhtunkhwa,price,lpg cylinder price in peshawar,pk,en,"Peshawar, Pakistan",10,search
+1,Peshawar,Khyber Pakhtunkhwa,price_ru,lpg gas ka rate peshawar,pk,en,"Peshawar, Pakistan",10,search
+1,Peshawar,Khyber Pakhtunkhwa,delivery,lpg cylinder home delivery peshawar,pk,en,"Peshawar, Pakistan",10,search
+1,Peshawar,Khyber Pakhtunkhwa,refill,lpg gas refill peshawar,pk,en,"Peshawar, Pakistan",10,search
+1,Peshawar,Khyber Pakhtunkhwa,dealer,lpg gas agency peshawar,pk,en,"Peshawar, Pakistan",10,search
+1,Peshawar,Khyber Pakhtunkhwa,buy,buy lpg cylinder peshawar,pk,en,"Peshawar, Pakistan",10,search
+1,Peshawar,Khyber Pakhtunkhwa,buy_ru,peshawar mein lpg cylinder,pk,en,"Peshawar, Pakistan",10,search
+1,Peshawar,Khyber Pakhtunkhwa,commercial,commercial lpg cylinder peshawar,pk,en,"Peshawar, Pakistan",10,search
+1,Islamabad,Islamabad (ICT),price,lpg cylinder price in islamabad,pk,en,"Islamabad, Pakistan",10,search
+1,Islamabad,Islamabad (ICT),price_ru,lpg gas ka rate islamabad,pk,en,"Islamabad, Pakistan",10,search
+1,Islamabad,Islamabad (ICT),delivery,lpg cylinder home delivery islamabad,pk,en,"Islamabad, Pakistan",10,search
+1,Islamabad,Islamabad (ICT),refill,lpg gas refill islamabad,pk,en,"Islamabad, Pakistan",10,search
+1,Islamabad,Islamabad (ICT),dealer,lpg gas agency islamabad,pk,en,"Islamabad, Pakistan",10,search
+1,Islamabad,Islamabad (ICT),buy,buy lpg cylinder islamabad,pk,en,"Islamabad, Pakistan",10,search
+1,Islamabad,Islamabad (ICT),buy_ru,islamabad mein lpg cylinder,pk,en,"Islamabad, Pakistan",10,search
+1,Islamabad,Islamabad (ICT),commercial,commercial lpg cylinder islamabad,pk,en,"Islamabad, Pakistan",10,search
+1,Faisalabad,Punjab,price,lpg cylinder price in faisalabad,pk,en,"Faisalabad, Pakistan",10,search
+1,Faisalabad,Punjab,price_ru,lpg gas ka rate faisalabad,pk,en,"Faisalabad, Pakistan",10,search
+1,Faisalabad,Punjab,delivery,lpg cylinder home delivery faisalabad,pk,en,"Faisalabad, Pakistan",10,search
+1,Faisalabad,Punjab,refill,lpg gas refill faisalabad,pk,en,"Faisalabad, Pakistan",10,search
+1,Faisalabad,Punjab,dealer,lpg gas agency faisalabad,pk,en,"Faisalabad, Pakistan",10,search
+1,Faisalabad,Punjab,buy,buy lpg cylinder faisalabad,pk,en,"Faisalabad, Pakistan",10,search
+1,Faisalabad,Punjab,buy_ru,faisalabad mein lpg cylinder,pk,en,"Faisalabad, Pakistan",10,search
+1,Faisalabad,Punjab,commercial,commercial lpg cylinder faisalabad,pk,en,"Faisalabad, Pakistan",10,search
+1,Rawalpindi,Punjab,price,lpg cylinder price in rawalpindi,pk,en,"Rawalpindi, Pakistan",10,search
+1,Rawalpindi,Punjab,price_ru,lpg gas ka rate rawalpindi,pk,en,"Rawalpindi, Pakistan",10,search
+1,Rawalpindi,Punjab,delivery,lpg cylinder home delivery rawalpindi,pk,en,"Rawalpindi, Pakistan",10,search
+1,Rawalpindi,Punjab,refill,lpg gas refill rawalpindi,pk,en,"Rawalpindi, Pakistan",10,search
+1,Rawalpindi,Punjab,dealer,lpg gas agency rawalpindi,pk,en,"Rawalpindi, Pakistan",10,search
+1,Rawalpindi,Punjab,buy,buy lpg cylinder rawalpindi,pk,en,"Rawalpindi, Pakistan",10,search
+1,Rawalpindi,Punjab,buy_ru,rawalpindi mein lpg cylinder,pk,en,"Rawalpindi, Pakistan",10,search
+1,Rawalpindi,Punjab,commercial,commercial lpg cylinder rawalpindi,pk,en,"Rawalpindi, Pakistan",10,search
+1,Hyderabad,Sindh,price,lpg cylinder price in hyderabad,pk,en,"Hyderabad, Pakistan",10,search
+1,Hyderabad,Sindh,price_ru,lpg gas ka rate hyderabad,pk,en,"Hyderabad, Pakistan",10,search
+1,Hyderabad,Sindh,delivery,lpg cylinder home delivery hyderabad,pk,en,"Hyderabad, Pakistan",10,search
+1,Hyderabad,Sindh,refill,lpg gas refill hyderabad,pk,en,"Hyderabad, Pakistan",10,search
+1,Hyderabad,Sindh,dealer,lpg gas agency hyderabad,pk,en,"Hyderabad, Pakistan",10,search
+1,Hyderabad,Sindh,buy,buy lpg cylinder hyderabad,pk,en,"Hyderabad, Pakistan",10,search
+1,Hyderabad,Sindh,buy_ru,hyderabad mein lpg cylinder,pk,en,"Hyderabad, Pakistan",10,search
+1,Hyderabad,Sindh,commercial,commercial lpg cylinder hyderabad,pk,en,"Hyderabad, Pakistan",10,search
+1,Multan,Punjab,price,lpg cylinder price in multan,pk,en,"Multan, Pakistan",10,search
+1,Multan,Punjab,price_ru,lpg gas ka rate multan,pk,en,"Multan, Pakistan",10,search
+1,Multan,Punjab,delivery,lpg cylinder home delivery multan,pk,en,"Multan, Pakistan",10,search
+1,Multan,Punjab,refill,lpg gas refill multan,pk,en,"Multan, Pakistan",10,search
+1,Multan,Punjab,dealer,lpg gas agency multan,pk,en,"Multan, Pakistan",10,search
+1,Multan,Punjab,buy,buy lpg cylinder multan,pk,en,"Multan, Pakistan",10,search
+1,Multan,Punjab,buy_ru,multan mein lpg cylinder,pk,en,"Multan, Pakistan",10,search
+1,Multan,Punjab,commercial,commercial lpg cylinder multan,pk,en,"Multan, Pakistan",10,search
+1,Gilgit,Gilgit-Baltistan,price,lpg cylinder price in gilgit,pk,en,"Gilgit, Pakistan",10,search
+1,Gilgit,Gilgit-Baltistan,price_ru,lpg gas ka rate gilgit,pk,en,"Gilgit, Pakistan",10,search
+1,Gilgit,Gilgit-Baltistan,delivery,lpg cylinder home delivery gilgit,pk,en,"Gilgit, Pakistan",10,search
+1,Gilgit,Gilgit-Baltistan,refill,lpg gas refill gilgit,pk,en,"Gilgit, Pakistan",10,search
+1,Gilgit,Gilgit-Baltistan,dealer,lpg gas agency gilgit,pk,en,"Gilgit, Pakistan",10,search
+1,Gilgit,Gilgit-Baltistan,buy,buy lpg cylinder gilgit,pk,en,"Gilgit, Pakistan",10,search
+1,Gilgit,Gilgit-Baltistan,buy_ru,gilgit mein lpg cylinder,pk,en,"Gilgit, Pakistan",10,search
+1,Gilgit,Gilgit-Baltistan,commercial,commercial lpg cylinder gilgit,pk,en,"Gilgit, Pakistan",10,search
+1,Gujranwala,Punjab,price,lpg cylinder price in gujranwala,pk,en,"Gujranwala, Pakistan",10,search
+1,Gujranwala,Punjab,price_ru,lpg gas ka rate gujranwala,pk,en,"Gujranwala, Pakistan",10,search
+1,Gujranwala,Punjab,delivery,lpg cylinder home delivery gujranwala,pk,en,"Gujranwala, Pakistan",10,search
+1,Gujranwala,Punjab,refill,lpg gas refill gujranwala,pk,en,"Gujranwala, Pakistan",10,search
+1,Gujranwala,Punjab,dealer,lpg gas agency gujranwala,pk,en,"Gujranwala, Pakistan",10,search
+1,Gujranwala,Punjab,buy,buy lpg cylinder gujranwala,pk,en,"Gujranwala, Pakistan",10,search
+1,Gujranwala,Punjab,buy_ru,gujranwala mein lpg cylinder,pk,en,"Gujranwala, Pakistan",10,search
+1,Gujranwala,Punjab,commercial,commercial lpg cylinder gujranwala,pk,en,"Gujranwala, Pakistan",10,search
+1,Rawalakot,Azad Jammu & Kashmir,price,lpg cylinder price in rawalakot,pk,en,"Rawalakot, Pakistan",10,search
+1,Rawalakot,Azad Jammu & Kashmir,price_ru,lpg gas ka rate rawalakot,pk,en,"Rawalakot, Pakistan",10,search
+1,Rawalakot,Azad Jammu & Kashmir,delivery,lpg cylinder home delivery rawalakot,pk,en,"Rawalakot, Pakistan",10,search
+1,Rawalakot,Azad Jammu & Kashmir,refill,lpg gas refill rawalakot,pk,en,"Rawalakot, Pakistan",10,search
+1,Rawalakot,Azad Jammu & Kashmir,dealer,lpg gas agency rawalakot,pk,en,"Rawalakot, Pakistan",10,search
+1,Rawalakot,Azad Jammu & Kashmir,buy,buy lpg cylinder rawalakot,pk,en,"Rawalakot, Pakistan",10,search
+1,Rawalakot,Azad Jammu & Kashmir,buy_ru,rawalakot mein lpg cylinder,pk,en,"Rawalakot, Pakistan",10,search
+1,Rawalakot,Azad Jammu & Kashmir,commercial,commercial lpg cylinder rawalakot,pk,en,"Rawalakot, Pakistan",10,search
+1,Astore,Gilgit-Baltistan,price,lpg cylinder price in astore,pk,en,"Astore, Pakistan",10,search
+1,Astore,Gilgit-Baltistan,price_ru,lpg gas ka rate astore,pk,en,"Astore, Pakistan",10,search
+1,Astore,Gilgit-Baltistan,delivery,lpg cylinder home delivery astore,pk,en,"Astore, Pakistan",10,search
+1,Astore,Gilgit-Baltistan,refill,lpg gas refill astore,pk,en,"Astore, Pakistan",10,search
+1,Astore,Gilgit-Baltistan,dealer,lpg gas agency astore,pk,en,"Astore, Pakistan",10,search
+1,Astore,Gilgit-Baltistan,buy,buy lpg cylinder astore,pk,en,"Astore, Pakistan",10,search
+1,Astore,Gilgit-Baltistan,buy_ru,astore mein lpg cylinder,pk,en,"Astore, Pakistan",10,search
+1,Astore,Gilgit-Baltistan,commercial,commercial lpg cylinder astore,pk,en,"Astore, Pakistan",10,search
+1,Zhob,Balochistan,price,lpg cylinder price in zhob,pk,en,"Zhob, Pakistan",10,search
+1,Zhob,Balochistan,price_ru,lpg gas ka rate zhob,pk,en,"Zhob, Pakistan",10,search
+1,Zhob,Balochistan,delivery,lpg cylinder home delivery zhob,pk,en,"Zhob, Pakistan",10,search
+1,Zhob,Balochistan,refill,lpg gas refill zhob,pk,en,"Zhob, Pakistan",10,search
+1,Zhob,Balochistan,dealer,lpg gas agency zhob,pk,en,"Zhob, Pakistan",10,search
+1,Zhob,Balochistan,buy,buy lpg cylinder zhob,pk,en,"Zhob, Pakistan",10,search
+1,Zhob,Balochistan,buy_ru,zhob mein lpg cylinder,pk,en,"Zhob, Pakistan",10,search
+1,Zhob,Balochistan,commercial,commercial lpg cylinder zhob,pk,en,"Zhob, Pakistan",10,search
+1,Loralai,Balochistan,price,lpg cylinder price in loralai,pk,en,"Loralai, Pakistan",10,search
+1,Loralai,Balochistan,price_ru,lpg gas ka rate loralai,pk,en,"Loralai, Pakistan",10,search
+1,Loralai,Balochistan,delivery,lpg cylinder home delivery loralai,pk,en,"Loralai, Pakistan",10,search
+1,Loralai,Balochistan,refill,lpg gas refill loralai,pk,en,"Loralai, Pakistan",10,search
+1,Loralai,Balochistan,dealer,lpg gas agency loralai,pk,en,"Loralai, Pakistan",10,search
+1,Loralai,Balochistan,buy,buy lpg cylinder loralai,pk,en,"Loralai, Pakistan",10,search
+1,Loralai,Balochistan,buy_ru,loralai mein lpg cylinder,pk,en,"Loralai, Pakistan",10,search
+1,Loralai,Balochistan,commercial,commercial lpg cylinder loralai,pk,en,"Loralai, Pakistan",10,search
+1,Chaman,Balochistan,price,lpg cylinder price in chaman,pk,en,"Chaman, Pakistan",10,search
+1,Chaman,Balochistan,price_ru,lpg gas ka rate chaman,pk,en,"Chaman, Pakistan",10,search
+1,Chaman,Balochistan,delivery,lpg cylinder home delivery chaman,pk,en,"Chaman, Pakistan",10,search
+1,Chaman,Balochistan,refill,lpg gas refill chaman,pk,en,"Chaman, Pakistan",10,search
+1,Chaman,Balochistan,dealer,lpg gas agency chaman,pk,en,"Chaman, Pakistan",10,search
+1,Chaman,Balochistan,buy,buy lpg cylinder chaman,pk,en,"Chaman, Pakistan",10,search
+1,Chaman,Balochistan,buy_ru,chaman mein lpg cylinder,pk,en,"Chaman, Pakistan",10,search
+1,Chaman,Balochistan,commercial,commercial lpg cylinder chaman,pk,en,"Chaman, Pakistan",10,search
+1,Pishin,Balochistan,price,lpg cylinder price in pishin,pk,en,"Pishin, Pakistan",10,search
+1,Pishin,Balochistan,price_ru,lpg gas ka rate pishin,pk,en,"Pishin, Pakistan",10,search
+1,Pishin,Balochistan,delivery,lpg cylinder home delivery pishin,pk,en,"Pishin, Pakistan",10,search
+1,Pishin,Balochistan,refill,lpg gas refill pishin,pk,en,"Pishin, Pakistan",10,search
+1,Pishin,Balochistan,dealer,lpg gas agency pishin,pk,en,"Pishin, Pakistan",10,search
+1,Pishin,Balochistan,buy,buy lpg cylinder pishin,pk,en,"Pishin, Pakistan",10,search
+1,Pishin,Balochistan,buy_ru,pishin mein lpg cylinder,pk,en,"Pishin, Pakistan",10,search
+1,Pishin,Balochistan,commercial,commercial lpg cylinder pishin,pk,en,"Pishin, Pakistan",10,search
+1,Ghizer (Gahkuch),Gilgit-Baltistan,price,lpg cylinder price in ghizer,pk,en,"Ghizer, Pakistan",10,search
+1,Ghizer (Gahkuch),Gilgit-Baltistan,price_ru,lpg gas ka rate ghizer,pk,en,"Ghizer, Pakistan",10,search
+1,Ghizer (Gahkuch),Gilgit-Baltistan,delivery,lpg cylinder home delivery ghizer,pk,en,"Ghizer, Pakistan",10,search
+1,Ghizer (Gahkuch),Gilgit-Baltistan,refill,lpg gas refill ghizer,pk,en,"Ghizer, Pakistan",10,search
+1,Ghizer (Gahkuch),Gilgit-Baltistan,dealer,lpg gas agency ghizer,pk,en,"Ghizer, Pakistan",10,search
+1,Ghizer (Gahkuch),Gilgit-Baltistan,buy,buy lpg cylinder ghizer,pk,en,"Ghizer, Pakistan",10,search
+1,Ghizer (Gahkuch),Gilgit-Baltistan,buy_ru,ghizer mein lpg cylinder,pk,en,"Ghizer, Pakistan",10,search
+1,Ghizer (Gahkuch),Gilgit-Baltistan,commercial,commercial lpg cylinder ghizer,pk,en,"Ghizer, Pakistan",10,search
+1,Skardu,Gilgit-Baltistan,price,lpg cylinder price in skardu,pk,en,"Skardu, Pakistan",10,search
+1,Skardu,Gilgit-Baltistan,price_ru,lpg gas ka rate skardu,pk,en,"Skardu, Pakistan",10,search
+1,Skardu,Gilgit-Baltistan,delivery,lpg cylinder home delivery skardu,pk,en,"Skardu, Pakistan",10,search
+1,Skardu,Gilgit-Baltistan,refill,lpg gas refill skardu,pk,en,"Skardu, Pakistan",10,search
+1,Skardu,Gilgit-Baltistan,dealer,lpg gas agency skardu,pk,en,"Skardu, Pakistan",10,search
+1,Skardu,Gilgit-Baltistan,buy,buy lpg cylinder skardu,pk,en,"Skardu, Pakistan",10,search
+1,Skardu,Gilgit-Baltistan,buy_ru,skardu mein lpg cylinder,pk,en,"Skardu, Pakistan",10,search
+1,Skardu,Gilgit-Baltistan,commercial,commercial lpg cylinder skardu,pk,en,"Skardu, Pakistan",10,search
+1,Hunza (Karimabad),Gilgit-Baltistan,price,lpg cylinder price in hunza,pk,en,"Hunza, Pakistan",10,search
+1,Hunza (Karimabad),Gilgit-Baltistan,price_ru,lpg gas ka rate hunza,pk,en,"Hunza, Pakistan",10,search
+1,Hunza (Karimabad),Gilgit-Baltistan,delivery,lpg cylinder home delivery hunza,pk,en,"Hunza, Pakistan",10,search
+1,Hunza (Karimabad),Gilgit-Baltistan,refill,lpg gas refill hunza,pk,en,"Hunza, Pakistan",10,search
+1,Hunza (Karimabad),Gilgit-Baltistan,dealer,lpg gas agency hunza,pk,en,"Hunza, Pakistan",10,search
+1,Hunza (Karimabad),Gilgit-Baltistan,buy,buy lpg cylinder hunza,pk,en,"Hunza, Pakistan",10,search
+1,Hunza (Karimabad),Gilgit-Baltistan,buy_ru,hunza mein lpg cylinder,pk,en,"Hunza, Pakistan",10,search
+1,Hunza (Karimabad),Gilgit-Baltistan,commercial,commercial lpg cylinder hunza,pk,en,"Hunza, Pakistan",10,search
+1,Chilas,Gilgit-Baltistan,price,lpg cylinder price in chilas,pk,en,"Chilas, Pakistan",10,search
+1,Chilas,Gilgit-Baltistan,price_ru,lpg gas ka rate chilas,pk,en,"Chilas, Pakistan",10,search
+1,Chilas,Gilgit-Baltistan,delivery,lpg cylinder home delivery chilas,pk,en,"Chilas, Pakistan",10,search
+1,Chilas,Gilgit-Baltistan,refill,lpg gas refill chilas,pk,en,"Chilas, Pakistan",10,search
+1,Chilas,Gilgit-Baltistan,dealer,lpg gas agency chilas,pk,en,"Chilas, Pakistan",10,search
+1,Chilas,Gilgit-Baltistan,buy,buy lpg cylinder chilas,pk,en,"Chilas, Pakistan",10,search
+1,Chilas,Gilgit-Baltistan,buy_ru,chilas mein lpg cylinder,pk,en,"Chilas, Pakistan",10,search
+1,Chilas,Gilgit-Baltistan,commercial,commercial lpg cylinder chilas,pk,en,"Chilas, Pakistan",10,search
+1,Bagh,Azad Jammu & Kashmir,price,lpg cylinder price in bagh,pk,en,"Bagh, Pakistan",10,search
+1,Bagh,Azad Jammu & Kashmir,price_ru,lpg gas ka rate bagh,pk,en,"Bagh, Pakistan",10,search
+1,Bagh,Azad Jammu & Kashmir,delivery,lpg cylinder home delivery bagh,pk,en,"Bagh, Pakistan",10,search
+1,Bagh,Azad Jammu & Kashmir,refill,lpg gas refill bagh,pk,en,"Bagh, Pakistan",10,search
+1,Bagh,Azad Jammu & Kashmir,dealer,lpg gas agency bagh,pk,en,"Bagh, Pakistan",10,search
+1,Bagh,Azad Jammu & Kashmir,buy,buy lpg cylinder bagh,pk,en,"Bagh, Pakistan",10,search
+1,Bagh,Azad Jammu & Kashmir,buy_ru,bagh mein lpg cylinder,pk,en,"Bagh, Pakistan",10,search
+1,Bagh,Azad Jammu & Kashmir,commercial,commercial lpg cylinder bagh,pk,en,"Bagh, Pakistan",10,search
+1,Kotli,Azad Jammu & Kashmir,price,lpg cylinder price in kotli,pk,en,"Kotli, Pakistan",10,search
+1,Kotli,Azad Jammu & Kashmir,price_ru,lpg gas ka rate kotli,pk,en,"Kotli, Pakistan",10,search
+1,Kotli,Azad Jammu & Kashmir,delivery,lpg cylinder home delivery kotli,pk,en,"Kotli, Pakistan",10,search
+1,Kotli,Azad Jammu & Kashmir,refill,lpg gas refill kotli,pk,en,"Kotli, Pakistan",10,search
+1,Kotli,Azad Jammu & Kashmir,dealer,lpg gas agency kotli,pk,en,"Kotli, Pakistan",10,search
+1,Kotli,Azad Jammu & Kashmir,buy,buy lpg cylinder kotli,pk,en,"Kotli, Pakistan",10,search
+1,Kotli,Azad Jammu & Kashmir,buy_ru,kotli mein lpg cylinder,pk,en,"Kotli, Pakistan",10,search
+1,Kotli,Azad Jammu & Kashmir,commercial,commercial lpg cylinder kotli,pk,en,"Kotli, Pakistan",10,search
+1,Ghanche (Khaplu),Gilgit-Baltistan,price,lpg cylinder price in ghanche,pk,en,"Ghanche, Pakistan",10,search
+1,Ghanche (Khaplu),Gilgit-Baltistan,price_ru,lpg gas ka rate ghanche,pk,en,"Ghanche, Pakistan",10,search
+1,Ghanche (Khaplu),Gilgit-Baltistan,delivery,lpg cylinder home delivery ghanche,pk,en,"Ghanche, Pakistan",10,search
+1,Ghanche (Khaplu),Gilgit-Baltistan,refill,lpg gas refill ghanche,pk,en,"Ghanche, Pakistan",10,search
+1,Ghanche (Khaplu),Gilgit-Baltistan,dealer,lpg gas agency ghanche,pk,en,"Ghanche, Pakistan",10,search
+1,Ghanche (Khaplu),Gilgit-Baltistan,buy,buy lpg cylinder ghanche,pk,en,"Ghanche, Pakistan",10,search
+1,Ghanche (Khaplu),Gilgit-Baltistan,buy_ru,ghanche mein lpg cylinder,pk,en,"Ghanche, Pakistan",10,search
+1,Ghanche (Khaplu),Gilgit-Baltistan,commercial,commercial lpg cylinder ghanche,pk,en,"Ghanche, Pakistan",10,search
+1,Ziarat,Balochistan,price,lpg cylinder price in ziarat,pk,en,"Ziarat, Pakistan",10,search
+1,Ziarat,Balochistan,price_ru,lpg gas ka rate ziarat,pk,en,"Ziarat, Pakistan",10,search
+1,Ziarat,Balochistan,delivery,lpg cylinder home delivery ziarat,pk,en,"Ziarat, Pakistan",10,search
+1,Ziarat,Balochistan,refill,lpg gas refill ziarat,pk,en,"Ziarat, Pakistan",10,search
+1,Ziarat,Balochistan,dealer,lpg gas agency ziarat,pk,en,"Ziarat, Pakistan",10,search
+1,Ziarat,Balochistan,buy,buy lpg cylinder ziarat,pk,en,"Ziarat, Pakistan",10,search
+1,Ziarat,Balochistan,buy_ru,ziarat mein lpg cylinder,pk,en,"Ziarat, Pakistan",10,search
+1,Ziarat,Balochistan,commercial,commercial lpg cylinder ziarat,pk,en,"Ziarat, Pakistan",10,search
+1,Mingora,Khyber Pakhtunkhwa,price,lpg cylinder price in mingora,pk,en,"Mingora, Pakistan",10,search
+1,Mingora,Khyber Pakhtunkhwa,price_ru,lpg gas ka rate mingora,pk,en,"Mingora, Pakistan",10,search
+1,Mingora,Khyber Pakhtunkhwa,delivery,lpg cylinder home delivery mingora,pk,en,"Mingora, Pakistan",10,search
+1,Mingora,Khyber Pakhtunkhwa,refill,lpg gas refill mingora,pk,en,"Mingora, Pakistan",10,search
+1,Mingora,Khyber Pakhtunkhwa,dealer,lpg gas agency mingora,pk,en,"Mingora, Pakistan",10,search
+1,Mingora,Khyber Pakhtunkhwa,buy,buy lpg cylinder mingora,pk,en,"Mingora, Pakistan",10,search
+1,Mingora,Khyber Pakhtunkhwa,buy_ru,mingora mein lpg cylinder,pk,en,"Mingora, Pakistan",10,search
+1,Mingora,Khyber Pakhtunkhwa,commercial,commercial lpg cylinder mingora,pk,en,"Mingora, Pakistan",10,search
+1,Chitral,Khyber Pakhtunkhwa,price,lpg cylinder price in chitral,pk,en,"Chitral, Pakistan",10,search
+1,Chitral,Khyber Pakhtunkhwa,price_ru,lpg gas ka rate chitral,pk,en,"Chitral, Pakistan",10,search
+1,Chitral,Khyber Pakhtunkhwa,delivery,lpg cylinder home delivery chitral,pk,en,"Chitral, Pakistan",10,search
+1,Chitral,Khyber Pakhtunkhwa,refill,lpg gas refill chitral,pk,en,"Chitral, Pakistan",10,search
+1,Chitral,Khyber Pakhtunkhwa,dealer,lpg gas agency chitral,pk,en,"Chitral, Pakistan",10,search
+1,Chitral,Khyber Pakhtunkhwa,buy,buy lpg cylinder chitral,pk,en,"Chitral, Pakistan",10,search
+1,Chitral,Khyber Pakhtunkhwa,buy_ru,chitral mein lpg cylinder,pk,en,"Chitral, Pakistan",10,search
+1,Chitral,Khyber Pakhtunkhwa,commercial,commercial lpg cylinder chitral,pk,en,"Chitral, Pakistan",10,search
+1,Kohat,Khyber Pakhtunkhwa,price,lpg cylinder price in kohat,pk,en,"Kohat, Pakistan",10,search
+1,Kohat,Khyber Pakhtunkhwa,price_ru,lpg gas ka rate kohat,pk,en,"Kohat, Pakistan",10,search
+1,Kohat,Khyber Pakhtunkhwa,delivery,lpg cylinder home delivery kohat,pk,en,"Kohat, Pakistan",10,search
+1,Kohat,Khyber Pakhtunkhwa,refill,lpg gas refill kohat,pk,en,"Kohat, Pakistan",10,search
+1,Kohat,Khyber Pakhtunkhwa,dealer,lpg gas agency kohat,pk,en,"Kohat, Pakistan",10,search
+1,Kohat,Khyber Pakhtunkhwa,buy,buy lpg cylinder kohat,pk,en,"Kohat, Pakistan",10,search
+1,Kohat,Khyber Pakhtunkhwa,buy_ru,kohat mein lpg cylinder,pk,en,"Kohat, Pakistan",10,search
+1,Kohat,Khyber Pakhtunkhwa,commercial,commercial lpg cylinder kohat,pk,en,"Kohat, Pakistan",10,search
+1,Abbottabad,Khyber Pakhtunkhwa,price,lpg cylinder price in abbottabad,pk,en,"Abbottabad, Pakistan",10,search
+1,Abbottabad,Khyber Pakhtunkhwa,price_ru,lpg gas ka rate abbottabad,pk,en,"Abbottabad, Pakistan",10,search
+1,Abbottabad,Khyber Pakhtunkhwa,delivery,lpg cylinder home delivery abbottabad,pk,en,"Abbottabad, Pakistan",10,search
+1,Abbottabad,Khyber Pakhtunkhwa,refill,lpg gas refill abbottabad,pk,en,"Abbottabad, Pakistan",10,search
+1,Abbottabad,Khyber Pakhtunkhwa,dealer,lpg gas agency abbottabad,pk,en,"Abbottabad, Pakistan",10,search
+1,Abbottabad,Khyber Pakhtunkhwa,buy,buy lpg cylinder abbottabad,pk,en,"Abbottabad, Pakistan",10,search
+1,Abbottabad,Khyber Pakhtunkhwa,buy_ru,abbottabad mein lpg cylinder,pk,en,"Abbottabad, Pakistan",10,search
+1,Abbottabad,Khyber Pakhtunkhwa,commercial,commercial lpg cylinder abbottabad,pk,en,"Abbottabad, Pakistan",10,search
+1,Mansehra,Khyber Pakhtunkhwa,price,lpg cylinder price in mansehra,pk,en,"Mansehra, Pakistan",10,search
+1,Mansehra,Khyber Pakhtunkhwa,price_ru,lpg gas ka rate mansehra,pk,en,"Mansehra, Pakistan",10,search
+1,Mansehra,Khyber Pakhtunkhwa,delivery,lpg cylinder home delivery mansehra,pk,en,"Mansehra, Pakistan",10,search
+1,Mansehra,Khyber Pakhtunkhwa,refill,lpg gas refill mansehra,pk,en,"Mansehra, Pakistan",10,search
+1,Mansehra,Khyber Pakhtunkhwa,dealer,lpg gas agency mansehra,pk,en,"Mansehra, Pakistan",10,search
+1,Mansehra,Khyber Pakhtunkhwa,buy,buy lpg cylinder mansehra,pk,en,"Mansehra, Pakistan",10,search
+1,Mansehra,Khyber Pakhtunkhwa,buy_ru,mansehra mein lpg cylinder,pk,en,"Mansehra, Pakistan",10,search
+1,Mansehra,Khyber Pakhtunkhwa,commercial,commercial lpg cylinder mansehra,pk,en,"Mansehra, Pakistan",10,search
+2,Turbat,Balochistan,price,lpg cylinder price in turbat,pk,en,"Turbat, Pakistan",10,search
+2,Turbat,Balochistan,delivery,lpg cylinder home delivery turbat,pk,en,"Turbat, Pakistan",10,search
+2,Turbat,Balochistan,dealer,lpg gas agency turbat,pk,en,"Turbat, Pakistan",10,search
+2,Turbat,Balochistan,buy_ru,turbat mein lpg cylinder,pk,en,"Turbat, Pakistan",10,search
+2,Sargodha,Punjab,price,lpg cylinder price in sargodha,pk,en,"Sargodha, Pakistan",10,search
+2,Sargodha,Punjab,delivery,lpg cylinder home delivery sargodha,pk,en,"Sargodha, Pakistan",10,search
+2,Sargodha,Punjab,dealer,lpg gas agency sargodha,pk,en,"Sargodha, Pakistan",10,search
+2,Sargodha,Punjab,buy_ru,sargodha mein lpg cylinder,pk,en,"Sargodha, Pakistan",10,search
+2,Swabi,Khyber Pakhtunkhwa,price,lpg cylinder price in swabi,pk,en,"Swabi, Pakistan",10,search
+2,Swabi,Khyber Pakhtunkhwa,delivery,lpg cylinder home delivery swabi,pk,en,"Swabi, Pakistan",10,search
+2,Swabi,Khyber Pakhtunkhwa,dealer,lpg gas agency swabi,pk,en,"Swabi, Pakistan",10,search
+2,Swabi,Khyber Pakhtunkhwa,buy_ru,swabi mein lpg cylinder,pk,en,"Swabi, Pakistan",10,search
+2,Gujrat,Punjab,price,lpg cylinder price in gujrat,pk,en,"Gujrat, Pakistan",10,search
+2,Gujrat,Punjab,delivery,lpg cylinder home delivery gujrat,pk,en,"Gujrat, Pakistan",10,search
+2,Gujrat,Punjab,dealer,lpg gas agency gujrat,pk,en,"Gujrat, Pakistan",10,search
+2,Gujrat,Punjab,buy_ru,gujrat mein lpg cylinder,pk,en,"Gujrat, Pakistan",10,search
+2,Khuzdar,Balochistan,price,lpg cylinder price in khuzdar,pk,en,"Khuzdar, Pakistan",10,search
+2,Khuzdar,Balochistan,delivery,lpg cylinder home delivery khuzdar,pk,en,"Khuzdar, Pakistan",10,search
+2,Khuzdar,Balochistan,dealer,lpg gas agency khuzdar,pk,en,"Khuzdar, Pakistan",10,search
+2,Khuzdar,Balochistan,buy_ru,khuzdar mein lpg cylinder,pk,en,"Khuzdar, Pakistan",10,search
+2,Jacobabad,Sindh,price,lpg cylinder price in jacobabad,pk,en,"Jacobabad, Pakistan",10,search
+2,Jacobabad,Sindh,delivery,lpg cylinder home delivery jacobabad,pk,en,"Jacobabad, Pakistan",10,search
+2,Jacobabad,Sindh,dealer,lpg gas agency jacobabad,pk,en,"Jacobabad, Pakistan",10,search
+2,Jacobabad,Sindh,buy_ru,jacobabad mein lpg cylinder,pk,en,"Jacobabad, Pakistan",10,search
+2,Sialkot,Punjab,price,lpg cylinder price in sialkot,pk,en,"Sialkot, Pakistan",10,search
+2,Sialkot,Punjab,delivery,lpg cylinder home delivery sialkot,pk,en,"Sialkot, Pakistan",10,search
+2,Sialkot,Punjab,dealer,lpg gas agency sialkot,pk,en,"Sialkot, Pakistan",10,search
+2,Sialkot,Punjab,buy_ru,sialkot mein lpg cylinder,pk,en,"Sialkot, Pakistan",10,search
+2,Muzaffarabad,Azad Jammu & Kashmir,price,lpg cylinder price in muzaffarabad,pk,en,"Muzaffarabad, Pakistan",10,search
+2,Muzaffarabad,Azad Jammu & Kashmir,delivery,lpg cylinder home delivery muzaffarabad,pk,en,"Muzaffarabad, Pakistan",10,search
+2,Muzaffarabad,Azad Jammu & Kashmir,dealer,lpg gas agency muzaffarabad,pk,en,"Muzaffarabad, Pakistan",10,search
+2,Muzaffarabad,Azad Jammu & Kashmir,buy_ru,muzaffarabad mein lpg cylinder,pk,en,"Muzaffarabad, Pakistan",10,search
+2,Umerkot,Sindh,price,lpg cylinder price in umerkot,pk,en,"Umerkot, Pakistan",10,search
+2,Umerkot,Sindh,delivery,lpg cylinder home delivery umerkot,pk,en,"Umerkot, Pakistan",10,search
+2,Umerkot,Sindh,dealer,lpg gas agency umerkot,pk,en,"Umerkot, Pakistan",10,search
+2,Umerkot,Sindh,buy_ru,umerkot mein lpg cylinder,pk,en,"Umerkot, Pakistan",10,search
+2,Sahiwal,Punjab,price,lpg cylinder price in sahiwal,pk,en,"Sahiwal, Pakistan",10,search
+2,Sahiwal,Punjab,delivery,lpg cylinder home delivery sahiwal,pk,en,"Sahiwal, Pakistan",10,search
+2,Sahiwal,Punjab,dealer,lpg gas agency sahiwal,pk,en,"Sahiwal, Pakistan",10,search
+2,Sahiwal,Punjab,buy_ru,sahiwal mein lpg cylinder,pk,en,"Sahiwal, Pakistan",10,search
+2,Bahawalpur,Punjab,price,lpg cylinder price in bahawalpur,pk,en,"Bahawalpur, Pakistan",10,search
+2,Bahawalpur,Punjab,delivery,lpg cylinder home delivery bahawalpur,pk,en,"Bahawalpur, Pakistan",10,search
+2,Bahawalpur,Punjab,dealer,lpg gas agency bahawalpur,pk,en,"Bahawalpur, Pakistan",10,search
+2,Bahawalpur,Punjab,buy_ru,bahawalpur mein lpg cylinder,pk,en,"Bahawalpur, Pakistan",10,search
+2,Burewala,Punjab,price,lpg cylinder price in burewala,pk,en,"Burewala, Pakistan",10,search
+2,Burewala,Punjab,delivery,lpg cylinder home delivery burewala,pk,en,"Burewala, Pakistan",10,search
+2,Burewala,Punjab,dealer,lpg gas agency burewala,pk,en,"Burewala, Pakistan",10,search
+2,Burewala,Punjab,buy_ru,burewala mein lpg cylinder,pk,en,"Burewala, Pakistan",10,search
+2,Batkhela,Khyber Pakhtunkhwa,price,lpg cylinder price in batkhela,pk,en,"Batkhela, Pakistan",10,search
+2,Batkhela,Khyber Pakhtunkhwa,delivery,lpg cylinder home delivery batkhela,pk,en,"Batkhela, Pakistan",10,search
+2,Batkhela,Khyber Pakhtunkhwa,dealer,lpg gas agency batkhela,pk,en,"Batkhela, Pakistan",10,search
+2,Batkhela,Khyber Pakhtunkhwa,buy_ru,batkhela mein lpg cylinder,pk,en,"Batkhela, Pakistan",10,search
+2,Panjgur,Balochistan,price,lpg cylinder price in panjgur,pk,en,"Panjgur, Pakistan",10,search
+2,Panjgur,Balochistan,delivery,lpg cylinder home delivery panjgur,pk,en,"Panjgur, Pakistan",10,search
+2,Panjgur,Balochistan,dealer,lpg gas agency panjgur,pk,en,"Panjgur, Pakistan",10,search
+2,Panjgur,Balochistan,buy_ru,panjgur mein lpg cylinder,pk,en,"Panjgur, Pakistan",10,search
+2,Gwadar,Balochistan,price,lpg cylinder price in gwadar,pk,en,"Gwadar, Pakistan",10,search
+2,Gwadar,Balochistan,delivery,lpg cylinder home delivery gwadar,pk,en,"Gwadar, Pakistan",10,search
+2,Gwadar,Balochistan,dealer,lpg gas agency gwadar,pk,en,"Gwadar, Pakistan",10,search
+2,Gwadar,Balochistan,buy_ru,gwadar mein lpg cylinder,pk,en,"Gwadar, Pakistan",10,search
+2,Mirpur,Azad Jammu & Kashmir,price,lpg cylinder price in mirpur,pk,en,"Mirpur, Pakistan",10,search
+2,Mirpur,Azad Jammu & Kashmir,delivery,lpg cylinder home delivery mirpur,pk,en,"Mirpur, Pakistan",10,search
+2,Mirpur,Azad Jammu & Kashmir,dealer,lpg gas agency mirpur,pk,en,"Mirpur, Pakistan",10,search
+2,Mirpur,Azad Jammu & Kashmir,buy_ru,mirpur mein lpg cylinder,pk,en,"Mirpur, Pakistan",10,search
+2,Murree,Punjab,price,lpg cylinder price in murree,pk,en,"Murree, Pakistan",10,search
+2,Murree,Punjab,delivery,lpg cylinder home delivery murree,pk,en,"Murree, Pakistan",10,search
+2,Murree,Punjab,dealer,lpg gas agency murree,pk,en,"Murree, Pakistan",10,search
+2,Murree,Punjab,buy_ru,murree mein lpg cylinder,pk,en,"Murree, Pakistan",10,search
+2,Haripur,Khyber Pakhtunkhwa,price,lpg cylinder price in haripur,pk,en,"Haripur, Pakistan",10,search
+2,Haripur,Khyber Pakhtunkhwa,delivery,lpg cylinder home delivery haripur,pk,en,"Haripur, Pakistan",10,search
+2,Haripur,Khyber Pakhtunkhwa,dealer,lpg gas agency haripur,pk,en,"Haripur, Pakistan",10,search
+2,Haripur,Khyber Pakhtunkhwa,buy_ru,haripur mein lpg cylinder,pk,en,"Haripur, Pakistan",10,search
+2,Kasur,Punjab,price,lpg cylinder price in kasur,pk,en,"Kasur, Pakistan",10,search
+2,Kasur,Punjab,delivery,lpg cylinder home delivery kasur,pk,en,"Kasur, Pakistan",10,search
+2,Kasur,Punjab,dealer,lpg gas agency kasur,pk,en,"Kasur, Pakistan",10,search
+2,Kasur,Punjab,buy_ru,kasur mein lpg cylinder,pk,en,"Kasur, Pakistan",10,search
+2,Larkana,Sindh,price,lpg cylinder price in larkana,pk,en,"Larkana, Pakistan",10,search
+2,Larkana,Sindh,delivery,lpg cylinder home delivery larkana,pk,en,"Larkana, Pakistan",10,search
+2,Larkana,Sindh,dealer,lpg gas agency larkana,pk,en,"Larkana, Pakistan",10,search
+2,Larkana,Sindh,buy_ru,larkana mein lpg cylinder,pk,en,"Larkana, Pakistan",10,search
+2,Okara,Punjab,price,lpg cylinder price in okara,pk,en,"Okara, Pakistan",10,search
+2,Okara,Punjab,delivery,lpg cylinder home delivery okara,pk,en,"Okara, Pakistan",10,search
+2,Okara,Punjab,dealer,lpg gas agency okara,pk,en,"Okara, Pakistan",10,search
+2,Okara,Punjab,buy_ru,okara mein lpg cylinder,pk,en,"Okara, Pakistan",10,search
+2,Mardan,Khyber Pakhtunkhwa,price,lpg cylinder price in mardan,pk,en,"Mardan, Pakistan",10,search
+2,Mardan,Khyber Pakhtunkhwa,delivery,lpg cylinder home delivery mardan,pk,en,"Mardan, Pakistan",10,search
+2,Mardan,Khyber Pakhtunkhwa,dealer,lpg gas agency mardan,pk,en,"Mardan, Pakistan",10,search
+2,Mardan,Khyber Pakhtunkhwa,buy_ru,mardan mein lpg cylinder,pk,en,"Mardan, Pakistan",10,search
+2,Jhang,Punjab,price,lpg cylinder price in jhang,pk,en,"Jhang, Pakistan",10,search
+2,Jhang,Punjab,delivery,lpg cylinder home delivery jhang,pk,en,"Jhang, Pakistan",10,search
+2,Jhang,Punjab,dealer,lpg gas agency jhang,pk,en,"Jhang, Pakistan",10,search
+2,Jhang,Punjab,buy_ru,jhang mein lpg cylinder,pk,en,"Jhang, Pakistan",10,search
+2,Sheikhupura,Punjab,price,lpg cylinder price in sheikhupura,pk,en,"Sheikhupura, Pakistan",10,search
+2,Sheikhupura,Punjab,delivery,lpg cylinder home delivery sheikhupura,pk,en,"Sheikhupura, Pakistan",10,search
+2,Sheikhupura,Punjab,dealer,lpg gas agency sheikhupura,pk,en,"Sheikhupura, Pakistan",10,search
+2,Sheikhupura,Punjab,buy_ru,sheikhupura mein lpg cylinder,pk,en,"Sheikhupura, Pakistan",10,search
+2,Dera Murad Jamali,Balochistan,price,lpg cylinder price in dera murad jamali,pk,en,"Dera Murad Jamali, Pakistan",10,search
+2,Dera Murad Jamali,Balochistan,delivery,lpg cylinder home delivery dera murad jamali,pk,en,"Dera Murad Jamali, Pakistan",10,search
+2,Dera Murad Jamali,Balochistan,dealer,lpg gas agency dera murad jamali,pk,en,"Dera Murad Jamali, Pakistan",10,search
+2,Dera Murad Jamali,Balochistan,buy_ru,dera murad jamali mein lpg cylinder,pk,en,"Dera Murad Jamali, Pakistan",10,search
+2,Sukkur,Sindh,price,lpg cylinder price in sukkur,pk,en,"Sukkur, Pakistan",10,search
+2,Sukkur,Sindh,delivery,lpg cylinder home delivery sukkur,pk,en,"Sukkur, Pakistan",10,search
+2,Sukkur,Sindh,dealer,lpg gas agency sukkur,pk,en,"Sukkur, Pakistan",10,search
+2,Sukkur,Sindh,buy_ru,sukkur mein lpg cylinder,pk,en,"Sukkur, Pakistan",10,search
+2,Gojra,Punjab,price,lpg cylinder price in gojra,pk,en,"Gojra, Pakistan",10,search
+2,Gojra,Punjab,delivery,lpg cylinder home delivery gojra,pk,en,"Gojra, Pakistan",10,search
+2,Gojra,Punjab,dealer,lpg gas agency gojra,pk,en,"Gojra, Pakistan",10,search
+2,Gojra,Punjab,buy_ru,gojra mein lpg cylinder,pk,en,"Gojra, Pakistan",10,search
+2,Rahim Yar Khan,Punjab,price,lpg cylinder price in rahim yar khan,pk,en,"Rahim Yar Khan, Pakistan",10,search
+2,Rahim Yar Khan,Punjab,delivery,lpg cylinder home delivery rahim yar khan,pk,en,"Rahim Yar Khan, Pakistan",10,search
+2,Rahim Yar Khan,Punjab,dealer,lpg gas agency rahim yar khan,pk,en,"Rahim Yar Khan, Pakistan",10,search
+2,Rahim Yar Khan,Punjab,buy_ru,rahim yar khan mein lpg cylinder,pk,en,"Rahim Yar Khan, Pakistan",10,search
+2,Dera Ghazi Khan,Punjab,price,lpg cylinder price in dera ghazi khan,pk,en,"Dera Ghazi Khan, Pakistan",10,search
+2,Dera Ghazi Khan,Punjab,delivery,lpg cylinder home delivery dera ghazi khan,pk,en,"Dera Ghazi Khan, Pakistan",10,search
+2,Dera Ghazi Khan,Punjab,dealer,lpg gas agency dera ghazi khan,pk,en,"Dera Ghazi Khan, Pakistan",10,search
+2,Dera Ghazi Khan,Punjab,buy_ru,dera ghazi khan mein lpg cylinder,pk,en,"Dera Ghazi Khan, Pakistan",10,search
+2,Kharan,Balochistan,price,lpg cylinder price in kharan,pk,en,"Kharan, Pakistan",10,search
+2,Kharan,Balochistan,delivery,lpg cylinder home delivery kharan,pk,en,"Kharan, Pakistan",10,search
+2,Kharan,Balochistan,dealer,lpg gas agency kharan,pk,en,"Kharan, Pakistan",10,search
+2,Kharan,Balochistan,buy_ru,kharan mein lpg cylinder,pk,en,"Kharan, Pakistan",10,search
+2,Wah Cantonment,Punjab,price,lpg cylinder price in wah cantonment,pk,en,"Wah Cantonment, Pakistan",10,search
+2,Wah Cantonment,Punjab,delivery,lpg cylinder home delivery wah cantonment,pk,en,"Wah Cantonment, Pakistan",10,search
+2,Wah Cantonment,Punjab,dealer,lpg gas agency wah cantonment,pk,en,"Wah Cantonment, Pakistan",10,search
+2,Wah Cantonment,Punjab,buy_ru,wah cantonment mein lpg cylinder,pk,en,"Wah Cantonment, Pakistan",10,search
+2,Sibi,Balochistan,price,lpg cylinder price in sibi,pk,en,"Sibi, Pakistan",10,search
+2,Sibi,Balochistan,delivery,lpg cylinder home delivery sibi,pk,en,"Sibi, Pakistan",10,search
+2,Sibi,Balochistan,dealer,lpg gas agency sibi,pk,en,"Sibi, Pakistan",10,search
+2,Sibi,Balochistan,buy_ru,sibi mein lpg cylinder,pk,en,"Sibi, Pakistan",10,search
+2,Buleda,Balochistan,price,lpg cylinder price in buleda,pk,en,"Buleda, Pakistan",10,search
+2,Buleda,Balochistan,delivery,lpg cylinder home delivery buleda,pk,en,"Buleda, Pakistan",10,search
+2,Buleda,Balochistan,dealer,lpg gas agency buleda,pk,en,"Buleda, Pakistan",10,search
+2,Buleda,Balochistan,buy_ru,buleda mein lpg cylinder,pk,en,"Buleda, Pakistan",10,search
+2,Muridke,Punjab,price,lpg cylinder price in muridke,pk,en,"Muridke, Pakistan",10,search
+2,Muridke,Punjab,delivery,lpg cylinder home delivery muridke,pk,en,"Muridke, Pakistan",10,search
+2,Muridke,Punjab,dealer,lpg gas agency muridke,pk,en,"Muridke, Pakistan",10,search
+2,Muridke,Punjab,buy_ru,muridke mein lpg cylinder,pk,en,"Muridke, Pakistan",10,search
+2,Nawabshah,Sindh,price,lpg cylinder price in nawabshah,pk,en,"Nawabshah, Pakistan",10,search
+2,Nawabshah,Sindh,delivery,lpg cylinder home delivery nawabshah,pk,en,"Nawabshah, Pakistan",10,search
+2,Nawabshah,Sindh,dealer,lpg gas agency nawabshah,pk,en,"Nawabshah, Pakistan",10,search
+2,Nawabshah,Sindh,buy_ru,nawabshah mein lpg cylinder,pk,en,"Nawabshah, Pakistan",10,search
+2,Shikarpur,Sindh,price,lpg cylinder price in shikarpur,pk,en,"Shikarpur, Pakistan",10,search
+2,Shikarpur,Sindh,delivery,lpg cylinder home delivery shikarpur,pk,en,"Shikarpur, Pakistan",10,search
+2,Shikarpur,Sindh,dealer,lpg gas agency shikarpur,pk,en,"Shikarpur, Pakistan",10,search
+2,Shikarpur,Sindh,buy_ru,shikarpur mein lpg cylinder,pk,en,"Shikarpur, Pakistan",10,search
+2,Chiniot,Punjab,price,lpg cylinder price in chiniot,pk,en,"Chiniot, Pakistan",10,search
+2,Chiniot,Punjab,delivery,lpg cylinder home delivery chiniot,pk,en,"Chiniot, Pakistan",10,search
+2,Chiniot,Punjab,dealer,lpg gas agency chiniot,pk,en,"Chiniot, Pakistan",10,search
+2,Chiniot,Punjab,buy_ru,chiniot mein lpg cylinder,pk,en,"Chiniot, Pakistan",10,search
+2,Hafizabad,Punjab,price,lpg cylinder price in hafizabad,pk,en,"Hafizabad, Pakistan",10,search
+2,Hafizabad,Punjab,delivery,lpg cylinder home delivery hafizabad,pk,en,"Hafizabad, Pakistan",10,search
+2,Hafizabad,Punjab,dealer,lpg gas agency hafizabad,pk,en,"Hafizabad, Pakistan",10,search
+2,Hafizabad,Punjab,buy_ru,hafizabad mein lpg cylinder,pk,en,"Hafizabad, Pakistan",10,search
+2,Jhelum,Punjab,price,lpg cylinder price in jhelum,pk,en,"Jhelum, Pakistan",10,search
+2,Jhelum,Punjab,delivery,lpg cylinder home delivery jhelum,pk,en,"Jhelum, Pakistan",10,search
+2,Jhelum,Punjab,dealer,lpg gas agency jhelum,pk,en,"Jhelum, Pakistan",10,search
+2,Jhelum,Punjab,buy_ru,jhelum mein lpg cylinder,pk,en,"Jhelum, Pakistan",10,search
+2,Kāmoke,Punjab,price,lpg cylinder price in kāmoke,pk,en,"Kāmoke, Pakistan",10,search
+2,Kāmoke,Punjab,delivery,lpg cylinder home delivery kāmoke,pk,en,"Kāmoke, Pakistan",10,search
+2,Kāmoke,Punjab,dealer,lpg gas agency kāmoke,pk,en,"Kāmoke, Pakistan",10,search
+2,Kāmoke,Punjab,buy_ru,kāmoke mein lpg cylinder,pk,en,"Kāmoke, Pakistan",10,search
+2,Bahawalnagar,Punjab,price,lpg cylinder price in bahawalnagar,pk,en,"Bahawalnagar, Pakistan",10,search
+2,Bahawalnagar,Punjab,delivery,lpg cylinder home delivery bahawalnagar,pk,en,"Bahawalnagar, Pakistan",10,search
+2,Bahawalnagar,Punjab,dealer,lpg gas agency bahawalnagar,pk,en,"Bahawalnagar, Pakistan",10,search
+2,Bahawalnagar,Punjab,buy_ru,bahawalnagar mein lpg cylinder,pk,en,"Bahawalnagar, Pakistan",10,search
+2,Khanewal,Punjab,price,lpg cylinder price in khanewal,pk,en,"Khanewal, Pakistan",10,search
+2,Khanewal,Punjab,delivery,lpg cylinder home delivery khanewal,pk,en,"Khanewal, Pakistan",10,search
+2,Khanewal,Punjab,dealer,lpg gas agency khanewal,pk,en,"Khanewal, Pakistan",10,search
+2,Khanewal,Punjab,buy_ru,khanewal mein lpg cylinder,pk,en,"Khanewal, Pakistan",10,search
+2,Sadiqabad,Punjab,price,lpg cylinder price in sadiqabad,pk,en,"Sadiqabad, Pakistan",10,search
+2,Sadiqabad,Punjab,delivery,lpg cylinder home delivery sadiqabad,pk,en,"Sadiqabad, Pakistan",10,search
+2,Sadiqabad,Punjab,dealer,lpg gas agency sadiqabad,pk,en,"Sadiqabad, Pakistan",10,search
+2,Sadiqabad,Punjab,buy_ru,sadiqabad mein lpg cylinder,pk,en,"Sadiqabad, Pakistan",10,search
+2,Mirpur Khas,Sindh,price,lpg cylinder price in mirpur khas,pk,en,"Mirpur Khas, Pakistan",10,search
+2,Mirpur Khas,Sindh,delivery,lpg cylinder home delivery mirpur khas,pk,en,"Mirpur Khas, Pakistan",10,search
+2,Mirpur Khas,Sindh,dealer,lpg gas agency mirpur khas,pk,en,"Mirpur Khas, Pakistan",10,search
+2,Mirpur Khas,Sindh,buy_ru,mirpur khas mein lpg cylinder,pk,en,"Mirpur Khas, Pakistan",10,search
+2,Khanpur,Punjab,price,lpg cylinder price in khanpur,pk,en,"Khanpur, Pakistan",10,search
+2,Khanpur,Punjab,delivery,lpg cylinder home delivery khanpur,pk,en,"Khanpur, Pakistan",10,search
+2,Khanpur,Punjab,dealer,lpg gas agency khanpur,pk,en,"Khanpur, Pakistan",10,search
+2,Khanpur,Punjab,buy_ru,khanpur mein lpg cylinder,pk,en,"Khanpur, Pakistan",10,search
+2,Hub,Balochistan,price,lpg cylinder price in hub,pk,en,"Hub, Pakistan",10,search
+2,Hub,Balochistan,delivery,lpg cylinder home delivery hub,pk,en,"Hub, Pakistan",10,search
+2,Hub,Balochistan,dealer,lpg gas agency hub,pk,en,"Hub, Pakistan",10,search
+2,Hub,Balochistan,buy_ru,hub mein lpg cylinder,pk,en,"Hub, Pakistan",10,search
+2,Muzaffargarh,Punjab,price,lpg cylinder price in muzaffargarh,pk,en,"Muzaffargarh, Pakistan",10,search
+2,Muzaffargarh,Punjab,delivery,lpg cylinder home delivery muzaffargarh,pk,en,"Muzaffargarh, Pakistan",10,search
+2,Muzaffargarh,Punjab,dealer,lpg gas agency muzaffargarh,pk,en,"Muzaffargarh, Pakistan",10,search
+2,Muzaffargarh,Punjab,buy_ru,muzaffargarh mein lpg cylinder,pk,en,"Muzaffargarh, Pakistan",10,search
+2,Daska,Punjab,price,lpg cylinder price in daska,pk,en,"Daska, Pakistan",10,search
+2,Daska,Punjab,delivery,lpg cylinder home delivery daska,pk,en,"Daska, Pakistan",10,search
+2,Daska,Punjab,dealer,lpg gas agency daska,pk,en,"Daska, Pakistan",10,search
+2,Daska,Punjab,buy_ru,daska mein lpg cylinder,pk,en,"Daska, Pakistan",10,search
+2,Mandi Bahauddin,Punjab,price,lpg cylinder price in mandi bahauddin,pk,en,"Mandi Bahauddin, Pakistan",10,search
+2,Mandi Bahauddin,Punjab,delivery,lpg cylinder home delivery mandi bahauddin,pk,en,"Mandi Bahauddin, Pakistan",10,search
+2,Mandi Bahauddin,Punjab,dealer,lpg gas agency mandi bahauddin,pk,en,"Mandi Bahauddin, Pakistan",10,search
+2,Mandi Bahauddin,Punjab,buy_ru,mandi bahauddin mein lpg cylinder,pk,en,"Mandi Bahauddin, Pakistan",10,search
+2,Khairpur,Sindh,price,lpg cylinder price in khairpur,pk,en,"Khairpur, Pakistan",10,search
+2,Khairpur,Sindh,delivery,lpg cylinder home delivery khairpur,pk,en,"Khairpur, Pakistan",10,search
+2,Khairpur,Sindh,dealer,lpg gas agency khairpur,pk,en,"Khairpur, Pakistan",10,search
+2,Khairpur,Sindh,buy_ru,khairpur mein lpg cylinder,pk,en,"Khairpur, Pakistan",10,search
+2,Dera Ismail Khan,Khyber Pakhtunkhwa,price,lpg cylinder price in dera ismail khan,pk,en,"Dera Ismail Khan, Pakistan",10,search
+2,Dera Ismail Khan,Khyber Pakhtunkhwa,delivery,lpg cylinder home delivery dera ismail khan,pk,en,"Dera Ismail Khan, Pakistan",10,search
+2,Dera Ismail Khan,Khyber Pakhtunkhwa,dealer,lpg gas agency dera ismail khan,pk,en,"Dera Ismail Khan, Pakistan",10,search
+2,Dera Ismail Khan,Khyber Pakhtunkhwa,buy_ru,dera ismail khan mein lpg cylinder,pk,en,"Dera Ismail Khan, Pakistan",10,search
+2,Pakpattan,Punjab,price,lpg cylinder price in pakpattan,pk,en,"Pakpattan, Pakistan",10,search
+2,Pakpattan,Punjab,delivery,lpg cylinder home delivery pakpattan,pk,en,"Pakpattan, Pakistan",10,search
+2,Pakpattan,Punjab,dealer,lpg gas agency pakpattan,pk,en,"Pakpattan, Pakistan",10,search
+2,Pakpattan,Punjab,buy_ru,pakpattan mein lpg cylinder,pk,en,"Pakpattan, Pakistan",10,search
+2,Chakwal,Punjab,price,lpg cylinder price in chakwal,pk,en,"Chakwal, Pakistan",10,search
+2,Chakwal,Punjab,delivery,lpg cylinder home delivery chakwal,pk,en,"Chakwal, Pakistan",10,search
+2,Chakwal,Punjab,dealer,lpg gas agency chakwal,pk,en,"Chakwal, Pakistan",10,search
+2,Chakwal,Punjab,buy_ru,chakwal mein lpg cylinder,pk,en,"Chakwal, Pakistan",10,search
+2,Vehari,Punjab,price,lpg cylinder price in vehari,pk,en,"Vehari, Pakistan",10,search
+2,Vehari,Punjab,delivery,lpg cylinder home delivery vehari,pk,en,"Vehari, Pakistan",10,search
+2,Vehari,Punjab,dealer,lpg gas agency vehari,pk,en,"Vehari, Pakistan",10,search
+2,Vehari,Punjab,buy_ru,vehari mein lpg cylinder,pk,en,"Vehari, Pakistan",10,search
+2,Ahmedpur East,Punjab,price,lpg cylinder price in ahmedpur east,pk,en,"Ahmedpur East, Pakistan",10,search
+2,Ahmedpur East,Punjab,delivery,lpg cylinder home delivery ahmedpur east,pk,en,"Ahmedpur East, Pakistan",10,search
+2,Ahmedpur East,Punjab,dealer,lpg gas agency ahmedpur east,pk,en,"Ahmedpur East, Pakistan",10,search
+2,Ahmedpur East,Punjab,buy_ru,ahmedpur east mein lpg cylinder,pk,en,"Ahmedpur East, Pakistan",10,search
+2,Chishtian,Punjab,price,lpg cylinder price in chishtian,pk,en,"Chishtian, Pakistan",10,search
+2,Chishtian,Punjab,delivery,lpg cylinder home delivery chishtian,pk,en,"Chishtian, Pakistan",10,search
+2,Chishtian,Punjab,dealer,lpg gas agency chishtian,pk,en,"Chishtian, Pakistan",10,search
+2,Chishtian,Punjab,buy_ru,chishtian mein lpg cylinder,pk,en,"Chishtian, Pakistan",10,search
+2,Bhakkar,Punjab,price,lpg cylinder price in bhakkar,pk,en,"Bhakkar, Pakistan",10,search
+2,Bhakkar,Punjab,delivery,lpg cylinder home delivery bhakkar,pk,en,"Bhakkar, Pakistan",10,search
+2,Bhakkar,Punjab,dealer,lpg gas agency bhakkar,pk,en,"Bhakkar, Pakistan",10,search
+2,Bhakkar,Punjab,buy_ru,bhakkar mein lpg cylinder,pk,en,"Bhakkar, Pakistan",10,search
+2,Dadu,Sindh,price,lpg cylinder price in dadu,pk,en,"Dadu, Pakistan",10,search
+2,Dadu,Sindh,delivery,lpg cylinder home delivery dadu,pk,en,"Dadu, Pakistan",10,search
+2,Dadu,Sindh,dealer,lpg gas agency dadu,pk,en,"Dadu, Pakistan",10,search
+2,Dadu,Sindh,buy_ru,dadu mein lpg cylinder,pk,en,"Dadu, Pakistan",10,search
+2,Jatoi,Punjab,price,lpg cylinder price in jatoi,pk,en,"Jatoi, Pakistan",10,search
+2,Jatoi,Punjab,delivery,lpg cylinder home delivery jatoi,pk,en,"Jatoi, Pakistan",10,search
+2,Jatoi,Punjab,dealer,lpg gas agency jatoi,pk,en,"Jatoi, Pakistan",10,search
+2,Jatoi,Punjab,buy_ru,jatoi mein lpg cylinder,pk,en,"Jatoi, Pakistan",10,search
+2,Samundri,Punjab,price,lpg cylinder price in samundri,pk,en,"Samundri, Pakistan",10,search
+2,Samundri,Punjab,delivery,lpg cylinder home delivery samundri,pk,en,"Samundri, Pakistan",10,search
+2,Samundri,Punjab,dealer,lpg gas agency samundri,pk,en,"Samundri, Pakistan",10,search
+2,Samundri,Punjab,buy_ru,samundri mein lpg cylinder,pk,en,"Samundri, Pakistan",10,search
+2,Attock,Punjab,price,lpg cylinder price in attock,pk,en,"Attock, Pakistan",10,search
+2,Attock,Punjab,delivery,lpg cylinder home delivery attock,pk,en,"Attock, Pakistan",10,search
+2,Attock,Punjab,dealer,lpg gas agency attock,pk,en,"Attock, Pakistan",10,search
+2,Attock,Punjab,buy_ru,attock mein lpg cylinder,pk,en,"Attock, Pakistan",10,search
+2,Ferozwala,Punjab,price,lpg cylinder price in ferozwala,pk,en,"Ferozwala, Pakistan",10,search
+2,Ferozwala,Punjab,delivery,lpg cylinder home delivery ferozwala,pk,en,"Ferozwala, Pakistan",10,search
+2,Ferozwala,Punjab,dealer,lpg gas agency ferozwala,pk,en,"Ferozwala, Pakistan",10,search
+2,Ferozwala,Punjab,buy_ru,ferozwala mein lpg cylinder,pk,en,"Ferozwala, Pakistan",10,search
+2,Tando Adam,Sindh,price,lpg cylinder price in tando adam,pk,en,"Tando Adam, Pakistan",10,search
+2,Tando Adam,Sindh,delivery,lpg cylinder home delivery tando adam,pk,en,"Tando Adam, Pakistan",10,search
+2,Tando Adam,Sindh,dealer,lpg gas agency tando adam,pk,en,"Tando Adam, Pakistan",10,search
+2,Tando Adam,Sindh,buy_ru,tando adam mein lpg cylinder,pk,en,"Tando Adam, Pakistan",10,search
+2,Jaranwala,Punjab,price,lpg cylinder price in jaranwala,pk,en,"Jaranwala, Pakistan",10,search
+2,Jaranwala,Punjab,delivery,lpg cylinder home delivery jaranwala,pk,en,"Jaranwala, Pakistan",10,search
+2,Jaranwala,Punjab,dealer,lpg gas agency jaranwala,pk,en,"Jaranwala, Pakistan",10,search
+2,Jaranwala,Punjab,buy_ru,jaranwala mein lpg cylinder,pk,en,"Jaranwala, Pakistan",10,search
+2,Tando Allahyar,Sindh,price,lpg cylinder price in tando allahyar,pk,en,"Tando Allahyar, Pakistan",10,search
+2,Tando Allahyar,Sindh,delivery,lpg cylinder home delivery tando allahyar,pk,en,"Tando Allahyar, Pakistan",10,search
+2,Tando Allahyar,Sindh,dealer,lpg gas agency tando allahyar,pk,en,"Tando Allahyar, Pakistan",10,search
+2,Tando Allahyar,Sindh,buy_ru,tando allahyar mein lpg cylinder,pk,en,"Tando Allahyar, Pakistan",10,search
+2,Hasilpur,Punjab,price,lpg cylinder price in hasilpur,pk,en,"Hasilpur, Pakistan",10,search
+2,Hasilpur,Punjab,delivery,lpg cylinder home delivery hasilpur,pk,en,"Hasilpur, Pakistan",10,search
+2,Hasilpur,Punjab,dealer,lpg gas agency hasilpur,pk,en,"Hasilpur, Pakistan",10,search
+2,Hasilpur,Punjab,buy_ru,hasilpur mein lpg cylinder,pk,en,"Hasilpur, Pakistan",10,search
+2,Kamalia,Punjab,price,lpg cylinder price in kamalia,pk,en,"Kamalia, Pakistan",10,search
+2,Kamalia,Punjab,delivery,lpg cylinder home delivery kamalia,pk,en,"Kamalia, Pakistan",10,search
+2,Kamalia,Punjab,dealer,lpg gas agency kamalia,pk,en,"Kamalia, Pakistan",10,search
+2,Kamalia,Punjab,buy_ru,kamalia mein lpg cylinder,pk,en,"Kamalia, Pakistan",10,search
+2,Bholari,Sindh,price,lpg cylinder price in bholari,pk,en,"Bholari, Pakistan",10,search
+2,Bholari,Sindh,delivery,lpg cylinder home delivery bholari,pk,en,"Bholari, Pakistan",10,search
+2,Bholari,Sindh,dealer,lpg gas agency bholari,pk,en,"Bholari, Pakistan",10,search
+2,Bholari,Sindh,buy_ru,bholari mein lpg cylinder,pk,en,"Bholari, Pakistan",10,search
+2,Kot Abdul Malik,Punjab,price,lpg cylinder price in kot abdul malik,pk,en,"Kot Abdul Malik, Pakistan",10,search
+2,Kot Abdul Malik,Punjab,delivery,lpg cylinder home delivery kot abdul malik,pk,en,"Kot Abdul Malik, Pakistan",10,search
+2,Kot Abdul Malik,Punjab,dealer,lpg gas agency kot abdul malik,pk,en,"Kot Abdul Malik, Pakistan",10,search
+2,Kot Abdul Malik,Punjab,buy_ru,kot abdul malik mein lpg cylinder,pk,en,"Kot Abdul Malik, Pakistan",10,search
+2,Jampur,Punjab,price,lpg cylinder price in jampur,pk,en,"Jampur, Pakistan",10,search
+2,Jampur,Punjab,delivery,lpg cylinder home delivery jampur,pk,en,"Jampur, Pakistan",10,search
+2,Jampur,Punjab,dealer,lpg gas agency jampur,pk,en,"Jampur, Pakistan",10,search
+2,Jampur,Punjab,buy_ru,jampur mein lpg cylinder,pk,en,"Jampur, Pakistan",10,search

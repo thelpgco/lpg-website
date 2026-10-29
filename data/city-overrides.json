@@ -1,0 +1,192 @@
+{
+  "_readme": "Owner 27–29 Oct 2026: network covers these cities; same OGRA per-kg nationwide; delivery target ~1 hour when local team available. Use deliveryNote and localNotes on city hubs for trust + coverage copy. Street coverage still confirmed on each order.",
+  "islamabad": {
+    "indexable": true,
+    "verifiedOn": "2026-10-27",
+    "testOrderMinutes": 60,
+    "localNotes": [
+      "Islamabad and adjoining ICT sectors are served through our distributor network from the G-12 office catchment.",
+      "Winter demand rises for domestic cylinders and heaters across the twin cities; keep a spare exchange cylinder where you can store it safely.",
+      "Diplomatic enclaves, Blue Area offices and housing societies often need scheduled commercial changeovers — tell us weekly volume when you inquire.",
+      "Orders via call, WhatsApp or the website are accepted around the clock; a local team or distributor confirms the delivery window."
+    ],
+    "deliveryNote": "Target about one hour in covered Islamabad areas when a local team is available; otherwise the distributor contacts you to confirm timing."
+  },
+  "rawalpindi": {
+    "indexable": true,
+    "verifiedOn": "2026-10-27",
+    "testOrderMinutes": 60,
+    "localNotes": [
+      "Rawalpindi twin-city demand is fulfilled through the same Islamabad–Rawalpindi network teams.",
+      "Domestic 11.8 kg and commercial 45.4 kg are the most requested sizes for homes, Saddar kitchens and Bahria / Satellite Town belts.",
+      "Cantonment and dense old-city streets need a clear landmark and access note (truck or pickup) before dispatch.",
+      "Same-day refill and exchange are arranged when empty cylinders are ready for pickup."
+    ],
+    "deliveryNote": "Target about one hour in covered Rawalpindi areas when a local team is available; timing confirmed on each order."
+  },
+  "lahore": {
+    "indexable": true,
+    "verifiedOn": "2026-10-27",
+    "testOrderMinutes": 60,
+    "localNotes": [
+      "Lahore is served by multiple network distributors with teams covering major residential and commercial belts from Model Town to DHA and Johar Town.",
+      "Commercial kitchens commonly use 45.4 kg cylinders; homes typically use 11.8 kg or 15 kg.",
+      "Foggy winter mornings and monsoon waterlogging can stretch the last mile — we confirm your street before you agree.",
+      "We quote OGRA-notified gas price plus confirmed delivery and cylinder terms before you agree."
+    ],
+    "deliveryNote": "Target about one hour in covered Lahore areas when a local team is available; otherwise the distributor contacts you personally."
+  },
+  "karachi": {
+    "indexable": true,
+    "verifiedOn": "2026-10-27",
+    "testOrderMinutes": 60,
+    "localNotes": [
+      "Karachi has the densest partner coverage in our network and handles high domestic and commercial volume across both sides of the city.",
+      "Coastal humidity makes cylinder condition checks on delivery especially important — refuse damaged bottles and cracked hoses.",
+      "Port, industrial and bulk enquiries are routed separately from domestic refills; send site load when you ask for a bank or bulk quote.",
+      "Traffic on Shahrah-e-Faisal, Korangi and Lyari corridors can change the window — we confirm timing before dispatch."
+    ],
+    "deliveryNote": "Target about one hour in covered Karachi areas when a local team is available; timing confirmed before dispatch."
+  },
+  "faisalabad": {
+    "indexable": true,
+    "verifiedOn": "2026-10-29",
+    "testOrderMinutes": 60,
+    "localNotes": [
+      "Faisalabad combines heavy domestic demand with textile mills, power-loom belts and workshop commercial loads.",
+      "11.8 kg and 45.4 kg are the sizes most ordered for homes and industrial kitchens.",
+      "Mill and estate sites that need banks or scheduled routes should state weekly changeover volume and gate access.",
+      "Named dealers and research distributors for the city are listed on this hub."
+    ],
+    "deliveryNote": "Target about one hour in covered Faisalabad areas when a local team is available; timing confirmed on each order."
+  },
+  "peshawar": {
+    "indexable": true,
+    "verifiedOn": "2026-10-29",
+    "testOrderMinutes": 60,
+    "localNotes": [
+      "Peshawar is a main Khyber Pakhtunkhwa hub for domestic refill and commercial kitchen supply.",
+      "Hospitality and hospital catering often need 45.4 kg banks with reliable changeover.",
+      "University Town, Hayatabad and cantonment belts are among localities we check first — send your exact colony.",
+      "We confirm your locality against listed partners before dispatch."
+    ],
+    "deliveryNote": "Target about one hour in covered Peshawar areas when a local team is available; otherwise your distributor confirms the window."
+  },
+  "multan": {
+    "indexable": true,
+    "verifiedOn": "2026-10-29",
+    "testOrderMinutes": 60,
+    "localNotes": [
+      "Multan serves city and surrounding belt demand including farms and commercial kitchens.",
+      "Summer heat is extreme; keep cylinders upright in shade. Winter cooking still drives regular domestic refill cycles.",
+      "Wedding and sweet-shop seasons stack 45.4 kg changeovers — tell us weekly volume for commercial sites.",
+      "Send your area with the order so we match the right local team."
+    ],
+    "deliveryNote": "Target about one hour in covered Multan areas when a local team is available; timing confirmed before you agree."
+  },
+  "gujranwala": {
+    "indexable": true,
+    "verifiedOn": "2026-10-29",
+    "testOrderMinutes": 60,
+    "localNotes": [
+      "Gujranwala partners cover residential colonies and busy commercial streets on the GT Road corridor.",
+      "Workshops, metalware units and restaurants commonly request 45.4 kg alongside home 11.8 kg refills.",
+      "Narrow colony lanes may need a pickup instead of a truck — say so when you order.",
+      "24-hour opening is listed for some partners — hours are reconfirmed when you order."
+    ],
+    "deliveryNote": "Target about one hour in covered Gujranwala areas when a local team is available; timing confirmed on each order."
+  },
+  "quetta": {
+    "indexable": true,
+    "verifiedOn": "2026-10-29",
+    "testOrderMinutes": 90,
+    "localNotes": [
+      "Quetta is our primary Balochistan hub for cylinders and housing-society engineering.",
+      "Winter cold increases heater and geyser demand; keep a spare exchange cylinder where you can store it safely.",
+      "Hill and weather conditions can extend windows — we confirm timing honestly on the call.",
+      "Satellite Town, Nawa Killi and similar belts are among localities we check first; farther settlements need exact pins."
+    ],
+    "deliveryNote": "Target about 60–90 minutes in covered Quetta areas when a local team is available; weather and roads can change the window, confirmed before dispatch."
+  },
+  "hyderabad": {
+    "indexable": true,
+    "verifiedOn": "2026-10-29",
+    "testOrderMinutes": 60,
+    "localNotes": [
+      "Hyderabad supports Sindh demand beyond Karachi for homes, Latifabad / Qasimabad colonies and commercial kitchens.",
+      "Summer heat and Indus-belt humidity call for shaded, upright cylinder storage and a hose check on every delivery.",
+      "Named suppliers from our network appear in the directory on this page.",
+      "Same OGRA per-kg rate as the rest of Pakistan; delivery terms confirmed locally."
+    ],
+    "deliveryNote": "Target about one hour in covered Hyderabad areas when a local team is available; timing confirmed on each order."
+  },
+  "burewala": {
+    "indexable": true,
+    "verifiedOn": "2026-10-29",
+    "testOrderMinutes": 60,
+    "localNotes": [
+      "Burewala sits on the southern Punjab cotton and citrus belt with steady domestic and workshop demand.",
+      "Listed localities include Shah Faisal Colony, Yaqoob Abad and I Block — confirm your street when you order.",
+      "Farms and small processing units around the city often need 45.4 kg or scheduled refill routes.",
+      "Partner density is thinner than Lahore; we confirm reach and timing on every call."
+    ],
+    "deliveryNote": "Target about one hour in covered Burewala areas when a local team is available; timing confirmed on each order."
+  },
+  "abbottabad": {
+    "indexable": true,
+    "verifiedOn": "2026-10-29",
+    "testOrderMinutes": 90,
+    "localNotes": [
+      "Abbottabad winters raise heater and geyser demand; order before the cylinder runs empty.",
+      "Steep streets and fog or rain on Hazara roads can extend windows — we confirm honestly on the call.",
+      "Hostels, colleges and hotels on the Galiyat route commonly use 45.4 kg cylinders."
+    ],
+    "deliveryNote": "Target about 60–90 minutes in covered Abbottabad areas when a local team is available; hill roads and weather can change the window, confirmed before dispatch."
+  },
+  "gilgit": {
+    "indexable": true,
+    "verifiedOn": "2026-10-29",
+    "testOrderMinutes": 120,
+    "localNotes": [
+      "Gilgit is the main Gilgit-Baltistan hub; cold winters drive cooking, heating and hot-water use.",
+      "Karakoram Highway closures from snow or landslides can delay supply — we say what is realistic when you order.",
+      "Jutial and central Gilgit are among localities we check first; valleys farther out need exact locations."
+    ],
+    "deliveryNote": "Timing in Gilgit depends on mountain roads and weather. When a local team can reach you we confirm a realistic window before you agree — often longer than plains cities."
+  },
+  "murree": {
+    "indexable": false,
+    "verifiedOn": "2026-10-29",
+    "localNotes": [
+      "Murree demand spikes on weekends, summer holidays and snowfall days for hotels and guesthouses.",
+      "Snow and ice on steep hill roads can delay or stop delivery; we do not promise a fixed hour on bad weather days.",
+      "A named research distributor appears for the Murree Hills belt; supply is also coordinated from the Islamabad–Rawalpindi side when needed.",
+      "Confirm your exact locality (Mall Road side, Patriata approach or lower hills) when you inquire."
+    ],
+    "deliveryNote": "Hill roads and weather set the window in Murree. We confirm a realistic time on the call and do not promise a fixed hour on snowfall or heavy-traffic days."
+  },
+  "muzaffarabad": {
+    "indexable": false,
+    "verifiedOn": "2026-10-29",
+    "testOrderMinutes": 90,
+    "localNotes": [
+      "Muzaffarabad climbs steep ground between the Jhelum and Neelum — upper wards need a clear landmark and access note.",
+      "Monsoon rain and landslides can close AJK approaches; we confirm a realistic window rather than a plains-city hour.",
+      "Named network and research listings for the city appear in the directory on this page; street reach is still confirmed on the call.",
+      "Winter heating load rises in higher wards; order before the cylinder runs empty."
+    ],
+    "deliveryNote": "Target about 60–90 minutes in covered Muzaffarabad areas when a local team is available; hill roads and weather can change the window, confirmed before dispatch."
+  },
+  "skardu": {
+    "indexable": false,
+    "verifiedOn": "2026-10-29",
+    "testOrderMinutes": 120,
+    "localNotes": [
+      "Skardu winters are long and cold; cooking, heaters and hot water drive most household demand.",
+      "Mountain roads (and occasional air links when roads fail) set supply timing — we say what is realistic on the call.",
+      "A named research distributor is listed for Skardu; we still confirm whether a run can reach your street that week.",
+      "Hotels and trekking operators should plan 45.4 kg banks before the short tourist peak."
+    ],
+    "deliveryNote": "Timing in Skardu depends on mountain roads and weather. When a local team can reach you we confirm a realistic window before you agree — often longer than plains cities."
+  }
+}

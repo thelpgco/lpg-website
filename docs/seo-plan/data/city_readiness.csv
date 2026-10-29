@@ -1,0 +1,251 @@
+city,slug,province,pop_2023,pop_tier,partners_phone_listed,filling_points,open_24h,avg_rating,kw_floor,supply_tier,cold_region_assumed,remote_assumed,serper_wave,v4_decision,url_planned
+Karachi,karachi,Sindh,18868021.0,T1,180,26,48,4.46,2370,A,False,False,1,HUB: launch candidate,/lpg-in-karachi/
+Islamabad,islamabad,Islamabad (ICT),1108872.0,T1,70,5,20,4.31,210,A,False,False,1,HUB: launch candidate,/lpg-in-islamabad/
+Lahore,lahore,Punjab,13004135.0,T1,30,6,8,4.31,2720,A,False,False,1,HUB: launch candidate,/lpg-in-lahore/
+Peshawar,peshawar,Khyber Pakhtunkhwa,1905975.0,T1,20,5,2,4.58,0,A,False,False,1,HUB: launch candidate,/lpg-in-peshawar/
+Quetta,quetta,Balochistan,1565546.0,T1,11,1,3,3.87,0,A,True,False,1,HUB: launch candidate,/lpg-in-quetta/
+Faisalabad,faisalabad,Punjab,3691999.0,T1,8,1,2,4.19,70,A,False,False,1,HUB: launch candidate,/lpg-in-faisalabad/
+Rawalpindi,rawalpindi,Punjab,3357612.0,T1,8,0,3,4.3,310,A,False,False,1,HUB: launch candidate,/lpg-in-rawalpindi/
+Hyderabad,hyderabad,Sindh,1921275.0,T1,7,0,3,4.08,0,A,False,False,1,HUB: launch candidate,/lpg-in-hyderabad/
+Multan,multan,Punjab,2215381.0,T1,5,0,3,4.64,0,A,False,False,1,HUB: launch candidate,/lpg-in-multan/
+Gujranwala,gujranwala,Punjab,2511118.0,T1,4,1,1,4.38,0,B,False,False,1,HUB: P3 candidate (verify partners first),/lpg-in-gujranwala/
+Burewala,burewala,Punjab,361664.0,T3,4,1,0,5.0,0,B,False,False,2,HUB: P3 candidate (verify partners first),/lpg-in-burewala/
+Gojra,gojra,Punjab,214349.0,T3,4,1,1,3.15,0,B,False,False,2,HUB: P3 candidate (verify partners first),/lpg-in-gojra/
+Mansehra,mansehra,Khyber Pakhtunkhwa,137278.0,T4,3,0,1,4.3,0,B,True,False,1,HUB: P3 candidate (verify partners first),/lpg-in-mansehra/
+Gujrat,gujrat,Punjab,574240.0,T2,3,0,0,5.0,0,B,False,False,2,HUB: P3 candidate (verify partners first),/lpg-in-gujrat/
+Batkhela,batkhela,Khyber Pakhtunkhwa,73525.0,T4,3,2,2,3.6,0,B,True,False,2,HUB: P3 candidate (verify partners first),/lpg-in-batkhela/
+Mardan,mardan,Khyber Pakhtunkhwa,368302.0,T3,3,0,1,3.75,0,B,False,False,2,HUB: P3 candidate (verify partners first),/lpg-in-mardan/
+Gilgit,gilgit,Gilgit-Baltistan,,T?,2,1,0,3.65,0,C,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-gilgit/
+Sahiwal,sahiwal,Punjab,538344.0,T2,2,0,0,3.9,0,C,False,False,2,PROVINCE HUB section only,/lpg-in-sahiwal/
+Shikarpur,shikarpur,Sindh,204938.0,T3,2,0,0,,0,C,False,False,2,PROVINCE HUB section only,/lpg-in-shikarpur/
+Bhakkar,bhakkar,Punjab,131658.0,T4,2,0,0,4.75,0,C,False,False,2,PROVINCE HUB section only,/lpg-in-bhakkar/
+Sahiwal,sahiwal-2,Punjab,57374.0,T4,2,0,0,3.9,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-sahiwal-2/
+Rawalakot,rawalakot,Azad Jammu & Kashmir,,T?,1,0,0,4.0,0,C,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-rawalakot/
+Astore,astore,Gilgit-Baltistan,,T?,1,0,1,5.0,0,C,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-astore/
+Zhob,zhob,Balochistan,,T?,1,1,0,4.4,0,C,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-zhob/
+Loralai,loralai,Balochistan,,T?,1,0,0,5.0,0,C,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-loralai/
+Pishin,pishin,Balochistan,107646.0,T4,1,0,0,,0,C,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-pishin/
+Kohat,kohat,Khyber Pakhtunkhwa,235880.0,T3,1,0,1,,0,C,True,False,1,"WATCH: recruit partners, then re-score",/lpg-in-kohat/
+Abbottabad,abbottabad,Khyber Pakhtunkhwa,234395.0,T3,1,0,0,,0,C,True,False,1,"WATCH: recruit partners, then re-score",/lpg-in-abbottabad/
+Sargodha,sargodha,Punjab,975886.0,T2,1,0,0,,0,C,False,False,2,PROVINCE HUB section only,/lpg-in-sargodha/
+Swabi,swabi,Khyber Pakhtunkhwa,156496.0,T3,1,1,0,,0,C,True,False,2,"WATCH: recruit partners, then re-score",/lpg-in-swabi/
+Sialkot,sialkot,Punjab,911817.0,T2,1,1,0,5.0,0,C,False,False,2,PROVINCE HUB section only,/lpg-in-sialkot/
+Muzaffarabad,muzaffarabad,Azad Jammu & Kashmir,,T?,1,0,0,2.7,0,C,True,False,2,"WATCH: recruit partners, then re-score",/lpg-in-muzaffarabad/
+Umerkot,umerkot,Sindh,144558.0,T4,1,0,0,5.0,0,C,False,True,2,"WATCH: recruit partners, then re-score",/lpg-in-umerkot/
+Gwadar,gwadar,Balochistan,70852.0,T4,1,0,1,5.0,0,C,False,True,2,"WATCH: recruit partners, then re-score",/lpg-in-gwadar/
+Haripur,haripur,Khyber Pakhtunkhwa,91915.0,T4,1,0,0,5.0,0,C,True,False,2,"WATCH: recruit partners, then re-score",/lpg-in-haripur/
+Larkana,larkana,Sindh,551716.0,T2,1,0,0,,0,C,False,False,2,PROVINCE HUB section only,/lpg-in-larkana/
+Okara,okara,Punjab,533693.0,T2,1,0,1,4.5,50,C,False,False,2,PROVINCE HUB section only,/lpg-in-okara/
+Hub,hub,Balochistan,195661.0,T3,1,0,0,,0,C,False,False,2,PROVINCE HUB section only,/lpg-in-hub/
+Jatoi,jatoi,Punjab,155196.0,T3,1,0,0,,0,C,False,False,2,PROVINCE HUB section only,/lpg-in-jatoi/
+Nowshera,nowshera,Khyber Pakhtunkhwa,122953.0,T4,1,1,0,5.0,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-nowshera/
+Sambrial,sambrial,Punjab,119571.0,T4,1,0,0,4.0,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-sambrial/
+Bhalwal,bhalwal,Punjab,117982.0,T4,1,0,0,5.0,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-bhalwal/
+Pasrur,pasrur,Punjab,102717.0,T4,1,0,1,,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-pasrur/
+Renala Khurd,renala-khurd,Punjab,100054.0,T4,1,1,1,,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-renala-khurd/
+Thul,thul,Sindh,88554.0,T4,1,0,0,,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-thul/
+Talagang,talagang,Punjab,79431.0,T4,1,1,1,5.0,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-talagang/
+Topi,topi,Khyber Pakhtunkhwa,74867.0,T4,1,0,1,,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-topi/
+Bhera,bhera,Punjab,70921.0,T4,1,0,0,5.0,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-bhera/
+Lakki Marwat,lakki-marwat,Khyber Pakhtunkhwa,70759.0,T4,1,1,0,4.8,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-lakki-marwat/
+Jamrud,jamrud,Khyber Pakhtunkhwa,56642.0,T4,1,0,1,4.4,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-jamrud/
+Dunyapur,dunyapur,Punjab,51888.0,T4,1,0,0,,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-dunyapur/
+Matta,matta,Khyber Pakhtunkhwa,51821.0,T4,1,0,0,5.0,0,C,False,False,3,PROVINCE HUB section only,/lpg-in-matta/
+Chaman,chaman,Balochistan,130139.0,T4,0,0,0,,0,D,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-chaman/
+Ghizer (Gahkuch),ghizer,Gilgit-Baltistan,,T?,0,0,0,,0,D,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-ghizer/
+Skardu,skardu,Gilgit-Baltistan,,T?,0,0,0,,0,D,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-skardu/
+Hunza (Karimabad),hunza,Gilgit-Baltistan,,T?,0,0,0,,0,D,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-hunza/
+Chilas,chilas,Gilgit-Baltistan,,T?,0,0,0,,0,D,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-chilas/
+Bagh,bagh,Azad Jammu & Kashmir,,T?,0,0,0,,0,D,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-bagh/
+Kotli,kotli,Azad Jammu & Kashmir,,T?,0,0,0,,0,D,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-kotli/
+Ghanche (Khaplu),ghanche,Gilgit-Baltistan,,T?,0,0,0,,0,D,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-ghanche/
+Ziarat,ziarat,Balochistan,,T?,0,0,0,,0,D,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-ziarat/
+Mingora,mingora,Khyber Pakhtunkhwa,361112.0,T3,0,0,0,,0,D,True,False,1,"WATCH: recruit partners, then re-score",/lpg-in-mingora/
+Chitral,chitral,Khyber Pakhtunkhwa,57157.0,T4,0,0,0,,0,D,True,True,1,"WATCH: recruit partners, then re-score",/lpg-in-chitral/
+Turbat,turbat,Balochistan,268625.0,T3,0,0,0,,0,D,False,True,2,"WATCH: recruit partners, then re-score",/lpg-in-turbat/
+Khuzdar,khuzdar,Balochistan,218112.0,T3,0,0,0,,0,D,False,True,2,"WATCH: recruit partners, then re-score",/lpg-in-khuzdar/
+Jacobabad,jacobabad,Sindh,219315.0,T3,0,0,0,,0,D,False,True,2,"WATCH: recruit partners, then re-score",/lpg-in-jacobabad/
+Bahawalpur,bahawalpur,Punjab,903795.0,T2,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-bahawalpur/
+Panjgur,panjgur,Balochistan,157693.0,T3,0,0,0,,0,D,False,True,2,"WATCH: recruit partners, then re-score",/lpg-in-panjgur/
+Mirpur,mirpur,Azad Jammu & Kashmir,,T?,0,0,0,,0,D,True,False,2,"WATCH: recruit partners, then re-score",/lpg-in-mirpur/
+Murree,murree,Punjab,,T?,0,0,0,,0,D,True,False,2,"WATCH: recruit partners, then re-score",/lpg-in-murree/
+Kasur,kasur,Punjab,510875.0,T2,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-kasur/
+Jhang,jhang,Punjab,606533.0,T2,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-jhang/
+Sheikhupura,sheikhupura,Punjab,591424.0,T2,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-sheikhupura/
+Dera Murad Jamali,dera-murad-jamali,Balochistan,106952.0,T4,0,0,0,,0,D,False,True,2,"WATCH: recruit partners, then re-score",/lpg-in-dera-murad-jamali/
+Sukkur,sukkur,Sindh,563851.0,T2,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-sukkur/
+Rahim Yar Khan,rahim-yar-khan,Punjab,519261.0,T2,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-rahim-yar-khan/
+Dera Ghazi Khan,dera-ghazi-khan,Punjab,494464.0,T2,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-dera-ghazi-khan/
+Kharan,kharan,Balochistan,80806.0,T4,0,0,0,,0,D,False,True,2,"WATCH: recruit partners, then re-score",/lpg-in-kharan/
+Wah Cantonment,wah-cantonment,Punjab,400733.0,T2,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-wah-cantonment/
+Sibi,sibi,Balochistan,69300.0,T4,0,0,0,,0,D,False,True,2,"WATCH: recruit partners, then re-score",/lpg-in-sibi/
+Buleda,buleda,Balochistan,68752.0,T4,0,0,0,,0,D,False,True,2,"WATCH: recruit partners, then re-score",/lpg-in-buleda/
+Muridke,muridke,Punjab,254291.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-muridke/
+Nawabshah,nawabshah,Sindh,363138.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-nawabshah/
+Chiniot,chiniot,Punjab,318165.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-chiniot/
+Hafizabad,hafizabad,Punjab,318621.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-hafizabad/
+Jhelum,jhelum,Punjab,312426.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-jhelum/
+Kāmoke,k-moke,Punjab,292023.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-k-moke/
+Bahawalnagar,bahawalnagar,Punjab,241873.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-bahawalnagar/
+Khanewal,khanewal,Punjab,281890.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-khanewal/
+Sadiqabad,sadiqabad,Punjab,274210.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-sadiqabad/
+Mirpur Khas,mirpur-khas,Sindh,267833.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-mirpur-khas/
+Khanpur,khanpur,Punjab,247170.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-khanpur/
+Muzaffargarh,muzaffargarh,Punjab,235541.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-muzaffargarh/
+Daska,daska,Punjab,228626.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-daska/
+Mandi Bahauddin,mandi-bahauddin,Punjab,232361.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-mandi-bahauddin/
+Khairpur,khairpur,Sindh,191044.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-khairpur/
+Dera Ismail Khan,dera-ismail-khan,Khyber Pakhtunkhwa,220575.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-dera-ismail-khan/
+Pakpattan,pakpattan,Punjab,221280.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-pakpattan/
+Chakwal,chakwal,Punjab,218356.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-chakwal/
+Vehari,vehari,Punjab,210288.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-vehari/
+Ahmedpur East,ahmedpur-east,Punjab,196618.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-ahmedpur-east/
+Chishtian,chishtian,Punjab,192403.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-chishtian/
+Dadu,dadu,Sindh,188317.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-dadu/
+Samundri,samundri,Punjab,186371.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-samundri/
+Attock,attock,Punjab,176544.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-attock/
+Ferozwala,ferozwala,Punjab,177238.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-ferozwala/
+Tando Adam,tando-adam,Sindh,174291.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-tando-adam/
+Jaranwala,jaranwala,Punjab,170872.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-jaranwala/
+Tando Allahyar,tando-allahyar,Sindh,171185.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-tando-allahyar/
+Hasilpur,hasilpur,Punjab,168146.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-hasilpur/
+Kamalia,kamalia,Punjab,166617.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-kamalia/
+Bholari,bholari,Sindh,169613.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-bholari/
+Kot Abdul Malik,kot-abdul-malik,Punjab,162030.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-kot-abdul-malik/
+Jampur,jampur,Punjab,155243.0,T3,0,0,0,,0,D,False,False,2,PROVINCE HUB section only,/lpg-in-jampur/
+Arif Wala,arif-wala,Punjab,157063.0,T3,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-arif-wala/
+Gujranwala Cantonment,gujranwala-cantonment,Punjab,156929.0,T3,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-gujranwala-cantonment/
+Shujabad,shujabad,Punjab,151115.0,T3,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-shujabad/
+Layyah,layyah,Punjab,151274.0,T3,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-layyah/
+Wazirabad,wazirabad,Punjab,152624.0,T3,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-wazirabad/
+Haroonabad,haroonabad,Punjab,149679.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-haroonabad/
+Lodhran,lodhran,Punjab,144512.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-lodhran/
+Jalalpur Jattan,jalalpur-jattan,Punjab,146743.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-jalalpur-jattan/
+Charsadda,charsadda,Khyber Pakhtunkhwa,120170.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-charsadda/
+Kot Addu,kot-addu,Punjab,142161.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kot-addu/
+Moro,moro,Sindh,142685.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-moro/
+Khushab,khushab,Punjab,139905.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-khushab/
+Rajanpur,rajanpur,Punjab,137553.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-rajanpur/
+Mian Channu,mian-channu,Punjab,140112.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-mian-channu/
+Taxila,taxila,Punjab,136900.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-taxila/
+Narowal,narowal,Punjab,130692.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-narowal/
+Kabal,kabal,Khyber Pakhtunkhwa,132549.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kabal/
+Mianwali,mianwali,Punjab,129500.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-mianwali/
+Kotri,kotri,Sindh,106615.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kotri/
+Shakargarh,shakargarh,Punjab,126742.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-shakargarh/
+Mailsi,mailsi,Punjab,125431.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-mailsi/
+Sangla Hill,sangla-hill,Punjab,103709.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-sangla-hill/
+Dipalpur,dipalpur,Punjab,122759.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-dipalpur/
+Haveli Lakha,haveli-lakha,Punjab,122389.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-haveli-lakha/
+Shabqadar,shabqadar,Khyber Pakhtunkhwa,102340.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-shabqadar/
+Ghotki,ghotki,Sindh,119879.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-ghotki/
+Shahdadkot,shahdadkot,Sindh,120687.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-shahdadkot/
+Lala Musa,lala-musa,Punjab,121036.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-lala-musa/
+Badin,badin,Sindh,117455.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-badin/
+Tando Muhammad Khan,tando-muhammad-khan,Sindh,114406.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-tando-muhammad-khan/
+Phool Nagar,phool-nagar,Punjab,114530.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-phool-nagar/
+Barikot,barikot,Khyber Pakhtunkhwa,115045.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-barikot/
+Taunsa,taunsa,Punjab,115704.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-taunsa/
+Bhimber,bhimber,Azad Jammu & Kashmir,,T?,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-bhimber/
+Pattoki,pattoki,Punjab,113735.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-pattoki/
+Jauharabad,jauharabad,Punjab,113188.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-jauharabad/
+Shahdadpur,shahdadpur,Sindh,113342.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-shahdadpur/
+Kamber Ali Khan,kamber-ali-khan,Sindh,112313.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kamber-ali-khan/
+Chichawatni,chichawatni,Punjab,112191.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-chichawatni/
+Farooqabad,farooqabad,Punjab,109717.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-farooqabad/
+Kharian,kharian,Punjab,103036.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kharian/
+Gujar Khan,gujar-khan,Punjab,103284.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-gujar-khan/
+Ludhewala Waraich,ludhewala-waraich,Punjab,100331.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-ludhewala-waraich/
+Kot Radha Kishan,kot-radha-kishan,Punjab,102057.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kot-radha-kishan/
+Uch Sharif,uch-sharif,Punjab,98852.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-uch-sharif/
+Kahror Pacca,kahror-pacca,Punjab,98325.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kahror-pacca/
+Fazalpur,fazalpur,Punjab,98627.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-fazalpur/
+Dera Allah Yar,dera-allah-yar,Balochistan,98761.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-dera-allah-yar/
+Kandhkot,kandhkot,Sindh,99155.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kandhkot/
+Dijkot,dijkot,Punjab,96934.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-dijkot/
+Hujra Shah Muqeem,hujra-shah-muqeem,Punjab,95921.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-hujra-shah-muqeem/
+Khurrianwala,khurrianwala,Punjab,96743.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-khurrianwala/
+Dinga,dinga,Punjab,94252.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-dinga/
+Nankana Sahib,nankana-sahib,Punjab,94988.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-nankana-sahib/
+Kabirwala,kabirwala,Punjab,91932.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kabirwala/
+Rohri,rohri,Sindh,92135.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-rohri/
+Daharki,daharki,Sindh,90177.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-daharki/
+Shahkot,shahkot,Punjab,89638.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-shahkot/
+Jalalpur Pirwala,jalalpur-pirwala,Punjab,89679.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-jalalpur-pirwala/
+Kunjah,kunjah,Punjab,90905.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kunjah/
+Chunian,chunian,Punjab,87547.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-chunian/
+Chowk Azam,chowk-azam,Punjab,87376.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-chowk-azam/
+Naushahro Feroze,naushahro-feroze,Sindh,87416.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-naushahro-feroze/
+Jamshoro,jamshoro,Sindh,88190.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-jamshoro/
+Takht-i-Bahi,takht-i-bahi,Khyber Pakhtunkhwa,85040.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-takht-i-bahi/
+Fort Abbas,fort-abbas,Punjab,83192.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-fort-abbas/
+Dina,dina,Punjab,84629.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-dina/
+Mustafabad,mustafabad,Punjab,81550.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-mustafabad/
+Ratodero,ratodero,Sindh,81935.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-ratodero/
+Chenab Nagar,chenab-nagar,Punjab,81695.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-chenab-nagar/
+Fateh Jang,fateh-jang,Punjab,81321.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-fateh-jang/
+Sui,sui,Balochistan,79567.0,T4,0,0,0,,20,D,False,False,3,PROVINCE HUB section only,/lpg-in-sui/
+Ghakhar,ghakhar,Punjab,80320.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-ghakhar/
+Alahabad,alahabad,Punjab,80097.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-alahabad/
+Usta Muhammad,usta-muhammad,Balochistan,64632.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-usta-muhammad/
+Pano Akil,pano-akil,Sindh,76942.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-pano-akil/
+Bahrain,bahrain,Khyber Pakhtunkhwa,76728.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-bahrain/
+Ali Pur Chatta,ali-pur-chatta,Punjab,76964.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-ali-pur-chatta/
+Zahirpir,zahirpir,Punjab,76979.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-zahirpir/
+Kahuta,kahuta,Punjab,75349.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kahuta/
+Paharpur,paharpur,Khyber Pakhtunkhwa,76027.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-paharpur/
+Taxila,taxila-2,Punjab,75444.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-taxila-2/
+Tando Jam,tando-jam,Sindh,74303.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-tando-jam/
+Matli,matli,Sindh,74402.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-matli/
+Kot Mithan,kot-mithan,Punjab,74479.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kot-mithan/
+Qila Didar Singh,qila-didar-singh,Punjab,74523.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-qila-didar-singh/
+Mirpur Mathelo,mirpur-mathelo,Sindh,74651.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-mirpur-mathelo/
+Sehwan Sharif,sehwan-sharif,Sindh,75167.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-sehwan-sharif/
+Sanghar,sanghar,Sindh,74112.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-sanghar/
+Alipur,alipur,Punjab,74095.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-alipur/
+Sarai Alamgir,sarai-alamgir,Punjab,73967.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-sarai-alamgir/
+Kallar Syedan,kallar-syedan,Punjab,60941.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kallar-syedan/
+Sakrand,sakrand,Sindh,72040.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-sakrand/
+Hala,hala,Sindh,71094.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-hala/
+Zehri,zehri,Balochistan,70910.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-zehri/
+Hasan Abdal,hasan-abdal,Punjab,69529.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-hasan-abdal/
+Darya Khan,darya-khan,Punjab,68622.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-darya-khan/
+Jand,jand,Punjab,56254.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-jand/
+Narang Mandi,narang-mandi,Punjab,67137.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-narang-mandi/
+Minchinabad,minchinabad,Punjab,67164.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-minchinabad/
+Mehar,mehar,Sindh,67082.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-mehar/
+Liaqatpur,liaqatpur,Punjab,66933.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-liaqatpur/
+Tasp,tasp,Balochistan,66030.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-tasp/
+Pindi Bhattian,pindi-bhattian,Punjab,66511.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-pindi-bhattian/
+Raja Jang,raja-jang,Punjab,66404.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-raja-jang/
+Pindi Gheb,pindi-gheb,Punjab,63810.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-pindi-gheb/
+Kot Momin,kot-momin,Punjab,63411.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kot-momin/
+Phalia,phalia,Punjab,62453.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-phalia/
+Shehr Sultan,shehr-sultan,Punjab,62184.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-shehr-sultan/
+Chowk Sarwar Shaheed,chowk-sarwar-shaheed,Punjab,63421.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-chowk-sarwar-shaheed/
+Yazman,yazman,Punjab,60738.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-yazman/
+Chak Jhumra,chak-jhumra,Punjab,60131.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-chak-jhumra/
+Kot Chutta,kot-chutta,Punjab,59870.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-kot-chutta/
+Nowshera Virkan,nowshera-virkan,Punjab,59639.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-nowshera-virkan/
+Gambat,gambat,Sindh,59790.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-gambat/
+Karak,karak,Khyber Pakhtunkhwa,58065.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-karak/
+Khipro,khipro,Sindh,58307.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-khipro/
+Mehrabpur,mehrabpur,Sindh,57978.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-mehrabpur/
+Khwazakhela,khwazakhela,Khyber Pakhtunkhwa,57113.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-khwazakhela/
+Chaubara,chaubara,Punjab,57002.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-chaubara/
+Jehangira,jehangira,Khyber Pakhtunkhwa,57011.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-jehangira/
+Khalabat,khalabat,Khyber Pakhtunkhwa,55850.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-khalabat/
+Pir Jo Goth,pir-jo-goth,Sindh,54266.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-pir-jo-goth/
+Safdarabad,safdarabad,Punjab,54242.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-safdarabad/
+Makli,makli,Sindh,54137.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-makli/
+Naudero,naudero,Sindh,52846.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-naudero/
+Zafarwal,zafarwal,Punjab,52639.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-zafarwal/
+Lalian,lalian,Punjab,52542.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-lalian/
+Thatta,thatta,Sindh,51723.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-thatta/
+Mananwala,mananwala,Punjab,51746.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-mananwala/
+Fateh Pur,fateh-pur,Punjab,52255.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-fateh-pur/
+Malakwal,malakwal,Punjab,51327.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-malakwal/
+Jahanian,jahanian,Punjab,50318.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-jahanian/
+Sukheke,sukheke,Punjab,50458.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-sukheke/
+Ubauro,ubauro,Sindh,50981.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-ubauro/
+Khairpur Nathan Shah,khairpur-nathan-shah,Sindh,50786.0,T4,0,0,0,,0,D,False,False,3,PROVINCE HUB section only,/lpg-in-khairpur-nathan-shah/

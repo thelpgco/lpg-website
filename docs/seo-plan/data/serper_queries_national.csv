@@ -1,0 +1,232 @@
+﻿wave,scope,intent,query,gl,hl,location,num,endpoint,page_id,note
+0,national,home,lpg,pk,en,Pakistan,10,search,HP-001,page primary keyword
+0,national,home,lpg gas,pk,en,Pakistan,10,search,HP-001,top secondary keyword
+0,national,home,lpg to gas,pk,en,Pakistan,10,search,HP-001,top secondary keyword
+0,national,price,lpg rate in pakistan,pk,en,Pakistan,10,search,PR-001,page primary keyword
+0,national,price,lpg prices in pakistan,pk,en,Pakistan,10,search,PR-001,top secondary keyword
+0,national,price,lpg price in pakistan today,pk,en,Pakistan,10,search,PR-001,top secondary keyword
+0,national,price,lpg 1kg price today pakistan,pk,en,Pakistan,10,search,PR-002,page primary keyword
+0,national,price,lpg price in pakistan today per kg,pk,en,Pakistan,10,search,PR-002,top secondary keyword
+0,national,price,lpg 1kg price today,pk,en,Pakistan,10,search,PR-002,top secondary keyword
+0,national,price,ogra lpg price,pk,en,Pakistan,10,search,PR-003,page primary keyword
+0,national,price,ogra lpg price in pakistan today,pk,en,Pakistan,10,search,PR-003,top secondary keyword
+0,national,price,lpg price in pakistan today ogra,pk,en,Pakistan,10,search,PR-003,top secondary keyword
+0,national,price,lpg price karachi,pk,en,Pakistan,10,search,PR-004,page primary keyword
+0,national,price,lpg price in karachi,pk,en,Pakistan,10,search,PR-004,top secondary keyword
+0,national,price,lpg 1kg price today karachi,pk,en,Pakistan,10,search,PR-004,top secondary keyword
+0,national,price,lpg price in lahore,pk,en,Pakistan,10,search,PR-005,page primary keyword
+0,national,price,lpg price lahore,pk,en,Pakistan,10,search,PR-005,top secondary keyword
+0,national,price,lpg 1kg price today in lahore,pk,en,Pakistan,10,search,PR-005,top secondary keyword
+0,national,cylinders,price of lpg cylinder in pakistan,pk,en,Pakistan,10,search,CY-002,page primary keyword
+0,national,cylinders,cylinder lpg,pk,en,Pakistan,10,search,CY-002,top secondary keyword
+0,national,cylinders,lpg 11.8 kg price in pakistan,pk,en,Pakistan,10,search,CY-003,page primary keyword
+0,national,cylinders,lpg home cylinder price,pk,en,Pakistan,10,search,CY-003,top secondary keyword
+0,national,cylinders,lpg 12 kg price today,pk,en,Pakistan,10,search,CY-003,top secondary keyword
+0,national,cylinders,commercial lpg cylinder price,pk,en,Pakistan,10,search,CY-004,page primary keyword
+0,national,cylinders,lpg 45 kg cylinder price in pakistan,pk,en,Pakistan,10,search,CY-004,top secondary keyword
+0,national,cylinders,lpg 22kg price,pk,en,Pakistan,10,search,CY-004,top secondary keyword
+0,national,cylinders,lpg 5kg cylinder,pk,en,Pakistan,10,search,CY-005,page primary keyword
+0,national,cylinders,lpg 3 kg,pk,en,Pakistan,10,search,CY-005,top secondary keyword
+0,national,cylinders,lpg 5 kg cylinder,pk,en,Pakistan,10,search,CY-005,top secondary keyword
+0,national,cylinders,lpg fiber cylinder,pk,en,Pakistan,10,search,CY-006,page primary keyword
+0,national,cylinders,lpg fiber cylinder price in pakistan,pk,en,Pakistan,10,search,CY-006,top secondary keyword
+0,national,cylinders,composite lpg cylinder,pk,en,Pakistan,10,search,CY-006,top secondary keyword
+0,national,cylinders,lpg bottle sizes,pk,en,Pakistan,10,search,CY-007,page primary keyword
+0,national,cylinders,lpg weight,pk,en,Pakistan,10,search,CY-007,top secondary keyword
+0,national,cylinders,lpg 1 weight loss,pk,en,Pakistan,10,search,CY-007,top secondary keyword
+0,national,cylinders,lpg refill near me,pk,en,Pakistan,10,search,CY-008,page primary keyword
+0,national,cylinders,lpg refill,pk,en,Pakistan,10,search,CY-008,top secondary keyword
+0,national,cylinders,lpg refill pump,pk,en,Pakistan,10,search,CY-008,top secondary keyword
+0,national,cylinders,lpg empty cylinder price in pakistan,pk,en,Pakistan,10,search,CY-009,page primary keyword
+0,national,cylinders,gas connection lpg,pk,en,Pakistan,10,search,CY-009,top secondary keyword
+0,national,cylinders,lpg connection,pk,en,Pakistan,10,search,CY-009,top secondary keyword
+0,national,cylinders,lpg gas consumption per hour,pk,en,Pakistan,10,search,CY-010,page primary keyword
+0,national,delivery,lpg home delivery,pk,en,Pakistan,10,search,DL-001,page primary keyword
+0,national,delivery,lpg home delivery service,pk,en,Pakistan,10,search,DL-001,top secondary keyword
+0,national,delivery,steel industry lpg supply,pk,en,Pakistan,10,search,DL-001,top secondary keyword
+0,national,locations,lpg 1kg price today near islamabad,pk,en,Pakistan,10,search,DL-002,page primary keyword
+0,national,locations,lpg cylinder in islamabad,pk,en,Pakistan,10,search,DL-002,top secondary keyword
+0,national,locations,lpg cylinder islamabad,pk,en,Pakistan,10,search,DL-002,top secondary keyword
+0,national,locations,lpg gas rawalpindi,pk,en,Pakistan,10,search,DL-003,page primary keyword
+0,national,locations,lpg cylinder rawalpindi,pk,en,Pakistan,10,search,DL-003,top secondary keyword
+0,national,locations,lpg gas cylinders in rawalpindi,pk,en,Pakistan,10,search,DL-003,top secondary keyword
+0,national,locations,lpg lahore,pk,en,Pakistan,10,search,DL-004,page primary keyword
+0,national,locations,lpg gas lahore,pk,en,Pakistan,10,search,DL-004,top secondary keyword
+0,national,locations,lpg home delivery lahore,pk,en,Pakistan,10,search,DL-004,top secondary keyword
+0,national,locations,lpg in karachi,pk,en,Pakistan,10,search,DL-005,page primary keyword
+0,national,locations,lpg home delivery karachi,pk,en,Pakistan,10,search,DL-005,top secondary keyword
+0,national,locations,lpg 1kg price today near faisalabad,pk,en,Pakistan,10,search,LC-003,page primary keyword
+0,national,locations,okara lpg,pk,en,Pakistan,10,search,PH-001,page primary keyword
+0,national,locations,lpg gas sahiwal,pk,en,Pakistan,10,search,PH-001,top secondary keyword
+0,national,delivery,lpg tank,pk,en,Pakistan,10,search,DL-007,page primary keyword
+0,national,delivery,lpg 60 litre tank,pk,en,Pakistan,10,search,DL-007,top secondary keyword
+0,national,delivery,lpg bulk,pk,en,Pakistan,10,search,DL-007,top secondary keyword
+0,national,delivery,lpg online,pk,en,Pakistan,10,search,DL-008,page primary keyword
+0,national,delivery,lpg online bill,pk,en,Pakistan,10,search,DL-008,top secondary keyword
+0,national,delivery,lpg online apply,pk,en,Pakistan,10,search,DL-008,top secondary keyword
+0,national,local,lpg near me,pk,en,Pakistan,10,search,NM-001,page primary keyword
+0,national,local,lpg cylinder near me,pk,en,Pakistan,10,search,NM-001,top secondary keyword
+0,national,local,lpg home delivery near me,pk,en,Pakistan,10,search,NM-001,top secondary keyword
+0,national,local,lpg store,pk,en,Pakistan,10,search,NM-002,page primary keyword
+0,national,local,lpg gas shop,pk,en,Pakistan,10,search,NM-002,top secondary keyword
+0,national,local,lpg shop,pk,en,Pakistan,10,search,NM-002,top secondary keyword
+0,national,local,lpg station near me,pk,en,Pakistan,10,search,NM-003,page primary keyword
+0,national,local,lpg filling station,pk,en,Pakistan,10,search,NM-003,top secondary keyword
+0,national,local,lpg station,pk,en,Pakistan,10,search,NM-003,top secondary keyword
+0,national,local,lpg companies in pakistan,pk,en,Pakistan,10,search,NM-004,page primary keyword
+0,national,local,lpg cylinder companies in pakistan,pk,en,Pakistan,10,search,NM-004,top secondary keyword
+0,national,market,lpg shortage in pakistan,pk,en,Pakistan,10,search,NW-001,page primary keyword
+0,national,market,lpg crisis in pakistan,pk,en,Pakistan,10,search,NW-001,top secondary keyword
+0,national,market,lpg latest news,pk,en,Pakistan,10,search,NW-001,top secondary keyword
+0,national,market,lpg importers in pakistan,pk,en,Pakistan,10,search,NW-002,page primary keyword
+0,national,market,how lpg gas is produced,pk,en,Pakistan,10,search,NW-002,top secondary keyword
+0,national,market,how lpg produced,pk,en,Pakistan,10,search,NW-002,top secondary keyword
+0,national,learn,lpg stand for,pk,en,Pakistan,10,search,ED-001,page primary keyword
+0,national,learn,lpg stands for,pk,en,Pakistan,10,search,ED-001,top secondary keyword
+0,national,learn,lpg gas stands for,pk,en,Pakistan,10,search,ED-001,top secondary keyword
+0,national,learn,lpg formula,pk,en,Pakistan,10,search,ED-002,page primary keyword
+0,national,learn,lpg composition,pk,en,Pakistan,10,search,ED-002,top secondary keyword
+0,national,learn,lpg consists of,pk,en,Pakistan,10,search,ED-002,top secondary keyword
+0,national,learn,lng vs lpg,pk,en,Pakistan,10,search,ED-003,page primary keyword
+0,national,learn,lpg and lng difference,pk,en,Pakistan,10,search,ED-003,top secondary keyword
+0,national,learn,lpg and lng,pk,en,Pakistan,10,search,ED-003,top secondary keyword
+0,national,learn,lpg or cng,pk,en,Pakistan,10,search,ED-004,page primary keyword
+0,national,learn,lpg vs cng,pk,en,Pakistan,10,search,ED-004,top secondary keyword
+0,national,learn,lpg and cng difference,pk,en,Pakistan,10,search,ED-004,top secondary keyword
+0,national,learn,lpg vs natural gas,pk,en,Pakistan,10,search,ED-005,page primary keyword
+0,national,learn,lpg sui gas,pk,en,Pakistan,10,search,ED-005,top secondary keyword
+0,national,learn,lpg vs sui gas,pk,en,Pakistan,10,search,ED-005,top secondary keyword
+0,national,learn,lpg liter to kg,pk,en,Pakistan,10,search,ED-006,page primary keyword
+0,national,learn,lpg litres to kg,pk,en,Pakistan,10,search,ED-006,top secondary keyword
+0,national,learn,lpg kg to liter,pk,en,Pakistan,10,search,ED-006,top secondary keyword
+0,national,safety,lpg hazards,pk,en,Pakistan,10,search,SF-001,page primary keyword
+0,national,safety,lpg law,pk,en,Pakistan,10,search,SF-001,top secondary keyword
+0,national,safety,can lpg gas kill you,pk,en,Pakistan,10,search,SF-002,page primary keyword
+0,national,safety,lpg yellow flame,pk,en,Pakistan,10,search,SF-002,top secondary keyword
+0,national,safety,why lpg gas smell,pk,en,Pakistan,10,search,SF-002,top secondary keyword
+0,national,safety,why lpg cylinder blast,pk,en,Pakistan,10,search,SF-003,page primary keyword
+0,national,safety,lpg blast video,pk,en,Pakistan,10,search,SF-003,top secondary keyword
+0,national,safety,lpg fire,pk,en,Pakistan,10,search,SF-003,top secondary keyword
+0,national,safety,lpg regulator,pk,en,Pakistan,10,search,SF-004,page primary keyword
+0,national,safety,lpg cylinder regulator,pk,en,Pakistan,10,search,SF-004,top secondary keyword
+0,national,safety,lpg high pressure regulator,pk,en,Pakistan,10,search,SF-004,top secondary keyword
+0,national,safety,lpg cylinder regulator repair,pk,en,Pakistan,10,search,SF-005,page primary keyword
+0,national,safety,lpg regulator leakage,pk,en,Pakistan,10,search,SF-005,top secondary keyword
+0,national,safety,lpg regulator problems,pk,en,Pakistan,10,search,SF-005,top secondary keyword
+0,national,safety,lpg leakage detector,pk,en,Pakistan,10,search,SF-006,page primary keyword
+0,national,safety,lpg alarm battery operated,pk,en,Pakistan,10,search,SF-006,top secondary keyword
+0,national,appliances,stove lpg,pk,en,Pakistan,10,search,AP-001,page primary keyword
+0,national,appliances,lpg stove price in pakistan,pk,en,Pakistan,10,search,AP-001,top secondary keyword
+0,national,appliances,lpg geyser price in pakistan,pk,en,Pakistan,10,search,AP-002,page primary keyword
+0,national,appliances,geyser lpg,pk,en,Pakistan,10,search,AP-002,top secondary keyword
+0,national,appliances,lpg instant geyser,pk,en,Pakistan,10,search,AP-002,top secondary keyword
+0,national,appliances,lpg heater,pk,en,Pakistan,10,search,AP-003,page primary keyword
+0,national,appliances,gas heaters lpg,pk,en,Pakistan,10,search,AP-003,top secondary keyword
+0,national,appliances,lpg heater in pakistan,pk,en,Pakistan,10,search,AP-003,top secondary keyword
+0,national,appliances,lpg evaporator,pk,en,Pakistan,10,search,AP-004,page primary keyword
+0,national,appliances,algas lpg vaporizer,pk,en,Pakistan,10,search,AP-004,top secondary keyword
+0,national,appliances,auto lpg vaporizer,pk,en,Pakistan,10,search,AP-004,top secondary keyword
+0,national,auto,lpg car,pk,en,Pakistan,10,search,AU-001,page primary keyword
+0,national,auto,lpg on car,pk,en,Pakistan,10,search,AU-001,top secondary keyword
+0,national,auto,lpg mechanic near me,pk,en,Pakistan,10,search,AU-001,top secondary keyword
+0,national,auto,lpg kit price in pakistan,pk,en,Pakistan,10,search,AU-002,page primary keyword
+0,national,auto,lpg kit,pk,en,Pakistan,10,search,AU-002,top secondary keyword
+0,national,auto,lpg kit for car,pk,en,Pakistan,10,search,AU-002,top secondary keyword
+0,national,b2b,lpg business in pakistan,pk,en,Pakistan,10,search,BZ-001,page primary keyword
+0,national,b2b,lpg distribution,pk,en,Pakistan,10,search,BZ-001,top secondary keyword
+0,national,b2b,lpg business,pk,en,Pakistan,10,search,BZ-001,top secondary keyword
+0,national,b2b,lpg distributor,pk,en,Pakistan,10,search,BZ-004,page primary keyword
+0,national,b2b,lpg marketing companies,pk,en,Pakistan,10,search,BZ-004,top secondary keyword
+0,national,b2b,lpg marketing companies in pakistan,pk,en,Pakistan,10,search,BZ-004,top secondary keyword
+0,national,b2b,lpg plant,pk,en,Pakistan,10,search,BZ-002,page primary keyword
+0,national,b2b,lpg plant in pakistan,pk,en,Pakistan,10,search,BZ-002,top secondary keyword
+0,national,b2b,lpg compressor,pk,en,Pakistan,10,search,BZ-002,top secondary keyword
+0,national,b2b,lpg bowser,pk,en,Pakistan,10,search,BZ-003,page primary keyword
+0,national,b2b,lpg bowser price in pakistan,pk,en,Pakistan,10,search,BZ-003,top secondary keyword
+0,national,b2b,lpg bowser capacity,pk,en,Pakistan,10,search,BZ-003,top secondary keyword
+0,national,services,lpg pipeline installation,pk,en,Pakistan,10,search,SV-002,page primary keyword
+0,national,services,lpg storage tank installation,pk,en,Pakistan,10,search,SV-003,page primary keyword
+0,national,services,lpg manifold installation,pk,en,Pakistan,10,search,SV-004,page primary keyword
+0,national,services,lpg air mixing system,pk,en,Pakistan,10,search,SV-005,page primary keyword
+0,national,services,boiler conversion to lpg,pk,en,Pakistan,10,search,SV-006,page primary keyword
+0,national,services,lpg safety inspection,pk,en,Pakistan,10,search,SV-007,page primary keyword
+0,national,services,lpg maintenance services,pk,en,Pakistan,10,search,SV-008,page primary keyword
+0,national,services,lpg cylinder testing,pk,en,Pakistan,10,search,SV-009,page primary keyword
+0,national,delivery,industrial lpg supplier,pk,en,Pakistan,10,search,DL-009,page primary keyword
+0,national,industries,restaurant lpg supply,pk,en,Pakistan,10,search,IN-002,page primary keyword
+0,national,industries,hotel lpg supply,pk,en,Pakistan,10,search,IN-003,page primary keyword
+0,national,industries,lpg for textile industry,pk,en,Pakistan,10,search,IN-004,page primary keyword
+0,national,industries,lpg for food processing,pk,en,Pakistan,10,search,IN-005,page primary keyword
+0,national,industries,lpg poultry farm heating,pk,en,Pakistan,10,search,IN-006,page primary keyword
+0,national,industries,hospital lpg supply,pk,en,Pakistan,10,search,IN-007,page primary keyword
+0,national,industries,lpg supply for housing society,pk,en,Pakistan,10,search,IN-008,page primary keyword
+0,national,industries,industrial lpg supply factory,pk,en,Pakistan,10,search,IN-009,page primary keyword
+0,national,industries,lpg for wedding catering,pk,en,Pakistan,10,search,IN-010,page primary keyword
+0,national,shop,lpg hose pipe price,pk,en,Pakistan,10,search,SP-002,page primary keyword
+0,national,shop,commercial lpg burner,pk,en,Pakistan,10,search,SP-003,page primary keyword
+0,national,learn,lpg vs sui gas cost,pk,en,Pakistan,10,search,TL-002,page primary keyword
+0,national,learn,lpg vs diesel cost,pk,en,Pakistan,10,search,TL-003,page primary keyword
+0,national,learn,lpg tank size calculator,pk,en,Pakistan,10,search,TL-004,page primary keyword
+0,national,learn,lpg btu to kwh,pk,en,Pakistan,10,search,TL-005,page primary keyword
+0,national,learn,propane vs butane,pk,en,Pakistan,10,search,ED-007,page primary keyword
+0,national,learn,how is lpg produced,pk,en,Pakistan,10,search,ED-008,page primary keyword
+0,national,learn,ogra lpg rules,pk,en,Pakistan,10,search,ED-009,page primary keyword
+0,national,learn,licensed lpg supplier pakistan,pk,en,Pakistan,10,search,ED-010,page primary keyword
+0,national,learn,lpg marketing company vs distributor,pk,en,Pakistan,10,search,ED-011,page primary keyword
+0,national,supply,lpg supplier in pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,supply,lpg gas supplier,pk,en,Pakistan,10,search,,v4 scope query
+0,national,supply,bulk lpg supplier pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,supply,industrial lpg supplier pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,supply,commercial lpg supply pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,supply,wholesale lpg price pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,supply,lpg gas company in pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,supply,licensed lpg marketer pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,network,how to become lpg distributor in pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,network,lpg distributorship pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,network,ogra lpg marketing licence,pk,en,Pakistan,10,search,,v4 scope query
+0,national,network,lpg dealer licence pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,network,lpg agency kaise len,pk,en,Pakistan,10,search,,v4 scope query
+0,national,network,lpg gas agency business pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,network,lpg dealer near me,pk,en,Pakistan,10,search,,v4 scope query
+0,national,cylinders,fiber lpg cylinder price pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,cylinders,composite gas cylinder pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,cylinders,gas cylinder 11.8 kg price,pk,en,Pakistan,10,search,,v4 scope query
+0,national,cylinders,gas cylinder 45 kg price,pk,en,Pakistan,10,search,,v4 scope query
+0,national,cylinders,lpg cylinder exchange pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,cylinders,lpg cylinder expiry date,pk,en,Pakistan,10,search,,v4 scope query
+0,national,cylinders,lpg cylinder hydro test pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,cylinders,new gas cylinder connection price,pk,en,Pakistan,10,search,,v4 scope query
+0,national,appliances,lpg regulator price in pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,appliances,lpg gas heater price,pk,en,Pakistan,10,search,,v4 scope query
+0,national,appliances,commercial lpg burner price,pk,en,Pakistan,10,search,,v4 scope query
+0,national,appliances,lpg gas leak detector price,pk,en,Pakistan,10,search,,v4 scope query
+0,national,services,lpg pipeline installation pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,services,gas pipeline installation cost pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,services,lpg storage tank installation pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,services,lpg manifold system for restaurant,pk,en,Pakistan,10,search,,v4 scope query
+0,national,services,lpg vaporizer price pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,services,lpg air mixing plant pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,services,boiler conversion to lpg pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,services,lpg filling plant setup pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,services,lpg safety audit pakistan,pk,en,Pakistan,10,search,,v4 scope query
+0,national,services,gas system maintenance contract,pk,en,Pakistan,10,search,,v4 scope query
+0,national,industries,lpg for restaurant kitchen,pk,en,Pakistan,10,search,,v4 scope query
+0,national,industries,hotel lpg gas supply,pk,en,Pakistan,10,search,,v4 scope query
+0,national,industries,lpg for textile mill,pk,en,Pakistan,10,search,,v4 scope query
+0,national,industries,lpg for poultry farm,pk,en,Pakistan,10,search,,v4 scope query
+0,national,industries,lpg for wedding hall,pk,en,Pakistan,10,search,,v4 scope query
+0,national,industries,lpg supply housing society,pk,en,Pakistan,10,search,,v4 scope query
+0,national,industries,lpg supply for marquee,pk,en,Pakistan,10,search,,v4 scope query
+0,national,learn,how long does a 12 kg cylinder last,pk,en,Pakistan,10,search,,v4 scope query
+0,national,learn,ogra lpg regulations,pk,en,Pakistan,10,search,,v4 scope query
+0,national,learn,difference between lpg marketing company and distributor,pk,en,Pakistan,10,search,,v4 scope query
+0,national,learn,lpg cylinder safety tips,pk,en,Pakistan,10,search,,v4 scope query
+0,national,price_ru,lpg gas ka rate aaj ka,pk,en,Pakistan,10,search,,v4 scope query
+0,national,price_ru,gas cylinder ki qeemat,pk,en,Pakistan,10,search,,v4 scope query
+0,national,price_ru,aaj lpg ka rate,pk,en,Pakistan,10,search,,v4 scope query
+0,national,price_ru,gas cylinder ka rate,pk,en,Pakistan,10,search,,v4 scope query
+0,national,price_ru,12 kg cylinder ka rate,pk,en,Pakistan,10,search,,v4 scope query
+0,national,buy_ru,gas cylinder home delivery,pk,en,Pakistan,10,search,,v4 scope query
+0,national,buy_ru,gas cylinder kahan se milega,pk,en,Pakistan,10,search,,v4 scope query
+0,national,buy_ru,lpg gas agency kaise len,pk,en,Pakistan,10,search,,v4 scope query
+0,national,buy_ru,gas cylinder lene ka tareeqa,pk,en,Pakistan,10,search,,v4 scope query

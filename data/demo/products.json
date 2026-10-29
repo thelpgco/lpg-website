@@ -1,0 +1,112 @@
+{
+  "_mode": "demo",
+  "_readme": "MANAGEMENT DEMO ONLY. Typical Pakistan market ranges for inspection layouts. Not published as our fixed retail price list in production mode.",
+  "cylinders": [
+    {
+      "id": "cyl-5",
+      "sku": "CYL-STEEL-5",
+      "name": "5 kg domestic LPG cylinder",
+      "type": "steel",
+      "gasKg": 5,
+      "tareKgApprox": 7.5,
+      "heightMmApprox": 420,
+      "diameterMmApprox": 280,
+      "typicalUse": "Light home use, portable stoves, small kitchens",
+      "demoDepositPkr": 2500,
+      "demoNewEmptyPkr": 4500,
+      "demoDeliveryFeePkr": 200,
+      "valve": "Standard domestic valve (confirm regulator fit on order)",
+      "demoStock": "In demo catalogue"
+    },
+    {
+      "id": "cyl-118",
+      "sku": "CYL-STEEL-118",
+      "name": "11.8 kg domestic LPG cylinder (often called 12 kg)",
+      "type": "steel",
+      "gasKg": 11.8,
+      "tareKgApprox": 15.5,
+      "heightMmApprox": 580,
+      "diameterMmApprox": 310,
+      "typicalUse": "Standard Pakistan household cylinder",
+      "demoDepositPkr": 4500,
+      "demoNewEmptyPkr": 7500,
+      "demoDeliveryFeePkr": 250,
+      "valve": "Standard domestic valve",
+      "demoStock": "In demo catalogue"
+    },
+    {
+      "id": "cyl-15",
+      "sku": "CYL-STEEL-15",
+      "name": "15 kg LPG cylinder",
+      "type": "steel",
+      "gasKg": 15,
+      "tareKgApprox": 17.5,
+      "heightMmApprox": 650,
+      "diameterMmApprox": 320,
+      "typicalUse": "Larger households and small food businesses",
+      "demoDepositPkr": 5500,
+      "demoNewEmptyPkr": 9000,
+      "demoDeliveryFeePkr": 300,
+      "valve": "Standard domestic / light commercial valve",
+      "demoStock": "In demo catalogue"
+    },
+    {
+      "id": "cyl-454",
+      "sku": "CYL-STEEL-454",
+      "name": "45.4 kg commercial LPG cylinder",
+      "type": "steel",
+      "gasKg": 45.4,
+      "tareKgApprox": 32,
+      "heightMmApprox": 1250,
+      "diameterMmApprox": 370,
+      "typicalUse": "Restaurants, hotels, commercial kitchens",
+      "demoDepositPkr": 18000,
+      "demoNewEmptyPkr": 32000,
+      "demoDeliveryFeePkr": 800,
+      "valve": "Commercial valve — trained handling required",
+      "demoStock": "In demo catalogue"
+    },
+    {
+      "id": "cyl-comp-125",
+      "sku": "CYL-COMP-125",
+      "name": "Composite fibre LPG cylinder (demo 12.5 kg class)",
+      "type": "composite",
+      "gasKg": 12.5,
+      "tareKgApprox": 5.5,
+      "heightMmApprox": 570,
+      "diameterMmApprox": 305,
+      "typicalUse": "Homes wanting lighter bottle and visible liquid level",
+      "demoDepositPkr": 8000,
+      "demoNewEmptyPkr": 14000,
+      "demoDeliveryFeePkr": 300,
+      "valve": "Composite-compatible regulator required",
+      "demoStock": "Demo — confirm city stock on live order"
+    }
+  ],
+  "appliances": [
+    {
+      "id": "stove-2b",
+      "name": "Two-burner stainless LPG stove",
+      "category": "stove",
+      "demoPricePkr": 8500,
+      "demoPriceNote": "Demo catalogue band for management UI",
+      "features": ["Two burners", "Stainless top", "Standard regulator inlet"]
+    },
+    {
+      "id": "geyser-inst",
+      "name": "Instant LPG geyser (demo model)",
+      "category": "geyser",
+      "demoPricePkr": 18500,
+      "demoPriceNote": "Demo catalogue band — flue and CO safety required",
+      "features": ["Instant hot water", "LPG fired", "Requires proper flue"]
+    },
+    {
+      "id": "heater-room",
+      "name": "Room LPG heater (demo model)",
+      "category": "heater",
+      "demoPricePkr": 12000,
+      "demoPriceNote": "Demo catalogue — ventilated rooms only",
+      "features": ["Portable", "Tip-over cut-off (demo feature list)"]
+    }
+  ]
+}

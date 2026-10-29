@@ -1,0 +1,185 @@
+{
+  "/lpg-in-multan/": [
+    "bazaar",
+    "commercialKitchen",
+    "cylDomestic",
+    "deliveryTruck"
+  ],
+  "/lpg-in-gujranwala/": [
+    "bazaar",
+    "restaurantDelivery",
+    "cyl454",
+    "deliveryTruck"
+  ],
+  "/lpg-in-gilgit/": [
+    "heaterFront",
+    "cylDomestic",
+    "deliveryUnload",
+    "bazaar"
+  ],
+  "/lpg-in-skardu/": [
+    "heaterAngle",
+    "cylDomestic",
+    "deliveryTruck",
+    "commercialKitchen"
+  ],
+  "/lpg-in-murree/": [
+    "heaterFront",
+    "cylDomestic",
+    "deliveryTeam",
+    "bazaar"
+  ],
+  "/lpg-in-muzaffarabad/": [
+    "bazaar",
+    "cylDomestic",
+    "deliveryTruck",
+    "hoseKit"
+  ],
+  "/lpg-in-abbottabad/": [
+    "heaterFront",
+    "cylDomestic",
+    "doorstepHandover",
+    "bazaar"
+  ],
+  "/industries/": [
+    "commercialKitchen",
+    "bulkTanks",
+    "warehouseCylinders",
+    "manifold"
+  ],
+  "/industries/restaurants/": [
+    "commercialKitchen",
+    "restaurantDelivery",
+    "restaurantHandoff",
+    "cyl454"
+  ],
+  "/industries/hotels/": [
+    "commercialKitchen",
+    "cyl454",
+    "bulkTanks",
+    "manifold"
+  ],
+  "/industries/textile/": [
+    "bulkTanks",
+    "manifold",
+    "warehouseCylinders",
+    "collageEquip"
+  ],
+  "/industries/food-processing/": [
+    "commercialKitchen",
+    "cyl454",
+    "manifold",
+    "warehouseCylinders"
+  ],
+  "/industries/poultry-farms/": [
+    "cyl454",
+    "warehouseCylinders",
+    "heaterAngle",
+    "deliveryTruck"
+  ],
+  "/industries/hospitals/": [
+    "bulkTanks",
+    "manifold",
+    "regHoseClose",
+    "warehouseCylinders"
+  ],
+  "/industries/housing-societies/": [
+    "familyDoorstep",
+    "doorstepHandover",
+    "bulkTanks",
+    "manifold"
+  ],
+  "/industries/manufacturing/": [
+    "bulkTanks",
+    "manifold",
+    "warehouseCylinders",
+    "collageEquip"
+  ],
+  "/industries/weddings-and-events/": [
+    "restaurantDelivery",
+    "restaurantHandoff",
+    "cyl454",
+    "deliveryTruck"
+  ],
+  "/tools/lpg-cylinder-price-calculator/": [
+    "cylLineup",
+    "cyl454Specs",
+    "emptyFilled",
+    "ograPriceScreen"
+  ],
+  "/tools/lpg-litre-to-kg-converter/": [
+    "cylSpecLabel",
+    "emptyFilled",
+    "cylLineup"
+  ],
+  "/tools/lpg-btu-kwh-converter/": [
+    "cylSpecLabel",
+    "kitchenFlame",
+    "collageEquip"
+  ],
+  "/tools/lpg-tank-size-calculator/": [
+    "bulkTanks",
+    "manifold",
+    "deliveryTruck"
+  ],
+  "/tools/lpg-vs-diesel-cost-calculator/": [
+    "bulkTanks",
+    "manifold",
+    "warehouseCylinders"
+  ],
+  "/tools/lpg-vs-sui-gas-cost-calculator/": [
+    "cylDomestic",
+    "familyKitchen",
+    "stoveFront",
+    "ograPriceScreen"
+  ],
+  "/shop/": [
+    "stoveFront",
+    "geyserFront",
+    "heaterFront",
+    "hoseKit",
+    "commercialKitchen",
+    "collageEquip"
+  ],
+  "/shop/commercial-lpg-burners/": [
+    "commercialKitchen",
+    "restaurantHandoff",
+    "collageEquip",
+    "cyl454"
+  ],
+  "/shop/lpg-hoses-and-accessories/": [
+    "hoseKit",
+    "regHoseStudio",
+    "regHoseClose",
+    "cylDomestic"
+  ],
+  "/lpg-stove-price-in-pakistan/": [
+    "stoveFront",
+    "stoveAngle",
+    "stoveBadge",
+    "kitchenFlame"
+  ],
+  "/lpg-geyser-price-in-pakistan/": [
+    "geyserFront",
+    "geyserAngle",
+    "geyserAlt",
+    "regHoseStudio"
+  ],
+  "/lpg-heaters-in-pakistan/": [
+    "heaterFront",
+    "heaterAngle",
+    "cylDomestic",
+    "regHoseStudio"
+  ],
+  "/lpg-vaporizers/": [
+    "bulkTanks",
+    "manifold",
+    "collageEquip"
+  ],
+  "/projects/": [
+    "bulkTanks",
+    "manifold",
+    "collageEquip"
+  ],
+  "/about/haroon-rasheed/": []
+}

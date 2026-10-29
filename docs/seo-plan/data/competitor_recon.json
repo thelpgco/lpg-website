@@ -1,0 +1,320 @@
+{
+ "https://www.flamora.pk": {
+  "robots_status": 200,
+  "robots_disallow": [
+   "/api/",
+   "/(auth)/",
+   "/(dashboard)/",
+   "/settings/",
+   "/select-region/",
+   "/test-notifications/"
+  ],
+  "robots_crawl_delay": [],
+  "sitemaps_tried": 1,
+  "urls": 6,
+  "top_segments": [
+   [
+    "(home)",
+    1
+   ],
+   [
+    "about",
+    1
+   ],
+   [
+    "services",
+    1
+   ],
+   [
+    "shop",
+    1
+   ],
+   [
+    "blog",
+    1
+   ],
+   [
+    "contact",
+    1
+   ]
+  ],
+  "sample": [
+   "https://flamora.pk",
+   "https://flamora.pk/about",
+   "https://flamora.pk/services",
+   "https://flamora.pk/shop",
+   "https://flamora.pk/blog",
+   "https://flamora.pk/contact"
+  ],
+  "home_status": 200,
+  "home_bytes": 39721,
+  "title": "Flamora LPG | #1 Trusted LPG Gas Supplier in Pakistan \u2014 Home &amp; Business Delivery",
+  "js_rendered_hint": true,
+  "wordpress": false,
+  "has_ld_json": true
+ },
+ "https://gasonline.pk": {
+  "robots_status": 200,
+  "robots_disallow": [],
+  "robots_crawl_delay": [],
+  "sitemaps_tried": 3,
+  "urls": 0,
+  "top_segments": [],
+  "sample": [],
+  "home_status": 200,
+  "home_bytes": 43705,
+  "title": "GasOnline \u2014 LPG Supply Company",
+  "js_rendered_hint": false,
+  "wordpress": true,
+  "has_ld_json": false
+ },
+ "https://noorlpg.com": {
+  "robots_status": 200,
+  "robots_disallow": [
+   "/wp-admin/"
+  ],
+  "robots_crawl_delay": [],
+  "sitemaps_tried": 2,
+  "urls": 0,
+  "top_segments": [],
+  "sample": [],
+  "home_status": 200,
+  "home_bytes": 271164,
+  "title": "Noor LPG Co. (Pvt) Ltd. - Leading Supplier &amp; Distributor of LPG in Pakistan",
+  "js_rendered_hint": false,
+  "wordpress": true,
+  "has_ld_json": true
+ },
+ "https://ppgl.com.pk": {
+  "robots_status": 200,
+  "robots_disallow": [
+   "/wp-admin/"
+  ],
+  "robots_crawl_delay": [],
+  "sitemaps_tried": 11,
+  "urls": 129,
+  "top_segments": [
+   [
+    "listings",
+    7
+   ],
+   [
+    "wdt_headers",
+    4
+   ],
+   [
+    "wdt_footers",
+    4
+   ],
+   [
+    "listing-category",
+    4
+   ],
+   [
+    "listing-tag",
+    4
+   ],
+   [
+    "how-lpg-supports-a-greener-future-cleaner-energy-for-pakistan",
+    1
+   ],
+   [
+    "renewable-energy-comes-from-sources-that-naturally-replenish-e-g-sun-wind-water-sustainable-energy-refers-to-energy-that-can-be-used-long-term-without-harming-the-environmen",
+    1
+   ],
+   [
+    "lpg-at-home-everything-you-need-to-know-for-safe-efficient-use-2",
+    1
+   ]
+  ],
+  "sample": [
+   "https://ppgl.com.pk/how-lpg-supports-a-greener-future-cleaner-energy-for-pakistan/",
+   "https://ppgl.com.pk/renewable-energy-comes-from-sources-that-naturally-replenish-e-g-sun-wind-water-sustainable-energy-refers-to-energy-that-can-be-used-long-term-without-harming-the-environmen/",
+   "https://ppgl.com.pk/lpg-at-home-everything-you-need-to-know-for-safe-efficient-use-2/",
+   "https://ppgl.com.pk/sample-page/",
+   "https://ppgl.com.pk/privacy-policy/",
+   "https://ppgl.com.pk/blogs/"
+  ],
+  "home_status": 200,
+  "home_bytes": 871682,
+  "title": "Parco Pearl Gas Limited",
+  "js_rendered_hint": false,
+  "wordpress": true,
+  "has_ld_json": false
+ },
+ "https://friends-gas.pk": {
+  "robots_status": 200,
+  "robots_disallow": [
+   "/wp-admin/"
+  ],
+  "robots_crawl_delay": [],
+  "sitemaps_tried": 4,
+  "urls": 15,
+  "top_segments": [
+   [
+    "dt_testimonials",
+    13
+   ],
+   [
+    "(home)",
+    1
+   ],
+   [
+    "author",
+    1
+   ]
+  ],
+  "sample": [
+   "https://friends-gas.pk/",
+   "https://friends-gas.pk/dt_testimonials/testimonial-ayesha/",
+   "https://friends-gas.pk/dt_testimonials/testimonial-hassan/",
+   "https://friends-gas.pk/dt_testimonials/testimonial-bilal/",
+   "https://friends-gas.pk/dt_testimonials/testimonial-jibran/",
+   "https://friends-gas.pk/dt_testimonials/testimonial-shahida/"
+  ],
+  "home_status": 200,
+  "home_bytes": 216327,
+  "title": "Reliable LPG Delivery in Rawalpindi &amp; Islamabad &#8211; Friends Gas Agency &#8211; Affordable LPG with gua",
+  "js_rendered_hint": false,
+  "wordpress": true,
+  "has_ld_json": true
+ },
+ "https://bostanlpg.com": {
+  "robots_status": 200,
+  "robots_disallow": [
+   "/wp-admin/"
+  ],
+  "robots_crawl_delay": [],
+  "sitemaps_tried": 2,
+  "urls": 1,
+  "top_segments": [
+   [
+    "(home)",
+    1
+   ]
+  ],
+  "sample": [
+   "https://bostanlpg.com/"
+  ],
+  "home_status": 200,
+  "home_bytes": 100125,
+  "title": "Bostan LPG Islamabad &#8211; Bostan LPG Islamabad",
+  "js_rendered_hint": false,
+  "wordpress": true,
+  "has_ld_json": false
+ },
+ "https://cylin.com.pk": {
+  "robots_status": 200,
+  "robots_disallow": [
+   "/api/",
+   "/api/",
+   "/api/",
+   "/api/",
+   "/api/"
+  ],
+  "robots_crawl_delay": [],
+  "sitemaps_tried": 1,
+  "urls": 144,
+  "top_segments": [
+   [
+    "ur",
+    63
+   ],
+   [
+    "tools",
+    21
+   ],
+   [
+    "bill-check",
+    21
+   ],
+   [
+    "coverage",
+    9
+   ],
+   [
+    "solutions",
+    3
+   ],
+   [
+    "careers",
+    3
+   ],
+   [
+    "blog",
+    3
+   ],
+   [
+    "docs",
+    3
+   ]
+  ],
+  "sample": [
+   "https://cylin.com.pk/",
+   "https://cylin.com.pk/ur",
+   "https://cylin.com.pk/platform",
+   "https://cylin.com.pk/ur/platform",
+   "https://cylin.com.pk/pricing",
+   "https://cylin.com.pk/ur/pricing"
+  ],
+  "home_status": 200,
+  "home_bytes": 242881,
+  "title": "Gas Mangwao \u2014 LPG cylinder ghar pe, sahi rate pe | Cylin",
+  "js_rendered_hint": true,
+  "wordpress": false,
+  "has_ld_json": true
+ },
+ "https://paklpg.com": {
+  "robots_status": 200,
+  "robots_disallow": [
+   "/wp-admin/"
+  ],
+  "robots_crawl_delay": [],
+  "sitemaps_tried": 5,
+  "urls": 7,
+  "top_segments": [
+   [
+    "hello-world",
+    1
+   ],
+   [
+    "(home)",
+    1
+   ],
+   [
+    "about",
+    1
+   ],
+   [
+    "services",
+    1
+   ],
+   [
+    "contact",
+    1
+   ],
+   [
+    "category",
+    1
+   ],
+   [
+    "author",
+    1
+   ]
+  ],
+  "sample": [
+   "https://paklpg.com/hello-world/",
+   "https://paklpg.com/",
+   "https://paklpg.com/about/",
+   "https://paklpg.com/services/",
+   "https://paklpg.com/contact/",
+   "https://paklpg.com/category/blog/"
+  ],
+  "home_status": 200,
+  "home_bytes": 44806,
+  "title": "Pak LPG",
+  "js_rendered_hint": false,
+  "wordpress": true,
+  "has_ld_json": false
+ }
+}

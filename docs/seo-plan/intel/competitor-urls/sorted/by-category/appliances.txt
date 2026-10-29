@@ -1,0 +1,16 @@
+# Appliances / shop products (14 URLs)
+
+https://flamora.pk/shop  [flamora.pk]
+https://gasonline.pk/product-category/13  [gasonline.pk]
+https://gasonline.pk/product-category/14  [gasonline.pk]
+https://gasonline.pk/product-category/26  [gasonline.pk]
+https://gasonline.pk/product-category/27  [gasonline.pk]
+https://gasonline.pk/product-category/3  [gasonline.pk]
+https://gasonline.pk/product-category/4  [gasonline.pk]
+https://gasonline.pk/shop  [gasonline.pk]
+https://noorlpg.com/lpg-vs-induction-stove-which-is-better  [noorlpg.com]
+https://noorlpg.com/product-category/accessories  [noorlpg.com]
+https://noorlpg.com/product-category/new-arrival  [noorlpg.com]
+https://noorlpg.com/product-category/shop  [noorlpg.com]
+https://ppgl.com.pk/shop  [ppgl.com.pk]
+https://ppgl.com.pk/vaporizers  [ppgl.com.pk]
