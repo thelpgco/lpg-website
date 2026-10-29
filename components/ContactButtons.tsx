@@ -1,9 +1,9 @@
 import TrackedLink from "./TrackedLink";
 import { telHref, whatsappHref } from "@/lib/site";
 
-export default function ContactButtons({ className = "" }: { className?: string }) {
+export default function ContactButtons({ className = "", message }: { className?: string; message?: string }) {
   const tel = telHref();
-  const wa = whatsappHref();
+  const wa = whatsappHref(message);
   if (!tel && !wa) return null;
   return (
     <div className={`flex flex-wrap gap-3 ${className}`}>

@@ -1,5 +1,5 @@
-// Sector copy for /industries/*. Capabilities and sizing questions only: no customer names, no case studies and
-// no consumption figures until real accounts exist (page-map gate IN-001..IN-010). Add a sector to a case study
+// Sector copy for /industries/*. Capabilities and sizing questions only: no customer names and no case studies.
+// Typical load figures and worked examples live in industries-detail.ts (rated inputs, not customer data). Add a case study
 // only through data/projects.json with written client consent.
 
 export type Sector = {

@@ -14,7 +14,7 @@
    - the whole of `02_CONTENT_PLAYBOOK.md`;
    - the page assignment block (playbook §11), filled in from the fix plan's Phase 3 table;
    - any owner inputs for that page (photos, field notes, project data).
-4. **Check the result.** Run `npx next build`, then `python -I docs/content-plan/scripts/measure_pages.py .next/server/app --only /that-url/`. Compare the numbers with the gate table. If a gate fails, send the agent back to fix it.
+4. **Check the result.** Run `npx next build`, then `python -I docs/content-plan/scripts/measure_pages.py .next/server/app --only that-url/`. Compare the numbers with the gate table. If a gate fails, send the agent back to fix it.
 5. **Have a second reader do the manual read** (playbook §9). This is a human, or a second agent that did not write the page.
 6. **Publish the page** (`data/pages.json` → `published`). Request indexing in Search Console.
 7. **Every month:** refresh the OGRA price in `data/prices.json` and run the Search Console loop (fix plan, Phase 5).

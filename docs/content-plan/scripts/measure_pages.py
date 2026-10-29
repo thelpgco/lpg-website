@@ -1,7 +1,9 @@
 """Measure page-specific text and sibling overlap for every prerendered page.
 
 Usage (after `npx next build`):
-    python -I docs/content-plan/scripts/measure_pages.py .next/server/app [--csv out.csv] [--only /industries/]
+    python -I docs/content-plan/scripts/measure_pages.py .next/server/app [--csv out.csv] [--only industries/]
+
+--only matches any URL containing the text; leave out the leading slash (Git Bash rewrites /paths).
 
 Counts text inside <main> only (header, footer, nav, aside lead form, scripts and styles excluded).
   unique %  = share of words covered by an 8-word run that appears on at most 2 pages
@@ -70,7 +72,7 @@ def main():
 
     rows = []
     for url, words in pages.items():
-        if only and not url.startswith(only):
+        if only and only.strip("/") not in url:
             continue
         own = [False] * len(words)
         for i, r in enumerate(runs[url]):
