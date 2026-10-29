@@ -322,8 +322,9 @@
     "id": "LC-011",
     "type": "LH",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-azad-kashmir/": {
     "id": "PH-005",
@@ -432,15 +433,17 @@
     "id": "LC-009",
     "type": "LH",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-muzaffarabad/": {
     "id": "LC-010",
     "type": "LH",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-peshawar/": {
     "id": "LC-001",
@@ -486,8 +489,9 @@
     "id": "LC-008",
     "type": "LH",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-kit-price-in-pakistan/": {
     "id": "AU-002",

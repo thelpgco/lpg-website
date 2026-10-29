@@ -50,7 +50,7 @@ export default function Page() {
       extraFaqs={[
         {
           q: "Why can Skardu delivery take longer than plains cities?",
-          a: "Mountain roads and weather set the window, and supply sometimes depends on air links when roads fail. We confirm a realistic time before you agree and do not promise a fixed plains-city hour.",
+          a: "Mountain roads and weather set the window, and stock comes by road via Gilgit. We confirm a realistic time before you agree and do not promise a fixed plains-city hour.",
         },
         {
           q: "Should hotels stock up before tourist season?",

@@ -7,6 +7,7 @@ import PageShell, { H2, Note, P, UL } from "@/components/PageShell";
 import PriceBlock from "@/components/PriceBlock";
 import SupplierDirectory from "@/components/SupplierDirectory";
 import { terms } from "@/lib/commercial";
+import { cityDetail } from "@/lib/city-detail";
 import { cityDirectoryStats, listingsForCity, namedSuppliersForCity } from "@/lib/directory";
 import { itemsFor } from "@/lib/media";
 import { cityBySlug, formCities, overrideFor, provinceBySlug } from "@/lib/network";
@@ -65,25 +66,18 @@ export default function CityHubStatic(p: CityHubProps) {
       ? ` Examples listed for ${p.name} include ${namedExamples.map((n) => n.name).join(", ")}.`
       : "";
   const deliveryText = deliveryCopy(p.name, o);
+  const cd = cityDetail[p.slug];
 
   const faqs = [
     {
       q: `How do I order an LPG cylinder in ${p.name}?`,
-      a: `Call or WhatsApp ${site.phoneDisplay}, or send the form on this page with your area and cylinder size. We check which distributor can reach you and confirm the price and delivery time before you agree. Requests are accepted around the clock; delivery follows local availability.`,
+      a: `Call or WhatsApp ${site.phoneDisplay}, or send the form with your area and cylinder size. ${cd?.tips[0] ?? ""}`,
     },
     {
       q: `Who delivers in ${p.name}?`,
       a: hasPartners
-        ? `${site.name} is an OGRA-licensed marketer and distributor that also works as a reseller and referral partner. For ${p.name} we list ${dirStats.total || suppliers} named supplier${(dirStats.total || suppliers) === 1 ? "" : "s"}.${exampleNames} We confirm who fulfils your order before you agree.`
+        ? `For ${p.name} we list ${dirStats.total || suppliers} named supplier${(dirStats.total || suppliers) === 1 ? "" : "s"}.${exampleNames} We confirm who fulfils your order before you agree.`
         : `${site.name} is an OGRA-licensed marketer and distributor that also works as a reseller and referral partner. We do not yet have a named supplier listed for ${p.name}, so we check each request and tell you honestly whether and when we can supply you.`,
-    },
-    {
-      q: `How fast is delivery in ${p.name}?`,
-      a: deliveryText,
-    },
-    {
-      q: `Is the LPG price different in ${p.name}?`,
-      a: "The gas rate follows the OGRA monthly notification and is the same per-kg rate nationwide on this site. Delivery, cylinder deposit or exchange terms are confirmed for your order before you agree. See the pricing policy for how we quote.",
     },
     ...(p.extraFaqs ?? []),
     {
@@ -117,11 +111,7 @@ export default function CityHubStatic(p: CityHubProps) {
       }
       intro={
         hasPartners
-          ? `${site.name} is an OGRA-licensed LPG marketer and distributor (licence ${site.licenceNumber}) with a nationwide supply network across Pakistan. We take orders for ${p.name} by call, WhatsApp and form. ${p.summary} ${
-              hourTarget
-                ? "In covered areas the delivery target is about one hour when a local team is available; we confirm your street and timing on each order."
-                : "We confirm your street and delivery window on each order."
-            }`
+          ? `${cd?.lead ?? ""} ${p.summary} Supplied by ${site.shortName}, OGRA licence ${site.licenceNumber}.`
           : `${site.name} is an OGRA-licensed LPG marketer and distributor (licence ${site.licenceNumber}) with a nationwide network. ${p.summary} We do not yet list a named supplier for ${p.name}, so we do not promise delivery here. Send an inquiry with your area and cylinder size and we tell you honestly whether we can reach you.`
       }
       aside={
@@ -135,10 +125,9 @@ export default function CityHubStatic(p: CityHubProps) {
       <Note title="Nationwide licensed supply" tone={hasPartners ? "info" : "warn"}>
         <p>
           {hasPartners
-            ? `${p.name} has ${dirStats.total || suppliers} named listing${(dirStats.total || suppliers) === 1 ? "" : "s"} you can see below. Whether your street can be reached today, and how soon, is confirmed on the call.`
+            ? `${dirStats.total || suppliers} named listing${(dirStats.total || suppliers) === 1 ? "" : "s"} in ${p.name} below, with phone numbers.`
             : `We do not yet have a named supplier listed for ${p.name}. Send an inquiry anyway: we tell you straight away whether we can reach you, and if not, we say so rather than leave you waiting.`}
         </p>
-        <p className="mt-2">{terms.delivery247Note}</p>
         {!hasPartners && (
           <p className="mt-2">
             <Link className="underline" href="/order-lpg/">
@@ -153,41 +142,28 @@ export default function CityHubStatic(p: CityHubProps) {
         )}
       </Note>
 
-      <H2>How supply works in {p.name}</H2>
-      <P>
-        We are an OGRA-licensed marketer and distributor (licence no. {site.licenceNumber}) operating nationwide.{" "}
-        {hasPartners
-          ? `Orders in ${p.name} are passed to the distributor who serves your area, or fulfilled through our own licensed role where that applies.`
-          : `Inquiries from ${p.name} are checked one by one: we see whether a distributor or our own licensed role can reach you, and tell you the answer before any order is agreed.`}{" "}
-        On each order we tell you whether we are acting as marketer/distributor, reseller or referral partner, and who will
-        deliver. Read the full flow on{" "}
-        <Link className="underline" href="/how-it-works/">
-          how it works
-        </Link>
-        .
-      </P>
+      {cd && (
+        <>
+          <H2>Sui gas and LPG in {p.name}</H2>
+          <P>{cd.gas}</P>
+        </>
+      )}
 
       <H2>Delivery in {p.name}</H2>
       <P>{deliveryText}</P>
-      <UL
-        items={[
-          terms.delivery,
-          "We confirm your street and access (truck or pickup) before dispatch.",
-          "Empty-for-full exchange is arranged when your empty cylinder is ready and eligible.",
-          hourTarget
-            ? "About one hour is a target for covered areas with a local team available — not a guaranteed clock time for every street."
-            : "Hill roads, weather and distance can extend the window; we say so before you agree.",
-        ]}
-      />
+      <P>{terms.delivery}</P>
+      {cd && (
+        <>
+          <H2>Tips for ordering in {p.name}</H2>
+          <UL items={cd.tips} />
+        </>
+      )}
 
       {hasPartners && localities.length > 0 && (
         <>
           <H2>Areas of {p.name} we commonly serve</H2>
           <UL items={localities} />
-          <P>
-            These localities appear with our listed partners. If your area is not listed, send a request. We check and
-            reply honestly.
-          </P>
+          <P>Not on the list? Send your area anyway.</P>
         </>
       )}
 
@@ -261,38 +237,29 @@ export default function CityHubStatic(p: CityHubProps) {
 
       <H2>LPG price per kg in {p.name}</H2>
       <P>
-        The price is set from OGRA&apos;s monthly notification and is the same per-kg rate nationwide. See{" "}
-        <Link className="underline" href="/lpg-price-per-kg-in-pakistan/">
-          LPG price per kg
-        </Link>{" "}
-        and the{" "}
+        {p.name} pays the same OGRA-notified rate per kg as the rest of Pakistan. History and the per-kg breakdown:{" "}
         <Link className="underline" href="/lpg-price-in-pakistan/">
-          monthly LPG rate in Pakistan
-        </Link>
-        . Gas price is not the whole bill: deposit, exchange and delivery terms are confirmed before you agree (
-        <Link className="underline" href="/pricing-policy/">
-          pricing policy
-        </Link>
-        ).
-      </P>
-      <PriceBlock citySlug={priceReady ? p.slug : undefined} cityName={p.name} />
-
-      <H2>Businesses and larger sites in {p.name}</H2>
-      <P>
-        Restaurants, hotels and workshops can ask for 45.4 kg cylinders, cylinder banks or bulk supply. See{" "}
-        <Link className="underline" href="/commercial-lpg-supply/">
-          commercial LPG supply
-        </Link>
-        ,{" "}
-        <Link className="underline" href="/bulk-lpg-supply/">
-          bulk LPG supply
-        </Link>{" "}
-        and{" "}
-        <Link className="underline" href="/projects/">
-          engineering projects
+          LPG price in Pakistan
         </Link>
         .
       </P>
+      <PriceBlock citySlug={priceReady ? p.slug : undefined} cityName={p.name} />
+
+      {cd && (
+        <>
+          <H2>Businesses in {p.name} that run on LPG</H2>
+          <UL
+            items={cd.sectors.map((x) => (
+              <span key={x.slug}>
+                <Link className="underline" href={`/industries/${x.slug}/`}>
+                  {x.label}
+                </Link>
+                : {x.why}
+              </span>
+            ))}
+          />
+        </>
+      )}
 
       <H2>Useful links</H2>
       <ul className="mt-3 flex flex-wrap gap-2">

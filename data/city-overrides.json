@@ -155,7 +155,7 @@
     "deliveryNote": "Timing in Gilgit depends on mountain roads and weather. When a local team can reach you we confirm a realistic window before you agree — often longer than plains cities."
   },
   "murree": {
-    "indexable": false,
+    "indexable": true,
     "verifiedOn": "2026-10-29",
     "localNotes": [
       "Murree demand spikes on weekends, summer holidays and snowfall days for hotels and guesthouses.",
@@ -166,7 +166,7 @@
     "deliveryNote": "Hill roads and weather set the window in Murree. We confirm a realistic time on the call and do not promise a fixed hour on snowfall or heavy-traffic days."
   },
   "muzaffarabad": {
-    "indexable": false,
+    "indexable": true,
     "verifiedOn": "2026-10-29",
     "testOrderMinutes": 90,
     "localNotes": [
@@ -178,7 +178,7 @@
     "deliveryNote": "Target about 60–90 minutes in covered Muzaffarabad areas when a local team is available; hill roads and weather can change the window, confirmed before dispatch."
   },
   "skardu": {
-    "indexable": false,
+    "indexable": true,
     "verifiedOn": "2026-10-29",
     "testOrderMinutes": 120,
     "localNotes": [

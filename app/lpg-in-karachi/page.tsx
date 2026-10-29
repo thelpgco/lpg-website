@@ -11,7 +11,7 @@ export default function Page() {
       slug="karachi"
       name="Karachi"
       provinceSlug="sindh"
-      summary="Karachi is Pakistan’s largest coastal metropolis, with dense domestic refill demand, port and industrial loads, and the deepest partner coverage in our directory."
+      summary="Karachi is Pakistan’s largest coastal metropolis, with dense domestic refill demand, port and industrial loads, and one of the largest partner lists in our directory."
       angles={[
         {
           title: "Two sides of a sprawling city",
