@@ -6,6 +6,10 @@ import { absoluteUrl, sameAsProfiles, site } from "./site";
 // JSON-LD builders. Rule (Method Step 15.8): schema describes only what is visible on the page and what is true.
 const ORG_ID = absoluteUrl("/#organization");
 
+// Owner-confirmed 24/7 support (29 Oct 2026).
+const ALL_DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+const OPEN_24_7 = { "@type": "OpeningHoursSpecification", dayOfWeek: ALL_DAYS, opens: "00:00", closes: "23:59" };
+
 export function organizationNode() {
   const o = site.office;
   const sameAs = sameAsProfiles();
@@ -31,19 +35,28 @@ export function organizationNode() {
       addressCountry: o.countryCode,
     },
     areaServed: { "@type": "Country", name: site.country },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: `+${site.phone}`,
+      contactType: "customer support",
+      areaServed: "PK",
+      availableLanguage: ["en", "ur"],
+      hoursAvailable: OPEN_24_7,
+    },
     ...(sameAs.length ? { sameAs } : {}),
   };
 }
 
 export function localBusinessNode() {
-  // Same entity as organizationNode (shared @id), typed as a local business for the office pages. No opening hours
-  // or map coordinates until the owner confirms them.
+  // Same entity as organizationNode (shared @id), typed as a local business for the office pages. Map coordinates
+  // are left out until the owner sends the Google Maps pin (docs/content-plan/OWNER_TODO.md).
   const org = organizationNode();
   const low = cylinderPrice(5);
   const high = cylinderPrice(45.4);
   return {
     ...org,
     "@type": "LocalBusiness",
+    openingHoursSpecification: OPEN_24_7,
     ...(latestPrice && low && high ? { priceRange: `${pkr(low)} – ${pkr(high)}`, currenciesAccepted: "PKR" } : {}),
   };
 }

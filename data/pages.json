@@ -747,8 +747,9 @@
     "id": "TR-009",
     "type": "TR",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/propane-vs-butane/": {
     "id": "ED-007",
@@ -938,6 +939,70 @@
     "id": "NW-003",
     "type": "GD",
     "phase": "P2",
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
+  },
+  "/projects/islamabad-restaurant-cylinder-bank-manifold/": {
+    "id": "PJ-001",
+    "type": "PJ",
+    "phase": "P4",
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
+  },
+  "/projects/lahore-hotel-kitchen-lpg-pipeline/": {
+    "id": "PJ-002",
+    "type": "PJ",
+    "phase": "P4",
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
+  },
+  "/projects/karachi-factory-bulk-tank-interface/": {
+    "id": "PJ-003",
+    "type": "PJ",
+    "phase": "P4",
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
+  },
+  "/projects/faisalabad-textile-furnace-conversion/": {
+    "id": "PJ-004",
+    "type": "PJ",
+    "phase": "P4",
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
+  },
+  "/projects/peshawar-hospital-kitchen-manifold/": {
+    "id": "PJ-005",
+    "type": "PJ",
+    "phase": "P4",
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
+  },
+  "/projects/quetta-housing-society-pipeline-riser/": {
+    "id": "PJ-006",
+    "type": "PJ",
+    "phase": "P4",
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
+  },
+  "/projects/multan-poultry-farm-brooder-supply/": {
+    "id": "PJ-007",
+    "type": "PJ",
+    "phase": "P4",
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
+  },
+  "/projects/rawalpindi-wedding-hall-cylinder-bank/": {
+    "id": "PJ-008",
+    "type": "PJ",
+    "phase": "P4",
     "status": "published",
     "built": true,
     "lastmod": "2026-10-29"
