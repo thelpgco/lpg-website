@@ -68,7 +68,7 @@
       ],
       "equipment": ["LPG burner train", "Regulators and gauges", "Flame supervision", "Isolation valves"],
       "outcome": "Line resumed on LPG with stable process temperatures; maintenance team kept a laminated start-up card at the furnace.",
-      "relatedServices": ["/services/lpg-boiler-and-furnace-conversion/", "/industries/textile/", "/industrial-lpg-supply/"]
+      "relatedServices": ["/services/boiler-and-furnace-conversion-to-lpg/", "/industries/textile/", "/industrial-lpg-supply/"]
     },
     {
       "id": "prj-pew-hospital-manifold-05",

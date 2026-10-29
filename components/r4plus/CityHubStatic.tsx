@@ -312,6 +312,7 @@ export default function CityHubStatic(p: CityHubProps) {
           "@context": "https://schema.org",
           "@type": "Service",
           name: `LPG cylinder supply in ${p.name}`,
+          description: `LPG cylinder refill, exchange and delivery in ${p.name} at the OGRA-notified rate, through listed local dealers.`,
           url: absoluteUrl(path),
           provider: { "@id": absoluteUrl("/#organization") },
           areaServed: { "@type": "City", name: p.name },

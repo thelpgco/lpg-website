@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CityLink from "@/components/CityLink";
 import Faq from "@/components/Faq";
 import ImageGallery from "@/components/ImageGallery";
 import SiteLeadForm from "@/components/LeadFormLoader";
@@ -126,9 +127,9 @@ export default function Page() {
                 <td className="p-3 font-medium text-ink">{r.name}</td>
                 <td className="p-3">
                   {r.citySlug ? (
-                    <Link className="underline" href={`/lpg-in-${r.citySlug}/`}>
+                    <CityLink className="underline" slug={r.citySlug}>
                       {r.city}
-                    </Link>
+                    </CityLink>
                   ) : (
                     r.city
                   )}
@@ -153,13 +154,10 @@ export default function Page() {
           const n = namedSuppliersForCity(c.slug, 1)[0];
           return (
             <li key={c.slug}>
-              <Link
-                href={`/lpg-in-${c.slug}/`}
-                className="rounded-full border border-slate-300 px-3 py-1 text-sm text-ink-700 hover:border-flame"
-              >
+              <CityLink className="rounded-full border border-slate-300 px-3 py-1 text-sm text-ink-700 hover:border-flame" slug={c.slug}>
                 {c.name}
                 {n ? `: ${n.name}` : ""}
-              </Link>
+              </CityLink>
             </li>
           );
         })}
@@ -199,7 +197,7 @@ export default function Page() {
         <Link className="underline" href="/become-an-lpg-distributor/">become an LPG distributor</Link>. Regions we especially want to cover:{" "}
         {provinceList.map((p, i) => (
           <span key={p.slug}>
-            <Link className="underline" href={`/lpg-in-${p.slug}/`}>{p.name}</Link>
+            <CityLink className="underline" slug={p.slug}>{p.name}</CityLink>
             {i < provinceList.length - 1 ? ", " : "."}
           </span>
         ))}

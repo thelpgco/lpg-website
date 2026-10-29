@@ -1,6 +1,7 @@
 ﻿import Link from "next/link";
 import ContentImage from "@/components/ContentImage";
 import Faq from "@/components/Faq";
+import JsonLd from "@/components/JsonLd";
 import ImageGallery from "@/components/ImageGallery";
 import SiteLeadForm from "@/components/LeadFormLoader";
 import PageShell, { H2, Note, P, UL } from "@/components/PageShell";
@@ -11,6 +12,7 @@ import { itemsFor } from "@/lib/media";
 import { isDemo } from "@/lib/mode";
 import { cylinderPrice, latestPrice, pkr, priceReady } from "@/lib/prices";
 import { cylinderByGasKg } from "@/lib/products";
+import { cylinderProductNode } from "@/lib/schema";
 import { meta } from "@/lib/seo";
 import { site } from "@/lib/site";
 
@@ -193,6 +195,15 @@ export default function Page() {
 
       <ImageGallery items={itemsFor(path)} title="Photos" />
       <Faq items={faqs} />
+      <JsonLd
+        data={cylinderProductNode({
+          path,
+          kg: 11.8,
+          name: "11.8 kg domestic LPG cylinder refill",
+          description: "Gas for an 11.8 kg domestic LPG cylinder at the OGRA-notified rate; deposit and delivery quoted separately.",
+          image: "/images/cylinders/11-domestic-cylinder-branded-front.png",
+        })}
+      />
     </PageShell>
   );
 }

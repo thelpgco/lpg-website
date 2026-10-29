@@ -357,6 +357,7 @@ export default async function HubPage({ params }: Props) {
             "@context": "https://schema.org",
             "@type": "Service",
             name: `LPG cylinder supply in ${city.name}`,
+            description: `LPG cylinder refill, exchange and delivery in ${city.name} at the OGRA-notified rate, through listed local dealers.`,
             url: absoluteUrl(`/lpg-in-${slug}/`),
             provider: { "@id": absoluteUrl("/#organization") },
             areaServed: { "@type": "City", name: city.name },

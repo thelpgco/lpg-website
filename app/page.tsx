@@ -89,7 +89,6 @@ export default function Home() {
               <Link href="/lpg-cylinders/" className="hover:underline">Cylinders</Link>
               <Link href="/lpg-safety/" className="hover:underline">Safety</Link>
               <Link href="/about/" className="hover:underline">About us</Link>
-              <Link href="/gallery/" className="hover:underline">Photo gallery</Link>
             </nav>
             <ContactButtons className="mt-6" />
           </div>

@@ -1,5 +1,6 @@
 import safety from "@/data/safety-review.json";
 import { lastmodOf } from "./pages";
+import { cylinderPrice, latestPrice, pkr } from "./prices";
 import { absoluteUrl, sameAsProfiles, site } from "./site";
 
 // JSON-LD builders. Rule (Method Step 15.8): schema describes only what is visible on the page and what is true.
@@ -15,6 +16,9 @@ export function organizationNode() {
     name: site.name,
     legalName: site.legalName,
     url: absoluteUrl("/"),
+    logo: absoluteUrl("/logo.png"),
+    image: absoluteUrl("/logo.png"),
+    description: `OGRA-licensed LPG marketer and distributor (licence ${site.licenceNumber}) supplying LPG cylinders, bulk LPG and LPG engineering across Pakistan.`,
     telephone: `+${site.phone}`,
     foundingDate: String(site.foundedYear),
     ...(site.email ? { email: site.email } : {}),
@@ -32,7 +36,47 @@ export function organizationNode() {
 }
 
 export function localBusinessNode() {
-  return { "@context": "https://schema.org", "@type": "LocalBusiness", "@id": ORG_ID, name: site.name, url: absoluteUrl("/") };
+  // Same entity as organizationNode (shared @id), typed as a local business for the office pages. No opening hours
+  // or map coordinates until the owner confirms them.
+  const org = organizationNode();
+  const low = cylinderPrice(5);
+  const high = cylinderPrice(45.4);
+  return {
+    ...org,
+    "@type": "LocalBusiness",
+    ...(latestPrice && low && high ? { priceRange: `${pkr(low)} – ${pkr(high)}`, currenciesAccepted: "PKR" } : {}),
+  };
+}
+
+/** Product + Offer for a cylinder refill: price is gas only (kg × OGRA rate); deposit and delivery are quoted. */
+export function cylinderProductNode(opts: { path: string; name: string; description: string; kg: number; image: string }) {
+  const price = cylinderPrice(opts.kg);
+  const n = latestPrice;
+  const validUntil = n
+    ? new Date(Date.UTC(Number(n.month.slice(0, 4)), Number(n.month.slice(5, 7)), 0)).toISOString().slice(0, 10)
+    : undefined;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: opts.name,
+    description: opts.description,
+    image: absoluteUrl(opts.image),
+    url: absoluteUrl(opts.path),
+    category: "LPG cylinder",
+    ...(price
+      ? {
+          offers: {
+            "@type": "Offer",
+            price: String(price),
+            priceCurrency: "PKR",
+            availability: "https://schema.org/InStock",
+            url: absoluteUrl(opts.path),
+            ...(validUntil ? { priceValidUntil: validUntil } : {}),
+            seller: { "@id": ORG_ID },
+          },
+        }
+      : {}),
+  };
 }
 
 export function webSiteNode() {
@@ -48,9 +92,10 @@ export function articleNode(opts: { path: string; headline: string; description:
     description: opts.description,
     mainEntityOfPage: absoluteUrl(opts.path),
     inLanguage: site.locale,
+    image: absoluteUrl("/opengraph-image/"),
     author: { "@id": ORG_ID },
     publisher: { "@id": ORG_ID },
-    ...(lm ? { dateModified: lm } : {}),
+    ...(lm ? { datePublished: lm, dateModified: lm } : {}),
   };
 }
 
@@ -70,6 +115,6 @@ export function reviewedPageNode(opts: { path: string; name: string }) {
     name: opts.name,
     url: absoluteUrl(opts.path),
     lastReviewed: reviewedOn,
-    reviewedBy: { "@type": "Organization", name: site.safetyReviewer.name, url: absoluteUrl("/") },
+    reviewedBy: { "@id": ORG_ID },
   };
 }

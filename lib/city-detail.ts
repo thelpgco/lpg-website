@@ -209,6 +209,20 @@ export const cityDetail: Record<string, CityDetail> = {
       { slug: "restaurants", label: "Restaurants", why: "city kitchens without pipeline gas" },
     ],
   },
+  burewala: {
+    lead: "Need an LPG cylinder in Burewala? Tell us your colony or farm location and we match you to a local dealer from the list below.",
+    gas: "Burewala has Sui gas in parts of the town, but many homes, ginning units and farms around it rely on cylinders, and winter evening pressure is weak where the pipeline does reach. Because the town has its own listed dealers, cylinders usually come from inside Burewala rather than from Multan.",
+    tips: [
+      "Farms and ginning units: send a location pin and say whether a pickup can reach the gate.",
+      "In the cotton season, agree a weekly drop if you use several 45.4 kg cylinders.",
+      "In summer, keep cylinders in shade; never on a roof or in a closed store.",
+    ],
+    sectors: [
+      { slug: "manufacturing", label: "Manufacturing", why: "ginning and pressing units with boilers and canteens" },
+      { slug: "poultry-farms", label: "Poultry farms", why: "sheds along the canal and Vehari roads" },
+      { slug: "restaurants", label: "Restaurants", why: "sweet shops, tandoors and bazaar food stalls" },
+    ],
+  },
   abbottabad: {
     lead: "Need LPG in Abbottabad or the Galiyat? Tell us your area and we confirm a dealer and delivery time.",
     gas: "Abbottabad has Sui gas in much of the city, but winters are cold and evening pressure falls when every heater is on. Hotels in Nathia Gali and Thandiani, and poultry farms across Hazara, depend on cylinders through the winter.",

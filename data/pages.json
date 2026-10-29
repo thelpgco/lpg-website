@@ -363,8 +363,9 @@
     "id": "LC-012",
     "type": "LC",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-faisalabad/": {
     "id": "LC-003",

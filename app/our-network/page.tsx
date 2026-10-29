@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CityLink from "@/components/CityLink";
 import Faq from "@/components/Faq";
 import ImageGallery from "@/components/ImageGallery";
 import SiteLeadForm from "@/components/LeadFormLoader";
@@ -125,9 +126,9 @@ export default function Page() {
       <ul className="mt-3 grid gap-3 sm:grid-cols-2">
         {sampleByCity.map((c) => (
           <li key={c.slug} className="rounded-xl border border-slate-200 p-4">
-            <Link className="font-semibold text-ink hover:underline" href={`/lpg-in-${c.slug}/`}>
+            <CityLink className="font-semibold text-ink hover:underline" slug={c.slug}>
               {c.name}
-            </Link>
+            </CityLink>
             <span className="ml-2 text-sm text-ink-500">{c.count} listings on file</span>
             {c.dealers.length > 0 ? (
               <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-ink-700">
@@ -151,9 +152,9 @@ export default function Page() {
               <p className="mt-2 text-sm text-ink-700">Open the city page for named suppliers.</p>
             )}
             <p className="mt-2 text-sm">
-              <Link className="underline" href={`/lpg-in-${c.slug}/`}>
+              <CityLink className="underline" slug={c.slug}>
                 City hub
-              </Link>
+              </CityLink>
               {" · "}
               <Link className="underline" href="/order-lpg/">
                 Order
@@ -172,9 +173,9 @@ export default function Page() {
             .map((x) => x.name);
           return (
             <li key={c.slug} className="rounded-lg border border-slate-200 p-3">
-              <Link className="font-semibold text-ink hover:underline" href={`/lpg-in-${c.slug}/`}>
+              <CityLink className="font-semibold text-ink hover:underline" slug={c.slug}>
                 {c.name}
-              </Link>
+              </CityLink>
               <span className="ml-2 text-sm text-ink-500">{c.count} listings</span>
               {examples.length > 0 && (
                 <p className="mt-1 text-sm text-ink-700">e.g. {examples.join("; ")}</p>
@@ -188,9 +189,9 @@ export default function Page() {
       <ul className="mt-3 grid gap-2 sm:grid-cols-2">
         {hubCities.map((c) => (
           <li key={c.slug} className="rounded-lg border border-slate-200 p-3">
-            <Link className="font-semibold text-ink hover:underline" href={`/lpg-in-${c.slug}/`}>
+            <CityLink className="font-semibold text-ink hover:underline" slug={c.slug}>
               {c.name}
-            </Link>
+            </CityLink>
             <span className="ml-2 text-sm text-ink-500">
               {cityDirectoryCount(c.slug)} local listings · city hub
             </span>
@@ -202,9 +203,9 @@ export default function Page() {
       <UL
         items={provinceList.map((p) => (
           <span key={p.slug}>
-            <Link className="underline" href={`/lpg-in-${p.slug}/`}>
+            <CityLink className="underline" slug={p.slug}>
               LPG in {p.name}
-            </Link>
+            </CityLink>
           </span>
         ))}
       />
@@ -234,9 +235,9 @@ export default function Page() {
                 <td className="p-3 font-medium text-ink">{r.name}</td>
                 <td className="p-3">
                   {r.citySlug ? (
-                    <Link className="underline" href={`/lpg-in-${r.citySlug}/`}>
+                    <CityLink className="underline" slug={r.citySlug}>
                       {r.city}
-                    </Link>
+                    </CityLink>
                   ) : (
                     r.city || "—"
                   )}

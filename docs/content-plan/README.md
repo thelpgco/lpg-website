@@ -5,6 +5,7 @@
 | `01_FIX_PLAN.md` | Every audit issue, in phases (blockers → cleanup → publish → rewrite → AdSense → growth) |
 | `02_CONTENT_PLAYBOOK.md` | The writing rules for every page. Paste it into the writing agent. |
 | `scripts/measure_pages.py` | Measures unique text % and sibling overlap from a build |
+| `scripts/audit_site.py` | Full technical SEO audit of a build: metadata, headings, schema fields, broken links, noindex links, orphans, banned wording |
 
 ## Workflow
 

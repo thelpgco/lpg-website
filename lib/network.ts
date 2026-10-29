@@ -68,6 +68,7 @@ export const staticCityHubSlugs = [
   "skardu",
   "gilgit",
   "abbottabad",
+  "burewala",
 ] as const;
 
 const staticCityHubSet = new Set<string>(staticCityHubSlugs);
