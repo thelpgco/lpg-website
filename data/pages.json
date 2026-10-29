@@ -329,15 +329,17 @@
     "id": "PH-005",
     "type": "PH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-balochistan/": {
     "id": "PH-004",
     "type": "PH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-burewala/": {
     "id": "LC-012",
@@ -358,8 +360,9 @@
     "id": "PH-006",
     "type": "PH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-gilgit/": {
     "id": "LC-007",
@@ -405,8 +408,9 @@
     "id": "PH-003",
     "type": "PH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-lahore/": {
     "id": "DL-004",
@@ -450,8 +454,9 @@
     "id": "PH-001",
     "type": "PH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-quetta/": {
     "id": "LC-002",
@@ -473,8 +478,9 @@
     "id": "PH-002",
     "type": "PH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-skardu/": {
     "id": "LC-008",

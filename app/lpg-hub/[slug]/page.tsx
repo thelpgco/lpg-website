@@ -6,9 +6,11 @@ import JsonLd from "@/components/JsonLd";
 import SiteLeadForm from "@/components/LeadFormLoader";
 import PageShell, { H2, Note, P, UL } from "@/components/PageShell";
 import PriceBlock from "@/components/PriceBlock";
+import SpecTable from "@/components/SpecTable";
 import SupplierDirectory from "@/components/SupplierDirectory";
 import { terms } from "@/lib/commercial";
-import { cityDirectoryStats, listedCount, listingsForCity, namedSuppliersForCity } from "@/lib/directory";
+import { cityDirectoryStats, formatPhoneDisplay, listedCount, listingsForCity, namedSuppliersForCity, provinceDirectory } from "@/lib/directory";
+import { provinceDetail } from "@/lib/province-detail";
 import { cityBySlug, hubSlugs, isCityIndexable, overrideFor, provinceBySlug, hubCities } from "@/lib/network";
 import { priceReady } from "@/lib/prices";
 import { fitDescription, fitTitle, meta } from "@/lib/seo";
@@ -105,7 +107,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         `LPG in ${prov.name}: where ${site.shortName}, an OGRA-licensed marketer, has distributor partners today, how to order cylinders and gas, and what to expect.`,
         `LPG in ${prov.name}: where our distributor network is listed today, how to order cylinders and gas from ${site.shortName}, and what to expect on delivery.`,
       ]),
-      index: false, // province hubs go live with the P2 wave
+      index: true, // indexable once published in data/pages.json (meta() checks the status)
     });
   }
   return {};
@@ -366,8 +368,9 @@ export default async function HubPage({ params }: Props) {
 
   // Province hub
   const p = prov!;
+  const pd = provinceDetail[slug];
+  const dir = provinceDirectory(slug);
   const cityList = p.cities.map((s) => cityBySlug(s)).filter(Boolean) as NonNullable<ReturnType<typeof cityBySlug>>[];
-  const thin = p.suppliers < 5;
   const provHubs = hubCities.filter((c) => c.province === p.name);
   // Only link pages that exist: hub cities + curated static city pages (never invent /lpg-in-* for thin towns).
   const childLinks: { href: string; label: string; hint?: string }[] = [];
@@ -378,29 +381,17 @@ export default async function HubPage({ params }: Props) {
     childLinks.push({ href, label, hint });
   };
   for (const c of [...cityList.filter((c) => c.hub), ...provHubs]) {
-    const hintCount = listedCount(c.slug, c.suppliers);
-    pushChild(
-      `/lpg-in-${c.slug}/`,
-      `LPG in ${c.name}`,
-      hintCount > 0 ? `${hintCount} named listing${hintCount === 1 ? "" : "s"}` : undefined,
-    );
+    const n = listedCount(c.slug, c.suppliers);
+    pushChild(`/lpg-in-${c.slug}/`, `LPG in ${c.name}`, n > 0 ? `${n} named listing${n === 1 ? "" : "s"}` : undefined);
   }
   for (const l of provinceLocalPages[slug] ?? []) {
     pushChild(l.href, l.label);
   }
-
-  const majorHubs = [...hubCities]
-    .map((c) => ({ ...c, listed: listedCount(c.slug, c.suppliers) }))
-    .sort((a, b) => b.listed - a.listed)
-    .slice(0, 6);
-  const provinceDealerSamples = childLinks
-    .map((l) => l.href.replace(/^\/lpg-in-/, "").replace(/\/$/, ""))
-    .flatMap((citySlug) => namedSuppliersForCity(citySlug, 1))
-    .slice(0, 4);
-  const provinceDealerLine =
-    provinceDealerSamples.length > 0
-      ? ` Named partners in ${p.name} include ${provinceDealerSamples.map((d) => d.name).join(", ")} among others listed on the city pages.`
-      : "";
+  const pageFor = new Map(childLinks.map((l) => [l.href.replace(/^\/lpg-in-/, "").replace(/\/$/, ""), l.href]));
+  const topTowns = dir.towns.slice(0, 12);
+  const thin = dir.total < 20;
+  const leadTown = topTowns[0];
+  const leadDealers = leadTown ? namedSuppliersForCity(leadTown.slug, 4) : [];
 
   return (
     <PageShell
@@ -409,23 +400,83 @@ export default async function HubPage({ params }: Props) {
         { name: `LPG in ${p.name}`, href: `/lpg-in-${slug}/` },
       ]}
       h1={`LPG in ${p.name}: cylinders, gas supply and delivery`}
-      intro={`${site.name} is an OGRA-licensed LPG marketer and distributor (licence ${site.licenceNumber}) with a nationwide network across Pakistan. In ${p.name} we supply homes and businesses through local distributors — order by call, WhatsApp or form and we confirm your street, price and timing before you agree.${provinceDealerLine}`}
+      intro={`${pd.opener} ${site.shortName} (OGRA licence ${site.licenceNumber}) takes orders from anywhere in ${p.name} by call, WhatsApp or form, and confirms your street, price and timing before you agree.`}
       aside={<SiteLeadForm heading={`Order LPG in ${p.name}`} />}
     >
-      <Note title="Nationwide licensed supply" tone="info">
-        <p>
-          {terms.delivery} Orders from every province are accepted around the clock; fulfilment follows distributor
-          availability in your area. Open a city hub below for delivery notes and the named directory for that town.
-        </p>
+      <H2>LPG in {p.name} at a glance</H2>
+      <SpecTable
+        head={["", p.name]}
+        rows={[
+          ["Named listings in our directory", dir.total.toLocaleString("en-PK")],
+          ["Network dealers / local distributors", `${dir.dealers} / ${dir.research}`],
+          ["Towns with listings", String(dir.towns.length)],
+          ["LPG filling points listed", String(dir.fillingPoints)],
+          ["Licensed marketer plants listed", String(dir.plants.length)],
+          ["How gas arrives", pd.route],
+          ["Peak demand", pd.peak],
+          ["Climate", pd.climate],
+        ]}
+      />
+
+      <H2>How LPG reaches {p.name}</H2>
+      {pd.supply.map((t) => (
+        <P key={t.slice(0, 24)}>{t}</P>
+      ))}
+      <Note title="Ordering and delivery" tone="info">
+        <p>{terms.delivery}</p>
       </Note>
 
-      <H2>Cities and towns in {p.name}</H2>
-      {childLinks.length > 0 ? (
+      <H2>Season and weather in {p.name}</H2>
+      {pd.season.map((t) => (
+        <P key={t.slice(0, 24)}>{t}</P>
+      ))}
+      <Note title={`Tip for ${p.name}`}>
+        <p>{pd.tip}</p>
+      </Note>
+
+      <H2>Regions of {p.name} and what to expect</H2>
+      <SpecTable head={["Region", "Main towns", "Supply notes"]} rows={pd.regions} />
+
+      <H2>LPG dealers by town in {p.name}</H2>
+      <P>
+        Towns with the most listings in our directory. Open a city page for named dealers, phone numbers and delivery
+        notes; if your town is missing, send a request anyway and we check who can reach you.
+      </P>
+      <SpecTable
+        head={["Town", "Listings"]}
+        rows={topTowns.map((t) => [
+          pageFor.has(t.slug) ? (
+            <Link key={t.slug} className="underline" href={pageFor.get(t.slug)!}>
+              {t.name}
+            </Link>
+          ) : (
+            t.name
+          ),
+          String(t.count),
+        ])}
+      />
+      {leadTown && leadDealers.length > 0 && (
         <>
-          <P>
-            Open a city page for local delivery notes, named suppliers and how to order. If your town is not listed, send
-            a request anyway — we check who can reach you.
-          </P>
+          <P>Some of the dealers we list in {leadTown.name}:</P>
+          <UL
+            items={leadDealers.map(
+              (x) =>
+                `${x.name.replace(/_+/g, " ")}${x.locality ? `, ${x.locality}` : ""}${x.phone ? ` (${formatPhoneDisplay(x.phone)})` : ""}`,
+            )}
+          />
+        </>
+      )}
+      {dir.plantCompanies.length > 0 && (
+        <P>
+          Licensed LPG marketers with plants listed in {p.name}: {dir.plantCompanies.slice(0, 8).join(", ")}
+          {dir.plantCompanies.length > 8 ? ` and ${dir.plantCompanies.length - 8} more` : ""}. Bulk and tanker supply is
+          arranged from a plant; cylinders reach you through local dealers.
+        </P>
+      )}
+
+      {childLinks.length > 0 && (
+        <>
+          <H2>City pages in {p.name}</H2>
           <ul className="mt-3 grid gap-2 sm:grid-cols-2">
             {childLinks.map((c) => (
               <li key={c.href} className="rounded-lg border border-slate-200 p-3">
@@ -437,36 +488,24 @@ export default async function HubPage({ params }: Props) {
             ))}
           </ul>
         </>
-      ) : (
-        <P>
-          We serve {p.name} through our nationwide distributor network. Send your town, area and cylinder size and we
-          check which distributor can reach you, then tell you honestly whether and when we can supply you.
-        </P>
       )}
 
-      {cityList.some((c) => !c.hub && listedCount(c.slug, c.suppliers) > 0) && (
-        <>
-          <H2>Other towns where partners are listed</H2>
-          <P>
-            These towns appear in our partner list but do not have a dedicated page yet. Order with your town name and we
-            confirm coverage.
-          </P>
-          <UL
-            items={cityList
-              .filter((c) => !c.hub && listedCount(c.slug, c.suppliers) > 0)
-              .map(
-                (c) =>
-                  `${c.name} (${listedCount(c.slug, c.suppliers)} supplier${listedCount(c.slug, c.suppliers) === 1 ? "" : "s"} listed)`,
-              )}
-          />
-        </>
-      )}
+      <H2>Where LPG is used most in {p.name}</H2>
+      <UL
+        items={pd.uses.map((u) => (
+          <span key={u.href}>
+            <Link className="underline" href={u.href}>
+              {u.label}
+            </Link>
+            : {u.why}
+          </span>
+        ))}
+      />
 
       {thin && (
-        <Note tone="warn" title="Coverage here is still limited">
-          We have only a small number of partners listed in {p.name} today, so delivery times can be longer than in our
-          main cities. Send a request and we will tell you honestly whether and when we can supply you. Want to supply
-          gas in your area?{" "}
+        <Note tone="warn" title="Coverage here is still growing">
+          Fewer partners are listed in {p.name} than in the big cities, so delivery can take longer. Send a request and
+          we tell you honestly whether and when we can supply you. Want to supply gas in your area?{" "}
           <Link className="underline" href="/become-an-lpg-distributor/">
             Become a distributor
           </Link>
@@ -474,22 +513,18 @@ export default async function HubPage({ params }: Props) {
         </Note>
       )}
 
-      <H2>Order anywhere in Pakistan</H2>
+      <H2>Price in {p.name}</H2>
       <P>
-        {site.shortName} takes LPG orders nationwide. Use{" "}
-        <Link className="underline" href="/order-lpg/">
-          order LPG
+        The gas rate is the OGRA-notified price per kg, the same in {p.name} as everywhere else; what changes is delivery,
+        deposit and the distance from the nearest dealer. See{" "}
+        <Link className="underline" href="/lpg-price-in-pakistan/">
+          LPG price in Pakistan
         </Link>{" "}
-        or{" "}
-        <Link className="underline" href="/lpg-near-me/">
-          LPG near me
-        </Link>{" "}
-        if you are outside the cities above. The gas rate is the same OGRA-notified per-kg price in every city; deposit
-        and delivery are confirmed before you agree (
+        and our{" "}
         <Link className="underline" href="/pricing-policy/">
           pricing policy
         </Link>
-        ).
+        .
       </P>
       <ul className="mt-3 flex flex-wrap gap-2">
         {usefulLinks.map((n) => (
@@ -502,52 +537,14 @@ export default async function HubPage({ params }: Props) {
             </Link>
           </li>
         ))}
-        <li>
-          <Link
-            href="/delivery-areas/"
-            className="rounded-full border border-slate-300 px-3 py-1 text-sm text-ink-700 hover:border-flame"
-          >
-            All delivery areas
-          </Link>
-        </li>
-      </ul>
-
-      <H2>Major city hubs</H2>
-      <P>Larger cities where we list the most suppliers — useful if you are travelling or near one of them:</P>
-      <ul className="mt-3 flex flex-wrap gap-2">
-        {majorHubs.map((c) => (
-          <li key={c.slug}>
-            <Link
-              href={`/lpg-in-${c.slug}/`}
-              className="rounded-full border border-slate-300 px-3 py-1 text-sm text-ink-700 hover:border-flame"
-            >
-              LPG in {c.name} ({c.listed} listed)
-            </Link>
-          </li>
-        ))}
       </ul>
 
       <Faq
         items={[
+          ...pd.faqs,
           {
             q: `How do I order LPG in ${p.name}?`,
-            a: `Call or WhatsApp ${site.phoneDisplay}, or use the form. Tell us your city or town, street or landmark, and cylinder size. We confirm price and delivery with you before you agree.`,
-          },
-          {
-            q: `Who delivers in ${p.name}?`,
-            a: `${site.name} is an OGRA-licensed marketer and distributor. Orders are fulfilled through local distributors in our nationwide network, or our own licensed role where that applies. We confirm who delivers before you agree.`,
-          },
-          {
-            q: `How fast is delivery in ${p.name}?`,
-            a: "In covered major-city areas the target is about one hour when a local team is available. Outside those belts, timing depends on roads and partner distance — we confirm your street and window on the call.",
-          },
-          {
-            q: `Is the LPG price different in ${p.name}?`,
-            a: "No. The gas rate follows the OGRA monthly notification and is the same per-kg rate nationwide. Delivery, deposit and exchange terms are confirmed for your order.",
-          },
-          {
-            q: "Do you supply outside the main cities?",
-            a: "We try. Availability depends on whether we have a distributor near you, and we will tell you straight away if we cannot reach your area.",
+            a: `Call or WhatsApp ${site.phoneDisplay}, or use the form with your town, street or landmark and cylinder size. We confirm price and delivery before you agree.`,
           },
           {
             q: "What if I smell gas?",

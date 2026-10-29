@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { isCityIndexable } from "@/lib/network";
+import { isCityIndexable, provinceBySlug } from "@/lib/network";
 import { builtPaths, isPublished, lastmodOf } from "@/lib/pages";
 import { latestPrice, priceReady } from "@/lib/prices";
 import { servicesIndexable } from "@/lib/services";
@@ -18,7 +18,8 @@ function dataGateOpen(path: string): boolean {
   }
   if (path.startsWith("/lpg-in-")) {
     const slug = path.replace("/lpg-in-", "").replace(/\/$/, "");
-    return isCityIndexable(slug); // false for province hubs and for cities without a verification record
+    if (provinceBySlug(slug)) return true; // province hubs: the pages.json status is the gate
+    return isCityIndexable(slug); // false for cities without a verification record
   }
   if (path === "/services/" || path.startsWith("/services/")) return servicesIndexable;
   return true;

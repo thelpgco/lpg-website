@@ -63,6 +63,44 @@ export function listingsForCity(citySlug: string): DirectoryListing[] {
   return byCity[citySlug] ?? [];
 }
 
+/** Province names as they appear in the directory and marketer files, keyed by the province hub slug. */
+const PROVINCE_ALIASES: Record<string, string[]> = {
+  punjab: ["Punjab"],
+  sindh: ["Sindh"],
+  "khyber-pakhtunkhwa": ["KPK", "Khyber Pakhtunkhwa", "KP"],
+  balochistan: ["Balochistan"],
+  "gilgit-baltistan": ["Gilgit Baltistan", "Gilgit-Baltistan"],
+  "azad-kashmir": ["AJK", "Azad Jammu & Kashmir"],
+};
+const NOT_A_TOWN = new Set(["unknown", "ajk", "azad"]);
+const titleCase = (t: string) => t.toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase());
+
+/** Directory roll-up for a province hub: counts, towns by listings, and licensed marketer plants. */
+export function provinceDirectory(provinceSlug: string) {
+  const names = new Set(PROVINCE_ALIASES[provinceSlug] ?? []);
+  const rows = Object.entries(byCity).flatMap(([slug, list]) =>
+    list.filter((x) => names.has(x.province)).map((x) => ({ slug, x })),
+  );
+  const items = rows.map((r) => r.x);
+  const towns = new Map<string, { slug: string; name: string; count: number }>();
+  for (const { slug, x } of rows) {
+    if (NOT_A_TOWN.has(slug)) continue;
+    const t = towns.get(slug) ?? { slug, name: titleCase(x.city), count: 0 };
+    t.count += 1;
+    towns.set(slug, t);
+  }
+  const plants = marketers.filter((m) => names.has(m.province));
+  return {
+    total: items.length,
+    dealers: items.filter((x) => displayBucket(x.tier) === "network_dealers").length,
+    research: items.filter((x) => displayBucket(x.tier) === "research").length,
+    fillingPoints: items.filter((x) => x.role === "lpg_filling_point").length,
+    towns: [...towns.values()].sort((a, b) => b.count - a.count),
+    plants,
+    plantCompanies: [...new Set(plants.map((p) => p.company))],
+  };
+}
+
 /** Per-city count shown anywhere on the site: the directory the city page lists, else the network roll-up. */
 export function listedCount(citySlug: string, fallback = 0): number {
   return listingsForCity(citySlug).length || fallback;
