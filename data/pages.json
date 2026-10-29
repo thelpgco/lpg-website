@@ -714,64 +714,73 @@
     "id": "SV-001",
     "type": "SH",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/services/boiler-and-furnace-conversion-to-lpg/": {
     "id": "SV-006",
     "type": "CO",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/services/lpg-air-sng-systems/": {
     "id": "SV-005",
     "type": "CO",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/services/lpg-cylinder-testing-and-inspection/": {
     "id": "SV-009",
     "type": "CO",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/services/lpg-maintenance-and-amc/": {
     "id": "SV-008",
     "type": "CO",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/services/lpg-manifold-and-cylinder-bank-installation/": {
     "id": "SV-004",
     "type": "CO",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/services/lpg-pipeline-installation/": {
     "id": "SV-002",
     "type": "CO",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/services/lpg-safety-audit-and-inspection/": {
     "id": "SV-007",
     "type": "CO",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/services/lpg-storage-tank-installation/": {
     "id": "SV-003",
     "type": "CO",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/shop/": {
     "id": "SP-001",

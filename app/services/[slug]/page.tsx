@@ -1,18 +1,21 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import ContactButtons from "@/components/ContactButtons";
 import Faq from "@/components/Faq";
 import ImageGallery from "@/components/ImageGallery";
 import JsonLd from "@/components/JsonLd";
 import SiteLeadForm from "@/components/LeadFormLoader";
 import Link from "next/link";
 import PageShell, { H2, Note, P, UL } from "@/components/PageShell";
+import SpecTable from "@/components/SpecTable";
 import { terms } from "@/lib/commercial";
 import { company } from "@/lib/company/profile";
 import { itemsFor } from "@/lib/media";
 import { projectBySlug, projects, type ProjectRecord } from "@/lib/projects";
 import { serviceBySlug, services, servicesIndexable } from "@/lib/services";
+import { serviceDetail } from "@/lib/services-detail";
 import { meta } from "@/lib/seo";
-import { absoluteUrl, site } from "@/lib/site";
+import { absoluteUrl } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -44,6 +47,22 @@ function projectsForService(slug: string): ProjectRecord[] {
     .slice(0, 2);
 }
 
+function ServiceCta({ text, message }: { text: string; message: string }) {
+  return (
+    <div className="mt-6 rounded-xl border border-flame/30 bg-orange-50 p-4">
+      <p className="font-semibold text-ink">{text}</p>
+      <ContactButtons className="mt-3" message={message} />
+      <p className="mt-2 text-sm text-ink-500">
+        Or use the{" "}
+        <a className="underline" href="#lead-form">
+          quotation form
+        </a>
+        .
+      </p>
+    </div>
+  );
+}
+
 export function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
 }
@@ -69,25 +88,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const relatedProjects = projectsForService(s.slug);
   const path = `/services/${s.slug}/`;
 
-  const faqs = [
-    ...s.faqs,
-    {
-      q: "How much does this service cost?",
-      a: "Every job is quoted in writing after a brief and, where needed, a site assessment. Gas for any cylinders follows the OGRA-notified rate per kg; installation labour and materials are separate lines. We do not publish a fixed price list on this page.",
-    },
-    {
-      q: "How fast can you start or respond?",
-      a: "Site visits and installation windows are confirmed for your city and street after we accept the scope. Cylinder supply on the same job follows the delivery terms above.",
-    },
-    {
-      q: "Do you work nationwide?",
-      a: `Yes. ${company.shortName} (OGRA licence ${company.licenceNumber}) engineers and supplies LPG systems across Pakistan through its distributor network. Coverage is confirmed for your site before you agree.`,
-    },
-    {
-      q: "Are cylinders on engineering jobs certified?",
-      a: terms.partnersCertifiedRule,
-    },
-  ];
+  const d = serviceDetail[s.slug];
+  const faqs = [...s.faqs, ...d.faqs];
 
   return (
     <PageShell
@@ -108,11 +110,30 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     >
       <p className="text-sm font-medium text-flame-700">For: {s.audience}</p>
 
-      <Note title="Nationwide engineering" tone="info">
-        <p>
-          {terms.delivery}
-        </p>
-      </Note>
+      <H2>{s.name}: why it matters</H2>
+      {d.why.map((para) => (
+        <P key={para.slice(0, 24)}>{para}</P>
+      ))}
+
+      <H2>Signs you need it</H2>
+      <UL items={d.signs} />
+
+      <H2>{d.tech.title}</H2>
+      <SpecTable head={d.tech.head} rows={d.tech.rows} />
+      <P>{d.tech.note}</P>
+
+      {d.example && (
+        <>
+          <H2>Worked example: {d.example.title}</H2>
+          <ol className="mt-3 list-decimal space-y-1 pl-5 text-ink-700">
+            {d.example.lines.map((l) => (
+              <li key={l.slice(0, 24)}>{l}</li>
+            ))}
+          </ol>
+        </>
+      )}
+
+      <ServiceCta text={d.ctas.mid} message={d.ctas.message} />
 
       <H2>What is included</H2>
       <UL items={s.scope} />
@@ -128,6 +149,24 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           </li>
         ))}
       </ol>
+
+      <H2>Faults we often find</H2>
+      <SpecTable head={["Fault", "Cause and fix"]} rows={d.faults} />
+
+      <H2>What you get in writing</H2>
+      <UL items={d.deliverables} />
+
+      <H2>Rules and approvals</H2>
+      <P>
+        {d.rules} {terms.partnersCertifiedRule}
+      </P>
+
+      <H2>What sets the price</H2>
+      <UL items={d.costDrivers} />
+      <P>
+        Every job is quoted in writing. Gas for any cylinders follows the OGRA-notified rate per kg; labour and materials
+        are separate lines. {terms.delivery}
+      </P>
 
       <H2>What we need from you</H2>
       <UL items={s.needFromYou} />
@@ -219,15 +258,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         .
       </P>
 
-      <Note title="Talk to us now" tone="info">
-        <p>
-          Call {company.phoneDisplay} or message us on{" "}
-          <a className="underline" href={`https://wa.me/${site.whatsapp}`}>
-            WhatsApp
-          </a>
-          . {terms.responseTime} Use the form on this page for a written engineering quotation.
-        </p>
-      </Note>
+      <ServiceCta text={d.ctas.end} message={d.ctas.message} />
+      <P>{terms.responseTime}</P>
 
       <ImageGallery items={itemsFor(path)} title="Photos" />
       <Faq items={faqs} />
