@@ -1,3 +1,5 @@
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 import { ImageResponse } from "next/og";
 
 export const alt = "THE LPG CO. PAKISTAN: LPG cylinders, gas supply and engineering";
@@ -6,7 +8,9 @@ export const contentType = "image/png";
 
 // Default social-share card. It states only the brand and what the site covers (no price, no claim),
 // so it never goes out of date. Pages with their own data (monthly price) can add a card later.
-export default function OpengraphImage() {
+export default async function OpengraphImage() {
+  const logo = await readFile(join(process.cwd(), "public/brand/logo.png"));
+  const logoSrc = `data:image/png;base64,${logo.toString("base64")}`;
   return new ImageResponse(
     (
       <div
@@ -15,18 +19,19 @@ export default function OpengraphImage() {
           height: "100%",
           display: "flex",
           flexDirection: "column",
+          alignItems: "center",
           justifyContent: "center",
-          padding: 80,
-          background: "#111827",
-          color: "#ffffff",
+          padding: 70,
+          background: "#ffffff",
+          color: "#0B2A6F",
         }}
       >
-        <div style={{ display: "flex", fontSize: 30, color: "#F97316", fontWeight: 700 }}>thelpgco.pk</div>
-        <div style={{ display: "flex", fontSize: 76, fontWeight: 800, marginTop: 18, lineHeight: 1.1 }}>THE LPG CO. PAKISTAN</div>
-        <div style={{ display: "flex", fontSize: 38, marginTop: 28, color: "#d1d5db" }}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={logoSrc} width={760} height={336} alt="" />
+        <div style={{ display: "flex", fontSize: 38, marginTop: 36, color: "#1f2937" }}>
           LPG cylinders, gas supply and engineering across Pakistan
         </div>
-        <div style={{ display: "flex", fontSize: 28, marginTop: 40, color: "#F97316" }}>Islamabad G-12 · WhatsApp +92 339 4022940</div>
+        <div style={{ display: "flex", fontSize: 28, marginTop: 22, color: "#C8102E" }}>Islamabad G-12 · WhatsApp +92 339 4022940</div>
       </div>
     ),
     size,

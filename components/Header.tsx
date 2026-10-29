@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import TrackedLink from "./TrackedLink";
 import { site, telHref, whatsappHref } from "@/lib/site";
@@ -17,9 +18,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
-        <Link href="/" className="flex items-center gap-2 text-lg font-bold text-ink">
-          <span className="inline-block h-6 w-6 rounded-full bg-flame" aria-hidden="true" />
-          <span>{site.shortName}<span className="ml-1 hidden text-sm font-semibold text-ink-500 sm:inline">PAKISTAN</span></span>
+        <Link href="/" className="flex shrink-0 items-center" aria-label={`${site.name} home`}>
+          <Image src="/brand/logo.webp" alt={site.name} width={136} height={60} priority className="h-10 w-auto sm:h-12" />
         </Link>
         <nav aria-label="Main" className="hidden items-center gap-6 text-sm font-medium text-ink-700 lg:flex">
           {nav.map((n) => (

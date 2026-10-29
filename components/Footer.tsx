@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { addressLine, site } from "@/lib/site";
 import { hubCities } from "@/lib/network";
@@ -7,7 +8,8 @@ export default function Footer() {
     <footer className="mt-16 border-t border-slate-200 bg-slate-50">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <p className="font-bold text-ink">{site.name}</p>
+          <Image src="/brand/logo.webp" alt="" width={160} height={71} className="h-14 w-auto" />
+          <p className="mt-3 font-bold text-ink">{site.name}</p>
           <p className="mt-2 text-sm text-ink-500">{site.tagline}.</p>
           <p className="mt-3 text-sm text-ink-700">OGRA licence no. {site.licenceNumber}</p>
           <address className="mt-2 text-sm not-italic text-ink-700">
