@@ -9,9 +9,12 @@ import { absoluteUrl } from "@/lib/site";
 // This is the same rule the page's robots meta uses, so the sitemap and the pages cannot disagree.
 // `priority` is omitted on purpose (Google ignores it). `lastModified` is only emitted when a person set a real
 // `lastmod` for the page in data/pages.json; a build timestamp would be a false freshness signal.
+const CITY_PRICE_SLUGS = ["karachi", "lahore"]; // app/lpg-price-in-pakistan/[city] CITIES
+
 function dataGateOpen(path: string): boolean {
   if (path.startsWith("/lpg-price-in-pakistan/") && path !== "/lpg-price-in-pakistan/") {
-    return Boolean(latestPrice?.cities?.[path.split("/")[2]]);
+    const part = path.split("/")[2];
+    return priceReady && (part === "history" || CITY_PRICE_SLUGS.includes(part));
   }
   if (["/lpg-price-in-pakistan/", "/lpg-price-per-kg-in-pakistan/", "/ogra-lpg-notified-price/", "/lpg-cylinder-price-in-pakistan/"].includes(path)) {
     return priceReady;

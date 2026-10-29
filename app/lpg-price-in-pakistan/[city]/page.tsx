@@ -7,6 +7,7 @@ import ImageGallery from "@/components/ImageGallery";
 import SiteLeadForm from "@/components/LeadFormLoader";
 import PageShell, { H2, Note, P, UL } from "@/components/PageShell";
 import PriceBlock from "@/components/PriceBlock";
+import SpecTable from "@/components/SpecTable";
 import {
   cityDirectoryStats,
   formatPhoneDisplay,
@@ -32,6 +33,68 @@ const CITY_IMAGE: Record<string, { src: string; alt: string }> = {
   },
 };
 
+/** City-only price context: what moves the delivered total here, plus local FAQs. */
+const CITY_PRICE: Record<
+  string,
+  {
+    intro: string;
+    context: string[];
+    factors: string[];
+    /** Monthly gas use examples for this city: label, kg per month. */
+    examples: [string, number][];
+    faqs: { q: string; a: string }[];
+  }
+> = {
+  karachi: {
+    intro:
+      "Karachi pays the same OGRA rate per kg as every other city, but it sits next to the import terminals at Port Qasim, so stock is rarely short for long and a quote far above the notified rate is hard to justify.",
+    context: [
+      "Because most imported LPG lands in Karachi, the city is usually the first to see a new month's stock at the new rate. When the rate rises, a few shops move early; when it falls, some keep the old rate for a few days. Asking which month's notification a quote uses settles most disagreements.",
+      "Karachi's delivered total varies more with the building than with the area. Carrying a 45.4 kg commercial cylinder up several floors without a lift takes two people, and some dealers charge for it. Industrial customers in SITE, Korangi and Landhi pay by volume, with tanker or cylinder-bank terms agreed in writing.",
+    ],
+    factors: [
+      "Floor and lift access in high-rise flats",
+      "Exchange of an eligible empty versus a new cylinder deposit",
+      "Commercial volume: weekly cylinder routes for restaurants and bakeries",
+      "Industrial terms: bulk tanker or cylinder bank by monthly kg",
+    ],
+    examples: [
+      ["Flat in Gulshan or North Nazimabad, cooking only (one 11.8 kg a month)", 11.8],
+      ["Family home in Clifton or DHA with a gas geyser in winter", 35.4],
+      ["Biryani or karahi restaurant, four 45.4 kg cylinders a week", 45.4 * 4 * 4.3],
+      ["Bakery in SITE or Korangi, two 45.4 kg cylinders a day", 45.4 * 2 * 30],
+    ],
+    faqs: [
+      { q: "Karachi mein LPG cylinder ka rate kya hai?", a: "Karachi mein bhi wahi OGRA notified rate lagta hai jo poore Pakistan mein hai. Gas ki qeemat = kg × rate; delivery, upar le jaane ka kharcha aur deposit alag se confirm hote hain." },
+      { q: "Why do Karachi shops quote different prices on the same day?", a: "Some are still on last month's rate, some include delivery or carrying charges, and some quote decanted gas. Ask for gas, delivery and deposit as separate lines." },
+    ],
+  },
+  lahore: {
+    intro:
+      "Lahore pays the same OGRA rate per kg as Karachi, but its stock comes by road from plants and terminals, and winter demand spikes when Sui gas pressure drops, so the gap between the notified rate and shop quotes is widest in December and January.",
+    context: [
+      "In Lahore's winter, demand for 11.8 kg cylinders jumps on the coldest evenings, and fog slows trucks on the motorways. That is when some sellers quote above the notified rate. Ordering before you run out, from a dealer who shows the gas price as kg × rate, avoids paying a shortage premium.",
+      "Wedding season adds a second peak. Marriage halls and caterers order many 45.4 kg cylinders for the same dates, so booking ahead at an agreed rate protects you from last-minute prices. Gated schemes like DHA and Bahria are easy to reach, but entry at the gate can add time, not cost.",
+    ],
+    factors: [
+      "Winter shortage weeks, when some sellers add a premium",
+      "Wedding-season bookings of several 45.4 kg cylinders",
+      "Narrow lanes in older areas that need a pickup or motorbike delivery",
+      "Exchange of an eligible empty versus a new cylinder deposit",
+    ],
+    examples: [
+      ["House in Johar Town or Model Town, cooking only (one 11.8 kg a month)", 11.8],
+      ["Family home in winter with a gas geyser and a heater", 47.2],
+      ["Tikka or karahi restaurant on a food street, five 45.4 kg cylinders a week", 45.4 * 5 * 4.3],
+      ["Wedding with 500 guests, one event (about 70 kg of gas)", 70],
+    ],
+    faqs: [
+      { q: "Lahore mein gas cylinder ka rate kya hai?", a: "Lahore mein bhi OGRA ka wahi fi kg rate hai jo Karachi aur Islamabad mein hai. Sardiyon mein kuch dukaanein zyada maangti hain; gas, delivery aur deposit alag alag poochhein." },
+      { q: "Why are LPG prices higher in Lahore in winter?", a: "The notified rate is the same, but demand jumps when Sui gas pressure drops and fog slows deliveries. Some sellers add a premium; ordering early from a dealer who shows kg × rate avoids it." },
+    ],
+  },
+};
+
 export const dynamicParams = false;
 const CITIES = ["karachi", "lahore"]; // only cities where the SERP-overlap test showed a separate page is justified
 
@@ -39,8 +102,8 @@ export function generateStaticParams() {
   return CITIES.map((city) => ({ city }));
 }
 
-// Indexable only when a verified city-specific price exists; otherwise it would duplicate the national page.
-const hasCityPrice = (slug: string) => Boolean(latestPrice?.cities?.[slug]);
+// Indexable once a verified notification exists: each city page carries its own price context (CITY_PRICE), so it
+// no longer duplicates the national page. meta() still requires "published" in data/pages.json.
 
 export async function generateMetadata({ params }: { params: Promise<{ city: string }> }): Promise<Metadata> {
   const { city } = await params;
@@ -56,7 +119,7 @@ export async function generateMetadata({ params }: { params: Promise<{ city: str
       `LPG price in ${c.name} today: the per-kg rate and 5, 11.8, 15 and 45.4 kg cylinder prices, how it relates to the OGRA notification, and how to order in ${c.name}.`,
       `LPG price in ${c.name} today: per-kg rate and 5, 11.8, 15 and 45.4 kg cylinder prices, how it follows the OGRA notification and how to order here.`,
     ]),
-    index: hasCityPrice(city),
+    index: Boolean(latestPrice),
   });
 }
 
@@ -68,33 +131,11 @@ export default async function Page({ params }: { params: Promise<{ city: string 
   const verified = isCityIndexable(city);
   const dirStats = cityDirectoryStats(city);
   const named = namedSuppliersForCity(city, 6);
-  const deliveryLine =
-    o.deliveryNote ??
-    `${site.deliveryTarget} ${terms.delivery}`;
+  const deliveryLine = o.deliveryNote ?? terms.delivery;
+  const cp = CITY_PRICE[city];
 
   const faqs = [
-    {
-      q: `How is the LPG price in ${c.name} worked out?`,
-      a: `Gas cost starts from the OGRA-notified price per kg we have on file, multiplied by the kg in your cylinder. Delivery, deposit or exchange can change the total. The price block shows figures when they are verified on file.`,
-    },
-    {
-      q: `Who delivers LPG in ${c.name}?`,
-      a: `${company.shortName} is an OGRA-licensed marketer and distributor. We may supply as marketer, reseller or through a named network dealer. City hub lists ${dirStats.dealers} network dealers and ${dirStats.total} local listings on file — we still confirm who reaches your street before you agree.`,
-    },
-    {
-      q: `How fast is delivery in ${c.name}?`,
-      a: deliveryLine,
-    },
-    {
-      q: `Is the LPG rate in ${c.name} different from the national OGRA price?`,
-      a: terms.sameOgraRateAllCities
-        ? "The verified OGRA per-kg rate we quote is the same nationwide; your total can still differ once delivery, deposit or exchange terms are added for your order."
-        : "The notified per-kg rate is the national reference unless OGRA or our checked sheet shows a separate city line. Shop quotes can still differ once delivery and cylinder terms are added.",
-    },
-    {
-      q: `How do I order LPG in ${c.name} after I check the rate?`,
-      a: `Use the form on this page, order LPG online, or WhatsApp ${site.phoneDisplay}. Give your area and cylinder size. We confirm the full price before you agree.`,
-    },
+    ...(cp?.faqs ?? []),
   ];
 
   return (
@@ -104,18 +145,9 @@ export default async function Page({ params }: { params: Promise<{ city: string 
         { name: c.name, href: `/lpg-price-in-pakistan/${city}/` },
       ]}
       h1={`LPG price in ${c.name} today`}
-      intro={`Live OGRA per-kg baseline for ${c.name}, cylinder gas totals when on file, named dealers on the ${c.name} hub, and delivery timing we confirm for your street. ${company.shortName} (licence ${company.licenceNumber}) confirms the full price before you agree.`}
+      intro={`${cp?.intro ?? ""} ${company.shortName} (licence ${company.licenceNumber}) confirms the full price before you agree.`}
       aside={<SiteLeadForm defaultCity={city} heading={`Order LPG in ${c.name}`} />}
     >
-      <Note title={`${c.name} — price at a glance`} tone="info">
-        <p>
-          {latestPrice
-            ? `${pkr(latestPrice.perKgPkr)} per kg (${monthLong(latestPrice.month)} OGRA consumer cycle on our price file). Same nationwide baseline${terms.sameOgraRateAllCities ? "" : " unless a city line is on file"}.`
-            : `Verified per-kg figure is being updated — WhatsApp ${site.phoneDisplay} for today’s confirmation in ${c.name}.`}{" "}
-          Delivery: {deliveryLine}
-        </p>
-      </Note>
-
       <PriceBlock citySlug={city} cityName={c.name} />
 
       {CITY_IMAGE[city] ? (
@@ -126,33 +158,44 @@ export default async function Page({ params }: { params: Promise<{ city: string 
         />
       ) : null}
 
-      <H2>LPG rate in {c.name}: per kg and cylinder sizes</H2>
+      {cp && (
+        <>
+          <H2>What decides the LPG price you pay in {c.name}</H2>
+          {cp.context.map((t) => (
+            <P key={t.slice(0, 24)}>{t}</P>
+          ))}
+          <H2>What changes your delivered total in {c.name}</H2>
+          <UL items={cp.factors} />
+          {latestPrice && (
+            <>
+              <H2>Monthly gas cost examples in {c.name}</H2>
+              <SpecTable
+                head={["Who", "Gas per month", `Gas cost at ${pkr(latestPrice.perKgPkr)}/kg`]}
+                rows={cp.examples.map(([who, kg]) => [
+                  who,
+                  `about ${Math.round(kg).toLocaleString("en-PK")} kg`,
+                  pkr(Math.round(kg * latestPrice!.perKgPkr)),
+                ])}
+                caption="Gas only, at this month's notified rate. Delivery and deposit are confirmed per order."
+              />
+            </>
+          )}
+        </>
+      )}
       <P>
-        The price block lists price per kg and common cylinder gas totals (5, 11.8, 15, 45.4 kg) when verified. Method
-        and national context:{" "}
-        <Link className="underline" href="/lpg-price-in-pakistan/">
-          LPG rate in Pakistan today
-        </Link>
-        ,{" "}
+        Method and national context:{" "}
         <Link className="underline" href="/lpg-price-per-kg-in-pakistan/">
           LPG 1kg price today
-        </Link>
-        , and{" "}
+        </Link>{" "}
+        and the{" "}
         <Link className="underline" href="/ogra-lpg-notified-price/">
           OGRA notified LPG price
-        </Link>
-        . How we price:{" "}
-        <Link className="underline" href="/pricing-policy/">
-          pricing policy
         </Link>
         .
       </P>
 
       <H2>Delivery in {c.name}</H2>
       <P>{deliveryLine}</P>
-      {o.localNotes && o.localNotes.length > 0 && (
-        <UL items={o.localNotes} />
-      )}
       {verified && o.verifiedOn && (
         <p className="mt-3 text-sm text-ink-600">
           Local supply checks for {c.name} were recorded on {o.verifiedOn}.
@@ -217,20 +260,6 @@ export default async function Page({ params }: { params: Promise<{ city: string 
         </Link>
       </P>
 
-      <H2>How price works in {c.name}</H2>
-      <P>
-        Multiply the notified price per kg by your cylinder’s gas weight for the gas portion. Add deposit, exchange or
-        delivery only after we confirm them. {terms.deposit} Breakdown:{" "}
-        <Link className="underline" href="/lpg-cylinder-price-in-pakistan/">
-          LPG cylinder price in Pakistan
-        </Link>
-        . Sizes:{" "}
-        <Link className="underline" href="/lpg-cylinder-sizes-in-pakistan/">
-          LPG cylinder sizes
-        </Link>
-        .
-      </P>
-
       <H2>Ordering LPG in {c.name}</H2>
       <UL
         items={[
@@ -252,11 +281,6 @@ export default async function Page({ params }: { params: Promise<{ city: string 
           <span key="w">Call or WhatsApp {site.phoneDisplay}</span>,
         ]}
       />
-      <P>
-        On your order we may act as marketer/distributor, reseller, or referral partner to a local dealer. We say which
-        applies before you agree.
-      </P>
-
       {c.localities.length >= 3 && (
         <>
           <H2>Areas of {c.name} where partners are listed</H2>

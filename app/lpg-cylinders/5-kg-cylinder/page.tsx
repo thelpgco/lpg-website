@@ -4,7 +4,6 @@ import Faq from "@/components/Faq";
 import ImageGallery from "@/components/ImageGallery";
 import SiteLeadForm from "@/components/LeadFormLoader";
 import PageShell, { H2, Note, P, UL } from "@/components/PageShell";
-import PriceBlock from "@/components/PriceBlock";
 import CylinderCostBlock, { cylinderSpecRows } from "@/components/CylinderCostBlock";
 import SpecTable from "@/components/SpecTable";
 import { itemsFor } from "@/lib/media";
@@ -122,8 +121,24 @@ export default function Page() {
         Gas price = <strong>5 × OGRA price per kg</strong>. The shell (deposit, exchange or new empty) and delivery are
         separate parts of the bill.
       </P>
-      <PriceBlock />
       <CylinderCostBlock kg={5} />
+
+      <H2>How long a 5 kg cylinder lasts</H2>
+      <SpecTable
+        head={["Use", "Typical gas use", "Hours from 5 kg"]}
+        rows={[
+          ["One small stove burner, medium flame", "about 0.15 kg/h", "about 33 hours"],
+          ["One stove burner, full flame", "about 0.2 kg/h", "about 25 hours"],
+          ["Two burners together, full flame", "about 0.4 kg/h", "about 12 hours"],
+          ["Small room heater (about 3.5 kW)", "about 0.27 kg/h", "about 18 hours"],
+          ["Camping lamp or small grill", "about 0.05–0.1 kg/h", "50–100 hours"],
+        ]}
+        caption="Estimates from appliance ratings at about 12.8 kWh per kg. Cold weather and wind shorten these times."
+      />
+      <P>
+        A student or a two-person household cooking once or twice a day usually gets two to three weeks from 5 kg. For a
+        family, the 11.8 kg cylinder needs fewer refills and costs less per trip.
+      </P>
       <P>
         See the full breakdown on{" "}
         <Link className="underline" href="/lpg-cylinder-price-in-pakistan/">

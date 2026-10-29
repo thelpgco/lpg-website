@@ -49,6 +49,10 @@ export default function Page() {
           title: "Hose length and routing",
           text: "Keep the hose as short as practical. Route it away from the flame, sharp edges, foot traffic and hot pans. Do not join two hoses with makeshift fittings. A new connection kit often includes a short LPG-rated hose with clamps — ask what is included when you order.",
         },
+        {
+          title: "How to leak-test a new hose at home",
+          text: "With the appliance off, open the cylinder valve and brush soapy water over both hose ends, the clamps and the regulator joint. Growing bubbles mean a leak: close the valve, tighten or replace the part and test again. Never use a match or lighter to look for a leak, because LPG ignites at the first spark.",
+        },
       ]}
       compare={{
         head: ["Point", "What to ask or check"],

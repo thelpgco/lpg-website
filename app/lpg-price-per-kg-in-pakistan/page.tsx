@@ -25,6 +25,15 @@ export const metadata = priceMeta(
 );
 
 const QUICK_KG = [1, 2, 3, 5, 10];
+
+/** Typical full-flame gas use (kg/h) from rated input ÷ 12.8 kWh per kg. */
+const APPLIANCES: [string, number][] = [
+  ["Domestic stove burner (about 2.5 kW)", 0.2],
+  ["Room heater (about 3.5 kW)", 0.27],
+  ["Storage geyser, 35 gallon (about 10 kW)", 0.8],
+  ["Commercial karahi burner (about 15 kW)", 1.2],
+  ["Gas tandoor (about 20 kW)", 1.6],
+];
 const exact = (v: number) => `Rs ${v.toLocaleString("en-PK", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 
 export default function Page() {
@@ -58,6 +67,18 @@ export default function Page() {
     {
       q: "Does delivery change the per-kg gas rate?",
       a: "No. Gas follows the OGRA per-kg notification. Delivery is a separate line we confirm for your street before you agree.",
+    },
+    {
+      q: "LPG ka rate aaj kya hai? (1 kg gas kitne ki hai?)",
+      a: n
+        ? `${monthLong(n.month)} mein OGRA ka notified rate ${perKg} fi kg hai. 11.8 kg gharelu cylinder ki gas ${pkr(cylinderPrice(11.8)!)} aur 45.4 kg commercial cylinder ki gas ${pkr(cylinderPrice(45.4)!)} banti hai. Delivery aur deposit alag se confirm hote hain.`
+        : "OGRA har mahine LPG ka fi kg rate notify karta hai. Aaj ka rate confirm karne ke liye call ya WhatsApp karein.",
+    },
+    {
+      q: "How much gas does a family use in a month?",
+      a: n
+        ? `A family cooking two or three meals a day often uses one 11.8 kg cylinder in two to four weeks, which is ${pkr(cylinderPrice(11.8)!)} of gas per cylinder at this month's rate. A gas geyser in winter can double that.`
+        : "A family cooking two or three meals a day often uses one 11.8 kg cylinder in two to four weeks. A gas geyser in winter can double that.",
     },
     {
       q: "How do I order at today's rate?",
@@ -122,6 +143,61 @@ export default function Page() {
             ])}
             caption="Gas only. Deposit and delivery confirmed when you order."
           />
+        </>
+      ) : null}
+
+      {n ? (
+        <>
+          <H2>What one kilogram of LPG does for you</H2>
+          <P>
+            A kilogram of LPG holds about 12.8 kWh of heat, so what it costs you per hour depends on the appliance. Use your
+            appliance&apos;s rating plate for exact figures; these are typical full-flame values.
+          </P>
+          <SpecTable
+            head={["Appliance", "Typical gas use", "Cost per hour at full flame"]}
+            rows={APPLIANCES.map(([name, kgh]) => [name, `about ${kgh} kg/h`, pkr(Math.round(kgh * n.perKgPkr))])}
+            caption={`At ${perKg} per kg. Most burners run below full flame, so real costs are usually lower.`}
+          />
+
+          <H2>Per kg or per litre?</H2>
+          <P>
+            LPG is sold by weight in Pakistan because its volume changes with temperature. If a seller quotes per litre, convert
+            it: one litre of liquid LPG weighs about 0.54 kg, so {perKg} per kg works out to about{" "}
+            {pkr(Math.round(n.perKgPkr * 0.54))} per litre. A per-litre quote well above that is more than the notified rate.
+            Try the{" "}
+            <Link className="underline" href="/tools/lpg-litre-to-kg-converter/">
+              litre to kg converter
+            </Link>
+            .
+          </P>
+
+          <H2>Check that you received full weight</H2>
+          <P>
+            Every cylinder has its empty weight (tare, marked TW) stamped near the valve. Weigh the full cylinder and subtract
+            the tare: the difference is the gas you paid for. For example, a domestic cylinder stamped TW 15.0 kg should weigh
+            about 26.8 kg when full. If it weighs 25.8 kg, you are 1 kg short, which is {perKg} of gas at this month&apos;s
+            rate. A short fill is a fair reason to refuse the cylinder.
+          </P>
+
+          <H2>How OGRA arrives at the per-kg price</H2>
+          <P>
+            OGRA works out the consumer price each month from a formula set under the LPG policy. The biggest inputs are the
+            international contract prices for propane and butane and the rupee–dollar exchange rate, because Pakistan
+            imports a large share of its LPG. Freight, margins for producers, marketers and distributors, and taxes are added
+            on top. That is why the price often rises in the northern-hemisphere winter, when world LPG demand peaks, and
+            why a weaker rupee raises it even when world prices are flat.
+          </P>
+
+          <H2>Why a shop may charge more than the notified rate</H2>
+          <UL
+            items={[
+              "It is still selling at last month's rate after a price cut, or has moved to the new rate early after a rise.",
+              "It adds a delivery or carrying charge into the per-kg figure instead of showing it separately.",
+              "It refills from a bulk cylinder (decanting), which is unsafe and often short-weight.",
+              "It charges a deposit or cylinder rent without saying so.",
+            ]}
+          />
+          <P>Ask any seller to split the quote into gas (kg × rate), delivery and deposit, so you can compare like with like.</P>
         </>
       ) : null}
 

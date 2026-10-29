@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ContactButtons from "@/components/ContactButtons";
 import Faq from "@/components/Faq";
 import ImageGallery from "@/components/ImageGallery";
 import SiteLeadForm from "@/components/LeadFormLoader";
@@ -37,7 +38,7 @@ export type ApplianceInfo = {
   processSteps?: string[];
   /** Optional tip under the short answer. */
   tip?: string;
-  /** Optional cost angle shown after Who we are. */
+  /** Optional cost angle for the appliance vs gas section. */
   costNote?: string;
   /** Optional where/who angle (cities, commercial vs home). */
   whereNote?: string;
@@ -52,14 +53,7 @@ export default function ApplianceInfoPage(a: ApplianceInfo) {
   const items = a.category ? appliances().filter((x) => x.category === a.category) : [];
   const showCatalogue = demo && items.length > 0;
   const h1 = showCatalogue ? (a.demoH1 ?? a.h1) : (a.productionH1 ?? a.h1);
-  const process =
-    a.processSteps ??
-    [
-      "Send the form (or call / WhatsApp) with the item, your city and area",
-      "We confirm whether we can supply it, the price and who delivers or installs",
-      "You agree only after you have the full figure — there is no online checkout",
-      "On delivery, check the item and the connection; refuse anything damaged and tell us at once",
-    ];
+  const process = a.processSteps;
 
   return (
     <PageShell
@@ -103,21 +97,9 @@ export default function ApplianceInfoPage(a: ApplianceInfo) {
         </>
       ) : (
         <Note title="Price on request" tone="info">
-          <p>
-            We quote this product for your model and city. Send a request with what you need and where you are; we reply
-            with availability, price and delivery before you agree. There is no standing price list and no online
-            checkout on this page.
-          </p>
+          <p>Quoted for your model and city; send a request and we reply with stock and the full price.</p>
         </Note>
       )}
-
-      <H2>Who we are</H2>
-      <P>
-        {company.shortName} is an OGRA-licensed LPG company (licence {company.licenceNumber}), operating since{" "}
-        {company.foundedYear} from {company.officeAddress}. We supply cylinders, appliances and accessories through our
-        nationwide network, and we confirm every order to your street — including stock and the full price — before you
-        agree. Call or WhatsApp {site.phoneDisplay}.
-      </P>
 
       <H2>Cost: appliance vs gas</H2>
       <P>
@@ -162,17 +144,18 @@ export default function ApplianceInfoPage(a: ApplianceInfo) {
 
       <H2>What to send for a quote</H2>
       <UL items={a.quoteNeeds} />
+      {process && process.length > 0 && (
+        <ol className="mt-3 space-y-3">
+          {process.map((step, i) => (
+            <li key={step} className="rounded-xl bg-slate-50 p-4">
+              <p className="font-semibold text-ink">
+                {i + 1}. {step}
+              </p>
+            </li>
+          ))}
+        </ol>
+      )}
 
-      <H2>How ordering works</H2>
-      <ol className="mt-3 space-y-3">
-        {process.map((step, i) => (
-          <li key={step} className="rounded-xl bg-slate-50 p-4">
-            <p className="font-semibold text-ink">
-              {i + 1}. {step}
-            </p>
-          </li>
-        ))}
-      </ol>
       <P>
         Related:{" "}
         <Link className="underline" href="/how-it-works/">
@@ -214,12 +197,7 @@ export default function ApplianceInfoPage(a: ApplianceInfo) {
         ))}
       />
 
-      <Note title="Talk to us now" tone="info">
-        <p>
-          Call or WhatsApp {site.phoneDisplay} — we aim to reply {company.responseTime}. Or use the form on this page.
-          We confirm availability, price and who delivers before you agree.
-        </p>
-      </Note>
+      <ContactButtons className="mt-6" />
 
       <ImageGallery items={itemsFor(a.path)} title={a.galleryTitle ?? "Photos"} />
       <Faq items={a.faqs} />

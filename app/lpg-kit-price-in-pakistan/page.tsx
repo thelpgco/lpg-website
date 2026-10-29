@@ -146,6 +146,21 @@ export default function Page() {
         verify with OGRA and your vehicle registration authority, and how to check a <Link className="underline" href="/lpg-filling-stations/">filling station</Link>.
       </P>
 
+      <H2>Working out whether a kit pays for itself</H2>
+      <P>
+        The real question behind a kit price is how long it takes to earn back. Take your monthly kilometres, your fuel cost
+        per kilometre on petrol and on LPG, and the kit price including fitting:
+      </P>
+      <ol className="mt-3 list-decimal space-y-1 pl-6 text-ink-700">
+        <li>Monthly saving = kilometres × (petrol cost per km − LPG cost per km).</li>
+        <li>Payback in months = kit and fitting price ÷ monthly saving.</li>
+        <li>Add servicing for the kit (filters, tuning) to the LPG side so the saving is not overstated.</li>
+      </ol>
+      <P>
+        Cars that run many kilometres a month, such as taxis and ride-hailing cars, earn the kit back far sooner than a car
+        used for short city trips. Use real figures from your own fuel receipts, not the advertised mileage.
+      </P>
+
       <H2>How we can help</H2>
       <P>
         We do not sell kits on this page and do not give legal clearance. Send your city and vehicle through the form,

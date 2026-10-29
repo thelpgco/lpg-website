@@ -131,6 +131,37 @@ export default function Page() {
         . If anything on this site differs from the official notification, the official notification is the final word.
       </P>
 
+      <H2>Who OGRA is and what it controls</H2>
+      <P>
+        The Oil and Gas Regulatory Authority (OGRA) was set up under the OGRA Ordinance 2002. For LPG it licenses
+        producers, marketers and distributors under the LPG (Production and Distribution) Rules, and under the LPG policy
+        it notifies a maximum consumer price every month. The notified price is a ceiling for the gas itself; delivery,
+        deposits and cylinder terms are set separately by the seller and should be shown to you before you pay.
+      </P>
+
+      <H2>How to check a notification yourself</H2>
+      <ol className="mt-3 list-decimal space-y-1 pl-6 text-ink-700">
+        <li>Open the OGRA website and go to the notified prices section for LPG.</li>
+        <li>Find the notification for the current month and note the effective date.</li>
+        <li>Read the consumer price per kg and the price for the 11.8 kg domestic cylinder.</li>
+        <li>Compare it with the quote you have: the gas part should be kg × the notified rate or less.</li>
+      </ol>
+
+      {latestPrice && (
+        <>
+          <H2>Worked example: from the notification to a delivered cylinder</H2>
+          <SpecTable
+            head={["Line", "How it is worked out", "Amount"]}
+            rows={[
+              ["Gas", `11.8 kg × ${pkr(latestPrice.perKgPkr)}`, pkr(gasFor(latestPrice, 11.8))],
+              ["Delivery", "Set by distance and access; confirmed before you agree", "quoted"],
+              ["Deposit", "Only for a new cylinder taken into your custody", "quoted"],
+              ["Exchange", "An eligible empty returned against a full one", "no deposit"],
+            ]}
+          />
+        </>
+      )}
+
       <H2>From notification to your bill</H2>
       <UL
         items={[

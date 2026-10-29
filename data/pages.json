@@ -238,57 +238,65 @@
     "id": "CY-002",
     "type": "CO",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-cylinder-refill/": {
     "id": "CY-008",
     "type": "SH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-cylinder-sizes-in-pakistan/": {
     "id": "CY-007",
     "type": "GD",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-cylinders/": {
     "id": "CY-001",
     "type": "SH",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-cylinders/12-kg-domestic-cylinder/": {
     "id": "CY-003",
     "type": "CT",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-cylinders/45-kg-commercial-cylinder/": {
     "id": "CY-004",
     "type": "CT",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-cylinders/5-kg-cylinder/": {
     "id": "CY-005",
     "type": "CT",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-cylinders/composite-fiber-cylinder/": {
     "id": "CY-006",
     "type": "CT",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-filling-stations/": {
     "id": "NM-003",
@@ -301,15 +309,17 @@
     "id": "AP-002",
     "type": "CT",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-heaters-in-pakistan/": {
     "id": "AP-003",
     "type": "CT",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-home-delivery/": {
     "id": "DL-001",
@@ -497,15 +507,17 @@
     "id": "AU-002",
     "type": "CO",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-leak-detector/": {
     "id": "SF-006",
     "type": "GD",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-marketing-company-vs-distributor-vs-dealer/": {
     "id": "ED-011",
@@ -540,29 +552,33 @@
     "id": "PR-009",
     "type": "GD",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-price-in-pakistan/karachi/": {
     "id": "PR-004",
     "type": "LH",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-price-in-pakistan/lahore/": {
     "id": "PR-005",
     "type": "LH",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-price-per-kg-in-pakistan/": {
     "id": "PR-002",
     "type": "CO",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-regulator-problems-and-repair/": {
     "id": "SF-005",
@@ -575,8 +591,9 @@
     "id": "SF-004",
     "type": "CT",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-safety/": {
     "id": "SF-001",
@@ -604,8 +621,9 @@
     "id": "AP-001",
     "type": "CT",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-supply-in-pakistan/": {
     "id": "NW-002",
@@ -618,8 +636,9 @@
     "id": "AP-004",
     "type": "GD",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-vs-cng/": {
     "id": "ED-004",
@@ -656,8 +675,9 @@
     "id": "PR-003",
     "type": "CO",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/ogra-lpg-regulations-pakistan/": {
     "id": "ED-009",
@@ -796,22 +816,25 @@
     "id": "SP-001",
     "type": "SH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/shop/commercial-lpg-burners/": {
     "id": "SP-003",
     "type": "CO",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/shop/lpg-hoses-and-accessories/": {
     "id": "SP-002",
     "type": "CO",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/terms/": {
     "id": "TR-011",

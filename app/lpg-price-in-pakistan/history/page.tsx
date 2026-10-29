@@ -147,6 +147,41 @@ export default function Page() {
         ]}
       />
 
+      {notifications.length > 0 && (
+        <>
+          <H2>Monthly household gas budget, month by month</H2>
+          <P>
+            What the notified rate means for a home that uses one, two or three 11.8 kg domestic cylinders a month. Gas only;
+            delivery and deposit are extra.
+          </P>
+          <SpecTable
+            head={["Month", "1 cylinder", "2 cylinders", "3 cylinders"]}
+            rows={notifications.map((x) => [
+              monthLong(x.month),
+              pkr(gasFor(x, 11.8)),
+              pkr(gasFor(x, 23.6)),
+              pkr(gasFor(x, 35.4)),
+            ])}
+          />
+          <P>
+            For a restaurant on 45.4 kg cylinders, multiply the per-kg change by 45.4 for each cylinder; a business using
+            four a week feels a one-rupee change as about {pkr(Math.round(45.4 * 4 * 4.3))} a month.
+          </P>
+        </>
+      )}
+
+      <H2>Why the rate moves from month to month</H2>
+      <P>
+        Each month&apos;s figure comes from OGRA&apos;s pricing formula, which follows international propane and butane
+        contract prices and the rupee–dollar exchange rate, then adds freight, margins and taxes. So a rise in this table
+        usually reflects world prices or a weaker rupee rather than anything local, and the same change applies in every
+        city at once. The detail is on{" "}
+        <Link className="underline" href="/why-lpg-prices-change-in-pakistan/">
+          why LPG prices change in Pakistan
+        </Link>
+        .
+      </P>
+
       <H2>Use the history when you plan</H2>
       <ol className="mt-3 list-decimal space-y-1 pl-6 text-ink-700">
         <li>Take the gas cost of your usual cylinder from the latest row.</li>
