@@ -12,7 +12,7 @@ Do the phases in order. Phase 0 blocks everything else.
 
 | Item | Status |
 |---|---|
-| 0.1 Publish status | **Waiting on owner.** No page status was changed. City pages also need `"indexable": true` in `data/city-overrides.json` (`isCityIndexable`). |
+| 0.1 Publish status | Done for 50 pages (29 Oct 2026): Wave A plus `/industries/` and the 9 industry pages are `published`, indexable and in the sitemap. Wave B and the rest stay noindex until rewritten. Murree, Skardu and Muzaffarabad also have `"indexable": false` in `data/city-overrides.json`. |
 | 0.2 Founding year | **Waiting on owner.** |
 | 0.3 Listing counts | Done. Per-city counts come from `listedCount()` in `lib/directory.ts` (hub, near-me and delivery-areas pages). Sitewide totals still come from `network.json`. |
 | 0.4 `/management-review/` | Done. Disallowed in robots; it had no inbound links. |

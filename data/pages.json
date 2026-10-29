@@ -3,15 +3,17 @@
     "id": "HP-001",
     "type": "HP",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/about/": {
     "id": "TR-001",
     "type": "TR",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/auto-lpg-in-pakistan/": {
     "id": "AU-001",
@@ -31,50 +33,57 @@
     "id": "DL-007",
     "type": "SH",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/commercial-lpg-supply/": {
     "id": "DL-006",
     "type": "SH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/complaints/": {
     "id": "TR-012",
     "type": "TR",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/contact/": {
     "id": "TR-002",
     "type": "TR",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/delivery-areas/": {
     "id": "TR-007",
     "type": "TR",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/editorial-policy/": {
     "id": "TR-005",
     "type": "TR",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/how-it-works/": {
     "id": "TR-003",
     "type": "TR",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/how-lpg-is-produced-and-supplied/": {
     "id": "ED-008",
@@ -94,92 +103,105 @@
     "id": "DL-009",
     "type": "CO",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/industries/": {
     "id": "IN-001",
     "type": "SH",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/industries/food-processing/": {
     "id": "IN-005",
     "type": "CO",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/industries/hospitals/": {
     "id": "IN-007",
     "type": "CO",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/industries/hotels/": {
     "id": "IN-003",
     "type": "CO",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/industries/housing-societies/": {
     "id": "IN-008",
     "type": "CO",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/industries/manufacturing/": {
     "id": "IN-009",
     "type": "CO",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/industries/poultry-farms/": {
     "id": "IN-006",
     "type": "CO",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/industries/restaurants/": {
     "id": "IN-002",
     "type": "CO",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/industries/textile/": {
     "id": "IN-004",
     "type": "CO",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/industries/weddings-and-events/": {
     "id": "IN-010",
     "type": "CO",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/licences-and-compliance/": {
     "id": "TR-004",
     "type": "TR",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-bowser/": {
     "id": "BZ-003",
     "type": "GD",
     "phase": "P4",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-business-in-pakistan/": {
     "id": "BZ-001",
@@ -192,22 +214,25 @@
     "id": "NM-004",
     "type": "DR",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-composition-and-properties/": {
     "id": "ED-002",
     "type": "GD",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-cylinder-blast-causes-and-prevention/": {
     "id": "SF-003",
     "type": "GD",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-cylinder-price-in-pakistan/": {
     "id": "CY-002",
@@ -325,8 +350,9 @@
     "id": "LC-003",
     "type": "LH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-gilgit-baltistan/": {
     "id": "PH-006",
@@ -339,36 +365,41 @@
     "id": "LC-007",
     "type": "LH",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-gujranwala/": {
     "id": "LC-005",
     "type": "LH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-hyderabad/": {
     "id": "LC-006",
     "type": "LH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-islamabad/": {
     "id": "DL-002",
     "type": "LH",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-karachi/": {
     "id": "DL-005",
     "type": "LH",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-khyber-pakhtunkhwa/": {
     "id": "PH-003",
@@ -381,15 +412,17 @@
     "id": "DL-004",
     "type": "LH",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-multan/": {
     "id": "LC-004",
     "type": "LH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-murree/": {
     "id": "LC-009",
@@ -409,8 +442,9 @@
     "id": "LC-001",
     "type": "LH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-punjab/": {
     "id": "PH-001",
@@ -423,15 +457,17 @@
     "id": "LC-002",
     "type": "LH",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-rawalpindi/": {
     "id": "DL-003",
     "type": "LH",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-in-sindh/": {
     "id": "PH-002",
@@ -486,8 +522,9 @@
     "id": "PR-001",
     "type": "SH",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-price-in-pakistan/history/": {
     "id": "PR-009",
@@ -535,8 +572,9 @@
     "id": "SF-001",
     "type": "SH",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-shops-and-agencies/": {
     "id": "NM-002",
@@ -577,22 +615,25 @@
     "id": "ED-004",
     "type": "CM",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-vs-lng/": {
     "id": "ED-003",
     "type": "CM",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/lpg-vs-sui-gas/": {
     "id": "ED-005",
     "type": "CM",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/new-lpg-connection/": {
     "id": "CY-009",
@@ -612,8 +653,9 @@
     "id": "ED-009",
     "type": "GD",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/order-lpg/": {
     "id": "DL-008",
@@ -626,8 +668,9 @@
     "id": "TR-008",
     "type": "TR",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/partner-standards/": {
     "id": "TR-013",
@@ -640,15 +683,17 @@
     "id": "TR-006",
     "type": "TR",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/privacy/": {
     "id": "TR-010",
     "type": "TR",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/projects/": {
     "id": "TR-009",
@@ -661,8 +706,9 @@
     "id": "ED-007",
     "type": "GD",
     "phase": "P3",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/services/": {
     "id": "SV-001",
@@ -752,8 +798,9 @@
     "id": "TR-011",
     "type": "TR",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/tools/lpg-btu-kwh-converter/": {
     "id": "TL-005",
@@ -808,21 +855,24 @@
     "id": "ED-001",
     "type": "GD",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/what-to-do-if-you-smell-gas/": {
     "id": "SF-002",
     "type": "GD",
     "phase": "P1",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   },
   "/why-lpg-prices-change-in-pakistan/": {
     "id": "NW-003",
     "type": "GD",
     "phase": "P2",
-    "status": "review",
-    "built": true
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-29"
   }
 }
