@@ -556,22 +556,6 @@ export const galleries: Record<string, MediaId[]> = {
     "cylLineup",
     "commercialKitchen",
   ],
-  // Appliances live on home + this virtual shop strip until dedicated URLs ship
-  "/shop-preview/": [
-    "stoveFront",
-    "stoveAngle",
-    "stoveBadge",
-    "geyserFront",
-    "geyserAngle",
-    "geyserAlt",
-    "heaterFront",
-    "heaterAngle",
-    "hoseKit",
-    "kitchen45",
-    "restaurantDelivery",
-    "restaurantHandoff",
-    "commercialKitchen",
-  ],
   "/gallery/": allMedia.map((m) => m.id as MediaId),
 };
 

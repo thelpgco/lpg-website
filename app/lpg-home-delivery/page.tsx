@@ -40,11 +40,11 @@ const faqs = [
   },
   {
     q: "How fast is LPG home delivery?",
-    a: `${terms.delivery} We confirm the window on each order before you agree.`,
+    a: "It depends on your area and whether a local team is free; the response and delivery section above sets out the target. We confirm the window on each order before you agree.",
   },
   {
     q: "What should I check when the cylinder arrives?",
-    a: terms.partnersCertifiedRule,
+    a: "Check the certification marking, that the seal is intact and that there is no dent, rust patch or smell of gas. Refuse a damaged cylinder and tell us.",
   },
 ];
 
@@ -150,7 +150,7 @@ export default function Page() {
 
       <H2>Response and delivery time</H2>
       <P>
-        {terms.responseTime} {terms.delivery} {terms.delivery247Note}
+        {terms.responseTime} Delivery timing follows the terms above and is confirmed for your street before you agree.
       </P>
       <Note title="At the door" tone="info">
         <p>{terms.partnersCertifiedRule}</p>

@@ -91,7 +91,7 @@ export default function Page() {
           ],
           [
             "We review and call",
-            `We check licensing and operations against partner standards and call you (${terms.responseTime} aim during active hours).`,
+            `We check licensing and operations against partner standards and call you back during active hours.`,
           ],
           [
             "Discuss commercial terms",

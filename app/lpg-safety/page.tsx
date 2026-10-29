@@ -27,7 +27,7 @@ const faqs = [
   { q: "How do I connect an LPG cylinder safely the first time?", a: "Fit an LPG regulator and hose made for LPG, keep the cylinder upright and ventilated, open the valve slowly, and leak-test every joint with soapy water. Do not force fittings. See the regulators guide if you are unsure which type you need." },
   { q: "Does THE LPG CO. inspect commercial kitchens?", a: `Yes — we offer LPG safety audits and maintenance contracts for restaurants, hotels and workshops. Call or WhatsApp ${site.phoneDisplay}, or see our safety audit and AMC services.` },
   { q: "Who reviews your safety guidance?", a: `${site.safetyReviewer.name}: ${site.safetyReviewer.experience}.` },
-  { q: "How do I get a certified cylinder delivered nationwide?", a: `${terms.delivery} ${terms.partnersCertifiedRule} Order on the order page or call ${site.phoneDisplay}.` },
+  { q: "How do I get a certified cylinder delivered nationwide?", a: `Order on the order page or call ${site.phoneDisplay}. Partners must supply certified cylinders, and we confirm delivery timing for your street before you agree.` },
 ];
 
 export default function Page() {

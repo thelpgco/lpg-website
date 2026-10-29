@@ -136,8 +136,7 @@ export default function CityHubStatic(p: CityHubProps) {
         <p>
           {hasPartners
             ? `${p.name} has ${dirStats.total || suppliers} named listing${(dirStats.total || suppliers) === 1 ? "" : "s"} you can see below. Whether your street can be reached today, and how soon, is confirmed on the call.`
-            : `We do not yet have a named supplier listed for ${p.name}. Send an inquiry anyway: we tell you straight away whether we can reach you, and if not, we say so rather than leave you waiting.`}{" "}
-          {deliveryText}
+            : `We do not yet have a named supplier listed for ${p.name}. Send an inquiry anyway: we tell you straight away whether we can reach you, and if not, we say so rather than leave you waiting.`}
         </p>
         <p className="mt-2">{terms.delivery247Note}</p>
         {!hasPartners && (

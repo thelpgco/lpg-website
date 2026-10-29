@@ -77,7 +77,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     },
     {
       q: "How fast can you start or respond?",
-      a: `${terms.responseTime} Site visits and installation windows are confirmed for your city and street after we accept the scope. ${terms.delivery}`,
+      a: "Site visits and installation windows are confirmed for your city and street after we accept the scope. Cylinder supply on the same job follows the delivery terms above.",
     },
     {
       q: "Do you work nationwide?",
@@ -110,7 +110,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
       <Note title="Nationwide engineering" tone="info">
         <p>
-          {company.aboutBlurb} Delivery and cylinder supply on the same jobs: {company.terms.delivery}
+          {terms.delivery}
         </p>
       </Note>
 

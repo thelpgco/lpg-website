@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "How fast is bulk delivery or a site response?",
-    a: `${terms.delivery} Bulk tanker windows are confirmed per site after we know the route. ${terms.responseTime}`,
+    a: "Bulk tanker windows are confirmed per site after we know the route, the tank size and how far it can be drawn down safely.",
   },
   {
     q: "Can you deliver bulk LPG in my city?",
@@ -74,7 +74,7 @@ const faqs = [
   },
   {
     q: "Are cylinders and bulk connections certified?",
-    a: terms.partnersCertifiedRule,
+    a: "Yes. Every distributor in our network must use certified cylinders; the rule is set out in the safety section above. For tank supply, ask to see the tank's inspection record before the first fill.",
   },
   {
     q: "Do I need approvals for a bulk tank?",
@@ -108,8 +108,8 @@ export default function Page() {
 
       <H2>Nationwide bulk and industrial capability</H2>
       <P>
-        {company.aboutBlurb} For factories, hotels, hospitals and large commercial sites we discuss{" "}
-        {company.industrial.join("; ").toLowerCase()}. Delivery policy: {company.terms.delivery}
+        {company.shortName} holds OGRA licence {company.licenceNumber}. For factories, hotels, hospitals and large commercial sites we discuss{" "}
+        {company.industrial.join("; ").toLowerCase()}.
       </P>
       <P>
         See{" "}

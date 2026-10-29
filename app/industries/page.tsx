@@ -27,11 +27,11 @@ const faqs = [
   },
   {
     q: "How fast can you deliver?",
-    a: terms.delivery,
+    a: "Timing depends on your city and volume. The coverage note above gives the target, and we confirm it before you agree.",
   },
   {
     q: "Are cylinders certified?",
-    a: terms.partnersCertifiedRule,
+    a: "Yes. Network partners may supply only certified cylinders. Check the marking and seal when cylinders arrive at your site.",
   },
   {
     q: "Can you show a customer reference?",
@@ -67,7 +67,7 @@ export default function Page() {
     >
       <Note title="Nationwide full-service LPG" tone="info">
         <p>
-          {company.aboutBlurb} Roughly {listings} named local listings help us route enquiries. Delivery:{" "}
+          {company.shortName} holds OGRA licence {company.licenceNumber}. Roughly {listings} named local listings help us route enquiries. Delivery:{" "}
           {company.terms.delivery}
         </p>
       </Note>

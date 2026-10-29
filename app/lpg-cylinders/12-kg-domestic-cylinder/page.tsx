@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     q: "Is delivery the same in every city?",
-    a: `Order requests are accepted around the clock. ${site.deliveryTarget} We confirm your street and window on each order.`,
+    a: `You can order at any hour. ${site.deliveryTarget} We confirm your street and window on each order.`,
   },
 ];
 

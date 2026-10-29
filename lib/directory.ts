@@ -63,6 +63,11 @@ export function listingsForCity(citySlug: string): DirectoryListing[] {
   return byCity[citySlug] ?? [];
 }
 
+/** Per-city count shown anywhere on the site: the directory the city page lists, else the network roll-up. */
+export function listedCount(citySlug: string, fallback = 0): number {
+  return listingsForCity(citySlug).length || fallback;
+}
+
 export function cityDirectoryStats(citySlug: string) {
   const items = listingsForCity(citySlug);
   const dealers = items.filter((x) => displayBucket(x.tier) === "network_dealers").length;

@@ -27,7 +27,7 @@ export default function PageShell({
           {intro && <p className="mt-4 text-lg text-ink-700">{intro}</p>}
           <div className="mt-6">{children}</div>
         </article>
-        {aside && <aside className="lg:sticky lg:top-24 lg:self-start">{aside}</aside>}
+        {aside && <aside id="lead-form" className="lg:sticky lg:top-24 lg:self-start">{aside}</aside>}
       </div>
     </div>
   );

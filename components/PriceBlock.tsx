@@ -65,7 +65,7 @@ export default function PriceBlock({ citySlug, cityName }: { citySlug?: string; 
       </table>
       <p className="mt-3 text-xs text-ink-500">
         Figures above are <strong>gas price only</strong> from the OGRA notification. {terms.deposit} {terms.exchange}{" "}
-        {terms.delivery} Full total confirmed before you agree.{" "}
+        {terms.deliveryShort}{" "}
         <Link href="/pricing-policy/" className="underline">
           Pricing policy
         </Link>

@@ -34,15 +34,15 @@ const faqs = [
   },
   {
     q: "How fast will I get a cylinder?",
-    a: `${terms.delivery} We confirm timing on each order before you agree.`,
+    a: "It depends on your area and whether a local team is free. The delivery terms on this page give the target, and we confirm your time before you agree.",
   },
   {
     q: "How fast will you reply to my order?",
-    a: terms.responseTime,
+    a: "During active hours, usually within a few minutes on call or WhatsApp. Form requests get a call back on the number you give.",
   },
   {
     q: "Are partner cylinders certified?",
-    a: terms.partnersCertifiedRule,
+    a: "Check the certification marking, that the seal is intact, and that there are no dents or rust. Refuse a damaged cylinder and tell us.",
   },
 ];
 

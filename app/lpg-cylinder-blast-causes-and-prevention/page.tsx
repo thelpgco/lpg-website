@@ -24,7 +24,7 @@ const faqs = [
   { q: "Is it dangerous to refill a cylinder from another cylinder?", a: "Yes. Decanting gas by hand risks overfilling, static sparks and leaks. Never do it and never accept it. Cylinders should be filled by weight at a proper plant." },
   { q: "What should I do if a cylinder is on fire?", a: "Do not try to fight a fire that is reaching a cylinder. Leave, get everyone away, call 1122 and tell them there is an LPG cylinder involved. If the fire is only at a small joint and you can safely close the valve, do so, otherwise leave." },
   { q: "How often should cylinders be tested?", a: "Cylinders are inspected and retested at set intervals under the safety rules that apply to pressure vessels. Check the test date marking on the shoulder and refuse an expired or damaged cylinder. Ask your supplier to confirm the marking on delivery." },
-  { q: "Does THE LPG CO. supply only certified cylinders?", a: `${terms.partnersCertifiedRule} ${company.shortName} holds OGRA licence ${company.licenceNumber}.` },
+  { q: "Does THE LPG CO. supply only certified cylinders?", a: `Yes. ${company.shortName} holds OGRA licence ${company.licenceNumber}. Every partner must supply cylinders with valid markings, as set out in the prevention section above.` },
 ];
 
 export default function Page() {

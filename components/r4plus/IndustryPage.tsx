@@ -44,9 +44,6 @@ export function IndustryCapabilities() {
           "Safety: audit, inspection and maintenance contracts",
         ]}
       />
-      <P>
-        Delivery: {company.terms.delivery} Response: {terms.responseTime}
-      </P>
       <Note title="Projects and consent" tone="info">
         <p>
           Named customer projects appear on the{" "}
@@ -72,14 +69,6 @@ export default function IndustryPage({ slug }: { slug: string }) {
     {
       q: "How much will LPG cost for my site?",
       a: "Gas follows the OGRA-notified rate per kg (same rate nationwide). Your total adds delivery and cylinder or tank terms we confirm before you agree. See the LPG price in Pakistan page for the current per-kg figure, then send your volume for a written quote.",
-    },
-    {
-      q: "How fast can you deliver or reply?",
-      a: `${terms.delivery} ${terms.responseTime}`,
-    },
-    {
-      q: "Are partner cylinders certified?",
-      a: terms.partnersCertifiedRule,
     },
     {
       q: "Do you cover cities outside the major metros?",
@@ -120,7 +109,7 @@ export default function IndustryPage({ slug }: { slug: string }) {
 
       <H2>Nationwide coverage and delivery</H2>
       <P>
-        {company.aboutBlurb} For this sector: {company.terms.delivery}
+        {terms.delivery}
       </P>
       <P>
         Check{" "}

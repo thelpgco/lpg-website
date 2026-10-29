@@ -21,11 +21,11 @@ export const metadata = meta({ path: "/how-it-works/" });
 const faqs = [
   {
     q: "How do I order LPG from THE LPG CO.?",
-    a: `Call or WhatsApp ${site.phoneDisplay}, or use the order form. Tell us your city, street and whether you need a refill, exchange or new connection. ${terms.delivery247Note}`,
+    a: `Call or WhatsApp ${site.phoneDisplay}, or use the order form. Tell us your city, street and whether you need a refill, exchange or new connection.`,
   },
   {
     q: "How fast is delivery?",
-    a: terms.delivery,
+    a: "Timing depends on your street and whether a local team is free. The delivery step above gives the target, and we confirm it before you agree.",
   },
   {
     q: "Do you deliver in every city in Pakistan?",

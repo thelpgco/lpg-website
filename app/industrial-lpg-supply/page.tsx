@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "How fast can you respond or deliver?",
-    a: `${terms.delivery} Industrial volumes and tanker routes are confirmed per order. ${terms.responseTime}`,
+    a: "Industrial volumes and tanker routes are confirmed per order, once we know your site, access and monthly demand.",
   },
   {
     q: "Is there a minimum quantity?",
@@ -74,7 +74,7 @@ const faqs = [
   },
   {
     q: "Are cylinders certified?",
-    a: terms.partnersCertifiedRule,
+    a: "Yes. The cylinder-condition rule is in the terms table above. Check the marking and seal on every cylinder that arrives at your gate.",
   },
   {
     q: "Is LPG cheaper than other fuels for my plant?",
@@ -108,11 +108,11 @@ export default function Page() {
 
       <H2>Full-service industrial LPG across Pakistan</H2>
       <P>
-        {company.aboutBlurb} Industrial capability covers: {company.industrial.join("; ")}. Engineering when you need
+        {company.shortName} holds OGRA licence {company.licenceNumber}. Industrial capability covers: {company.industrial.join("; ")}. Engineering when you need
         it: {company.engineering.slice(0, 3).join("; ")}.
       </P>
       <P>
-        Delivery and response: {company.terms.delivery} {terms.responseTime} Browse{" "}
+        Browse{" "}
         <Link className="underline" href="/industries/">
           industries
         </Link>

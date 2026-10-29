@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "How fast is delivery through the network?",
-    a: terms.delivery,
+    a: "Timing depends on the distributor nearest your street. The coverage section above gives the target, and we confirm it before you agree.",
   },
   {
     q: "How do I join as a distributor or shop?",

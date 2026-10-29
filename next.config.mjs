@@ -20,6 +20,8 @@ const nextConfig = {
   async redirects() {
     return [
       { source: "/get-quote", destination: "/order-lpg/", permanent: true },
+      { source: "/shop-preview", destination: "/shop/", permanent: true },
+      { source: "/about/haroon-rasheed", destination: "/about/", permanent: true },
       { source: "/safety", destination: "/lpg-safety/", permanent: true },
       { source: "/lpg-hub/:slug", destination: "/lpg-in-:slug/", permanent: true },
       { source: "/cities", destination: "/delivery-areas/", permanent: true },

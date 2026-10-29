@@ -69,7 +69,7 @@ const faqs = [
   },
   {
     q: "What does THE LPG CO. look for in a partner?",
-    a: `${terms.partnersCertifiedRule} Read partner standards and become an LPG distributor for the full list.`,
+    a: "Partners must supply only certified cylinders and meet our partner standards. Read partner standards and become an LPG distributor for the full list.",
   },
   {
     q: "Can I buy LPG in volume as a restaurant without becoming a dealer?",

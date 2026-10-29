@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     q: "How fast can you deliver?",
-    a: terms.delivery,
+    a: "It depends on your area and how many cylinders you need; the delivery line in the terms above sets out the target. Regular weekly supply is agreed with you before it starts.",
   },
   {
     q: "Can you supply on a regular schedule?",
@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     q: "Are cylinders certified?",
-    a: terms.partnersCertifiedRule,
+    a: "Yes. Partners may supply only cylinders with valid certification markings. Check the marking and seal on each 45.4 kg cylinder when it arrives and refuse a damaged one.",
   },
   {
     q: "Do you cover my city outside the big metros?",
@@ -115,9 +115,8 @@ export default function Page() {
 
       <H2>Nationwide commercial supply</H2>
       <P>
-        {company.aboutBlurb} Commercial orders run through the same trusted network that serves homes and industry —
-        roughly {listings} named local listings help us route your city — with delivery and response stated in plain
-        terms: {terms.delivery} {terms.responseTime}
+        {company.shortName} holds OGRA licence {company.licenceNumber}. Commercial orders run through the same network
+        that serves homes and industry; roughly {listings} named local listings help us route your city.
       </P>
       <UL
         items={[

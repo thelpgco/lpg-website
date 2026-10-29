@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "How does THE LPG CO. deliver nationwide?",
-    a: `${company.aboutBlurb} Directory on file: ${directorySummary.counts.merged_listings.toLocaleString("en-PK")} named listings across ${directorySummary.counts.cities_indexed.toLocaleString("en-PK")} cities. ${terms.delivery}`,
+    a: `${company.shortName} holds OGRA licence ${company.licenceNumber}. Directory on file: ${directorySummary.counts.merged_listings.toLocaleString("en-PK")} named listings across ${directorySummary.counts.cities_indexed.toLocaleString("en-PK")} cities. We confirm who delivers to your street before you agree.`,
   },
   {
     q: "Why does supply feel tighter in winter?",

@@ -67,7 +67,7 @@ export function AllCylindersCostTable({
             <strong>New empty cylinders:</strong> {terms.newEmpty}
           </P>
           <P>
-            <strong>Delivery:</strong> {terms.delivery}
+            <strong>Delivery:</strong> {terms.deliveryShort}
           </P>
         </>
       )}
@@ -117,7 +117,7 @@ export default function CylinderCostBlock({ kg }: { kg: number }) {
             <strong>New empty cylinders:</strong> {terms.newEmpty}
           </P>
           <P>
-            <strong>Delivery:</strong> {terms.delivery}
+            <strong>Delivery:</strong> {terms.deliveryShort}
           </P>
         </>
       )}

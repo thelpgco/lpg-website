@@ -8,7 +8,7 @@ import PageShell, { H2, Note, P, UL } from "@/components/PageShell";
 import PriceBlock from "@/components/PriceBlock";
 import SupplierDirectory from "@/components/SupplierDirectory";
 import { terms } from "@/lib/commercial";
-import { cityDirectoryStats, listingsForCity, namedSuppliersForCity } from "@/lib/directory";
+import { cityDirectoryStats, listedCount, listingsForCity, namedSuppliersForCity } from "@/lib/directory";
 import { cityBySlug, hubSlugs, isCityIndexable, overrideFor, provinceBySlug, hubCities } from "@/lib/network";
 import { priceReady } from "@/lib/prices";
 import { fitDescription, fitTitle, meta } from "@/lib/seo";
@@ -378,8 +378,7 @@ export default async function HubPage({ params }: Props) {
     childLinks.push({ href, label, hint });
   };
   for (const c of [...cityList.filter((c) => c.hub), ...provHubs]) {
-    const st = cityDirectoryStats(c.slug);
-    const hintCount = st.total || c.suppliers;
+    const hintCount = listedCount(c.slug, c.suppliers);
     pushChild(
       `/lpg-in-${c.slug}/`,
       `LPG in ${c.name}`,
@@ -390,7 +389,10 @@ export default async function HubPage({ params }: Props) {
     pushChild(l.href, l.label);
   }
 
-  const majorHubs = [...hubCities].sort((a, b) => b.suppliers - a.suppliers).slice(0, 6);
+  const majorHubs = [...hubCities]
+    .map((c) => ({ ...c, listed: listedCount(c.slug, c.suppliers) }))
+    .sort((a, b) => b.listed - a.listed)
+    .slice(0, 6);
   const provinceDealerSamples = childLinks
     .map((l) => l.href.replace(/^\/lpg-in-/, "").replace(/\/$/, ""))
     .flatMap((citySlug) => namedSuppliersForCity(citySlug, 1))
@@ -442,7 +444,7 @@ export default async function HubPage({ params }: Props) {
         </P>
       )}
 
-      {cityList.some((c) => !c.hub) && (
+      {cityList.some((c) => !c.hub && listedCount(c.slug, c.suppliers) > 0) && (
         <>
           <H2>Other towns where partners are listed</H2>
           <P>
@@ -451,10 +453,10 @@ export default async function HubPage({ params }: Props) {
           </P>
           <UL
             items={cityList
-              .filter((c) => !c.hub)
+              .filter((c) => !c.hub && listedCount(c.slug, c.suppliers) > 0)
               .map(
                 (c) =>
-                  `${c.name} (${c.suppliers} supplier${c.suppliers === 1 ? "" : "s"} listed)`,
+                  `${c.name} (${listedCount(c.slug, c.suppliers)} supplier${listedCount(c.slug, c.suppliers) === 1 ? "" : "s"} listed)`,
               )}
           />
         </>
@@ -519,7 +521,7 @@ export default async function HubPage({ params }: Props) {
               href={`/lpg-in-${c.slug}/`}
               className="rounded-full border border-slate-300 px-3 py-1 text-sm text-ink-700 hover:border-flame"
             >
-              LPG in {c.name} ({c.suppliers} listed)
+              LPG in {c.name} ({c.listed} listed)
             </Link>
           </li>
         ))}

@@ -94,7 +94,7 @@ const faqs = [
   },
   {
     q: "Do you deliver appliances nationwide?",
-    a: `We serve customers across Pakistan through our distributor network. ${terms.delivery} Call or WhatsApp ${site.phoneDisplay} with your city.`,
+    a: `We serve customers across Pakistan through our distributor network; delivery timing is confirmed for your street. Call or WhatsApp ${site.phoneDisplay} with your city.`,
   },
   {
     q: "What should I check when the appliance arrives?",
@@ -298,7 +298,7 @@ export default function Page() {
 
       <H2>Where we supply</H2>
       <P>
-        {company.terms.delivery} We aim to reply {company.responseTime} on {site.phoneDisplay}. Main hubs:{" "}
+        We aim to reply {company.responseTime} on {site.phoneDisplay}. Main hubs:{" "}
         {hubCities.map((c, i) => (
           <span key={c.slug}>
             <Link className="underline" href={`/lpg-in-${c.slug}/`}>

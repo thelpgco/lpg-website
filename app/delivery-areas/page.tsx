@@ -5,6 +5,7 @@ import PageShell, { H2, Note, P, UL } from "@/components/PageShell";
 import SpecTable from "@/components/SpecTable";
 import { company } from "@/lib/company/profile";
 import { itemsFor } from "@/lib/media";
+import { listedCount } from "@/lib/directory";
 import { allCities, hubCities, overrideFor, provinceList, totals } from "@/lib/network";
 import { fmtDate } from "@/lib/prices";
 import { meta } from "@/lib/seo";
@@ -22,7 +23,7 @@ export default function Page() {
         {c.name}
       </Link>,
       c.province,
-      `${c.suppliers} (${c.open24h} open 24h)`,
+      `${listedCount(c.slug, c.suppliers)} (${c.open24h} open 24h)`,
       confirmed ? `Active hub, confirmed ${fmtDate(o.verifiedOn!)}` : "Partners listed; coverage confirmed on your call",
       o.deliveryNote ?? "The distributor contacts you with the delivery window before you agree.",
     ];
@@ -49,7 +50,7 @@ export default function Page() {
       <Note title="Nationwide service, local confirmation" tone="info">
         <p>
           We take orders from every province and ICT. Named dealers and distributors sit on each city page.{" "}
-          {company.terms.delivery} {company.terms.delivery247}
+          {company.terms.delivery247}
         </p>
       </Note>
 
@@ -97,7 +98,7 @@ export default function Page() {
           "You send your city and area through the form, WhatsApp or phone.",
           "We match you to a listed distributor that serves your area.",
           "We confirm the price, delivery window and who delivers before you agree.",
-          `${company.terms.delivery247}`,
+          "Requests are taken at any hour; the distributor confirms the delivery window.",
         ]}
       />
       <Note title="Delivery time" tone="info">

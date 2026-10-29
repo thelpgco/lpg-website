@@ -13,13 +13,6 @@
     "status": "review",
     "built": true
   },
-  "/about/haroon-rasheed/": {
-    "id": "TR-014",
-    "type": "TR",
-    "phase": "P2",
-    "status": "review",
-    "built": true
-  },
   "/auto-lpg-in-pakistan/": {
     "id": "AU-001",
     "type": "GD",

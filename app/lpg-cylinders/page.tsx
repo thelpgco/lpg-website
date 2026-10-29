@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "Do you deliver cylinders nationwide?",
-    a: terms.delivery,
+    a: "Timing depends on your area. The refill section below gives the target, and we confirm it before you agree.",
   },
   {
     q: "Is the gas price the same in every city?",

@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "How fast can you respond?",
-    a: `${terms.responseTime} ${terms.delivery}`,
+    a: "Send the scope by call, WhatsApp or the form. Once the scope is clear we agree a site-visit date for your city.",
   },
   {
     q: "Are cylinders certified?",
@@ -55,7 +55,7 @@ export default function Page() {
     >
       <Note title="Trusted OGRA-licensed engineering" tone="info">
         <p>
-          {company.aboutBlurb} Engineering menu: {company.engineering.join("; ")}.
+          {company.shortName} holds OGRA licence {company.licenceNumber}. Engineering menu: {company.engineering.join("; ")}.
         </p>
       </Note>
 

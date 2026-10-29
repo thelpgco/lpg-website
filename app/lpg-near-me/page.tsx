@@ -4,7 +4,7 @@ import ImageGallery from "@/components/ImageGallery";
 import SiteLeadForm from "@/components/LeadFormLoader";
 import PageShell, { H2, Note, P, UL } from "@/components/PageShell";
 import { terms } from "@/lib/commercial";
-import { directorySummary, namedSuppliersForCity, topCitiesByListings } from "@/lib/directory";
+import { directorySummary, listedCount, namedSuppliersForCity, topCitiesByListings } from "@/lib/directory";
 import { itemsFor } from "@/lib/media";
 import { allCities, hubCities, provinceList, totals } from "@/lib/network";
 import { meta } from "@/lib/seo";
@@ -118,7 +118,7 @@ export default function Page() {
             <Link className="font-semibold text-ink hover:underline" href={`/lpg-in-${c.slug}/`}>
               LPG in {c.name}
             </Link>
-            <span className="ml-2 text-sm text-ink-500">{c.suppliers} partners</span>
+            <span className="ml-2 text-sm text-ink-500">{listedCount(c.slug, c.suppliers)} partners</span>
           </li>
         ))}
       </ul>

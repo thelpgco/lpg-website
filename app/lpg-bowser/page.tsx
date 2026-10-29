@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "Is bowser delivery available in my city?",
-    a: `Nationwide coverage is our intent through the distributor network. Bulk tanker routes are not the same as domestic cylinder routes — send your pin and we say honestly whether bowser fill is possible. ${terms.delivery}`,
+    a: `Nationwide coverage is our intent through the distributor network. Bulk tanker routes are not the same as domestic cylinder routes — send your pin and we say honestly whether bowser fill is possible.`,
   },
 ];
 

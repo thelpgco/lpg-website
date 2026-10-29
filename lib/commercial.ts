@@ -6,6 +6,8 @@ export type CommercialTerms = {
   exchange: string;
   newEmpty: string;
   delivery: string;
+  /** One-line form for price tables; the full `delivery` sentence belongs once in the page body. */
+  deliveryShort: string;
   delivery247Note: string;
   partnersCertifiedCylindersOnly: boolean;
   partnersCertifiedRule: string;

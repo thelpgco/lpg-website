@@ -61,7 +61,7 @@ export default function Page() {
     },
     {
       q: "How do I order at today's rate?",
-      a: `Call or WhatsApp ${company.phoneDisplay}, or use order LPG with your city, area and size. We confirm the full total before dispatch. ${company.terms.delivery}`,
+      a: `Call or WhatsApp ${company.phoneDisplay}, or use order LPG with your city, area and size. We confirm the full total, including any delivery charge, before dispatch.`,
     },
   ];
 
@@ -83,7 +83,7 @@ export default function Page() {
     >
       <Note title="Nationwide rate, local delivery" tone="info">
         <p>
-          Gas price is the same OGRA figure in every city we serve. {company.terms.delivery} Named dealers for your city
+          Gas price is the same OGRA figure in every city we serve; only delivery and cylinder terms vary by area. Named dealers for your city
           are on the city hubs and{" "}
           <Link className="underline" href="/lpg-near-me/">
             LPG near me

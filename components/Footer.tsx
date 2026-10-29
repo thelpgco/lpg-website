@@ -45,7 +45,6 @@ export default function Footer() {
           <ul className="mt-2 space-y-1 text-sm text-ink-700">
             <li><Link href="/about/" className="hover:underline">About us</Link></li>
             <li><Link href="/gallery/" className="hover:underline">Photo gallery</Link></li>
-            <li><Link href="/shop-preview/" className="hover:underline">Appliances preview</Link></li>
             <li><Link href="/licences-and-compliance/" className="hover:underline">Licences and compliance</Link></li>
             <li><Link href="/how-it-works/" className="hover:underline">How it works</Link></li>
             <li><Link href="/our-network/" className="hover:underline">Our network</Link></li>

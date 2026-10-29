@@ -40,11 +40,11 @@ const faqs = [
   },
   {
     q: "How long does a new connection take?",
-    a: `Order requests are accepted around the clock. In covered areas our target is ${site.deliveryTarget}; otherwise the distributor calls you to confirm. We confirm stock when you order.`,
+    a: `You can send a request at any hour. In covered areas our target is ${site.deliveryTarget}; otherwise the distributor calls you to confirm. We confirm stock when you order.`,
   },
   {
     q: "Is a new connection available nationwide?",
-    a: `We take requests from every province. ${terms.delivery} Availability of accessories is confirmed for your city when you order.`,
+    a: `We take requests from every province. Availability of accessories is confirmed for your city when you order.`,
   },
   {
     q: "What does a new connection cost in total?",

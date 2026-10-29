@@ -24,7 +24,7 @@ const faqs = [
   { q: "How can I check the weight of a cylinder?", a: "The cylinder shoulder shows the empty (tare) weight. A full cylinder should weigh the tare plus the gas weight, for example tare plus 11.8 kg for a domestic cylinder. Ask the delivery person to weigh it." },
   { q: "What documents should I get?", a: "A receipt showing the date, supplier, cylinder size, gas price, delivery and any deposit. Keep it. If a deposit applies, the receipt should say so." },
   { q: "Can I trust a supplier from social media?", a: "Treat it like any other seller: ask for the licence number, check the cylinder on arrival, and get a receipt. A page with no licence details is a warning sign." },
-  { q: "What does THE LPG CO. offer?", a: `${company.shortName} holds OGRA licence ${company.licenceNumber}. ${terms.partnersCertifiedRule} ${terms.delivery}` },
+  { q: "What does THE LPG CO. offer?", a: `${company.shortName} holds OGRA licence ${company.licenceNumber}. We supply cylinders, bulk LPG and engineering nationwide, and tell you before you agree whether we supply directly or through a partner distributor.` },
   { q: "What is today's OGRA gas rate?", a: latestPrice ? `${pkr(latestPrice.perKgPkr)} per kg (${monthLong(latestPrice.month)}). Multiply by your cylinder's gas weight, then ask for delivery and deposit separately.` : "See the LPG price in Pakistan page for the latest verified OGRA notification." },
 ];
 
