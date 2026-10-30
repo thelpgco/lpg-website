@@ -11,7 +11,7 @@ export default function Page() {
       slug="rawalpindi"
       name="Rawalpindi"
       provinceSlug="punjab"
-      summary="Rawalpindi shares the twin-city supply belt with Islamabad, with strong domestic demand across Satellite Town, Bahria, Lalazar and the denser old-city and cantonment streets."
+      summary="THE LPG CO. delivers LPG cylinders in Rawalpindi through the same twin-city team that serves Islamabad, from Saddar and Satellite Town to Bahria Town and DHA. Orders are taken 24/7 by phone and WhatsApp."
       angles={[
         {
           title: "Twin-city fulfilment with Islamabad",

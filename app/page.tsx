@@ -64,7 +64,7 @@ export default function Home() {
               Operating since {company.foundedYear} · OGRA licence {company.licenceNumber}
             </p>
             <h1 className="mt-2 text-4xl font-extrabold tracking-tight text-ink sm:text-5xl">
-              Trusted LPG supply and engineering across Pakistan
+              LPG cylinder delivery, supply and engineering across Pakistan
             </h1>
             <p className="mt-4 text-lg text-ink-700">
               {n ? (
@@ -76,6 +76,17 @@ export default function Home() {
               From home refills to commercial banks, bulk supply and full LPG engineering — {company.shortName} serves
               households, kitchens, hospitals, factories and societies nationwide. Delivery target {company.deliveryTarget};{" "}
               we confirm your street and timing before you agree.
+            </p>
+            <p className="mt-3 text-ink-700">
+              In Islamabad and Rawalpindi we deliver from our office in Sector G-12: orders 24/7 on {company.phoneDisplay},
+              with a target of about one hour in covered areas.{" "}
+              <Link href="/lpg-in-islamabad/" className="font-medium text-flame-700 underline">
+                LPG delivery in Islamabad
+              </Link>{" "}
+              ·{" "}
+              <Link href="/lpg-in-rawalpindi/" className="font-medium text-flame-700 underline">
+                Rawalpindi
+              </Link>
             </p>
             <ul className="mt-6 space-y-2 text-ink-700">
               <li>&#10003; {company.legalName}, OGRA licence no. {company.licenceNumber} · since {company.foundedYear}</li>

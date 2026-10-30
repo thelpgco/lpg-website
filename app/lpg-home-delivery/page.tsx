@@ -6,6 +6,7 @@ import SiteLeadForm from "@/components/LeadFormLoader";
 import PageShell, { H2, Note, P, UL } from "@/components/PageShell";
 import { terms } from "@/lib/commercial";
 import { company } from "@/lib/company/profile";
+import { HOURS_TEXT, deliveryTimeText, localDelivery } from "@/lib/local-delivery";
 import { itemsFor } from "@/lib/media";
 import { monthLong } from "@/lib/money";
 import { cylinderPrice, latestPrice, pkr } from "@/lib/prices";
@@ -29,6 +30,10 @@ const faqs = [
   {
     q: "Do I pay before or after delivery?",
     a: "Payment terms are confirmed with the price, before delivery. Cash on delivery is common for refills; any other method is stated for that order.",
+  },
+  {
+    q: "Do you deliver LPG in Islamabad and Rawalpindi?",
+    a: `Yes. Our office is on Service Road, Sector G-12, Islamabad, and our twin-city team delivers across the Islamabad sectors and Rawalpindi. ${deliveryTimeText("islamabad")} ${HOURS_TEXT}`,
   },
   {
     q: "Can I order for a restaurant or shop?",
@@ -147,6 +152,22 @@ export default function Page() {
       <P>
         Hub status and targets: <Link className="underline" href="/delivery-areas/">delivery areas</Link>.
       </P>
+
+      <H2>LPG delivery in Islamabad and Rawalpindi</H2>
+      <P>
+        Our own office is on Service Road, Sector G-12, Islamabad, so the twin cities are where we deliver most. {deliveryTimeText("islamabad")}{" "}
+        {HOURS_TEXT}
+      </P>
+      <UL
+        items={[
+          <span key="i">
+            <Link className="underline" href="/lpg-in-islamabad/">LPG delivery in Islamabad</Link>: {localDelivery.islamabad.areas.slice(0, 5).join("; ")} and more.
+          </span>,
+          <span key="r">
+            <Link className="underline" href="/lpg-in-rawalpindi/">LPG delivery in Rawalpindi</Link>: {localDelivery.rawalpindi.areas.slice(0, 4).join("; ")} and more.
+          </span>,
+        ]}
+      />
 
       <H2>Response and delivery time</H2>
       <P>

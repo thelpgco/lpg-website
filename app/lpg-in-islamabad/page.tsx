@@ -11,7 +11,7 @@ export default function Page() {
       slug="islamabad"
       name="Islamabad"
       provinceSlug="islamabad"
-      summary="Islamabad and the ICT sectors are served through our twin-city distributor network, with the G-12 office catchment as a reference point for domestic and commercial orders."
+      summary="THE LPG CO. delivers LPG cylinders to homes, offices and restaurants across the Islamabad sectors from its office on Service Road, Sector G-12, with its twin-city distributor team. Orders are taken 24/7 by phone and WhatsApp."
       angles={[
         {
           title: "Sector layout and society gates",

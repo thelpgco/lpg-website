@@ -1,4 +1,5 @@
 import Link from "next/link";
+import DeliveryFacts from "@/components/DeliveryFacts";
 import Faq from "@/components/Faq";
 import ImageGallery from "@/components/ImageGallery";
 import JsonLd from "@/components/JsonLd";
@@ -9,9 +10,10 @@ import SupplierDirectory from "@/components/SupplierDirectory";
 import { terms } from "@/lib/commercial";
 import { cityDetail } from "@/lib/city-detail";
 import { cityDirectoryStats, listingsForCity, namedSuppliersForCity } from "@/lib/directory";
+import { HOURS_TEXT, PAYMENT_TEXT, deliveryTimeText, localDelivery, priceLine, whoDeliversText } from "@/lib/local-delivery";
 import { itemsFor } from "@/lib/media";
 import { cityBySlug, formCities, overrideFor, provinceBySlug } from "@/lib/network";
-import { priceReady } from "@/lib/prices";
+import { CYLINDER_SIZES_KG, cylinderPrice, latestPrice, priceReady } from "@/lib/prices";
 import { absoluteUrl, site } from "@/lib/site";
 
 export type CityHubProps = {
@@ -67,18 +69,44 @@ export default function CityHubStatic(p: CityHubProps) {
       : "";
   const deliveryText = deliveryCopy(p.name, o);
   const cd = cityDetail[p.slug];
+  const local = localDelivery[p.slug];
+  const price = priceLine();
+  const n = latestPrice;
+
+  // Twin-city pages answer the questions people put to Google and AI assistants, in the words they use.
+  const localFaqs = local
+    ? [
+        {
+          q: `Does ${site.shortName} deliver LPG in ${p.name}?`,
+          a: `Yes. LPG cylinders in ${p.name} are delivered by ${whoDeliversText()}`,
+        },
+        { q: `How long does LPG delivery take in ${p.name}?`, a: deliveryTimeText(p.slug) },
+        {
+          q: `Which areas of ${p.name} do you deliver to?`,
+          a: `${local.areas.join("; ")}. Closest to us: ${local.nearest}. If your area is not listed, send it anyway and we confirm.`,
+        },
+        ...(price ? [{ q: `What is the LPG cylinder price in ${p.name} today?`, a: price }] : []),
+        { q: "How do I pay?", a: PAYMENT_TEXT },
+        { q: "Are you open at night and on Sundays?", a: `${HOURS_TEXT} The delivery window is confirmed when you order.` },
+        {
+          q: "Are the cylinders safe and certified?",
+          a: `${terms.partnersCertifiedRule} We are licensed by OGRA (licence ${site.licenceNumber}).`,
+        },
+      ]
+    : [];
 
   const faqs = [
+    ...localFaqs,
     {
       q: `How do I order an LPG cylinder in ${p.name}?`,
       a: `Call or WhatsApp ${site.phoneDisplay}, or send the form with your area and cylinder size. ${cd?.tips[0] ?? ""}`,
     },
-    {
+    ...(local ? [] : [{
       q: `Who delivers in ${p.name}?`,
       a: hasPartners
         ? `For ${p.name} we list ${dirStats.total || suppliers} named supplier${(dirStats.total || suppliers) === 1 ? "" : "s"}.${exampleNames} We confirm who fulfils your order before you agree.`
         : `${site.name} is an OGRA-licensed marketer and distributor that also works as a reseller and referral partner. We do not yet have a named supplier listed for ${p.name}, so we check each request and tell you honestly whether and when we can supply you.`,
-    },
+    }]),
     ...(p.extraFaqs ?? []),
     {
       q: "What if I smell gas?",
@@ -105,7 +133,9 @@ export default function CityHubStatic(p: CityHubProps) {
     <PageShell
       crumbs={[{ name: "Delivery areas", href: "/delivery-areas/" }, { name: `LPG in ${p.name}`, href: path }]}
       h1={
-        hasPartners
+        local
+          ? `LPG delivery in ${p.name}: gas cylinder price and supply`
+          : hasPartners
           ? `LPG gas in ${p.name}: price, cylinder delivery and supply`
           : `LPG in ${p.name}: guidance, price and supply inquiry`
       }
@@ -122,6 +152,8 @@ export default function CityHubStatic(p: CityHubProps) {
         />
       }
     >
+      {local && <DeliveryFacts slug={p.slug} />}
+
       <Note title="Nationwide licensed supply" tone={hasPartners ? "info" : "warn"}>
         <p>
           {hasPartners
@@ -159,7 +191,15 @@ export default function CityHubStatic(p: CityHubProps) {
         </>
       )}
 
-      {hasPartners && localities.length > 0 && (
+      {local && (
+        <>
+          <H2>Areas of {p.name} we deliver to</H2>
+          <UL items={local.areas} />
+          <P>Not on the list? Send your area anyway and we tell you straight away whether we can reach you.</P>
+        </>
+      )}
+
+      {!local && hasPartners && localities.length > 0 && (
         <>
           <H2>Areas of {p.name} we commonly serve</H2>
           <UL items={localities} />
@@ -315,7 +355,43 @@ export default function CityHubStatic(p: CityHubProps) {
           description: `LPG cylinder refill, exchange and delivery in ${p.name} at the OGRA-notified rate, through listed local dealers.`,
           url: absoluteUrl(path),
           provider: { "@id": absoluteUrl("/#organization") },
-          areaServed: { "@type": "City", name: p.name },
+          serviceType: "LPG cylinder delivery",
+          areaServed: local
+            ? [
+                { "@type": "City", name: p.name },
+                ...local.areas.map((a) => ({ "@type": "Place", name: `${a}, ${p.name}` })),
+              ]
+            : { "@type": "City", name: p.name },
+          ...(local
+            ? {
+                hoursAvailable: {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                  opens: "00:00",
+                  closes: "23:59",
+                },
+                availableChannel: {
+                  "@type": "ServiceChannel",
+                  servicePhone: { "@type": "ContactPoint", telephone: `+${site.phone}`, contactType: "orders" },
+                  serviceUrl: absoluteUrl(path),
+                },
+              }
+            : {}),
+          ...(local && n
+            ? {
+                hasOfferCatalog: {
+                  "@type": "OfferCatalog",
+                  name: `LPG cylinder refill prices in ${p.name} (gas only, OGRA ${n.month})`,
+                  itemListElement: CYLINDER_SIZES_KG.map((kg) => ({
+                    "@type": "Offer",
+                    name: `${kg} kg LPG cylinder refill`,
+                    price: String(cylinderPrice(kg)),
+                    priceCurrency: "PKR",
+                    validFrom: n.effectiveFrom,
+                  })),
+                },
+              }
+            : {}),
         }}
       />
     </PageShell>
