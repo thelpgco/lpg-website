@@ -20,7 +20,10 @@ const nextConfig = {
   async redirects() {
     return [
       // One canonical host: www (once attached to the Vercel project) forwards to the apex in a single hop.
-      { source: "/:path*", has: [{ type: "host", value: "www.thelpgco.pk" }], destination: "https://thelpgco.pk/:path*", permanent: true },
+      // :path* drops the trailing slash, so slash-ended paths get their own rule (else a second hop adds it back).
+      { source: "/", has: [{ type: "host", value: "www.thelpgco.pk" }], destination: "https://thelpgco.pk/", permanent: true },
+      { source: "/:path+/", has: [{ type: "host", value: "www.thelpgco.pk" }], destination: "https://thelpgco.pk/:path+/", permanent: true },
+      { source: "/:path+", has: [{ type: "host", value: "www.thelpgco.pk" }], destination: "https://thelpgco.pk/:path+", permanent: true },
       { source: "/get-quote", destination: "/order-lpg/", permanent: true },
       { source: "/shop-preview", destination: "/shop/", permanent: true },
       { source: "/about/haroon-rasheed", destination: "/about/", permanent: true },
