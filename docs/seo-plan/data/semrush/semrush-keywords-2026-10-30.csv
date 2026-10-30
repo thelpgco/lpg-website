@@ -1,0 +1,204 @@
+keyword,intent,volume,kd_percent,cpc_usd
+lpg gas price in pakistan,Transactional,22200,21,0.04
+lpg price in pakistan today,Transactional,12100,22,0.05
+lpg gas price today,Transactional,9900,21,0.05
+lpg price in pakistan,Transactional,8100,22,0.03
+lpg gas price in pakistan today,Transactional,6600,25,0.05
+gas cylinder,,5400,30,0.03
+today lpg rate,Informational,5400,25,0.11
+lpg,Informational,4400,25,0.19
+12 kg gas cylinder price in pakistan today,Commercial,3600,19,0.02
+gas cylinder price in pakistan,Transactional,3600,21,0.02
+gas price in pakistan,Transactional,3600,21,0.0
+lpg near me,Transactional,3600,19,0.07
+lpg gas price,Transactional,2900,22,0.19
+liquefied petroleum gas,Informational,2400,26,0.25
+lpg 1kg price today pakistan,Transactional,2400,21,0.08
+lpg gas rate,Informational,2400,22,0.06
+cylinder price in pakistan,Commercial,1900,19,0.02
+lpg price,Transactional,1900,15,0.11
+lpg rate,Informational,1900,21,0.11
+lpg stands for,Informational,1900,30,0.0
+gas cylinder near me,Transactional,1600,17,0.07
+lpg price in pakistan today per kg,Transactional,1600,21,0.04
+ogra petrol prices,Transactional + Navigational,1600,22,0.0
+gas rate in pakistan,Informational,1300,19,0.0
+lpg 1kg price today,Transactional,1300,19,0.0
+lpg cylinder,Informational,1300,16,0.03
+lpg cylinder price in pakistan,Informational,1300,18,0.02
+ogra lpg prices,Navigational,1300,21,0.0
+pearl gas,Navigational,1300,29,0.22
+cylinder gas price in pakistan,Commercial,1000,16,0.02
+lpg 1kg price today 2026,Transactional,880,17,0.0
+gas price today,Transactional,720,23,0.0
+lpg gas cylinder,Informational,720,12,0.05
+lpg price per kg in pakistan today 2021,Transactional,720,22,0.15
+ogra rate list,Transactional + Navigational,720,21,0.0
+pso tuck shop,Transactional,720,21,0.0
+fiber gas cylinder price in pakistan,Commercial,590,12,0.01
+lpg cylinder price,Commercial,590,14,0.02
+lpg filling station,Transactional,590,17,0.0
+lpg gas cylinder price,Commercial,590,14,0.02
+lpg gas rate today,Informational,590,18,0.08
+lpg gas station,Commercial,590,14,0.0
+lpg rate in pakistan,Informational,590,19,0.0
+12 kg gas cylinder price in pakistan,Commercial,480,9,0.0
+cylinder shop near me,Transactional,480,21,0.08
+lpg price today,Transactional,480,19,0.0
+lpg shop,Commercial,480,23,0.0
+lpg shop near me,Transactional,480,13,0.06
+pearl gas cylinder,Transactional,480,28,0.0
+pso gas cylinder,Informational + Transactional,480,19,0.09
+15kg gas cylinder price in pakistan,Commercial,390,14,0.02
+4 kg gas cylinder price in pakistan,Commercial,390,8,0.01
+cylinder price,Commercial,390,13,0.01
+gas cylinder price,Commercial,390,12,0.02
+gas rate,Informational,390,23,0.0
+gas rate in pakistan today,Informational,390,20,0.0
+gas unit price in pakistan,Transactional,390,19,0.0
+karachi gas,Navigational,390,30,0.0
+lng gas price in pakistan,Transactional,390,21,0.0
+lpg price karachi,Transactional,390,17,0.0
+lpg price lahore,Transactional,390,22,0.04
+lpg rate today in pakistan,Informational,390,20,0.0
+lpg station,Transactional,390,15,0.0
+lpg stove,Informational + Transactional,390,12,0.01
+ogra price list today,Navigational,390,19,0.0
+parco pearl gas pvt limited,Navigational,390,27,0.53
+pso lpg cylinder,Informational,390,21,0.09
+gas shop,Commercial,320,18,0.0
+lng vs lpg,Informational,320,20,0.0
+lpg car,Informational,320,21,0.0
+lpg gas car,Informational,320,22,0.0
+lpg price in karachi,Transactional,320,15,0.0
+lpg price per kg,Transactional,320,22,0.0
+lpg stove price in pakistan,Transactional,320,12,0.01
+today lpg rate in pakistan,Informational,320,19,0.0
+10 kg gas cylinder price in pakistan,Commercial,260,8,0.01
+burshane lpg pakistan limited,Commercial,260,9,0.0
+fon gas cylinder price,Commercial,260,13,0.03
+gas cylinder price in pakistan today,Commercial,260,14,0.02
+gas online,Informational,260,29,0.0
+gas pipe price in pakistan,Transactional,260,5,0.01
+gas unit price,Transactional,260,20,0.0
+lpg and lng difference,Informational + Commercial,260,23,0.0
+lpg gas cylinder price in pakistan,Transactional,260,20,0.02
+lpg rate in karachi,Informational,260,21,0.0
+pak gas,Transactional,260,25,0.13
+pso lpg,Informational + Transactional,260,22,0.0
+pyramid gas pvt ltd,Navigational,260,29,0.0
+sngpl lpg cylinder,Informational,260,22,0.0
+sui gas cylinder,Informational + Transactional,260,20,0.0
+today gas rate in pakistan,Informational,260,19,0.0
+today lpg gas price in pakistan,Transactional,260,19,0.0
+fongas,Transactional,210,28,0.0
+gas per unit price in pakistan,Transactional,210,13,0.0
+lpg filling station near me,Transactional,210,18,0.0
+lpg gas plant,Informational,210,14,0.45
+lpg geyser price in pakistan,Transactional,210,6,0.0
+lpg per kg price in pakistan,Transactional,210,18,0.0
+lpg price in karachi today,Transactional,210,20,0.0
+today lpg rate in lahore,Informational,210,17,0.0
+burhan gas cylinder price in pakistan,Navigational,170,19,0.01
+fon gas agency rawalpindi,Commercial,170,24,0.0
+fon gas cylinder,Informational,170,17,0.0
+fon gas cylinder price in pakistan,Commercial,170,13,0.02
+gas cylinder rate,Informational,170,15,0.0
+gas refill near me,Transactional,170,15,0.21
+lpg abbreviation,Informational,170,24,0.0
+lpg gas geyser,Commercial,170,9,0.0
+lpg gas rate in pakistan,Informational,170,17,0.0
+lpg gas stove,Informational + Transactional,170,19,0.01
+lpg gas stove price in pakistan,Transactional,170,18,0.01
+lpg geyser,Commercial,170,7,0.0
+lpg meaning in urdu,Informational,170,25,0.0
+lpg plant,Informational,170,13,0.8
+lpg rate in pakistan today,Informational,170,17,0.0
+lpg rate today in lahore,Informational,170,17,0.05
+lpg refill near me,Transactional,170,18,0.04
+lpg regulator,Informational,170,8,0.03
+new gas connection price,Transactional,170,19,0.0
+ogdcl nashpa oil & lpg plant,Transactional + Navigational,170,17,0.0
+ogra lpg price notification,Transactional + Navigational,170,15,0.0
+ogra notification,Transactional + Navigational,170,25,0.0
+parco gas cylinder,Navigational,170,27,0.08
+ppgl,Navigational,170,17,0.59
+ssgc lpg cylinder,Navigational,170,15,0.0
+ssgc lpg limited,Navigational,170,25,0.0
+2 kg gas cylinder price in pakistan,Commercial,140,15,0.01
+difference between cng and lpg,Informational,140,13,0.0
+difference between lpg and lng,Informational + Commercial,140,23,0.0
+fon gas agency,Commercial,140,17,0.0
+gas agency,Commercial,140,29,0.0
+gas cylinder refill near me,Transactional,140,11,0.11
+lpg gas cylinder near me,Transactional,140,17,0.05
+lpg kit price in pakistan,Commercial,140,20,0.01
+ogra district wise rates,Transactional + Navigational,140,15,0.0
+pak gas cylinder,Informational,140,10,0.02
+parco pearl gas pvt limited head office,Informational,140,15,0.0
+pso cylinder,Informational,140,23,0.28
+small gas cylinder price in pakistan,Transactional,140,11,0.01
+ssgc lpg port qasim terminal,Navigational,140,22,0.0
+sui gas price in pakistan,Transactional,140,19,0.0
+sui gas regulator price in pakistan,Transactional,140,6,0.01
+super gas cylinder price in pakistan,Transactional,140,19,0.03
+ac gas cylinder price in pakistan,Transactional,110,6,0.0
+best gas cylinder in pakistan,Commercial,110,10,0.0
+burshane lpg,Navigational,110,9,0.0
+cng vs lpg,Commercial,110,15,0.0
+fan gas cylinder price in pakistan,Informational,110,12,0.0
+gas cylinder karachi,Commercial,110,19,0.02
+gas cylinders supplier,Commercial,110,10,0.0
+lng and lpg difference,Informational + Commercial,110,25,0.0
+lp gas refill,Commercial,110,13,0.0
+lpg bowser,Informational,110,10,0.0
+lpg cylinder regulator,Informational,110,3,0.02
+lpg gas heater,Informational + Transactional,110,10,0.0
+lpg gas rate per kg,Informational,110,14,0.0
+lpg gas refill,Transactional,110,17,0.0
+lpg gas suppliers,Commercial,110,20,0.0
+lpg instant geyser price in pakistan,Transactional,110,6,0.0
+lpg kit,Informational,110,21,0.0
+lpg pakistan,Informational,110,23,0.0
+lpg refill,Informational,110,19,0.0
+lpg versus cng,Commercial,110,12,0.0
+lpg vessel,Informational,110,18,0.0
+ogra gas prices,Transactional + Navigational,110,25,0.0
+ogra lpg rates,Informational + Transactional,110,20,0.0
+parco pearl gas pvt ltd head office,Informational,110,14,0.0
+plastic gas cylinder,Informational,110,23,0.01
+qureshi gas company,Informational + Transactional,110,11,0.0
+small gas cylinder,Informational,110,16,0.01
+fan gas cylinder,Informational,90,17,0.0
+fongas cylinder,Transactional,90,23,0.0
+lpg composition,Informational,90,29,0.0
+lpg instant geyser,Commercial,90,6,0.0
+ogra gas price increase,Transactional + Navigational,90,27,0.0
+shalimar lpg,Commercial,90,11,0.0
+yadgar lpg,Informational + Transactional,90,14,0.0
+10 kg cylinder price in pakistan,Commercial,70,7,0.0
+lahore gas,Informational,70,17,0.0
+lpg consists of mainly,Informational,70,22,0.0
+lpg gas composition,Informational,70,25,0.0
+lpg gas geyser price in pakistan,Commercial,70,6,0.0
+lpg gas heater price in pakistan,Transactional,70,8,0.0
+lpg gas regulator,Informational + Transactional,70,5,0.0
+lpg rate per kg,Informational,70,25,0.0
+lpg ship,Informational,70,17,0.0
+lpg vaporizer,Informational,70,9,0.0
+ogra lpg,Transactional + Navigational,70,24,0.0
+empty lpg gas cylinder price in pakistan,Informational,50,14,0.0
+lpg consists of,Informational,50,27,0.0
+lpg engineer,Informational,50,13,0.0
+lpg exports,Informational,50,11,0.0
+lpg gas full form,Informational,50,30,0.0
+lpg heater,Informational + Transactional,50,9,0.0
+lpg is a mixture of,Informational,50,22,0.0
+lpg mechanic near me,Transactional,50,17,0.0
+lpg to natural gas conversion,Informational,50,18,0.0
+price of gas cylinder in pakistan,Informational,50,9,0.02
+10 kg gas cylinder price,Commercial,40,13,0.0
+canon lpg geyser,Transactional + Navigational,40,12,0.0
+cress lpg pvt ltd,Navigational,40,18,0.0
+gas cylinder lahore,Commercial,40,21,0.04
+gas cylinder price in karachi,Commercial,40,13,0.01
