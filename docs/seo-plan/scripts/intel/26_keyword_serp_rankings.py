@@ -112,6 +112,8 @@ def main() -> None:
         cache.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
         ours = None
         for item in data.get("organic", []):
+            # Google's srsltid tracking parameter splits one page into many rows; drop it.
+            item["link"] = re.sub(r"[?&]srsltid=[^&]*$", "", item.get("link", ""))
             d = domain_of(item.get("link", ""))
             if d == "google.com" and "google.com/goto" in item.get("link", ""):
                 shown = item.get("displayedLink", "")

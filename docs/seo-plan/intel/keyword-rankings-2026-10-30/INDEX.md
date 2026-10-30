@@ -41,7 +41,7 @@ thelpgco.pk is not in the top 20 for any keyword yet.
 | lpg rate in pakistan | 590 | — | https://www.ogra.org.pk/lpg-notified-prices |
 | lpg meaning | 480 | — | https://en.wikipedia.org/wiki/Liquefied_petroleum_gas |
 | lpg price today | 480 | — | https://www.ogra.org.pk/lpg-notified-prices |
-| lpg shop | 480 | — | https://lpgshop.pk/?srsltid=AYCX9vKOcbfKp7Ud8uyGJdUXyIDOVoy_pMD4WpaZoe0ezxnfDi2gZWd1 |
+| lpg shop | 480 | — | https://lpgshop.pk/ |
 | lpg shop near me | 480 | — | https://psopk.com/en/fuels/gaseous-fuels/order-form-lpg |
 | ssgc lpg | 480 | — | https://ssgclpg.com/ |
 | lpg price karachi | 390 | — | https://psopk.com/en/fuels/gaseous-fuels/order-form-lpg |
@@ -88,11 +88,12 @@ thelpgco.pk is not in the top 20 for any keyword yet.
 | [Pakistan Average Retail Price: LPG: 11.67 Kg Cylinder](https://www.ceicdata.com/en/pakistan/average-retail-price-201516-price/average-retail-price-lpg-1167-kg-cylinder) | 26 | 3 | 7,273 |
 | [Lahore LPG Rate #LPGprices #Lahore #BreakingNews](https://www.facebook.com/SunoNewsHD/posts/lahore-lpg-rate-lpgprices-lahore-breakingnews/1161058513242417/) | 23 | 3 | 6,421 |
 | [Liquefied petroleum gas](https://en.wikipedia.org/wiki/Liquefied_petroleum_gas) | 7 | 1 | 2,385 |
+| [11.8kg Gas Cylinder](https://eshop.ppgl.com.pk/products/11-8kg-gas-cylinder) | 8 | 2 | 2,347 |
 | [Latest LPG Price in Pakistan Today (May 2026)](https://blog.olx.com.pk/autos/lpg-price-in-pakistan/) | 23 | 3 | 2,267 |
 | [LPG Price Per KG in Pakistan Today 2026 + Cylinder Rate](https://sui-gas.pk/lpg-price-per-kg/) | 20 | 4 | 2,022 |
+| [PARCO Pearl Gas](https://eshop.ppgl.com.pk/) | 19 | 3 | 1,743 |
 | [PSO-LPG-Distributors.pdf](https://psopk.com/files/lpg-distributors-and-bowsers/PSO-LPG-Distributors.pdf) | 4 | 1 | 1,169 |
 | [LPG Price in Pakistan Today (28-10-2026) – 1KG, 11.8KG ...](https://icons.com.pk/lpg-gas-price-pakistan-today) | 17 | 2 | 1,122 |
-| [11.8kg Gas Cylinder](https://eshop.ppgl.com.pk/products/11-8kg-gas-cylinder?srsltid=AYCX9vJN4mqbp-Cv0dL2A6oMOkagAe-DWh0aAAZbZonR-trb5tjffm3s) | 1 | 5 | 1,110 |
 | [LPG prices around the world, 26-Oct-2026](https://www.globalpetrolprices.com/lpg_prices/) | 10 | 5 | 1,035 |
 | [LPG prices in Pakistan have been increased by Rs. 12.89 ...](https://www.facebook.com/businessbytespk/posts/lpg-prices-in-pakistan-have-been-increased-by-rs-1289-per-kg-for-august-accordin/1051815057350257/) | 6 | 4 | 1,011 |
 | [Liquefied Petroleum Gas (LPG)](https://psopk.com/en/fuels/gaseous-fuels/liquefied-petroleum-gas) | 2 | 1 | 972 |
@@ -103,8 +104,6 @@ thelpgco.pk is not in the top 20 for any keyword yet.
 | [LPG (Production & Distribution) Policy, 2016 -1](https://petroleum.gov.pk/SiteImage/Misc/files/LPG%20Production%20and%20Distribution%20Policy%202016.pdf) | 1 | 2 | 660 |
 | [LPG at Home: Everything You Need to Know for Safe & ...](https://ppgl.com.pk/lpg-at-home-everything-you-need-to-know-for-safe-efficient-use-2/) | 3 | 2 | 619 |
 | [LPG Composite Cylinder 10kg](https://burhangas.com/products/10kg-composite-cylinder) | 2 | 1 | 566 |
-| [PARCO Pearl Gas](https://eshop.ppgl.com.pk/?srsltid=AYCX9vJR_xKy3-Uj9oTq3-Z2pQ2p9vBIr4Ws_UgWw5WhDUyhyhdOjvue) | 1 | 5 | 495 |
-| [11.8kg Gas Cylinder](https://eshop.ppgl.com.pk/products/11-8kg-gas-cylinder?srsltid=AYCX9vKv7iIuyE_GJE36K47Lsb75iWJBKNFrY-Gc9mQrjlbQzXsYucFY) | 1 | 6 | 484 |
 | [Buy fiber lpg gas cylinder Online at Best Price in Pakistan](https://www.daraz.pk/tag/fiber-lpg-gas-cylinder-price/) | 3 | 1 | 429 |
 | [Daily Price - Bureau of Statistics Punjab](https://bos.punjab.gov.pk/index.php/daily_price) | 12 | 7 | 413 |
 | [LPG Rate Rs 600 Per Kg | Inflation Update - Aaj News](https://www.youtube.com/watch?v=nx-VUFFt_Ko) | 3 | 5 | 405 |
@@ -113,6 +112,7 @@ thelpgco.pk is not in the top 20 for any keyword yet.
 | [List of LPG stations in Pakistan](https://www.mylpg.eu/stations/pakistan/list/) | 4 | 3 | 352 |
 | [LPG vs PNG: Key Differences, Cost, Safety and Supply Explained](https://www.facebook.com/smartschoolonline.in/videos/lpg-stands-for-liquefied-petroleum-gas-while-png-stands-for-piped-natural-gas-lp/1809242326418927/) | 3 | 2 | 352 |
 | [Detail of consruction licenses (Auto Refueling Station).xlsx](https://ogra.org.pk/download/4501) | 3 | 1 | 350 |
+| [What Is Lpg](https://www.liquidgasuk.org/faqs/what-is-lpg) | 2 | 2 | 285 |
 
 ## SERP features
 
