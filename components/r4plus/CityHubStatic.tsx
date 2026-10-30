@@ -1,5 +1,6 @@
 import Link from "next/link";
 import DeliveryFacts from "@/components/DeliveryFacts";
+import ServiceAreaList from "@/components/ServiceAreaList";
 import Faq from "@/components/Faq";
 import ImageGallery from "@/components/ImageGallery";
 import JsonLd from "@/components/JsonLd";
@@ -10,7 +11,7 @@ import SupplierDirectory from "@/components/SupplierDirectory";
 import { terms } from "@/lib/commercial";
 import { cityDetail } from "@/lib/city-detail";
 import { cityDirectoryStats, listingsForCity, namedSuppliersForCity } from "@/lib/directory";
-import { HOURS_TEXT, PAYMENT_TEXT, deliveryTimeText, localDelivery, priceLine, whoDeliversText } from "@/lib/local-delivery";
+import { HOURS_TEXT, PAYMENT_TEXT, areaGroups, deliveryTimeText, localDelivery, priceLine, whoDeliversText } from "@/lib/local-delivery";
 import { itemsFor } from "@/lib/media";
 import { cityBySlug, formCities, overrideFor, provinceBySlug } from "@/lib/network";
 import { CYLINDER_SIZES_KG, cylinderPrice, latestPrice, priceReady } from "@/lib/prices";
@@ -86,7 +87,9 @@ export default function CityHubStatic(p: CityHubProps) {
         { q: `How long does LPG delivery take in ${p.name}?`, a: deliveryTimeText(p.slug) },
         {
           q: `Which areas of ${p.name} do you deliver to?`,
-          a: `${local.areas.join("; ")}. Closest to us: ${local.nearest}. If your area is not listed, send it anyway and we confirm.`,
+          a: `${local.areas.join("; ")}. Closest to us: ${local.nearest}.${
+            areaGroups(p.slug) ? ` The full list of ${areaGroups(p.slug)!.count.toLocaleString("en-PK")} ${p.name} areas we cover, grouped by area, is on this page.` : ""
+          } If your area is not listed, send it anyway and we confirm.`,
         },
         ...(price ? [{ q: `What is the LPG cylinder price in ${p.name} today?`, a: price }] : []),
         { q: "How do I pay?", a: PAYMENT_TEXT },
@@ -198,6 +201,7 @@ export default function CityHubStatic(p: CityHubProps) {
         <>
           <H2>Areas of {p.name} we deliver to</H2>
           <UL items={local.areas} />
+          <ServiceAreaList slug={p.slug} cityName={p.name} />
           <P>Not on the list? Send your area anyway and we tell you straight away whether we can reach you.</P>
         </>
       )}

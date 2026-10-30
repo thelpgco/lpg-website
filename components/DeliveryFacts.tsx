@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { terms } from "@/lib/commercial";
-import { HOURS_TEXT, PAYMENT_TEXT, deliveryTimeText, localDelivery, priceLine, whoDeliversText } from "@/lib/local-delivery";
+import { HOURS_TEXT, PAYMENT_TEXT, areaGroups, deliveryTimeText, localDelivery, priceLine, whoDeliversText } from "@/lib/local-delivery";
 import { site } from "@/lib/site";
 
 // Plain answer block for a twin-city page: one fact per row, each row a full sentence that can be quoted on its own
@@ -9,9 +9,13 @@ export default function DeliveryFacts({ slug }: { slug: string }) {
   const d = localDelivery[slug];
   if (!d) return null;
   const price = priceLine();
+  const all = areaGroups(slug);
   const rows: [string, React.ReactNode][] = [
     ["Who delivers", `LPG cylinders in ${d.name} are delivered by ${whoDeliversText()}`],
-    ["Areas", `We take delivery orders from across ${d.name}, including ${d.areas.join("; ")}. Closest to us: ${d.nearest}.`],
+    [
+      "Areas",
+      `We take delivery orders from ${all ? `${all.count.toLocaleString("en-PK")} areas` : "areas"} across ${d.name}, including ${d.areas.join("; ")}. Closest to us: ${d.nearest}.`,
+    ],
     ["Delivery time", deliveryTimeText(slug)],
     ["Price today", price ?? `OGRA notifies the price monthly; call ${site.phoneDisplay} for today's rate.`],
     ["Cylinder sizes", "Steel 5 kg, 11.8 kg (domestic), 15 kg and 45.4 kg (commercial); composite (fibre) cylinders where stocked. Refill, empty-for-full exchange or a new cylinder."],

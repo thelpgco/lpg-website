@@ -20,8 +20,8 @@ Things only the owner can do. Tick them off as you go; tell Claude when one is d
 
 These now appear on `/lpg-in-islamabad/`, `/lpg-in-rawalpindi/`, `/lpg-home-delivery/` and `/llms.txt`. They live in `lib/local-delivery.ts`. Tell Claude what to remove or change.
 
-- [ ] **Islamabad areas:** G-6 to G-15, F-6/F-7/F-8/F-10/F-11, E-7, E-11, D-12, I-8/I-9/I-10/I-11/I-14/I-16, H-8/H-9/H-11/H-13, B-17, Multi Gardens, Bahria Town, Bahria Enclave, DHA 1–2, Gulberg Greens, Gulberg Residencia, PWD, Police Foundation, Jinnah Garden, Soan Garden, Tarnol, Koral, Ghauri Town, Bhara Kahu. Remove any you do not actually reach.
-- [ ] **Rawalpindi areas:** Saddar, Raja Bazaar, Commercial Market, Satellite Town, Westridge, Chaklala Scheme III, Askari, Bahria Town 1–8, DHA 1–2, Gulraiz, PWD, Airport Housing Society, Adiala Road, Peshawar Road, Dhok Kala Khan.
+- [x] **Islamabad areas:** confirmed by the owner (30 Oct 2026): 932 areas in `docs/content-plan/service-areas/islamabad_areas.csv`.
+- [x] **Rawalpindi areas:** confirmed by the owner (30 Oct 2026): 1,019 areas in `docs/content-plan/service-areas/rawalpindi_areas.csv`. 11 names that exist in both cities (Awan Town, Madina Colony and others) are listed in both, pending the owner's decision.
 - [ ] **Delivery time:** the pages say "target about 60 minutes in covered areas when a local team is available". Is that right for both cities, and is there a typical time you can state (for example "most G-sector orders arrive in 30–60 minutes")?
 - [ ] **Payment methods:** the pages say "cash on delivery for home refills; other methods agreed per order". Do you take JazzCash, Easypaisa, bank transfer or card? List them and they go on the page.
 - [ ] **Delivery charge:** is there a fixed delivery fee in Islamabad/Rawalpindi (or free delivery)? Competitors state theirs; a stated number gets quoted by Google's AI answers.

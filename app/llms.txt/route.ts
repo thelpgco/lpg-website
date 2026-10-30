@@ -1,4 +1,4 @@
-import { HOURS_TEXT, PAYMENT_TEXT, deliveryTimeText, localDelivery, priceLine } from "@/lib/local-delivery";
+import { HOURS_TEXT, PAYMENT_TEXT, areaGroups, deliveryTimeText, localDelivery, priceLine } from "@/lib/local-delivery";
 import { isPublished } from "@/lib/pages";
 import { addressLine, absoluteUrl, site } from "@/lib/site";
 
@@ -47,7 +47,7 @@ export function GET() {
     ...Object.values(localDelivery).flatMap((d) => [
       `## LPG delivery in ${d.name}`,
       `- Delivery time: ${deliveryTimeText(d.slug)}`,
-      `- Areas: ${d.areas.join("; ")}.`,
+      `- Areas (${areaGroups(d.slug)?.count ?? "several hundred"} confirmed areas in total; main ones): ${d.areas.join("; ")}.`,
       `- Closest to the office: ${d.nearest}.`,
       `- Page: ${absoluteUrl(`/lpg-in-${d.slug}/`)}`,
       "",
