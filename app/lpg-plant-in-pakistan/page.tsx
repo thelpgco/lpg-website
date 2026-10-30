@@ -68,7 +68,7 @@ const faqs = [
 export default function Page() {
   return (
     <PageShell
-      crumbs={[{ name: "LPG plant in Pakistan", href: "/lpg-plant-in-pakistan/" }]}
+      crumbs={[{ name: "Guides", href: "/guides/" }, { name: "LPG plant in Pakistan", href: "/lpg-plant-in-pakistan/" }]}
       h1="LPG plant in Pakistan: types, equipment and licensing"
       intro={`An LPG plant can mean a cylinder filling plant, a storage and loading terminal or an on-site plant at a factory. ${site.name} (OGRA licence ${site.licenceNumber}) explains the types and takes engineering and supply enquiries for storage, pipework and related systems.`}
       aside={<SiteLeadForm defaultRequest="engineering" heading="Ask about plant engineering" buttonLabel="Request quotation" />}

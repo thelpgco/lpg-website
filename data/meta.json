@@ -430,5 +430,13 @@
   "/lpg-in-burewala/": {
     "title": "LPG Gas in Burewala: Price, Cylinder Delivery & Dealers",
     "description": "LPG gas in Burewala at the OGRA rate: local dealers with phone numbers, cylinder delivery to homes, ginning units and farms, and how to order on WhatsApp."
+  },
+  "/guides/": {
+    "title": "LPG Guides for Pakistan: Prices, Safety, Cylinders & Supply",
+    "description": "All LPG guides from THE LPG CO. in one place: OGRA prices, cylinder sizes, safety, appliances, comparisons and buying from a licensed supplier in Pakistan."
+  },
+  "/tools/": {
+    "title": "LPG Calculators: Cylinder Price, Duration & Cost Tools",
+    "description": "Free LPG calculators for Pakistan: cylinder price at the OGRA rate, how long a cylinder lasts, LPG vs Sui gas and diesel, tank size and unit conversions."
   }
 }

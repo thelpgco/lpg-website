@@ -50,7 +50,7 @@ const faqs = [
 export default function Page() {
   return (
     <PageShell
-      crumbs={[{ name: "Auto LPG in Pakistan", href: "/auto-lpg-in-pakistan/" }]}
+      crumbs={[{ name: "Guides", href: "/guides/" }, { name: "Auto LPG in Pakistan", href: "/auto-lpg-in-pakistan/" }]}
       h1="Auto LPG in Pakistan: conversion, safety and what to check first"
       intro={`Auto LPG means running a vehicle on LPG with an approved vehicle tank and conversion kit — never a home or commercial cylinder. ${company.name} (OGRA licence ${company.licenceNumber}) explains what to check before you convert, and can point you to partners in our nationwide network where auto LPG is offered.`}
       aside={

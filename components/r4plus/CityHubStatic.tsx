@@ -16,6 +16,9 @@ import { cityBySlug, formCities, overrideFor, provinceBySlug } from "@/lib/netwo
 import { CYLINDER_SIZES_KG, cylinderPrice, latestPrice, priceReady } from "@/lib/prices";
 import { absoluteUrl, site } from "@/lib/site";
 
+// Cities with their own /lpg-price-in-pakistan/{city}/ page (app/lpg-price-in-pakistan/[city] CITIES).
+const CITY_PRICE_PAGES = ["karachi", "lahore"];
+
 export type CityHubProps = {
   slug: string;
   /** Display name, e.g. "Multan". */
@@ -281,6 +284,15 @@ export default function CityHubStatic(p: CityHubProps) {
         <Link className="underline" href="/lpg-price-in-pakistan/">
           LPG price in Pakistan
         </Link>
+        {CITY_PRICE_PAGES.includes(p.slug) && (
+          <>
+            {" "}
+            and{" "}
+            <Link className="underline" href={`/lpg-price-in-pakistan/${p.slug}/`}>
+              LPG price in {p.name} today
+            </Link>
+          </>
+        )}
         .
       </P>
       <PriceBlock citySlug={priceReady ? p.slug : undefined} cityName={p.name} />

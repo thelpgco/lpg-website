@@ -1006,5 +1006,21 @@
     "status": "published",
     "built": true,
     "lastmod": "2026-10-29"
+  },
+  "/guides/": {
+    "id": "HB-001",
+    "type": "HB",
+    "phase": "P1",
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-30"
+  },
+  "/tools/": {
+    "id": "HB-002",
+    "type": "HB",
+    "phase": "P1",
+    "status": "published",
+    "built": true,
+    "lastmod": "2026-10-30"
   }
 }

@@ -30,7 +30,7 @@ const faqs = [
 export default function Page() {
   return (
     <PageShell
-      crumbs={[{ name: "What is LPG?", href: "/what-is-lpg/" }]}
+      crumbs={[{ name: "Guides", href: "/guides/" }, { name: "What is LPG?", href: "/what-is-lpg/" }]}
       h1="What is LPG? Full form, meaning and uses in Pakistan"
       intro={`${company.shortName} supplies LPG nationwide under OGRA licence ${company.licenceNumber}. LPG stands for Liquefied Petroleum Gas — propane and butane turned into a liquid under moderate pressure so a cylinder or tank can hold a lot of cooking and heating fuel.`}
       aside={<SiteLeadForm heading="Order LPG nationwide" />}

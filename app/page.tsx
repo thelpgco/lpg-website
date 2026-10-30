@@ -10,6 +10,8 @@ import { itemsFor } from "@/lib/media";
 import { absPct, momChange, monthLong, verb } from "@/lib/money";
 import { cylinderPrice, fmtDate, latestPrice, pkr } from "@/lib/prices";
 import { hubCities, totals } from "@/lib/network";
+import JsonLd from "@/components/JsonLd";
+import { localBusinessNode } from "@/lib/schema";
 import { meta } from "@/lib/seo";
 
 export const metadata = meta({ path: "/" });
@@ -199,6 +201,7 @@ export default function Home() {
 
       <div className="mx-auto max-w-6xl px-4">
         <Faq items={faqs} />
+        <JsonLd data={localBusinessNode()} />
       </div>
     </>
   );

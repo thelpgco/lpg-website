@@ -8,7 +8,7 @@ const nav = [
   { href: "/lpg-cylinders/", label: "Cylinders" },
   { href: "/lpg-home-delivery/", label: "Delivery" },
   { href: "/services/", label: "Engineering" },
-  { href: "/lpg-safety/", label: "Safety" },
+  { href: "/guides/", label: "Guides" },
   { href: "/contact/", label: "Contact" },
 ];
 

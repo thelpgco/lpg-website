@@ -21,6 +21,8 @@ const KEY_PAGES: [string, string][] = [
   ["/services/", "LPG engineering services: pipelines, manifolds, tanks, conversions"],
   ["/projects/", "LPG engineering project profiles"],
   ["/lpg-safety/", "LPG safety at home"],
+  ["/guides/", "All LPG guides, grouped by topic"],
+  ["/tools/", "LPG calculators: cylinder price, duration, cost comparisons"],
   ["/licences-and-compliance/", "OGRA licence and compliance"],
   ["/about/", "About THE LPG CO."],
   ["/contact/", "Contact, address and hours"],

@@ -75,7 +75,7 @@ export default function Page() {
 
   return (
     <PageShell
-      crumbs={[{ name: "LPG cylinder sizes", href: "/lpg-cylinder-sizes-in-pakistan/" }]}
+      crumbs={[{ name: "Guides", href: "/guides/" }, { name: "LPG cylinder sizes", href: "/lpg-cylinder-sizes-in-pakistan/" }]}
       h1="LPG cylinder sizes in Pakistan: 5, 11.8, 15 and 45.4 kg"
       intro={
         latestPrice

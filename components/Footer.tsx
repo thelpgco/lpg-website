@@ -27,8 +27,9 @@ export default function Footer() {
             <li><Link href="/lpg-home-delivery/" className="hover:underline">LPG home delivery</Link></li>
             <li><Link href="/services/" className="hover:underline">LPG engineering services</Link></li>
             <li><Link href="/become-an-lpg-distributor/" className="hover:underline">Become a distributor</Link></li>
-            <li><Link href="/what-is-lpg/" className="hover:underline">What is LPG?</Link></li>
             <li><Link href="/lpg-safety/" className="hover:underline">LPG safety</Link></li>
+            <li><Link href="/guides/" className="hover:underline">All LPG guides</Link></li>
+            <li><Link href="/tools/" className="hover:underline">LPG calculators</Link></li>
           </ul>
         </div>
         <div>

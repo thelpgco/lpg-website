@@ -1,7 +1,8 @@
 ﻿import ContentImage from "@/components/ContentImage";
 import type { MediaItem } from "@/lib/media";
 
-/** Responsive grid of site photos for page sections. Captions are shown as authored — no internal labels. */
+/** Responsive grid of site photos for page sections. Captions are shown as authored — no internal labels.
+ *  Galleries sit below the fold, so images lazy-load; a priority preload here would compete with the real LCP image. */
 export default function ImageGallery({
   items,
   title,
@@ -19,13 +20,12 @@ export default function ImageGallery({
     <section className="mt-10">
       {title ? <h2 className="text-2xl font-bold text-ink">{title}</h2> : null}
       <div className={`mt-4 grid gap-4 ${cols}`}>
-        {items.map((item, i) => (
+        {items.map((item) => (
           <ContentImage
             key={item.id}
             src={item.src}
             alt={item.alt}
             caption={item.caption}
-            priority={i === 0}
             className="mt-0"
           />
         ))}

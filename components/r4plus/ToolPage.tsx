@@ -31,7 +31,7 @@ export default function ToolPage({
 }) {
   return (
     <PageShell
-      crumbs={[{ name: crumb, href: path }]}
+      crumbs={[{ name: "Tools", href: "/tools/" }, { name: crumb, href: path }]}
       h1={h1}
       intro={intro}
       aside={<SiteLeadForm defaultRequest={request} heading={formHeading} />}

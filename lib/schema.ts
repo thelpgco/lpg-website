@@ -34,7 +34,12 @@ export function organizationNode() {
       addressRegion: o.region,
       addressCountry: o.countryCode,
     },
-    areaServed: { "@type": "Country", name: site.country },
+    areaServed: [
+      { "@type": "City", name: "Islamabad" },
+      { "@type": "City", name: "Rawalpindi" },
+      { "@type": "Country", name: site.country },
+    ],
+    knowsAbout: ["LPG cylinder delivery", "LPG cylinder refill", "OGRA LPG price", "LPG safety", "Bulk LPG supply", "LPG pipeline and manifold installation"],
     contactPoint: {
       "@type": "ContactPoint",
       telephone: `+${site.phone}`,
@@ -93,7 +98,16 @@ export function cylinderProductNode(opts: { path: string; name: string; descript
 }
 
 export function webSiteNode() {
-  return { "@context": "https://schema.org", "@type": "WebSite", name: site.name, url: absoluteUrl("/"), inLanguage: site.locale };
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": absoluteUrl("/#website"),
+    name: site.name,
+    alternateName: site.shortName,
+    url: absoluteUrl("/"),
+    inLanguage: site.locale,
+    publisher: { "@id": ORG_ID },
+  };
 }
 
 export function articleNode(opts: { path: string; headline: string; description: string }) {

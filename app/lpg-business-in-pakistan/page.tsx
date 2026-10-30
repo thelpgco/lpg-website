@@ -80,7 +80,7 @@ const faqs = [
 export default function Page() {
   return (
     <PageShell
-      crumbs={[{ name: "LPG business in Pakistan", href: "/lpg-business-in-pakistan/" }]}
+      crumbs={[{ name: "Guides", href: "/guides/" }, { name: "LPG business in Pakistan", href: "/lpg-business-in-pakistan/" }]}
       h1="LPG business in Pakistan: roles, licences and how to start"
       intro={`The LPG business in Pakistan has several roles: marketer, bottler, distributor, dealer or shop, auto-LPG station and installer. ${company.name} is an OGRA-licensed marketer and distributor (licence ${company.licenceNumber}), operating since ${company.foundedYear}, with ${(directorySummary.counts.owner_network + directorySummary.counts.market_listing).toLocaleString("en-PK")} network dealers listed across ${directorySummary.counts.cities_indexed.toLocaleString("en-PK")} cities in our public directory.`}
       aside={
