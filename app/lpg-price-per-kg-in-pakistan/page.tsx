@@ -15,6 +15,7 @@ const PATH = "/lpg-price-per-kg-in-pakistan/";
 export const metadata = priceMeta(
   PATH,
   (n) => [
+    `LPG 1kg Price Today in Pakistan: ${pkr(n.perKgPkr)} (${monthShort(n.month)})`,
     `LPG 1kg Price in Pakistan: ${pkr(n.perKgPkr)} (${monthShort(n.month)} OGRA)`,
     `LPG 1kg Price Today in Pakistan: ${pkr(n.perKgPkr)} per kg`,
   ],
@@ -92,10 +93,10 @@ export default function Page() {
         { name: "LPG price in Pakistan", href: "/lpg-price-in-pakistan/" },
         { name: "Price per kg", href: PATH },
       ]}
-      h1={n ? `LPG 1 kg price in Pakistan: ${perKg} (${monthLong(n.month)})` : "LPG 1 kg price in Pakistan"}
+      h1={n ? `LPG 1 kg price today in Pakistan: ${perKg} per kg (${monthLong(n.month)})` : "LPG 1 kg price today in Pakistan"}
       intro={
         n
-          ? `One kilogram of LPG costs ${perKg} at the OGRA-notified rate effective ${fmtDate(n.effectiveFrom)}.${
+          ? `The LPG 1 kg price today in Pakistan is ${perKg}, the OGRA-notified rate effective ${fmtDate(n.effectiveFrom)}.${
               mom ? ` That is ${verb(mom)} ${absPkr(mom.delta)} (${absPct(mom.pct)}) on ${monthLong(mom.from.month)}.` : ""
             } ${company.shortName} (licence ${company.licenceNumber}) applies this rate nationwide — from Karachi to Quetta — then confirms delivery for your street.`
           : `OGRA notifies the LPG price per kg every month. Call or WhatsApp ${site.phoneDisplay} for today's confirmed rate.`

@@ -10,7 +10,7 @@ import { itemsFor } from "@/lib/media";
 import { absPct, absPkr, gasFor, momChange, monthLong, priceMeta, signedPct, signedPkr, verb } from "@/lib/money";
 import { fmtDate, latestPrice, notifications, pkr } from "@/lib/prices";
 import { articleNode } from "@/lib/schema";
-import { site } from "@/lib/site";
+import { absoluteUrl, site } from "@/lib/site";
 
 const PATH = "/lpg-price-in-pakistan/history/";
 
@@ -216,6 +216,27 @@ export default function Page() {
           description: "Monthly OGRA notified LPG consumer prices with cylinder gas cost and month-on-month change.",
         })}
       />
+      {notifications.length > 0 && (
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "Dataset",
+            name: "OGRA notified LPG consumer price in Pakistan, monthly",
+            description: `Monthly OGRA-notified LPG consumer price per kg in Pakistan with the gas cost of an 11.8 kg cylinder, ${monthLong(notifications[notifications.length - 1].month)} to ${monthLong(notifications[0].month)}. Each month is checked against the OGRA notification cycle by ${site.shortName}.`,
+            url: absoluteUrl(PATH),
+            creator: { "@id": absoluteUrl("/#organization") },
+            isBasedOn: "https://www.ogra.org.pk/lpg-notified-prices",
+            license: absoluteUrl("/terms/"),
+            spatialCoverage: { "@type": "Place", name: "Pakistan" },
+            temporalCoverage: `${notifications[notifications.length - 1].effectiveFrom}/${notifications[0].effectiveFrom}`,
+            variableMeasured: [
+              { "@type": "PropertyValue", name: "LPG price per kg", unitText: "PKR per kg" },
+              { "@type": "PropertyValue", name: "Gas cost of an 11.8 kg cylinder", unitText: "PKR" },
+            ],
+            dateModified: notifications[0].verifiedOn,
+          }}
+        />
+      )}
     </PageShell>
   );
 }

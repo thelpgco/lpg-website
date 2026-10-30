@@ -18,6 +18,7 @@ const PATH = "/lpg-cylinder-price-in-pakistan/";
 export const metadata = priceMeta(
   PATH,
   (n) => [
+    `LPG Gas Cylinder Price in Pakistan: 11.8 kg ${pkr(Math.round(n.perKgPkr * 11.8))}`,
     `LPG Cylinder Price in Pakistan: 11.8 kg Gas ${pkr(Math.round(n.perKgPkr * 11.8))} (${monthShort(n.month)})`,
     `LPG Cylinder Price in Pakistan: 11.8 kg Gas Rs ${Math.round(n.perKgPkr * 11.8).toLocaleString("en-PK")}`,
     `Price of LPG Cylinder in Pakistan: 11.8 kg ${pkr(Math.round(n.perKgPkr * 11.8))}`,
@@ -42,7 +43,7 @@ export default function Page() {
 
   const faqs = [
     {
-      q: "What is the price of an LPG cylinder in Pakistan?",
+      q: "What is the LPG gas cylinder price in Pakistan today?",
       a: n
         ? `The gas in an 11.8 kg domestic cylinder costs ${pkr(dom!)} at the ${monthLong(n.month)} OGRA rate of ${pkr(n.perKgPkr)} per kg. A 5 kg cylinder is ${pkr(cylinderPrice(5)!)}, a 15 kg cylinder ${pkr(cylinderPrice(15)!)} and a 45.4 kg commercial cylinder ${pkr(cylinderPrice(45.4)!)}. Deposit and delivery are confirmed on top.`
         : `Gas price is the OGRA per-kg rate times the kilograms of gas. Call or WhatsApp ${site.phoneDisplay} for today's figure for your size.`,
@@ -75,22 +76,16 @@ export default function Page() {
         { name: "LPG price in Pakistan", href: "/lpg-price-in-pakistan/" },
         { name: "Cylinder price", href: PATH },
       ]}
-      h1={n ? `Price of LPG cylinder in Pakistan: 11.8 kg gas ${pkr(dom!)} (${monthLong(n.month)})` : "Price of LPG cylinder in Pakistan"}
+      h1={n ? `LPG gas cylinder price in Pakistan today: 11.8 kg ${pkr(dom!)} (${monthLong(n.month)})` : "LPG gas cylinder price in Pakistan"}
       intro={
         n
-          ? `At the OGRA rate of ${pkr(n.perKgPkr)} per kg effective ${fmtDate(n.effectiveFrom)}, the gas in an 11.8 kg domestic cylinder costs ${pkr(dom!)}.${
+          ? `The LPG cylinder price in Pakistan today is ${pkr(dom!)} for an 11.8 kg domestic cylinder, ${pkr(cylinderPrice(5)!)} for 5 kg, ${pkr(cylinderPrice(15)!)} for 15 kg and ${pkr(cylinderPrice(45.4)!)} for a 45.4 kg commercial cylinder (gas at the OGRA rate of ${pkr(n.perKgPkr)} per kg, effective ${fmtDate(n.effectiveFrom)}).${
               mom ? ` Month on month the rate is ${verb(mom)} ${absPct(mom.pct)}.` : ""
             } ${company.shortName} applies this gas rate nationwide across Pakistan. Your total also depends on the cylinder (deposit or new empty) and delivery — confirmed for your street before you agree.`
           : "A cylinder bill has three parts: the gas, the cylinder itself and delivery. We confirm all three for your size and city before you agree."
       }
       aside={<SiteLeadForm defaultRequest="cylinder_delivery" heading="Get your cylinder total" />}
     >
-      <ContentImage
-        src="/images/cylinders/17-size-lineup-5-118-15-454.png"
-        alt="LPG cylinders in 5, 11.8, 15 and 45.4 kg sizes"
-        caption="Gas, cylinder and delivery are priced separately for each size."
-      />
-
       <H2>Gas, cylinder and delivery by size</H2>
       <SpecTable
         head={["Cylinder", "Gas (live OGRA rate)", "Cylinder deposit", "New empty cylinder", "Delivery"]}
@@ -126,6 +121,12 @@ export default function Page() {
           </p>
         </Note>
       )}
+
+      <ContentImage
+        src="/images/cylinders/17-size-lineup-5-118-15-454.png"
+        alt="LPG cylinders in 5, 11.8, 15 and 45.4 kg sizes"
+        caption="Gas, cylinder and delivery are priced separately for each size."
+      />
 
       <H2>How each part is priced</H2>
       <UL

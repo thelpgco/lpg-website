@@ -82,7 +82,7 @@ export default function Page() {
   return (
     <PageShell
       crumbs={[{ name: "LPG cylinders", href: "/lpg-cylinders/" }]}
-      h1="LPG cylinders in Pakistan: sizes, steel vs composite and price"
+      h1="LPG gas cylinders in Pakistan: sizes, steel vs composite and price"
       intro={
         latestPrice
           ? `${company.shortName} supplies steel and composite LPG cylinders nationwide under OGRA licence ${company.licenceNumber}. At the OGRA rate of ${pkr(latestPrice.perKgPkr)} per kg, the gas in an 11.8 kg domestic cylinder costs ${pkr(cylinderPrice(11.8)!)}; a 45.4 kg commercial cylinder ${pkr(cylinderPrice(45.4)!)}. Deposit and delivery are confirmed on top.`

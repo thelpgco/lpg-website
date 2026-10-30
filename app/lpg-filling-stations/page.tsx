@@ -39,7 +39,7 @@ function Table({ head, rows }: { head: string[]; rows: React.ReactNode[][] }) {
 
 const faqs = [
   {
-    q: "What is an LPG filling station?",
+    q: "What is an LPG filling station or LPG gas station?",
     a: "The term is used for two different places. One is a cylinder filling plant, where cylinders are filled under licence. The other is a vehicle LPG station that dispenses gas into vehicle tanks. They are different facilities with different rules.",
   },
   {
@@ -75,7 +75,7 @@ export default function Page() {
   return (
     <PageShell
       crumbs={[{ name: "LPG filling stations", href: "/lpg-filling-stations/" }]}
-      h1="LPG filling stations in Pakistan: cylinder plants vs vehicle stations"
+      h1="LPG filling stations and LPG gas stations in Pakistan: cylinder plants vs vehicle stations"
       intro={`"LPG filling station" can mean a licensed cylinder filling plant or a vehicle LPG dispensing station. They are different. ${site.name} (OGRA licence ${site.licenceNumber}) explains each, how to check one, and how homes should refill — through licensed delivery, not a roadside pump.`}
       aside={<SiteLeadForm defaultRequest="cylinder_delivery" heading="Find supply in your area" subheading="Tell us your city and area. We confirm who can serve you." buttonLabel="Send request" />}
     >

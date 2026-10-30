@@ -15,7 +15,7 @@ import {
 } from "@/lib/directory";
 import { itemsFor } from "@/lib/media";
 import { cityBySlug, isCityIndexable, overrideFor } from "@/lib/network";
-import { latestPrice, pkr } from "@/lib/prices";
+import { cylinderPrice, latestPrice, pkr } from "@/lib/prices";
 import { monthLong } from "@/lib/money";
 import { fitDescription, fitTitle, meta } from "@/lib/seo";
 import { terms } from "@/lib/commercial";
@@ -112,6 +112,7 @@ export async function generateMetadata({ params }: { params: Promise<{ city: str
   return meta({
     path: `/lpg-price-in-pakistan/${city}/`,
     title: fitTitle([
+      ...(latestPrice ? [`LPG Price in ${c.name} Today: ${pkr(latestPrice.perKgPkr)}/kg & Cylinder Rate`] : []),
       `LPG Price in ${c.name} Today: Rate per kg and Cylinder`,
       `LPG Price in ${c.name} Today: Rate per kg and Cylinder Price`,
     ]),
@@ -144,7 +145,11 @@ export default async function Page({ params }: { params: Promise<{ city: string 
         { name: "LPG price in Pakistan", href: "/lpg-price-in-pakistan/" },
         { name: c.name, href: `/lpg-price-in-pakistan/${city}/` },
       ]}
-      h1={`LPG price in ${c.name} today`}
+      h1={
+        latestPrice
+          ? `LPG price in ${c.name} today: ${pkr(latestPrice.perKgPkr)} per kg, 11.8 kg ${pkr(cylinderPrice(11.8)!)}`
+          : `LPG price in ${c.name} today`
+      }
       intro={`${cp?.intro ?? ""} ${company.shortName} (licence ${company.licenceNumber}) confirms the full price before you agree.`}
       aside={<SiteLeadForm defaultCity={city} heading={`Order LPG in ${c.name}`} />}
     >

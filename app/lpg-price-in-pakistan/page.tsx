@@ -20,10 +20,12 @@ const PATH = "/lpg-price-in-pakistan/";
 export const metadata = priceMeta(
   PATH,
   (n) => [
+    `LPG Gas Price in Pakistan Today: ${pkr(n.perKgPkr)}/kg (${monthShort(n.month)})`,
     `LPG Price in Pakistan Today: ${pkr(n.perKgPkr)}/kg (${monthShort(n.month)})`,
     `LPG Rate in Pakistan: ${pkr(n.perKgPkr)} per kg, ${monthLong(n.month)}`,
   ],
   (n) => [
+    `LPG gas price in Pakistan today: ${pkr(n.perKgPkr)} per kg and ${pkr(gasFor(n, 11.8))} for an 11.8 kg cylinder (OGRA, ${monthLong(n.month)}). Today's rate for every size.`,
     `OGRA LPG price for ${monthLong(n.month)}: ${pkr(n.perKgPkr)} per kg and ${pkr(gasFor(n, 11.8))} for an 11.8 kg cylinder. See the change on last month, sizes and how to order.`,
     `LPG price in Pakistan: ${pkr(n.perKgPkr)} per kg (OGRA, ${monthLong(n.month)}), ${pkr(gasFor(n, 11.8))} for 11.8 kg. Month-on-month change, cylinder sizes and ordering.`,
   ],
@@ -38,9 +40,9 @@ export default function Page() {
   const dom = cylinderPrice(11.8);
   const cyl118 = cylinderByGasKg(11.8);
 
-  const h1 = n ? `LPG price in Pakistan today: ${perKg} per kg (${monthLong(n.month)})` : "LPG price in Pakistan today";
+  const h1 = n ? `LPG gas price and rate in Pakistan today: ${perKg} per kg (${monthLong(n.month)})` : "LPG gas price and rate in Pakistan today";
   const intro = n
-    ? `The OGRA-notified LPG price for ${monthLong(n.month)} is ${perKg} per kg, so the gas in an 11.8 kg domestic cylinder costs ${pkr(dom!)}. ${
+    ? `The LPG gas price in Pakistan today is ${perKg} per kg, so an 11.8 kg domestic cylinder costs ${pkr(dom!)} and a 45.4 kg commercial cylinder ${pkr(cylinderPrice(45.4)!)} (OGRA-notified rate for ${monthLong(n.month)}, effective ${fmtDate(n.effectiveFrom)}). ${
         mom
           ? `That is ${verb(mom)} ${absPct(mom.pct)} on ${monthLong(mom.from.month)} (${pkr(mom.from.perKgPkr)} per kg). `
           : `The rate applies from ${fmtDate(n.effectiveFrom)}. `
@@ -66,10 +68,16 @@ export default function Page() {
 
   const faqs = [
     {
-      q: "What is the LPG price in Pakistan today?",
+      q: "What is the LPG gas price in Pakistan today?",
       a: n
         ? `The OGRA-notified consumer price for ${monthLong(n.month)} is ${perKg} per kg, effective ${fmtDate(n.effectiveFrom)}. That makes the gas in an 11.8 kg domestic cylinder ${pkr(dom!)} and a 45.4 kg commercial cylinder ${pkr(cylinderPrice(45.4)!)}.`
         : `OGRA notifies the consumer price every month. Call or WhatsApp ${site.phoneDisplay} for today's confirmed per-kg rate.`,
+    },
+    {
+      q: "What is today's LPG rate per kg and per cylinder?",
+      a: n
+        ? `Today's LPG rate is ${perKg} per kg. By cylinder: ${CYLINDER_SIZES_KG.map((kg) => `${kg} kg ${pkr(cylinderPrice(kg)!)}`).join(", ")}. These are gas prices at the OGRA rate for ${monthLong(n.month)}; a new-cylinder deposit and delivery are confirmed on top.`
+        : `Call or WhatsApp ${site.phoneDisplay} for today's per-kg rate and cylinder totals.`,
     },
     {
       q: "How much did the LPG price change from last month?",

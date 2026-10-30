@@ -18,8 +18,8 @@ const faqs = [
     a: "Send your city, area and cylinder size through the form, call or WhatsApp. We match you to a distributor that serves your area, then confirm price and timing before you agree.",
   },
   {
-    q: "Do you have a shop near me?",
-    a: `Our office is in ${site.office.city}. City pages list dealers and distributors nearby. We still confirm whether that partner can serve your street.`,
+    q: "Is there an LPG shop near me?",
+    a: `Our office is at ${site.office.line1}, ${site.office.city}, and we deliver across Islamabad and Rawalpindi. City pages list dealers and distributors nearby. We still confirm whether that partner can serve your street.`,
   },
   {
     q: "Can I get LPG delivered to my home?",

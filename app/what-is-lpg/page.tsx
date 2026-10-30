@@ -18,6 +18,8 @@ export const metadata = meta({ path: "/what-is-lpg/" });
 
 const faqs = [
   { q: "What does LPG stand for?", a: "LPG stands for Liquefied Petroleum Gas — fuel gas, mainly propane and butane, stored as a liquid under moderate pressure so a lot of energy fits in a cylinder or tank." },
+  { q: "What is the full form of LPG?", a: "The full form of LPG is Liquefied Petroleum Gas. In Pakistan it is the gas sold in 11.8 kg and 45.4 kg cylinders for cooking, heating and business use." },
+  { q: "What is LPG gas? (LPG meaning)", a: "LPG gas means liquefied petroleum gas: a fuel made mostly of propane and butane that turns into a liquid under light pressure. It is stored in cylinders or tanks and burns as a clean flame for cooking, geysers, heaters, vehicles and industry." },
   { q: "What is LPG made of?", a: "Mostly propane and butane. The exact mix varies by supplier and season. Small amounts of related hydrocarbons can be present, especially in refinery LPG." },
   { q: "Does LPG have a smell?", a: "Pure LPG has almost no smell. A strong-smelling odorant is added so a leak can be noticed. Treat any gas smell as a real leak — see what to do if you smell gas." },
   { q: "Is LPG heavier than air?", a: "Yes. LPG vapour is about 1.5 to 2 times heavier than air, so a leak can collect near the floor, in drains and in low rooms. Ventilate low, not only at the ceiling." },
